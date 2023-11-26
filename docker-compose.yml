@@ -1,0 +1,95 @@
+version: "3.0"
+services:
+  jackett:
+    image: linuxserver/jackett
+    container_name: jackett
+    environment:
+      - PUID=1000
+      - PGID=1000
+      - TZ=Americas/Chicago
+    volumes:
+      - ./config/jackett:/config
+    ports:
+      - 9117:9117
+    restart: unless-stopped
+
+  transmission:
+    image: haugene/transmission-openvpn
+    container_name: transmission
+    volumes:
+      - /home/bloppai/mediaServer:/home/bloppai/mediaServer
+    environment:
+        - PUID=1000
+        - PGID=1000
+        - CREATE_TUN_DEVICE=true
+        - OPENVPN_PROVIDER=MULLVAD
+        - OPENVPN_CONFIG=us_nyc
+        - OPENVPN_USERNAME=8706242759828770
+        - OPENVPN_PASSWORD=m
+        - WEBPROXY_ENABLED=false
+        - TRANSMISSION_DOWNLOAD_DIR=/home/bloppai/mediaServer/Downloads
+        - TRANSMISSION_IDLE_SEEDING_LIMIT_ENABLED=true
+        - TRANSMISSION_SEED_QUEUE_ENABLED=true
+        - TRANSMISSION_INCOMPLETE_DIR_ENABLED=false
+        - LOCAL_NETWORK=192.168.0.0/16
+    sysctls:
+        - "net.ipv6.conf.all.disable_ipv6=0"
+    cap_add:
+        - NET_ADMIN
+    logging:
+        driver: json-file
+        options:
+            max-size: 10m
+    ports:
+        - "9091:9091"
+    restart: unless-stopped
+
+  sonarr:
+    image: linuxserver/sonarr
+    container_name: sonarr
+    environment:
+        - PUID=1000
+        - PGID=1000
+        - TZ=America/Chicago
+    volumes:
+        - ./config/sonarr:/config
+        - /home/bloppai/mediaServer:/home/bloppai/mediaServer
+    ports:
+        - 8989:8989
+    depends_on:
+        - jackett
+        - transmission
+    restart: unless-stopped
+
+  radarr:
+    image: linuxserver/radarr
+    container_name: radarr
+    hostname: radarr
+    environment:
+        - PUID=1000
+        - PGID=1000
+        - TZ=America/Chicago
+    volumes:
+        - ./config/radarr:/config
+        - /home/bloppai/mediaServer:/home/bloppai/mediaServer
+    ports:
+        - 7878:7878
+    depends_on:
+        - jackett
+        - transmission
+    restart: unless-stopped
+
+  plex:
+    image: linuxserver/plex
+    container_name: plex
+    volumes:
+        - /home/bloppai/mediaServer/media:/media
+        - ./config/plex:/config
+    environment:
+        - PUID=1000
+        - PGID=1000
+        - version=docker
+    ports:
+        - 32400:32400
+    restart: unless-stopped
+
