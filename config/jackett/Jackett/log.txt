@@ -1,0 +1,410 @@
+2023-11-26 08:04:16.7725 Info Starting Jackett v0.21.1256
+2023-11-26 08:04:22.9707 Info Environment version: 6.0.25 (/app/Jackett/)
+2023-11-26 08:04:23.0269 Info OS version: Unix 6.1.0.6 (64bit OS) (64bit process)
+2023-11-26 08:04:23.0329 Info Jackett variant: CoreLinuxMuslArm64
+2023-11-26 08:04:23.0329 Info File /etc/issue: Welcome to Alpine Linux 3.18
+2023-11-26 08:04:23.0377 Info Running in Docker: Yes (image build: v0.21.1256-ls231)
+2023-11-26 08:04:23.0466 Info ThreadPool MaxThreads: 32767 workerThreads, 1000 completionPortThreads
+2023-11-26 08:04:23.0492 Info App config/log directory: /config/Jackett
+2023-11-26 08:04:23.0559 Info Using proxy: Disabled
+2023-11-26 08:04:23.0559 Info Using FlareSolverr: No
+2023-11-26 08:04:23.0703 Info Using HTTP Client: HttpWebClient2
+2023-11-26 08:04:23.1411 Info Loading Native indexers ...
+2023-11-26 08:04:23.7507 Info Loaded 73 Native indexers.
+2023-11-26 08:04:23.7735 Info Loading Cardigann indexers from: /config/cardigann/definitions/, /etc/xdg/cardigan/definitions/, /app/Jackett/Definitions
+2023-11-26 08:04:36.6003 Info Loaded 529 Cardigann indexers.
+2023-11-26 08:04:36.6003 Info Loaded 602 indexers in total
+2023-11-26 08:04:36.6087 Info Adding aggregate indexer ('all' indexer) ...
+2023-11-26 08:04:36.7001 Info Adding filter indexer ('type:public' indexer) ...
+2023-11-26 08:04:36.7047 Info Adding filter indexer ('type:private' indexer) ...
+2023-11-26 08:04:36.7414 Info Adding filter indexer ('type:semi-public' indexer) ...
+2023-11-26 08:04:37.8362 Warn No XML encryptor configured. Key {90e4d6f4-f6e2-4c59-bbfc-c2666c97e6e6} may be persisted to storage in unencrypted form.
+2023-11-26 08:04:38.1384 Info Jackett startup finished in 24.299 s
+2023-11-26 08:05:27.4705 Info Jackett stopped
+2023-11-26 08:06:46.2679 Info Starting Jackett v0.21.1256
+2023-11-26 08:06:52.1459 Info Environment version: 6.0.25 (/app/Jackett/)
+2023-11-26 08:06:52.2121 Info OS version: Unix 6.1.0.6 (64bit OS) (64bit process)
+2023-11-26 08:06:52.2215 Info Jackett variant: CoreLinuxMuslArm64
+2023-11-26 08:06:52.2215 Info File /etc/issue: Welcome to Alpine Linux 3.18
+2023-11-26 08:06:52.2259 Info Running in Docker: Yes (image build: v0.21.1256-ls231)
+2023-11-26 08:06:52.2337 Info ThreadPool MaxThreads: 32767 workerThreads, 1000 completionPortThreads
+2023-11-26 08:06:52.2359 Info App config/log directory: /config/Jackett
+2023-11-26 08:06:52.2412 Info Using proxy: Disabled
+2023-11-26 08:06:52.2412 Info Using FlareSolverr: No
+2023-11-26 08:06:52.2539 Info Using HTTP Client: HttpWebClient2
+2023-11-26 08:06:52.3236 Info Loading Native indexers ...
+2023-11-26 08:06:52.9038 Info Loaded 73 Native indexers.
+2023-11-26 08:06:52.9311 Info Loading Cardigann indexers from: /config/cardigann/definitions/, /etc/xdg/cardigan/definitions/, /app/Jackett/Definitions
+2023-11-26 08:07:03.7506 Info Loaded 529 Cardigann indexers.
+2023-11-26 08:07:03.7519 Info Loaded 602 indexers in total
+2023-11-26 08:07:03.7577 Info Adding aggregate indexer ('all' indexer) ...
+2023-11-26 08:07:03.8022 Info Adding filter indexer ('type:public' indexer) ...
+2023-11-26 08:07:03.8047 Info Adding filter indexer ('type:private' indexer) ...
+2023-11-26 08:07:03.8308 Info Adding filter indexer ('type:semi-public' indexer) ...
+2023-11-26 08:07:04.7254 Info Jackett startup finished in 21.007 s
+2023-11-26 08:09:21.4932 Info Jackett stopped
+2023-11-26 08:09:49.8113 Info Starting Jackett v0.21.1256
+2023-11-26 08:09:56.2098 Info Environment version: 6.0.25 (/app/Jackett/)
+2023-11-26 08:09:56.2568 Info OS version: Unix 6.1.0.6 (64bit OS) (64bit process)
+2023-11-26 08:09:56.2622 Info Jackett variant: CoreLinuxMuslArm64
+2023-11-26 08:09:56.2638 Info File /etc/issue: Welcome to Alpine Linux 3.18
+2023-11-26 08:09:56.2638 Info Running in Docker: Yes (image build: v0.21.1256-ls231)
+2023-11-26 08:09:56.2725 Info ThreadPool MaxThreads: 32767 workerThreads, 1000 completionPortThreads
+2023-11-26 08:09:56.2725 Info App config/log directory: /config/Jackett
+2023-11-26 08:09:56.2790 Info Using proxy: Disabled
+2023-11-26 08:09:56.2801 Info Using FlareSolverr: No
+2023-11-26 08:09:56.2910 Info Using HTTP Client: HttpWebClient2
+2023-11-26 08:09:56.3362 Info Loading Native indexers ...
+2023-11-26 08:09:56.8817 Info Loaded 73 Native indexers.
+2023-11-26 08:09:56.9045 Info Loading Cardigann indexers from: /config/cardigann/definitions/, /etc/xdg/cardigan/definitions/, /app/Jackett/Definitions
+2023-11-26 08:10:07.7007 Info Loaded 529 Cardigann indexers.
+2023-11-26 08:10:07.7007 Info Loaded 602 indexers in total
+2023-11-26 08:10:07.7055 Info Adding aggregate indexer ('all' indexer) ...
+2023-11-26 08:10:07.7303 Info Adding filter indexer ('type:public' indexer) ...
+2023-11-26 08:10:07.7323 Info Adding filter indexer ('type:private' indexer) ...
+2023-11-26 08:10:07.7526 Info Adding filter indexer ('type:semi-public' indexer) ...
+2023-11-26 08:10:08.5122 Info Jackett startup finished in 22.177 s
+2023-11-26 08:14:57.1600 Warn Some of the categories provided are unsupported in TheRARBG: 2010,2020,2030,2040,2045,2050,2060
+2023-11-26 08:15:00.9774 Info Torznab search in TheRARBG => Found 40 releases [3842ms]
+2023-11-26 08:15:02.1121 Warn Some of the categories provided are unsupported in TheRARBG: 2010,2020,2030,2040,2045,2050,2060
+2023-11-26 08:15:02.1340 Info Torznab search in TheRARBG => Found 40 releases (from cache) [22ms]
+2023-11-26 08:15:20.3667 Warn Some of the categories provided are unsupported in 1337x: 2020,2050
+2023-11-26 08:15:27.9841 Info Torznab search in 1337x => Found 20 releases [7618ms]
+2023-11-26 08:15:28.9469 Warn Some of the categories provided are unsupported in 1337x: 2020,2050
+2023-11-26 08:15:28.9524 Info Torznab search in 1337x => Found 20 releases (from cache) [5ms]
+2023-11-26 08:15:57.9760 Error All categories provided are unsupported in EZTV: 2000,2010,2020,2030,2040,2045,2050,2060
+2023-11-26 08:15:57.9760 Info Torznab search in EZTV => Found 0 releases [2ms]
+2023-11-26 08:16:08.3886 Info Torznab search in EZTV => Found 100 releases [2487ms]
+2023-11-26 08:16:09.3291 Info Torznab search in EZTV => Found 100 releases (from cache) [0ms]
+2023-11-26 08:16:31.4330 Warn Some of the categories provided are unsupported in Nyaa.si: 2010,2030,2040,2045,2050,2060
+2023-11-26 08:16:34.6281 Info Torznab search in Nyaa.si => Found 82 releases [3195ms]
+2023-11-26 08:16:35.4055 Warn Some of the categories provided are unsupported in Nyaa.si: 2010,2030,2040,2045,2050,2060
+2023-11-26 08:16:35.4079 Info Torznab search in Nyaa.si => Found 82 releases (from cache) [2ms]
+2023-11-26 08:18:59.5206 Info Torznab search in 1337x => Found 80 releases [6932ms]
+2023-11-26 08:19:53.6684 Info Torznab search in 1337x => Found 67 releases [7243ms]
+2023-11-26 08:20:05.7072 Info Torznab search in EZTV => Found 100 releases (from cache) [10ms]
+2023-11-26 08:20:27.0113 Warn Some of the categories provided are unsupported in Nyaa.si: 
+2023-11-26 08:20:30.6981 Info Torznab search in Nyaa.si => Found 100 releases [3686ms]
+2023-11-26 08:20:47.4108 Info Torznab search in TheRARBG => Found 40 releases [401ms]
+2023-11-26 08:22:11.6943 Warn Some of the categories provided are unsupported in Nyaa.si: 
+2023-11-26 08:22:12.2409 Info Torznab search in TheRARBG => Found 0 releases [597ms]
+2023-11-26 08:22:13.0123 Info Torznab search in EZTV for Haikyuu Movie 3 Genius and Sense 2017 => Found 0 releases [1329ms]
+2023-11-26 08:22:13.6882 Warn Some of the categories provided are unsupported in Nyaa.si: 
+2023-11-26 08:22:14.1279 Info Torznab search in TheRARBG for Haikyuu Movie 3 Genius and Sense 2017 => Found 0 releases [475ms]
+2023-11-26 08:22:14.8171 Info Torznab search in Nyaa.si for Haikyuu Movie 3: Genius and Sense 2017 => Found 0 releases [3122ms]
+2023-11-26 08:22:15.6379 Info Torznab search in TheRARBG => Found 0 releases (from cache) [0ms]
+2023-11-26 08:22:15.6745 Info Torznab search in EZTV for Haikyuu Movie 3 Genius and Sense 2017 => Found 0 releases (from cache) [0ms]
+2023-11-26 08:22:15.6823 Warn Some of the categories provided are unsupported in Nyaa.si: 
+2023-11-26 08:22:16.5239 Info Torznab search in Nyaa.si for Haikyuu Movie 3: Genius and Sense 2017 => Found 0 releases [2835ms]
+2023-11-26 08:22:17.6722 Info Torznab search in EZTV for Haikyuu Movie 3 Genius and Sense 2017 => Found 0 releases (from cache) [0ms]
+2023-11-26 08:22:17.6808 Warn Some of the categories provided are unsupported in Nyaa.si: 
+2023-11-26 08:22:17.6808 Info Torznab search in Nyaa.si for Haikyuu Movie 3: Genius and Sense 2017 => Found 0 releases (from cache) [1ms]
+2023-11-26 08:22:18.1606 Info Torznab search in TheRARBG for ハイキュー 才能とセンス 2017 => Found 4 releases [521ms]
+2023-11-26 08:22:19.2517 Info Torznab search in Nyaa.si for ハイキュー 才能とセンス 2017 => Found 0 releases [3569ms]
+2023-11-26 08:22:19.2584 Info Torznab search in 1337x for Haikyuu Movie 3: Genius and Sense 2017 => Found 0 releases [7580ms]
+2023-11-26 08:22:19.6365 Info Torznab search in TheRARBG => Found 0 releases (from cache) [0ms]
+2023-11-26 08:22:19.6812 Warn Some of the categories provided are unsupported in Nyaa.si: 
+2023-11-26 08:22:19.6812 Info Torznab search in Nyaa.si for ハイキュー 才能とセンス 2017 => Found 0 releases (from cache) [1ms]
+2023-11-26 08:22:20.9853 Info Torznab search in 1337x for Haikyuu Movie 3: Genius and Sense 2017 => Found 0 releases [7314ms]
+2023-11-26 08:22:21.6376 Info Torznab search in TheRARBG for Haikyuu Movie 3 Genius and Sense 2017 => Found 0 releases (from cache) [1ms]
+2023-11-26 08:22:21.7525 Warn Some of the categories provided are unsupported in Nyaa.si: 
+2023-11-26 08:22:21.7525 Info Torznab search in Nyaa.si for ハイキュー 才能とセンス 2017 => Found 0 releases (from cache) [1ms]
+2023-11-26 08:22:24.3476 Info Torznab search in TheRARBG for Haikyuu Movie 3 Genius and Sense 2017 => Found 0 releases (from cache) [8ms]
+2023-11-26 08:22:24.5223 Info Torznab search in 1337x for Haikyuu Movie 3: Genius and Sense 2017 => Found 0 releases [8831ms]
+2023-11-26 08:22:25.6399 Info Torznab search in TheRARBG for ハイキュー 才能とセンス 2017 => Found 4 releases (from cache) [3ms]
+2023-11-26 08:22:27.6375 Info Torznab search in TheRARBG for ハイキュー 才能とセンス 2017 => Found 4 releases (from cache) [2ms]
+2023-11-26 08:22:29.6355 Info Torznab search in 1337x for ハイキュー 才能とセンス 2017 => Found 40 releases [10366ms]
+2023-11-26 08:22:30.8480 Info Torznab search in 1337x for ハイキュー 才能とセンス 2017 => Found 40 releases [9580ms]
+2023-11-26 08:22:33.4065 Info Torznab search in 1337x for ハイキュー 才能とセンス 2017 => Found 40 releases [8865ms]
+2023-11-26 08:22:55.1650 Info Torznab search in EZTV for ハイキュー 才能とセンス 2017 => Found 0 releases [41486ms]
+2023-11-26 08:23:00.7660 Info Torznab search in EZTV for ハイキュー 才能とセンス 2017 => Found 0 releases [41089ms]
+2023-11-26 08:23:01.8108 Info Torznab search in EZTV for ハイキュー 才能とセンス 2017 => Found 0 releases [40061ms]
+2023-11-26 08:23:33.7348 Info Torznab search in TheRARBG => Found 0 releases (from cache) [0ms]
+2023-11-26 08:23:33.7395 Info Torznab search in 1337x for Haikyuu Movie 3: Genius and Sense 2017 => Found 0 releases (from cache) [0ms]
+2023-11-26 08:23:33.7395 Info Torznab search in EZTV for Haikyuu Movie 3 Genius and Sense 2017 => Found 0 releases (from cache) [0ms]
+2023-11-26 08:23:33.7472 Warn Some of the categories provided are unsupported in Nyaa.si: 
+2023-11-26 08:23:33.7485 Info Torznab search in Nyaa.si for Haikyuu Movie 3: Genius and Sense 2017 => Found 0 releases (from cache) [1ms]
+2023-11-26 08:23:35.7392 Info Torznab search in TheRARBG for Haikyuu Movie 3 Genius and Sense 2017 => Found 0 releases (from cache) [0ms]
+2023-11-26 08:23:35.7432 Info Torznab search in EZTV for ハイキュー 才能とセンス 2017 => Found 0 releases (from cache) [0ms]
+2023-11-26 08:23:35.7483 Warn Some of the categories provided are unsupported in Nyaa.si: 
+2023-11-26 08:23:35.7483 Info Torznab search in Nyaa.si for ハイキュー 才能とセンス 2017 => Found 0 releases (from cache) [1ms]
+2023-11-26 08:23:35.7483 Info Torznab search in 1337x for ハイキュー 才能とセンス 2017 => Found 40 releases (from cache) [11ms]
+2023-11-26 08:23:37.7414 Info Torznab search in TheRARBG for ハイキュー 才能とセンス 2017 => Found 4 releases (from cache) [7ms]
+2023-11-26 08:26:56.1142 Info Torznab search in 1337x => Found 80 releases [7383ms]
+2023-11-26 08:27:01.7220 Info Torznab search in 1337x => Found 80 releases (from cache) [17ms]
+2023-11-26 08:27:23.2795 Info Torznab search in EZTV => Found 100 releases [2897ms]
+2023-11-26 08:27:24.1407 Info Torznab search in EZTV => Found 100 releases (from cache) [0ms]
+2023-11-26 08:27:33.8788 Info Torznab search in 1337x => Found 80 releases (from cache) [18ms]
+2023-11-26 08:27:35.8744 Info Torznab search in 1337x => Found 80 releases (from cache) [13ms]
+2023-11-26 08:29:09.9549 Warn Some of the categories provided are unsupported in Nyaa.si: 
+2023-11-26 08:29:13.1366 Info Torznab search in Nyaa.si => Found 100 releases [3181ms]
+2023-11-26 08:29:14.2023 Warn Some of the categories provided are unsupported in Nyaa.si: 
+2023-11-26 08:29:14.2039 Info Torznab search in Nyaa.si => Found 100 releases (from cache) [1ms]
+2023-11-26 08:29:48.8250 Info Torznab search in TheRARBG => Found 40 releases [413ms]
+2023-11-26 08:29:52.0278 Info Torznab search in TheRARBG => Found 40 releases (from cache) [11ms]
+2023-11-26 08:30:42.1288 Warn Some of the categories provided are unsupported in Nyaa.si: 
+2023-11-26 08:30:42.6128 Info Torznab search in TheRARBG for Haikyu Lasso del volley S01E01 => Found 0 releases [462ms]
+2023-11-26 08:30:43.0470 Info Torznab search in EZTV for Haikyu Lasso del volley S01E01 => Found 0 releases [894ms]
+2023-11-26 08:30:44.5443 Info Torznab search in EZTV for Haikyu S01E01 => Found 0 releases [395ms]
+2023-11-26 08:30:44.6322 Info Torznab search in TheRARBG for Haikyu S01E01 => Found 1 releases [490ms]
+2023-11-26 08:30:44.7308 Info Torznab search in Nyaa.si for Haikyu - L'asso del volley S01E01 => Found 0 releases [2602ms]
+2023-11-26 08:30:44.7411 Warn Some of the categories provided are unsupported in Nyaa.si: 
+2023-11-26 08:30:49.1610 Info Torznab search in Nyaa.si for Haikyu S01E01 => Found 0 releases [4419ms]
+2023-11-26 08:30:49.7049 Info Torznab search in 1337x for Haikyu - L'asso del volley S01E01 => Found 1 releases [7569ms]
+2023-11-26 08:30:53.0541 Info Torznab search in EZTV for Haikyu Lasso del volley S01E01 => Found 0 releases (from cache) [0ms]
+2023-11-26 08:30:53.0636 Warn Some of the categories provided are unsupported in Nyaa.si: 
+2023-11-26 08:30:53.0636 Info Torznab search in Nyaa.si for Haikyu - L'asso del volley S01E01 => Found 0 releases (from cache) [1ms]
+2023-11-26 08:30:53.0636 Info Torznab search in TheRARBG for Haikyu Lasso del volley S01E01 => Found 0 releases (from cache) [0ms]
+2023-11-26 08:30:53.0718 Info Torznab search in 1337x for Haikyu - L'asso del volley S01E01 => Found 1 releases (from cache) [0ms]
+2023-11-26 08:30:55.0528 Info Torznab search in EZTV for Haikyu S01E01 => Found 0 releases (from cache) [0ms]
+2023-11-26 08:30:55.0705 Warn Some of the categories provided are unsupported in Nyaa.si: 
+2023-11-26 08:30:55.0718 Info Torznab search in TheRARBG for Haikyu S01E01 => Found 1 releases (from cache) [1ms]
+2023-11-26 08:30:55.0718 Info Torznab search in Nyaa.si for Haikyu S01E01 => Found 0 releases (from cache) [1ms]
+2023-11-26 08:30:59.1402 Info Torznab search in 1337x for Haikyu S01E01 => Found 1 releases [9423ms]
+2023-11-26 08:31:03.2529 Info Torznab search in 1337x for Haikyu S01E01 => Found 1 releases [8179ms]
+2023-11-26 08:31:33.4913 Warn Some of the categories provided are unsupported in Nyaa.si: 
+2023-11-26 08:31:33.8772 Info Torznab search in EZTV for Haikyu Lasso del volley S01 => Found 0 releases [399ms]
+2023-11-26 08:31:33.9673 Info Torznab search in TheRARBG for Haikyu Lasso del volley S01 => Found 0 releases [486ms]
+2023-11-26 08:31:35.8783 Info Torznab search in EZTV for Haikyu S01 => Found 0 releases [401ms]
+2023-11-26 08:31:35.9289 Info Torznab search in Nyaa.si for Haikyu - L'asso del volley S01 => Found 0 releases [2437ms]
+2023-11-26 08:31:35.9471 Warn Some of the categories provided are unsupported in Nyaa.si: 
+2023-11-26 08:31:35.9501 Info Torznab search in TheRARBG for Haikyu S01 => Found 0 releases [471ms]
+2023-11-26 08:31:40.3600 Info Torznab search in Nyaa.si for Haikyu S01 => Found 0 releases [4412ms]
+2023-11-26 08:31:40.9562 Info Torznab search in 1337x for Haikyu - L'asso del volley S01 => Found 1 releases [7470ms]
+2023-11-26 08:31:50.4435 Info Torznab search in 1337x for Haikyu S01 => Found 1 releases [9474ms]
+2023-11-26 08:31:50.6152 Warn Some of the categories provided are unsupported in Nyaa.si: 
+2023-11-26 08:31:51.0032 Info Torznab search in EZTV for Haikyuu Second Season S02 => Found 0 releases [397ms]
+2023-11-26 08:31:51.1132 Info Torznab search in TheRARBG for Haikyuu Second Season S02 => Found 0 releases [504ms]
+2023-11-26 08:31:53.0063 Info Torznab search in EZTV for Haikyuu S2 S02 => Found 0 releases [398ms]
+2023-11-26 08:31:53.0484 Info Torznab search in Nyaa.si for Haikyuu Second Season S02 => Found 0 releases [2433ms]
+2023-11-26 08:31:53.0581 Warn Some of the categories provided are unsupported in Nyaa.si: 
+2023-11-26 08:31:53.0682 Info Torznab search in TheRARBG for Haikyuu S2 S02 => Found 0 releases [460ms]
+2023-11-26 08:31:57.4832 Info Torznab search in Nyaa.si for Haikyuu S2 S02 => Found 0 releases [4425ms]
+2023-11-26 08:31:59.8985 Info Torznab search in 1337x for Haikyuu Second Season S02 => Found 0 releases [9286ms]
+2023-11-26 08:32:09.3577 Info Torznab search in 1337x for Haikyuu S2 S02 => Found 0 releases [9450ms]
+2023-11-26 08:32:09.5134 Warn Some of the categories provided are unsupported in Nyaa.si: 
+2023-11-26 08:32:09.9044 Info Torznab search in EZTV for Haikyu Lasso del volley S02 => Found 0 releases [397ms]
+2023-11-26 08:32:10.0154 Info Torznab search in TheRARBG for Haikyu Lasso del volley S02 => Found 0 releases [494ms]
+2023-11-26 08:32:11.8957 Info Torznab search in EZTV for Haikyu S02 => Found 0 releases [391ms]
+2023-11-26 08:32:11.9553 Info Torznab search in Nyaa.si for Haikyu - L'asso del volley S02 => Found 0 releases [2441ms]
+2023-11-26 08:32:11.9646 Warn Some of the categories provided are unsupported in Nyaa.si: 
+2023-11-26 08:32:11.9741 Info Torznab search in TheRARBG for Haikyu S02 => Found 0 releases [464ms]
+2023-11-26 08:32:16.3956 Info Torznab search in Nyaa.si for Haikyu S02 => Found 0 releases [4430ms]
+2023-11-26 08:32:18.8157 Info Torznab search in 1337x for Haikyu - L'asso del volley S02 => Found 1 releases [9302ms]
+2023-11-26 08:32:28.2833 Info Torznab search in 1337x for Haikyu S02 => Found 1 releases [9435ms]
+2023-11-26 08:32:28.4879 Warn Some of the categories provided are unsupported in Nyaa.si: 
+2023-11-26 08:32:28.8832 Info Torznab search in EZTV for Haikyuu Third Season S03 => Found 0 releases [400ms]
+2023-11-26 08:32:28.9402 Info Torznab search in TheRARBG for Haikyuu Third Season S03 => Found 0 releases [452ms]
+2023-11-26 08:32:30.8750 Info Torznab search in EZTV for Haikyuu S3 S03 => Found 0 releases [392ms]
+2023-11-26 08:32:30.9205 Info Torznab search in Nyaa.si for Haikyuu Third Season S03 => Found 0 releases [2433ms]
+2023-11-26 08:32:30.9290 Warn Some of the categories provided are unsupported in Nyaa.si: 
+2023-11-26 08:32:30.9415 Info Torznab search in TheRARBG for Haikyuu S3 S03 => Found 0 releases [458ms]
+2023-11-26 08:32:31.1012 Info Torznab search in 1337x for Haikyu - L'asso del volley S01 => Found 1 releases (from cache) [0ms]
+2023-11-26 08:32:32.9291 Warn Some of the categories provided are unsupported in Nyaa.si: 
+2023-11-26 08:32:32.9291 Info Torznab search in Nyaa.si for Haikyu - L'asso del volley S01 => Found 0 releases (from cache) [1ms]
+2023-11-26 08:32:32.9838 Info Torznab search in TheRARBG for Haikyuu Karasuno Koukou vs Shiratorizawa Gakuen Koukou S03 => Found 0 releases [498ms]
+2023-11-26 08:32:33.1005 Info Torznab search in 1337x for Haikyu S01 => Found 1 releases (from cache) [0ms]
+2023-11-26 08:32:33.6889 Info Torznab search in EZTV for Haikyuu Karasuno Koukou vs Shiratorizawa Gakuen Koukou S03 => Found 0 releases [1204ms]
+2023-11-26 08:32:34.4857 Info Torznab search in EZTV for Haikyu Lasso del volley S01 => Found 0 releases (from cache) [0ms]
+2023-11-26 08:32:34.4878 Info Torznab search in TheRARBG for Haikyu Lasso del volley S01 => Found 0 releases (from cache) [0ms]
+2023-11-26 08:32:34.9337 Warn Some of the categories provided are unsupported in Nyaa.si: 
+2023-11-26 08:32:34.9369 Info Torznab search in Nyaa.si for Haikyu S01 => Found 0 releases (from cache) [3ms]
+2023-11-26 08:32:35.3480 Info Torznab search in Nyaa.si for Haikyuu S3 S03 => Found 0 releases [4419ms]
+2023-11-26 08:32:36.9034 Info Torznab search in EZTV for Haikyuu Karasuno High School vs Shiratorizawa Academy S03 => Found 0 releases [416ms]
+2023-11-26 08:32:36.9324 Warn Some of the categories provided are unsupported in Nyaa.si: 
+2023-11-26 08:32:37.1375 Info Torznab search in TheRARBG for Haikyuu Karasuno High School vs Shiratorizawa Academy S03 => Found 1 releases [647ms]
+2023-11-26 08:32:37.7330 Info Torznab search in 1337x for Haikyuu Third Season S03 => Found 0 releases [9240ms]
+2023-11-26 08:32:38.4886 Info Torznab search in EZTV for Haikyu S01 => Found 0 releases (from cache) [0ms]
+2023-11-26 08:32:38.4886 Info Torznab search in TheRARBG for Haikyu S01 => Found 0 releases (from cache) [0ms]
+2023-11-26 08:32:39.7498 Info Torznab search in Nyaa.si for Haikyuu Karasuno Koukou vs Shiratorizawa Gakuen Koukou S03 => Found 0 releases [2817ms]
+2023-11-26 08:32:39.7586 Warn Some of the categories provided are unsupported in Nyaa.si: 
+2023-11-26 08:32:44.1835 Info Torznab search in Nyaa.si for Haikyuu Karasuno High School vs. Shiratorizawa Academy S03 => Found 0 releases [4424ms]
+2023-11-26 08:32:47.1927 Info Torznab search in 1337x for Haikyuu S3 S03 => Found 1 releases [9440ms]
+2023-11-26 08:32:54.9800 Warn Some of the categories provided are unsupported in Nyaa.si: 
+2023-11-26 08:32:55.3784 Info Torznab search in EZTV for I Want to Eat Your Pancreas 2018 => Found 0 releases [404ms]
+2023-11-26 08:32:55.5540 Info Torznab search in TheRARBG => Found 13 releases [589ms]
+2023-11-26 08:32:56.6698 Info Torznab search in 1337x for Haikyuu Karasuno Koukou vs Shiratorizawa Gakuen Koukou S03 => Found 0 releases [9466ms]
+2023-11-26 08:32:57.1462 Info Torznab search in TheRARBG => Found 13 releases (from cache) [9ms]
+2023-11-26 08:32:57.1488 Warn Some of the categories provided are unsupported in Nyaa.si: 
+2023-11-26 08:32:57.4731 Info Torznab search in Nyaa.si for I Want to Eat Your Pancreas 2018 => Found 18 releases [2493ms]
+2023-11-26 08:32:58.9749 Info Torznab search in EZTV for I Want to Eat Your Pancreas 2018 => Found 0 releases (from cache) [0ms]
+2023-11-26 08:32:59.1422 Warn Some of the categories provided are unsupported in Nyaa.si: 
+2023-11-26 08:33:00.7889 Info Torznab search in Nyaa.si for I Want to Eat Your Pancreas 2018 => Found 18 releases [3640ms]
+2023-11-26 08:33:01.1429 Warn Some of the categories provided are unsupported in Nyaa.si: 
+2023-11-26 08:33:02.4259 Info Torznab search in Nyaa.si for 君の膵臓をたべたい 2018 => Found 0 releases [3283ms]
+2023-11-26 08:33:04.1768 Info Torznab search in 1337x for I Want to Eat Your Pancreas 2018 => Found 7 releases [9207ms]
+2023-11-26 08:33:05.1187 Info Torznab search in Nyaa.si for 君の膵臓をたべたい 2018 => Found 0 releases [3975ms]
+2023-11-26 08:33:05.7753 Info Torznab search in 1337x for I Want to Eat Your Pancreas 2018 => Found 7 releases [8626ms]
+2023-11-26 08:33:06.1031 Info Torznab search in 1337x for Haikyuu Karasuno High School vs. Shiratorizawa Academy S03 => Found 1 releases [9418ms]
+2023-11-26 08:33:06.2724 Warn Some of the categories provided are unsupported in Nyaa.si: 
+2023-11-26 08:33:06.6766 Info Torznab search in EZTV for Haikyu Lasso del volley S03 => Found 0 releases [399ms]
+2023-11-26 08:33:06.9963 Info Torznab search in TheRARBG for Haikyu Lasso del volley S03 => Found 0 releases [713ms]
+2023-11-26 08:33:08.7021 Info Torznab search in EZTV for Haikyu S03 => Found 0 releases [413ms]
+2023-11-26 08:33:08.7641 Info Torznab search in TheRARBG for Haikyu S03 => Found 0 releases [484ms]
+2023-11-26 08:33:09.5329 Info Torznab search in Nyaa.si for Haikyu - L'asso del volley S03 => Found 0 releases [3260ms]
+2023-11-26 08:33:09.5455 Warn Some of the categories provided are unsupported in Nyaa.si: 
+2023-11-26 08:33:13.8629 Info Torznab search in 1337x for 君の膵臓をたべたい 2018 => Found 65 releases [9664ms]
+2023-11-26 08:33:14.4137 Info Torznab search in Nyaa.si for Haikyu S03 => Found 0 releases [4868ms]
+2023-11-26 08:33:14.9085 Info Torznab search in 1337x for 君の膵臓をたべたい 2018 => Found 65 releases [8716ms]
+2023-11-26 08:33:15.5715 Info Torznab search in 1337x for Haikyu - L'asso del volley S03 => Found 1 releases [9310ms]
+2023-11-26 08:33:25.0486 Info Torznab search in 1337x for Haikyu S03 => Found 2 releases [9458ms]
+2023-11-26 08:33:25.3090 Warn Some of the categories provided are unsupported in Nyaa.si: 
+2023-11-26 08:33:25.6947 Info Torznab search in EZTV for Haikyuu S4 S04 => Found 0 releases [400ms]
+2023-11-26 08:33:25.8030 Info Torznab search in TheRARBG for Haikyuu S4 S04 => Found 0 releases [499ms]
+2023-11-26 08:33:27.6934 Info Torznab search in EZTV for Haikyuu To the Top S04 => Found 0 releases [397ms]
+2023-11-26 08:33:27.7534 Info Torznab search in Nyaa.si for Haikyuu S4 S04 => Found 0 releases [2444ms]
+2023-11-26 08:33:27.7662 Warn Some of the categories provided are unsupported in Nyaa.si: 
+2023-11-26 08:33:27.7793 Info Torznab search in TheRARBG for Haikyuu To the Top S04 => Found 0 releases [474ms]
+2023-11-26 08:33:32.3301 Info Torznab search in Nyaa.si for Haikyuu To the Top S04 => Found 34 releases [4563ms]
+2023-11-26 08:33:32.4467 Warn Some of the categories provided are unsupported in Nyaa.si: 
+2023-11-26 08:33:34.3756 Info Torznab search in EZTV for 君の膵臓をたへたい 2018 => Found 0 releases [37405ms]
+2023-11-26 08:33:34.5117 Info Torznab search in 1337x for Haikyuu S4 S04 => Found 0 releases [9214ms]
+2023-11-26 08:33:36.7985 Info Torznab search in Nyaa.si for Haikyuu To the Top S04 => Found 32 releases [4351ms]
+2023-11-26 08:33:37.2974 Info Torznab search in EZTV for 君の膵臓をたへたい 2018 => Found 0 releases [36330ms]
+2023-11-26 08:33:43.9668 Info Torznab search in 1337x for Haikyuu To the Top S04 => Found 1 releases [9431ms]
+2023-11-26 08:33:53.4513 Info Torznab search in 1337x for Haikyuu To the Top S04 => Found 1 releases [9469ms]
+2023-11-26 08:33:54.3671 Warn Some of the categories provided are unsupported in Nyaa.si: 
+2023-11-26 08:33:54.7619 Info Torznab search in EZTV for Haikyu Lasso del volley S04 => Found 0 releases [394ms]
+2023-11-26 08:33:54.8671 Info Torznab search in TheRARBG for Haikyu Lasso del volley S04 => Found 0 releases [493ms]
+2023-11-26 08:33:56.7758 Info Torznab search in EZTV for Haikyu S04 => Found 0 releases [409ms]
+2023-11-26 08:33:56.8118 Info Torznab search in Nyaa.si for Haikyu - L'asso del volley S04 => Found 0 releases [2444ms]
+2023-11-26 08:33:56.8351 Warn Some of the categories provided are unsupported in Nyaa.si: 
+2023-11-26 08:33:56.8571 Info Torznab search in TheRARBG for Haikyu S04 => Found 0 releases [491ms]
+2023-11-26 08:34:01.2501 Info Torznab search in Nyaa.si for Haikyu S04 => Found 0 releases [4415ms]
+2023-11-26 08:34:02.9392 Info Torznab search in 1337x for Haikyu - L'asso del volley S04 => Found 1 releases [8562ms]
+2023-11-26 08:34:04.1743 Info Torznab search in EZTV for Haikyu Lasso del volley S01E01 => Found 0 releases (from cache) [0ms]
+2023-11-26 08:34:04.1839 Warn Some of the categories provided are unsupported in Nyaa.si: 
+2023-11-26 08:34:04.1839 Info Torznab search in TheRARBG for Haikyu Lasso del volley S01E01 => Found 0 releases (from cache) [0ms]
+2023-11-26 08:34:04.1839 Info Torznab search in Nyaa.si for Haikyu - L'asso del volley S01E01 => Found 0 releases (from cache) [3ms]
+2023-11-26 08:34:04.9562 Info Torznab search in 1337x for Haikyu - L'asso del volley S01E01 => Found 1 releases (from cache) [4ms]
+2023-11-26 08:34:06.1798 Info Torznab search in EZTV for Haikyu S01E01 => Found 0 releases (from cache) [5ms]
+2023-11-26 08:34:06.1798 Info Torznab search in TheRARBG for Haikyu S01E01 => Found 1 releases (from cache) [1ms]
+2023-11-26 08:34:06.1798 Warn Some of the categories provided are unsupported in Nyaa.si: 
+2023-11-26 08:34:06.1798 Info Torznab search in Nyaa.si for Haikyu S01E01 => Found 0 releases (from cache) [1ms]
+2023-11-26 08:34:06.9546 Info Torznab search in 1337x for Haikyu S01E01 => Found 1 releases (from cache) [0ms]
+2023-11-26 08:34:12.4860 Info Torznab search in 1337x for Haikyu S04 => Found 2 releases [9532ms]
+2023-11-26 08:34:12.6701 Warn Some of the categories provided are unsupported in Nyaa.si: 
+2023-11-26 08:34:13.0635 Info Torznab search in EZTV for Haikyuu To the Top 2nd Season S05 => Found 0 releases [397ms]
+2023-11-26 08:34:13.1252 Info Torznab search in TheRARBG for Haikyuu To the Top 2nd Season S05 => Found 0 releases [450ms]
+2023-11-26 08:34:15.1151 Info Torznab search in Nyaa.si for Haikyuu: To the Top 2nd Season S05 => Found 0 releases [2444ms]
+2023-11-26 08:34:21.9512 Info Torznab search in 1337x for Haikyuu: To the Top 2nd Season S05 => Found 0 releases [9278ms]
+2023-11-26 08:34:22.0863 Warn Some of the categories provided are unsupported in Nyaa.si: 
+2023-11-26 08:34:22.4872 Info Torznab search in EZTV for Haikyu Lasso del volley S05 => Found 0 releases [400ms]
+2023-11-26 08:34:22.5713 Info Torznab search in TheRARBG for Haikyu Lasso del volley S05 => Found 0 releases [487ms]
+2023-11-26 08:34:24.4713 Info Torznab search in EZTV for Haikyu S05 => Found 0 releases [397ms]
+2023-11-26 08:34:24.5307 Info Torznab search in Nyaa.si for Haikyu - L'asso del volley S05 => Found 0 releases [2444ms]
+2023-11-26 08:34:24.5403 Warn Some of the categories provided are unsupported in Nyaa.si: 
+2023-11-26 08:34:24.5622 Info Torznab search in TheRARBG for Haikyu S05 => Found 0 releases [483ms]
+2023-11-26 08:34:29.0504 Info Torznab search in Nyaa.si for Haikyu S05 => Found 0 releases [4510ms]
+2023-11-26 08:34:31.4149 Info Torznab search in 1337x for Haikyu - L'asso del volley S05 => Found 0 releases [9325ms]
+2023-11-26 08:34:32.5916 Info Torznab search in EZTV => Found 100 releases (from cache) [0ms]
+2023-11-26 08:34:32.6142 Warn Some of the categories provided are unsupported in Nyaa.si: 
+2023-11-26 08:34:32.6174 Info Torznab search in Nyaa.si => Found 100 releases (from cache) [3ms]
+2023-11-26 08:34:32.6666 Info Torznab search in TheRARBG => Found 40 releases (from cache) [49ms]
+2023-11-26 08:34:33.4435 Info Torznab search in 1337x => Found 80 releases (from cache) [17ms]
+2023-11-26 08:34:41.0885 Info Torznab search in 1337x for Haikyu S05 => Found 0 releases [9664ms]
+2023-11-26 08:34:55.1721 Info Torznab search in EZTV => Found 100 releases (from cache) [0ms]
+2023-11-26 08:34:55.1789 Warn Some of the categories provided are unsupported in Nyaa.si: 
+2023-11-26 08:34:55.1815 Info Torznab search in Nyaa.si => Found 100 releases (from cache) [2ms]
+2023-11-26 08:34:55.1999 Info Torznab search in TheRARBG => Found 40 releases (from cache) [43ms]
+2023-11-26 08:34:55.2063 Info Torznab search in 1337x => Found 67 releases (from cache) [39ms]
+2023-11-26 08:38:17.3113 Info Torznab search in 1337x for I Want to Eat Your Pancreas 2018 => Found 7 releases (from cache) [1ms]
+2023-11-26 08:38:17.3208 Info Torznab search in TheRARBG => Found 13 releases (from cache) [13ms]
+2023-11-26 08:38:17.3208 Info Torznab search in EZTV for I Want to Eat Your Pancreas 2018 => Found 0 releases (from cache) [0ms]
+2023-11-26 08:38:17.3274 Warn Some of the categories provided are unsupported in Nyaa.si: 
+2023-11-26 08:38:17.3473 Info Torznab search in Nyaa.si for I Want to Eat Your Pancreas 2018 => Found 18 releases (from cache) [19ms]
+2023-11-26 08:38:19.3142 Warn Some of the categories provided are unsupported in Nyaa.si: 
+2023-11-26 08:38:19.3163 Info Torznab search in Nyaa.si for 君の膵臓をたべたい 2018 => Found 0 releases (from cache) [2ms]
+2023-11-26 08:38:19.3163 Info Torznab search in EZTV for 君の膵臓をたへたい 2018 => Found 0 releases (from cache) [0ms]
+2023-11-26 08:38:19.3321 Info Torznab search in 1337x for 君の膵臓をたべたい 2018 => Found 65 releases (from cache) [17ms]
+2023-11-26 08:39:28.2837 Info Torznab search in TheRARBG => Found 13 releases (from cache) [4ms]
+2023-11-26 08:39:28.2958 Warn Some of the categories provided are unsupported in Nyaa.si: 
+2023-11-26 08:39:28.2958 Info Torznab search in EZTV for I Want to Eat Your Pancreas 2018 => Found 0 releases (from cache) [0ms]
+2023-11-26 08:39:28.2958 Info Torznab search in 1337x for I Want to Eat Your Pancreas 2018 => Found 7 releases (from cache) [3ms]
+2023-11-26 08:39:28.2958 Info Torznab search in Nyaa.si for I Want to Eat Your Pancreas 2018 => Found 18 releases (from cache) [3ms]
+2023-11-26 08:39:30.2889 Warn Some of the categories provided are unsupported in Nyaa.si: 
+2023-11-26 08:39:30.2889 Info Torznab search in EZTV for 君の膵臓をたへたい 2018 => Found 0 releases (from cache) [0ms]
+2023-11-26 08:39:30.2889 Info Torznab search in Nyaa.si for 君の膵臓をたべたい 2018 => Found 0 releases (from cache) [1ms]
+2023-11-26 08:39:30.3006 Info Torznab search in 1337x for 君の膵臓をたべたい 2018 => Found 65 releases (from cache) [18ms]
+2023-11-26 08:40:44.0880 Warn Some of the categories provided are unsupported in Nyaa.si: 
+2023-11-26 08:40:44.4290 Info Torznab search in TheRARBG for Seishun Buta Yarou wa Bunny Girl Senpai no Yume wo Minai S01 => Found 0 releases [311ms]
+2023-11-26 08:40:46.3140 Info Torznab search in TheRARBG for Rascal Does Not Dream of Bunny Girl Senpai S01 => Found 0 releases [220ms]
+2023-11-26 08:40:46.3640 Info Torznab search in EZTV for Seishun Buta Yarou wa Bunny Girl Senpai no Yume wo Minai S01 => Found 0 releases [2280ms]
+2023-11-26 08:40:46.7186 Info Torznab search in Nyaa.si for Seishun Buta Yarou wa Bunny Girl Senpai no Yume wo Minai S01 => Found 8 releases [2630ms]
+2023-11-26 08:40:46.7507 Warn Some of the categories provided are unsupported in Nyaa.si: 
+2023-11-26 08:40:46.7747 Info Torznab search in EZTV for Rascal Does Not Dream of Bunny Girl Senpai S01 => Found 0 releases [402ms]
+2023-11-26 08:40:51.2782 Info Torznab search in Nyaa.si for Rascal Does Not Dream of Bunny Girl Senpai S01 => Found 30 releases [4527ms]
+2023-11-26 08:40:51.6581 Info Torznab search in 1337x for Seishun Buta Yarou wa Bunny Girl Senpai no Yume wo Minai S01 => Found 0 releases [7560ms]
+2023-11-26 08:41:01.1080 Info Torznab search in 1337x for Rascal Does Not Dream of Bunny Girl Senpai S01 => Found 0 releases [9439ms]
+2023-11-26 08:41:25.9528 Info Torznab search in EZTV for Seishun Buta Yarou wa Bunny Girl Senpai no Yume wo Minai S01 => Found 0 releases (from cache) [0ms]
+2023-11-26 08:41:25.9528 Info Torznab search in TheRARBG for Seishun Buta Yarou wa Bunny Girl Senpai no Yume wo Minai S01 => Found 0 releases (from cache) [0ms]
+2023-11-26 08:41:25.9566 Warn Some of the categories provided are unsupported in Nyaa.si: 
+2023-11-26 08:41:25.9566 Info Torznab search in Nyaa.si for Seishun Buta Yarou wa Bunny Girl Senpai no Yume wo Minai S01 => Found 8 releases (from cache) [1ms]
+2023-11-26 08:41:25.9626 Info Torznab search in 1337x for Seishun Buta Yarou wa Bunny Girl Senpai no Yume wo Minai S01 => Found 0 releases (from cache) [0ms]
+2023-11-26 08:41:27.9508 Info Torznab search in EZTV for Rascal Does Not Dream of Bunny Girl Senpai S01 => Found 0 releases (from cache) [0ms]
+2023-11-26 08:41:27.9529 Info Torznab search in TheRARBG for Rascal Does Not Dream of Bunny Girl Senpai S01 => Found 0 releases (from cache) [0ms]
+2023-11-26 08:41:27.9529 Warn Some of the categories provided are unsupported in Nyaa.si: 
+2023-11-26 08:41:27.9568 Info Torznab search in Nyaa.si for Rascal Does Not Dream of Bunny Girl Senpai S01 => Found 30 releases (from cache) [2ms]
+2023-11-26 08:41:27.9707 Info Torznab search in 1337x for Rascal Does Not Dream of Bunny Girl Senpai S01 => Found 0 releases (from cache) [1ms]
+2023-11-26 08:47:00.5691 Info Jackett stopped
+2023-11-26 08:47:28.2237 Info Starting Jackett v0.21.1256
+2023-11-26 08:47:34.2929 Info Environment version: 6.0.25 (/app/Jackett/)
+2023-11-26 08:47:34.3388 Info OS version: Unix 6.1.0.6 (64bit OS) (64bit process)
+2023-11-26 08:47:34.3444 Info Jackett variant: CoreLinuxMuslArm64
+2023-11-26 08:47:34.3444 Info File /etc/issue: Welcome to Alpine Linux 3.18
+2023-11-26 08:47:34.3489 Info Running in Docker: Yes (image build: v0.21.1256-ls231)
+2023-11-26 08:47:34.3560 Info ThreadPool MaxThreads: 32767 workerThreads, 1000 completionPortThreads
+2023-11-26 08:47:34.3560 Info App config/log directory: /config/Jackett
+2023-11-26 08:47:34.3721 Info Using proxy: Disabled
+2023-11-26 08:47:34.3721 Info Using FlareSolverr: No
+2023-11-26 08:47:34.3846 Info Using HTTP Client: HttpWebClient2
+2023-11-26 08:47:34.4407 Info Loading Native indexers ...
+2023-11-26 08:47:34.8970 Info Loaded 73 Native indexers.
+2023-11-26 08:47:34.9193 Info Loading Cardigann indexers from: /config/cardigann/definitions/, /etc/xdg/cardigan/definitions/, /app/Jackett/Definitions
+2023-11-26 08:47:46.2257 Info Loaded 529 Cardigann indexers.
+2023-11-26 08:47:46.2257 Info Loaded 602 indexers in total
+2023-11-26 08:47:46.2350 Info Adding aggregate indexer ('all' indexer) ...
+2023-11-26 08:47:46.2797 Info Adding filter indexer ('type:public' indexer) ...
+2023-11-26 08:47:46.2797 Info Adding filter indexer ('type:private' indexer) ...
+2023-11-26 08:47:46.3084 Info Adding filter indexer ('type:semi-public' indexer) ...
+2023-11-26 08:47:47.3039 Info Jackett startup finished in 23.614 s
+2023-11-26 08:49:38.6796 Warn Some of the categories provided are unsupported in Nyaa.si: 
+2023-11-26 08:49:44.1224 Info Torznab search in Nyaa.si => Found 100 releases [5463ms]
+2023-11-26 08:49:44.1544 Info Torznab search in TheRARBG => Found 40 releases [5505ms]
+2023-11-26 08:49:44.1811 Info Torznab search in EZTV => Found 100 releases [5532ms]
+2023-11-26 08:49:48.3814 Info Torznab search in 1337x => Found 80 releases [9731ms]
+2023-11-26 09:02:28.9988 Warn Some of the categories provided are unsupported in Nyaa.si: 
+2023-11-26 09:02:30.3356 Info Torznab search in TheRARBG for Bakemonogatari S01 => Found 0 releases [1380ms]
+2023-11-26 09:02:30.6774 Info Torznab search in EZTV for Bakemonogatari S01 => Found 0 releases [1719ms]
+2023-11-26 09:02:33.2076 Info Torznab search in Nyaa.si for Bakemonogatari S01 => Found 2 releases [4209ms]
+2023-11-26 09:02:36.9523 Info Torznab search in 1337x for Bakemonogatari S01 => Found 0 releases [7997ms]
+2023-11-26 09:02:37.0813 Warn Some of the categories provided are unsupported in Nyaa.si: 
+2023-11-26 09:02:37.5085 Info Torznab search in EZTV for Monogatari S01 => Found 0 releases [434ms]
+2023-11-26 09:02:39.1042 Info Torznab search in TheRARBG for Monogatari S01 => Found 0 releases [2026ms]
+2023-11-26 09:02:40.0119 Info Torznab search in Nyaa.si for Monogatari S01 => Found 100 releases [2930ms]
+2023-11-26 09:02:40.2991 Warn Some of the categories provided are unsupported in Nyaa.si: 
+2023-11-26 09:02:40.3010 Info Torznab search in Nyaa.si for Monogatari S01 => Found 0 releases [1ms]
+2023-11-26 09:02:46.4638 Info Torznab search in 1337x for Monogatari S01 => Found 18 releases [9379ms]
+2023-11-26 09:04:31.7846 Info Torznab search in EZTV for Bakemonogatari S01 => Found 0 releases (from cache) [0ms]
+2023-11-26 09:04:31.7939 Info Torznab search in TheRARBG for Bakemonogatari S01 => Found 0 releases (from cache) [0ms]
+2023-11-26 09:04:31.7939 Info Torznab search in 1337x for Bakemonogatari S01 => Found 0 releases (from cache) [1ms]
+2023-11-26 09:04:31.7988 Warn Some of the categories provided are unsupported in Nyaa.si: 
+2023-11-26 09:04:31.8022 Info Torznab search in Nyaa.si for Bakemonogatari S01 => Found 2 releases (from cache) [3ms]
+2023-11-26 09:04:33.7839 Info Torznab search in EZTV for Monogatari S01 => Found 0 releases (from cache) [0ms]
+2023-11-26 09:04:33.7918 Warn Some of the categories provided are unsupported in Nyaa.si: 
+2023-11-26 09:04:33.7918 Info Torznab search in TheRARBG for Monogatari S01 => Found 0 releases (from cache) [0ms]
+2023-11-26 09:04:33.7918 Info Torznab search in Nyaa.si for Monogatari S01 => Found 100 releases (from cache) [2ms]
+2023-11-26 09:04:33.8079 Info Torznab search in 1337x for Monogatari S01 => Found 18 releases (from cache) [4ms]
+2023-11-26 09:04:35.7829 Warn Some of the categories provided are unsupported in Nyaa.si: 
+2023-11-26 09:04:35.7841 Info Torznab search in Nyaa.si for Monogatari S01 => Found 0 releases [1ms]
+2023-11-26 09:05:05.0134 Warn Some of the categories provided are unsupported in Nyaa.si: 
+2023-11-26 09:05:05.3718 Info Torznab search in TheRARBG => Found 40 releases [433ms]
+2023-11-26 09:05:06.2561 Info Torznab search in EZTV => Found 100 releases [1256ms]
+2023-11-26 09:05:08.3884 Info Torznab search in Nyaa.si => Found 100 releases [3375ms]
+2023-11-26 09:05:08.5029 Info Torznab search in EZTV => Found 100 releases (from cache) [1ms]
+2023-11-26 09:05:08.5374 Warn Some of the categories provided are unsupported in Nyaa.si: 
+2023-11-26 09:05:08.5396 Info Torznab search in Nyaa.si => Found 100 releases (from cache) [2ms]
+2023-11-26 09:05:08.5678 Info Torznab search in TheRARBG => Found 40 releases (from cache) [27ms]
+2023-11-26 09:05:08.5678 Info Torznab search in 1337x => Found 80 releases (from cache) [66ms]
+2023-11-26 09:05:12.3868 Info Torznab search in 1337x => Found 68 releases [7402ms]
+2023-11-26 09:06:35.7361 Info Test search in Anime Tosho => Found 75 releases [541ms]
