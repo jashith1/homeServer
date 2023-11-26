@@ -79,17 +79,16 @@ services:
         - transmission
     restart: unless-stopped
 
-  plex:
-    image: linuxserver/plex
-    container_name: plex
-    volumes:
-        - /home/bloppai/mediaServer/media:/media
-        - ./config/plex:/config
+  jellyfin:
+    container_name: jellyfin
+    image: linuxserver/jellyfin
     environment:
-        - PUID=1000
-        - PGID=1000
-        - version=docker
+      - PUID=1000
+      - PGID=1000
+      - TZ=America/Chicago
     ports:
-        - 32400:32400
+      - '8096:8096'
+    volumes:
+      - '/home/${USER}/server/config/jellyfin:/config'
+      - '/home/${USER}/mediaServer/media:/data/media'
     restart: unless-stopped
-
