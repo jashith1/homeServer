@@ -5,7 +5,7 @@
   <SslPort>9898</SslPort>
   <UrlBase></UrlBase>
   <BindAddress>*</BindAddress>
-  <ApiKey>d42a404bd20c4657a6ba862d3253a44b</ApiKey>
+  <ApiKey>55d94eeed60f4202a89dfece55e7d118</ApiKey>
   <AuthenticationMethod>None</AuthenticationMethod>
   <UpdateMechanism>Docker</UpdateMechanism>
   <LaunchBrowser>True</LaunchBrowser>

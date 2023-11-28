@@ -1,0 +1,876 @@
+/videos/3b6f6b14-5733-5f15-f502-fc128d6ab1a3/hls1/main/0.ts
+
+{"Protocol":0,"Id":"3b6f6b1457335f15f502fc128d6ab1a3","Path":"/data/media/tv/Soundtrack (2022)/Season 1/Soundtrack.1.S01E01.KOREAN.1080p.WEBRip.x265-RARBG.mp4","EncoderPath":null,"EncoderProtocol":null,"Type":0,"Container":"mov,mp4,m4a,3gp,3g2,mj2","Size":720085568,"Name":"Soundtrack.1.S01E01.KOREAN.1080p.WEBRip.x265-RARBG","IsRemote":false,"ETag":"9cfadc57946e85c76119b90b4324cbb8","RunTimeTicks":25838499840,"ReadAtNativeFramerate":false,"IgnoreDts":false,"IgnoreIndex":false,"GenPtsInput":false,"SupportsTranscoding":true,"SupportsDirectStream":true,"SupportsDirectPlay":true,"IsInfiniteStream":false,"RequiresOpening":false,"OpenToken":null,"RequiresClosing":false,"LiveStreamId":null,"BufferMs":null,"RequiresLooping":false,"SupportsProbing":true,"VideoType":0,"IsoType":null,"Video3DFormat":null,"MediaStreams":[{"Codec":"subrip","CodecTag":null,"Language":"eng","ColorRange":null,"ColorSpace":null,"ColorTransfer":null,"ColorPrimaries":null,"DvVersionMajor":null,"DvVersionMinor":null,"DvProfile":null,"DvLevel":null,"RpuPresentFlag":null,"ElPresentFlag":null,"BlPresentFlag":null,"DvBlSignalCompatibilityId":null,"Comment":null,"TimeBase":"1/1000","CodecTimeBase":null,"Title":null,"VideoRange":null,"VideoRangeType":null,"VideoDoViTitle":null,"LocalizedUndefined":"Undefined","LocalizedDefault":"Default","LocalizedForced":"Forced","LocalizedExternal":"External","DisplayTitle":"English - SUBRIP - External","NalLengthSize":null,"IsInterlaced":false,"IsAVC":null,"ChannelLayout":null,"BitRate":null,"BitDepth":null,"RefFrames":null,"PacketLength":null,"Channels":null,"SampleRate":null,"IsDefault":false,"IsForced":false,"Height":null,"Width":null,"AverageFrameRate":null,"RealFrameRate":null,"Profile":null,"Type":2,"AspectRatio":null,"Index":0,"Score":null,"IsExternal":true,"DeliveryMethod":null,"DeliveryUrl":null,"IsExternalUrl":null,"IsTextSubtitleStream":true,"SupportsExternalStream":true,"Path":"/data/media/tv/Soundtrack (2022)/Season 1/Soundtrack.1.S01E01.KOREAN.1080p.WEBRip.x265-RARBG.en.srt","PixelFormat":null,"Level":0,"IsAnamorphic":null},{"Codec":"hevc","CodecTag":"hev1","Language":"und","ColorRange":null,"ColorSpace":null,"ColorTransfer":null,"ColorPrimaries":null,"DvVersionMajor":null,"DvVersionMinor":null,"DvProfile":null,"DvLevel":null,"RpuPresentFlag":null,"ElPresentFlag":null,"BlPresentFlag":null,"DvBlSignalCompatibilityId":null,"Comment":null,"TimeBase":"1/24000","CodecTimeBase":null,"Title":null,"VideoRange":"SDR","VideoRangeType":"SDR","VideoDoViTitle":null,"LocalizedUndefined":null,"LocalizedDefault":null,"LocalizedForced":null,"LocalizedExternal":null,"DisplayTitle":"1080p HEVC SDR","NalLengthSize":null,"IsInterlaced":false,"IsAVC":null,"ChannelLayout":null,"BitRate":2000044,"BitDepth":10,"RefFrames":1,"PacketLength":null,"Channels":null,"SampleRate":null,"IsDefault":true,"IsForced":false,"Height":960,"Width":1920,"AverageFrameRate":23.976025,"RealFrameRate":23.976025,"Profile":"Main 10","Type":1,"AspectRatio":"2:1","Index":1,"Score":null,"IsExternal":false,"DeliveryMethod":null,"DeliveryUrl":null,"IsExternalUrl":null,"IsTextSubtitleStream":false,"SupportsExternalStream":false,"Path":null,"PixelFormat":"yuv420p10le","Level":120,"IsAnamorphic":null},{"Codec":"aac","CodecTag":"mp4a","Language":"kor","ColorRange":null,"ColorSpace":null,"ColorTransfer":null,"ColorPrimaries":null,"DvVersionMajor":null,"DvVersionMinor":null,"DvProfile":null,"DvLevel":null,"RpuPresentFlag":null,"ElPresentFlag":null,"BlPresentFlag":null,"DvBlSignalCompatibilityId":null,"Comment":null,"TimeBase":"1/48000","CodecTimeBase":null,"Title":null,"VideoRange":null,"VideoRangeType":null,"VideoDoViTitle":null,"LocalizedUndefined":null,"LocalizedDefault":null,"LocalizedForced":null,"LocalizedExternal":null,"DisplayTitle":"Korean - AAC - 5.1 - Default","NalLengthSize":null,"IsInterlaced":false,"IsAVC":null,"ChannelLayout":"5.1","BitRate":224000,"BitDepth":null,"RefFrames":null,"PacketLength":null,"Channels":6,"SampleRate":48000,"IsDefault":true,"IsForced":false,"Height":null,"Width":null,"AverageFrameRate":null,"RealFrameRate":null,"Profile":"LC","Type":0,"AspectRatio":null,"Index":2,"Score":null,"IsExternal":false,"DeliveryMethod":null,"DeliveryUrl":null,"IsExternalUrl":null,"IsTextSubtitleStream":false,"SupportsExternalStream":false,"Path":null,"PixelFormat":null,"Level":0,"IsAnamorphic":null}],"MediaAttachments":[],"Formats":[],"Bitrate":2229496,"Timestamp":null,"RequiredHttpHeaders":{},"TranscodingUrl":null,"TranscodingSubProtocol":null,"TranscodingContainer":null,"AnalyzeDurationMs":null,"DefaultAudioStreamIndex":null,"DefaultSubtitleStreamIndex":null}
+
+/usr/lib/jellyfin-ffmpeg/ffmpeg -analyzeduration 200M -f mov,mp4,m4a,3gp,3g2,mj2 -autorotate 0 -i file:"/data/media/tv/Soundtrack (2022)/Season 1/Soundtrack.1.S01E01.KOREAN.1080p.WEBRip.x265-RARBG.mp4" -map_metadata -1 -map_chapters -1 -threads 0 -map 0:0 -map 0:1 -map -0:s -codec:v:0 libx264 -preset veryfast -crf 23 -maxrate 6666813 -bufsize 13333626 -x264opts:0 subme=0:me_range=4:rc_lookahead=10:me=dia:no_chroma_me:8x8dct=0:partitions=none -force_key_frames:0 "expr:gte(t,0+n_forced*3)" -sc_threshold:v:0 0 -vf "setparams=color_primaries=bt709:color_trc=bt709:colorspace=bt709,scale=trunc(min(max(iw\,ih*a)\,min(1920\,960*a))/2)*2:trunc(min(max(iw/a\,ih)\,min(1920/a\,960))/2)*2,format=yuv420p" -codec:a:0 libfdk_aac -ac 2 -ab 384000 -ar 48000 -af "volume=2" -copyts -avoid_negative_ts disabled -max_muxing_queue_size 2048 -f hls -max_delay 5000000 -hls_time 3 -hls_segment_type mpegts -start_number 0 -hls_segment_filename "/config/data/transcodes/db1b5ec016fd59e4fc8b361d8989d470%d.ts" -hls_playlist_type vod -hls_list_size 0 -y "/config/data/transcodes/db1b5ec016fd59e4fc8b361d8989d470.m3u8"
+
+
+ffmpeg version 5.1.3-Jellyfin Copyright (c) 2000-2022 the FFmpeg developers
+  built with gcc 11 (Ubuntu 11.4.0-1ubuntu1~22.04)
+  configuration: --prefix=/usr/lib/jellyfin-ffmpeg --target-os=linux --extra-libs=-lfftw3f --extra-version=Jellyfin --disable-doc --disable-ffplay --disable-ptx-compression --disable-static --disable-libxcb --disable-sdl2 --disable-xlib --enable-lto --enable-gpl --enable-version3 --enable-shared --enable-gmp --enable-gnutls --enable-chromaprint --enable-libdrm --enable-libass --enable-libfreetype --enable-libfribidi --enable-libfontconfig --enable-libbluray --enable-libmp3lame --enable-libopus --enable-libtheora --enable-libvorbis --enable-libopenmpt --enable-libdav1d --enable-libwebp --enable-libvpx --enable-libx264 --enable-libx265 --enable-libzvbi --enable-libzimg --enable-libfdk-aac --toolchain=hardened --enable-cross-compile --arch=arm64 --cross-prefix=/usr/bin/aarch64-linux-gnu-
+  libavutil      57. 28.100 / 57. 28.100
+  libavcodec     59. 37.100 / 59. 37.100
+  libavformat    59. 27.100 / 59. 27.100
+  libavdevice    59.  7.100 / 59.  7.100
+  libavfilter     8. 44.100 /  8. 44.100
+  libswscale      6.  7.100 /  6.  7.100
+  libswresample   4.  7.100 /  4.  7.100
+  libpostproc    56.  6.100 / 56.  6.100
+Input #0, mov,mp4,m4a,3gp,3g2,mj2, from 'file:/data/media/tv/Soundtrack (2022)/Season 1/Soundtrack.1.S01E01.KOREAN.1080p.WEBRip.x265-RARBG.mp4':
+  Metadata:
+    major_brand     : isom
+    minor_version   : 512
+    compatible_brands: isomiso2mp41
+    creation_time   : 2022-04-14T14:39:12.000000Z
+    title           : Soundtrack.1.S01E01.KOREAN.1080p.WEBRip.x265-RARBG
+    encoder         : Lavf58.20.100
+    comment         : Soundtrack.1.S01E01.KOREAN.1080p.WEBRip.x265-RARBG
+  Duration: 00:43:03.85, start: 0.000000, bitrate: 2229 kb/s
+  Stream #0:0[0x1](und): Video: hevc (Main 10) (hev1 / 0x31766568), yuv420p10le(tv), 1920x960 [SAR 1:1 DAR 2:1], 2000 kb/s, 23.98 fps, 23.98 tbr, 24k tbn (default)
+    Metadata:
+      creation_time   : 2022-04-14T14:39:12.000000Z
+      handler_name    : VideoHandler
+      vendor_id       : [0][0][0][0]
+  Stream #0:1[0x2](kor): Audio: aac (LC) (mp4a / 0x6134706D), 48000 Hz, 5.1, fltp, 224 kb/s (default)
+    Metadata:
+      creation_time   : 2022-04-14T14:39:12.000000Z
+      handler_name    : SoundHandler
+      vendor_id       : [0][0][0][0]
+Stream mapping:
+  Stream #0:0 -> #0:0 (hevc (native) -> h264 (libx264))
+  Stream #0:1 -> #0:1 (aac (native) -> aac (libfdk_aac))
+Press [q] to stop, [?] for help
+[libx264 @ 0x5592242480] using SAR=1/1
+[libx264 @ 0x5592242480] using cpu capabilities: ARMv8 NEON
+[libx264 @ 0x5592242480] profile Main, level 4.0, 4:2:0, 8-bit
+[libx264 @ 0x5592242480] 264 - core 163 r3060 5db6aa6 - H.264/MPEG-4 AVC codec - Copyleft 2003-2021 - http://www.videolan.org/x264.html - options: cabac=1 ref=1 deblock=1:0:0 analyse=0x1:0 me=dia subme=0 psy=1 psy_rd=1.00:0.00 mixed_ref=0 me_range=4 chroma_me=0 trellis=0 8x8dct=0 cqm=0 deadzone=21,11 fast_pskip=1 chroma_qp_offset=0 threads=6 lookahead_threads=1 sliced_threads=0 nr=0 decimate=1 interlaced=0 bluray_compat=0 constrained_intra=0 bframes=3 b_pyramid=2 b_adapt=1 b_bias=0 direct=1 weightb=1 open_gop=0 weightp=1 keyint=250 keyint_min=23 scenecut=0 intra_refresh=0 rc_lookahead=10 rc=crf mbtree=1 crf=23.0 qcomp=0.60 qpmin=0 qpmax=69 qpstep=4 vbv_maxrate=6666 vbv_bufsize=13333 crf_max=0.0 nal_hrd=none filler=0 ip_ratio=1.40 aq=1:1.00
+Output #0, hls, to '/config/data/transcodes/db1b5ec016fd59e4fc8b361d8989d470.m3u8':
+  Metadata:
+    encoder         : Lavf59.27.100
+  Stream #0:0: Video: h264, yuv420p(tv, bt709, progressive), 1920x960 [SAR 1:1 DAR 2:1], q=2-31, 23.98 fps, 90k tbn (default)
+    Metadata:
+      encoder         : Lavc59.37.100 libx264
+    Side data:
+      cpb: bitrate max/min/avg: 6666000/0/0 buffer size: 13333000 vbv_delay: N/A
+  Stream #0:1: Audio: aac, 48000 Hz, stereo, s16, 384 kb/s (default)
+    Metadata:
+      encoder         : Lavc59.37.100 libfdk_aac
+frame=    1 fps=0.0 q=0.0 size=N/A time=00:00:00.00 bitrate=N/A speed=   0x    
+frame=    8 fps=0.0 q=0.0 size=N/A time=00:00:00.32 bitrate=N/A speed=0.515x    
+frame=   18 fps= 16 q=0.0 size=N/A time=00:00:00.74 bitrate=N/A speed=0.655x    
+frame=   25 fps= 14 q=28.0 size=N/A time=00:00:01.02 bitrate=N/A speed=0.561x    
+frame=   37 fps= 16 q=28.0 size=N/A time=00:00:01.53 bitrate=N/A speed=0.645x    
+frame=   45 fps= 16 q=28.0 size=N/A time=00:00:01.85 bitrate=N/A speed=0.642x    
+frame=   54 fps= 16 q=28.0 size=N/A time=00:00:02.24 bitrate=N/A speed=0.658x    
+frame=   62 fps= 16 q=28.0 size=N/A time=00:00:02.58 bitrate=N/A speed=0.658x    
+frame=   73 fps= 16 q=28.0 size=N/A time=00:00:03.02 bitrate=N/A speed=0.682x    
+frame=   80 fps= 16 q=28.0 size=N/A time=00:00:03.32 bitrate=N/A speed=0.672x    
+frame=   85 fps= 15 q=28.0 size=N/A time=00:00:03.54 bitrate=N/A speed=0.639x    
+frame=   91 fps= 15 q=28.0 size=N/A time=00:00:03.79 bitrate=N/A speed=0.628x    
+[hls @ 0x5592241ed0] Opening '/config/data/transcodes/db1b5ec016fd59e4fc8b361d8989d4700.ts' for writing
+frame=  101 fps= 15 q=28.0 size=N/A time=00:00:04.20 bitrate=N/A speed=0.639x    
+frame=  107 fps= 15 q=28.0 size=N/A time=00:00:04.45 bitrate=N/A speed=0.621x    
+frame=  118 fps= 15 q=28.0 size=N/A time=00:00:04.90 bitrate=N/A speed=0.631x    
+frame=  124 fps= 15 q=28.0 size=N/A time=00:00:05.16 bitrate=N/A speed=0.62x    
+frame=  131 fps= 15 q=28.0 size=N/A time=00:00:05.44 bitrate=N/A speed=0.607x    
+frame=  139 fps= 15 q=28.0 size=N/A time=00:00:05.78 bitrate=N/A speed=0.609x    
+frame=  148 fps= 15 q=28.0 size=N/A time=00:00:06.16 bitrate=N/A speed=0.608x    
+frame=  154 fps= 14 q=28.0 size=N/A time=00:00:06.40 bitrate=N/A speed=0.601x    
+frame=  160 fps= 14 q=25.0 size=N/A time=00:00:06.65 bitrate=N/A speed=0.597x    
+[hls @ 0x5592241ed0] Opening '/config/data/transcodes/db1b5ec016fd59e4fc8b361d8989d4701.ts' for writing
+frame=  168 fps= 14 q=28.0 size=N/A time=00:00:06.99 bitrate=N/A speed=0.597x    
+frame=  174 fps= 14 q=28.0 size=N/A time=00:00:07.25 bitrate=N/A speed=0.59x    
+frame=  182 fps= 14 q=28.0 size=N/A time=00:00:07.57 bitrate=N/A speed=0.587x    
+frame=  190 fps= 14 q=28.0 size=N/A time=00:00:07.91 bitrate=N/A speed=0.578x    
+frame=  198 fps= 14 q=28.0 size=N/A time=00:00:08.23 bitrate=N/A speed=0.579x    
+frame=  202 fps= 14 q=28.0 size=N/A time=00:00:08.40 bitrate=N/A speed=0.57x    
+frame=  209 fps= 14 q=28.0 size=N/A time=00:00:08.70 bitrate=N/A speed=0.568x    
+frame=  215 fps= 13 q=28.0 size=N/A time=00:00:08.96 bitrate=N/A speed=0.559x    
+frame=  223 fps= 13 q=28.0 size=N/A time=00:00:09.28 bitrate=N/A speed=0.558x    
+frame=  231 fps= 13 q=28.0 size=N/A time=00:00:09.62 bitrate=N/A speed=0.561x    
+[hls @ 0x5592241ed0] Opening '/config/data/transcodes/db1b5ec016fd59e4fc8b361d8989d4702.ts' for writing
+frame=  237 fps= 13 q=28.0 size=N/A time=00:00:09.87 bitrate=N/A speed=0.559x    
+frame=  246 fps= 14 q=28.0 size=N/A time=00:00:10.24 bitrate=N/A speed=0.563x    
+frame=  253 fps= 13 q=28.0 size=N/A time=00:00:10.53 bitrate=N/A speed=0.561x    
+frame=  261 fps= 13 q=28.0 size=N/A time=00:00:10.88 bitrate=N/A speed=0.562x    
+frame=  272 fps= 14 q=28.0 size=N/A time=00:00:11.32 bitrate=N/A speed=0.57x    
+frame=  281 fps= 14 q=28.0 size=N/A time=00:00:11.71 bitrate=N/A speed=0.572x    
+frame=  290 fps= 14 q=28.0 size=N/A time=00:00:12.07 bitrate=N/A speed=0.571x    
+frame=  299 fps= 14 q=28.0 size=N/A time=00:00:12.45 bitrate=N/A speed=0.571x    
+frame=  306 fps= 13 q=28.0 size=N/A time=00:00:12.75 bitrate=N/A speed=0.56x    
+[hls @ 0x5592241ed0] Opening '/config/data/transcodes/db1b5ec016fd59e4fc8b361d8989d4703.ts' for writing
+frame=  315 fps= 14 q=28.0 size=N/A time=00:00:13.12 bitrate=N/A speed=0.563x    
+frame=  318 fps= 13 q=28.0 size=N/A time=00:00:13.24 bitrate=N/A speed=0.554x    
+frame=  325 fps= 13 q=28.0 size=N/A time=00:00:13.54 bitrate=N/A speed=0.553x    
+frame=  331 fps= 13 q=28.0 size=N/A time=00:00:13.78 bitrate=N/A speed=0.55x    
+frame=  340 fps= 13 q=28.0 size=N/A time=00:00:14.16 bitrate=N/A speed=0.553x    
+frame=  345 fps= 13 q=28.0 size=N/A time=00:00:14.37 bitrate=N/A speed=0.55x    
+frame=  350 fps= 13 q=28.0 size=N/A time=00:00:14.59 bitrate=N/A speed=0.546x    
+frame=  356 fps= 13 q=28.0 size=N/A time=00:00:14.82 bitrate=N/A speed=0.545x    
+frame=  362 fps= 13 q=28.0 size=N/A time=00:00:15.08 bitrate=N/A speed=0.54x    
+frame=  368 fps= 13 q=28.0 size=N/A time=00:00:15.33 bitrate=N/A speed=0.535x    
+frame=  374 fps= 13 q=28.0 size=N/A time=00:00:15.59 bitrate=N/A speed=0.53x    
+[hls @ 0x5592241ed0] Opening '/config/data/transcodes/db1b5ec016fd59e4fc8b361d8989d4704.ts' for writing
+frame=  381 fps= 13 q=28.0 size=N/A time=00:00:15.87 bitrate=N/A speed=0.525x    
+frame=  386 fps= 12 q=28.0 size=N/A time=00:00:16.08 bitrate=N/A speed=0.519x    
+frame=  392 fps= 12 q=28.0 size=N/A time=00:00:16.34 bitrate=N/A speed=0.514x    
+frame=  397 fps= 12 q=28.0 size=N/A time=00:00:16.55 bitrate=N/A speed=0.512x    
+frame=  404 fps= 12 q=28.0 size=N/A time=00:00:16.83 bitrate=N/A speed=0.51x    
+frame=  411 fps= 12 q=28.0 size=N/A time=00:00:17.10 bitrate=N/A speed=0.511x    
+frame=  412 fps= 12 q=28.0 size=N/A time=00:00:17.17 bitrate=N/A speed=0.504x    
+frame=  419 fps= 12 q=28.0 size=N/A time=00:00:17.47 bitrate=N/A speed=0.505x    
+frame=  426 fps= 12 q=28.0 size=N/A time=00:00:17.74 bitrate=N/A speed=0.505x    
+frame=  433 fps= 12 q=28.0 size=N/A time=00:00:18.04 bitrate=N/A speed=0.506x    
+frame=  440 fps= 12 q=28.0 size=N/A time=00:00:18.34 bitrate=N/A speed=0.507x    
+frame=  444 fps= 12 q=28.0 size=N/A time=00:00:18.49 bitrate=N/A speed=0.504x    
+frame=  450 fps= 12 q=28.0 size=N/A time=00:00:18.75 bitrate=N/A speed=0.504x    
+[hls @ 0x5592241ed0] Opening '/config/data/transcodes/db1b5ec016fd59e4fc8b361d8989d4705.ts' for writing
+frame=  457 fps= 12 q=28.0 size=N/A time=00:00:19.05 bitrate=N/A speed=0.504x    
+frame=  462 fps= 12 q=28.0 size=N/A time=00:00:19.26 bitrate=N/A speed=0.502x    
+frame=  468 fps= 12 q=28.0 size=N/A time=00:00:19.49 bitrate=N/A speed=0.501x    
+frame=  471 fps= 12 q=28.0 size=N/A time=00:00:19.62 bitrate=N/A speed=0.498x    
+frame=  477 fps= 12 q=28.0 size=N/A time=00:00:19.88 bitrate=N/A speed=0.497x    
+frame=  483 fps= 12 q=28.0 size=N/A time=00:00:20.11 bitrate=N/A speed=0.497x    
+frame=  488 fps= 12 q=28.0 size=N/A time=00:00:20.33 bitrate=N/A speed=0.496x    
+frame=  495 fps= 12 q=28.0 size=N/A time=00:00:20.62 bitrate=N/A speed=0.497x    
+frame=  500 fps= 12 q=28.0 size=N/A time=00:00:20.84 bitrate=N/A speed=0.496x    
+frame=  507 fps= 12 q=28.0 size=N/A time=00:00:21.14 bitrate=N/A speed=0.497x    
+frame=  513 fps= 12 q=28.0 size=N/A time=00:00:21.37 bitrate=N/A speed=0.496x    
+frame=  519 fps= 12 q=28.0 size=N/A time=00:00:21.63 bitrate=N/A speed=0.495x    
+[hls @ 0x5592241ed0] Opening '/config/data/transcodes/db1b5ec016fd59e4fc8b361d8989d4706.ts' for writing
+frame=  525 fps= 12 q=28.0 size=N/A time=00:00:21.88 bitrate=N/A speed=0.494x    
+frame=  533 fps= 12 q=28.0 size=N/A time=00:00:22.18 bitrate=N/A speed=0.495x    
+frame=  536 fps= 12 q=28.0 size=N/A time=00:00:22.33 bitrate=N/A speed=0.492x    
+frame=  544 fps= 12 q=28.0 size=N/A time=00:00:22.67 bitrate=N/A speed=0.494x    
+frame=  550 fps= 12 q=28.0 size=N/A time=00:00:22.93 bitrate=N/A speed=0.493x    
+frame=  556 fps= 12 q=28.0 size=N/A time=00:00:23.16 bitrate=N/A speed=0.493x    
+frame=  561 fps= 12 q=28.0 size=N/A time=00:00:23.38 bitrate=N/A speed=0.491x    
+frame=  571 fps= 12 q=28.0 size=N/A time=00:00:23.80 bitrate=N/A speed=0.493x    
+frame=  574 fps= 12 q=28.0 size=N/A time=00:00:23.93 bitrate=N/A speed=0.491x    
+frame=  580 fps= 12 q=28.0 size=N/A time=00:00:24.17 bitrate=N/A speed=0.49x    
+frame=  588 fps= 12 q=28.0 size=N/A time=00:00:24.49 bitrate=N/A speed=0.491x    
+frame=  592 fps= 12 q=25.0 size=N/A time=00:00:24.68 bitrate=N/A speed=0.49x    
+[hls @ 0x5592241ed0] Opening '/config/data/transcodes/db1b5ec016fd59e4fc8b361d8989d4707.ts' for writing
+frame=  599 fps= 12 q=28.0 size=N/A time=00:00:24.96 bitrate=N/A speed=0.489x    
+frame=  605 fps= 12 q=28.0 size=N/A time=00:00:25.21 bitrate=N/A speed=0.489x    
+frame=  608 fps= 12 q=28.0 size=N/A time=00:00:25.34 bitrate=N/A speed=0.486x    
+frame=  614 fps= 12 q=28.0 size=N/A time=00:00:25.60 bitrate=N/A speed=0.485x    
+frame=  622 fps= 12 q=28.0 size=N/A time=00:00:25.92 bitrate=N/A speed=0.485x    
+frame=  630 fps= 12 q=28.0 size=N/A time=00:00:26.26 bitrate=N/A speed=0.486x    
+frame=  640 fps= 12 q=28.0 size=N/A time=00:00:26.68 bitrate=N/A speed=0.489x    
+frame=  648 fps= 12 q=28.0 size=N/A time=00:00:27.00 bitrate=N/A speed=0.49x    
+frame=  654 fps= 12 q=28.0 size=N/A time=00:00:27.26 bitrate=N/A speed=0.49x    
+frame=  661 fps= 12 q=28.0 size=N/A time=00:00:27.56 bitrate=N/A speed=0.49x    
+frame=  666 fps= 12 q=28.0 size=N/A time=00:00:27.75 bitrate=N/A speed=0.488x    
+[hls @ 0x5592241ed0] Opening '/config/data/transcodes/db1b5ec016fd59e4fc8b361d8989d4708.ts' for writing
+frame=  673 fps= 12 q=28.0 size=N/A time=00:00:28.05 bitrate=N/A speed=0.489x    
+frame=  679 fps= 12 q=28.0 size=N/A time=00:00:28.28 bitrate=N/A speed=0.489x    
+frame=  681 fps= 12 q=28.0 size=N/A time=00:00:28.39 bitrate=N/A speed=0.486x    
+frame=  687 fps= 12 q=28.0 size=N/A time=00:00:28.65 bitrate=N/A speed=0.486x    
+frame=  694 fps= 12 q=28.0 size=N/A time=00:00:28.92 bitrate=N/A speed=0.486x    
+frame=  697 fps= 12 q=28.0 size=N/A time=00:00:29.05 bitrate=N/A speed=0.484x    
+frame=  705 fps= 12 q=28.0 size=N/A time=00:00:29.37 bitrate=N/A speed=0.486x    
+frame=  709 fps= 12 q=28.0 size=N/A time=00:00:29.56 bitrate=N/A speed=0.484x    
+frame=  716 fps= 12 q=28.0 size=N/A time=00:00:29.84 bitrate=N/A speed=0.483x    
+frame=  722 fps= 12 q=28.0 size=N/A time=00:00:30.10 bitrate=N/A speed=0.484x    
+frame=  728 fps= 12 q=28.0 size=N/A time=00:00:30.35 bitrate=N/A speed=0.483x    
+frame=  734 fps= 12 q=28.0 size=N/A time=00:00:30.59 bitrate=N/A speed=0.483x    
+frame=  740 fps= 12 q=28.0 size=N/A time=00:00:30.84 bitrate=N/A speed=0.48x    
+[hls @ 0x5592241ed0] Opening '/config/data/transcodes/db1b5ec016fd59e4fc8b361d8989d4709.ts' for writing
+frame=  745 fps= 11 q=28.0 size=N/A time=00:00:31.06 bitrate=N/A speed=0.479x    
+frame=  751 fps= 11 q=28.0 size=N/A time=00:00:31.31 bitrate=N/A speed=0.477x    
+frame=  759 fps= 11 q=28.0 size=N/A time=00:00:31.63 bitrate=N/A speed=0.478x    
+frame=  763 fps= 11 q=28.0 size=N/A time=00:00:31.80 bitrate=N/A speed=0.477x    
+frame=  770 fps= 11 q=28.0 size=N/A time=00:00:32.10 bitrate=N/A speed=0.477x    
+frame=  777 fps= 11 q=28.0 size=N/A time=00:00:32.38 bitrate=N/A speed=0.477x    
+frame=  783 fps= 11 q=28.0 size=N/A time=00:00:32.64 bitrate=N/A speed=0.477x    
+frame=  788 fps= 11 q=28.0 size=N/A time=00:00:32.85 bitrate=N/A speed=0.475x    
+frame=  792 fps= 11 q=28.0 size=N/A time=00:00:33.02 bitrate=N/A speed=0.474x    
+frame=  798 fps= 11 q=28.0 size=N/A time=00:00:33.28 bitrate=N/A speed=0.473x    
+frame=  804 fps= 11 q=28.0 size=N/A time=00:00:33.51 bitrate=N/A speed=0.473x    
+frame=  810 fps= 11 q=28.0 size=N/A time=00:00:33.79 bitrate=N/A speed=0.473x    
+[hls @ 0x5592241ed0] Opening '/config/data/transcodes/db1b5ec016fd59e4fc8b361d8989d47010.ts' for writing
+frame=  817 fps= 11 q=28.0 size=N/A time=00:00:34.06 bitrate=N/A speed=0.474x    
+frame=  823 fps= 11 q=28.0 size=N/A time=00:00:34.30 bitrate=N/A speed=0.474x    
+frame=  829 fps= 11 q=28.0 size=N/A time=00:00:34.56 bitrate=N/A speed=0.474x    
+frame=  839 fps= 11 q=28.0 size=N/A time=00:00:34.98 bitrate=N/A speed=0.476x    
+frame=  847 fps= 11 q=28.0 size=N/A time=00:00:35.28 bitrate=N/A speed=0.477x    
+frame=  852 fps= 11 q=28.0 size=N/A time=00:00:35.52 bitrate=N/A speed=0.477x    
+frame=  859 fps= 11 q=28.0 size=N/A time=00:00:35.81 bitrate=N/A speed=0.477x    
+frame=  867 fps= 11 q=28.0 size=N/A time=00:00:36.13 bitrate=N/A speed=0.478x    
+frame=  875 fps= 12 q=28.0 size=N/A time=00:00:36.48 bitrate=N/A speed=0.48x    
+frame=  883 fps= 12 q=28.0 size=N/A time=00:00:36.82 bitrate=N/A speed=0.48x    
+[hls @ 0x5592241ed0] Opening '/config/data/transcodes/db1b5ec016fd59e4fc8b361d8989d47011.ts' for writing
+frame=  886 fps= 11 q=28.0 size=N/A time=00:00:36.94 bitrate=N/A speed=0.479x    
+frame=  893 fps= 11 q=28.0 size=N/A time=00:00:37.22 bitrate=N/A speed=0.478x    
+frame=  902 fps= 12 q=28.0 size=N/A time=00:00:37.61 bitrate=N/A speed=0.48x    
+frame=  910 fps= 12 q=28.0 size=N/A time=00:00:37.93 bitrate=N/A speed=0.481x    
+frame=  919 fps= 12 q=28.0 size=N/A time=00:00:38.31 bitrate=N/A speed=0.482x    
+frame=  923 fps= 12 q=28.0 size=N/A time=00:00:38.48 bitrate=N/A speed=0.482x    
+frame=  931 fps= 12 q=28.0 size=N/A time=00:00:38.82 bitrate=N/A speed=0.482x    
+frame=  938 fps= 12 q=28.0 size=N/A time=00:00:39.10 bitrate=N/A speed=0.482x    
+frame=  945 fps= 12 q=28.0 size=N/A time=00:00:39.40 bitrate=N/A speed=0.482x    
+frame=  954 fps= 12 q=28.0 size=N/A time=00:00:39.78 bitrate=N/A speed=0.484x    
+[hls @ 0x5592241ed0] Opening '/config/data/transcodes/db1b5ec016fd59e4fc8b361d8989d47012.ts' for writing
+frame=  960 fps= 12 q=28.0 size=N/A time=00:00:40.02 bitrate=N/A speed=0.484x    
+frame=  967 fps= 12 q=28.0 size=N/A time=00:00:40.32 bitrate=N/A speed=0.484x    
+frame=  974 fps= 12 q=28.0 size=N/A time=00:00:40.61 bitrate=N/A speed=0.484x    
+frame=  981 fps= 12 q=28.0 size=N/A time=00:00:40.89 bitrate=N/A speed=0.484x    
+frame=  990 fps= 12 q=28.0 size=N/A time=00:00:41.28 bitrate=N/A speed=0.486x    
+frame=  998 fps= 12 q=28.0 size=N/A time=00:00:41.62 bitrate=N/A speed=0.487x    
+frame= 1005 fps= 12 q=28.0 size=N/A time=00:00:41.89 bitrate=N/A speed=0.486x    
+frame= 1014 fps= 12 q=28.0 size=N/A time=00:00:42.26 bitrate=N/A speed=0.488x    
+frame= 1018 fps= 12 q=28.0 size=N/A time=00:00:42.45 bitrate=N/A speed=0.487x    
+frame= 1025 fps= 12 q=28.0 size=N/A time=00:00:42.73 bitrate=N/A speed=0.487x    
+[hls @ 0x5592241ed0] Opening '/config/data/transcodes/db1b5ec016fd59e4fc8b361d8989d47013.ts' for writing
+frame= 1029 fps= 12 q=28.0 size=N/A time=00:00:42.90 bitrate=N/A speed=0.486x    
+frame= 1037 fps= 12 q=28.0 size=N/A time=00:00:43.24 bitrate=N/A speed=0.487x    
+frame= 1043 fps= 12 q=28.0 size=N/A time=00:00:43.49 bitrate=N/A speed=0.488x    
+frame= 1048 fps= 12 q=28.0 size=N/A time=00:00:43.69 bitrate=N/A speed=0.487x    
+frame= 1057 fps= 12 q=28.0 size=N/A time=00:00:44.07 bitrate=N/A speed=0.488x    
+frame= 1065 fps= 12 q=28.0 size=N/A time=00:00:44.41 bitrate=N/A speed=0.489x    
+frame= 1074 fps= 12 q=28.0 size=N/A time=00:00:44.77 bitrate=N/A speed=0.49x    
+frame= 1080 fps= 12 q=28.0 size=N/A time=00:00:45.03 bitrate=N/A speed=0.49x    
+frame= 1089 fps= 12 q=28.0 size=N/A time=00:00:45.39 bitrate=N/A speed=0.491x    
+frame= 1096 fps= 12 q=28.0 size=N/A time=00:00:45.69 bitrate=N/A speed=0.491x    
+[hls @ 0x5592241ed0] Opening '/config/data/transcodes/db1b5ec016fd59e4fc8b361d8989d47014.ts' for writing
+frame= 1103 fps= 12 q=28.0 size=N/A time=00:00:45.99 bitrate=N/A speed=0.492x    
+frame= 1110 fps= 12 q=28.0 size=N/A time=00:00:46.29 bitrate=N/A speed=0.492x    
+frame= 1119 fps= 12 q=28.0 size=N/A time=00:00:46.65 bitrate=N/A speed=0.493x    
+frame= 1128 fps= 12 q=28.0 size=N/A time=00:00:47.04 bitrate=N/A speed=0.494x    
+frame= 1134 fps= 12 q=28.0 size=N/A time=00:00:47.25 bitrate=N/A speed=0.494x    
+frame= 1142 fps= 12 q=28.0 size=N/A time=00:00:47.61 bitrate=N/A speed=0.495x    
+frame= 1151 fps= 12 q=28.0 size=N/A time=00:00:48.00 bitrate=N/A speed=0.496x    
+frame= 1157 fps= 12 q=28.0 size=N/A time=00:00:48.23 bitrate=N/A speed=0.496x    
+frame= 1164 fps= 12 q=28.0 size=N/A time=00:00:48.53 bitrate=N/A speed=0.496x    
+[hls @ 0x5592241ed0] Opening '/config/data/transcodes/db1b5ec016fd59e4fc8b361d8989d47015.ts' for writing
+frame= 1173 fps= 12 q=28.0 size=N/A time=00:00:48.89 bitrate=N/A speed=0.497x    
+frame= 1177 fps= 12 q=28.0 size=N/A time=00:00:49.08 bitrate=N/A speed=0.497x    
+frame= 1186 fps= 12 q=28.0 size=N/A time=00:00:49.45 bitrate=N/A speed=0.497x    
+frame= 1196 fps= 12 q=28.0 size=N/A time=00:00:49.87 bitrate=N/A speed=0.498x    
+frame= 1204 fps= 12 q=28.0 size=N/A time=00:00:50.19 bitrate=N/A speed=0.499x    
+frame= 1210 fps= 12 q=28.0 size=N/A time=00:00:50.45 bitrate=N/A speed=0.499x    
+frame= 1213 fps= 12 q=28.0 size=N/A time=00:00:50.58 bitrate=N/A speed=0.497x    
+frame= 1223 fps= 12 q=28.0 size=N/A time=00:00:50.98 bitrate=N/A speed=0.498x    
+frame= 1230 fps= 12 q=28.0 size=N/A time=00:00:51.26 bitrate=N/A speed=0.498x    
+frame= 1237 fps= 12 q=28.0 size=N/A time=00:00:51.58 bitrate=N/A speed=0.498x    
+[hls @ 0x5592241ed0] Opening '/config/data/transcodes/db1b5ec016fd59e4fc8b361d8989d47016.ts' for writing
+frame= 1246 fps= 12 q=28.0 size=N/A time=00:00:51.94 bitrate=N/A speed=0.499x    
+frame= 1252 fps= 12 q=28.0 size=N/A time=00:00:52.20 bitrate=N/A speed=0.499x    
+frame= 1259 fps= 12 q=28.0 size=N/A time=00:00:52.50 bitrate=N/A speed=0.499x    
+frame= 1263 fps= 12 q=28.0 size=N/A time=00:00:52.67 bitrate=N/A speed=0.498x    
+frame= 1272 fps= 12 q=28.0 size=N/A time=00:00:53.03 bitrate=N/A speed=0.499x    
+frame= 1279 fps= 12 q=28.0 size=N/A time=00:00:53.33 bitrate=N/A speed=0.499x    
+frame= 1288 fps= 12 q=28.0 size=N/A time=00:00:53.71 bitrate=N/A speed= 0.5x    
+frame= 1296 fps= 12 q=28.0 size=N/A time=00:00:54.03 bitrate=N/A speed= 0.5x    
+frame= 1303 fps= 12 q=28.0 size=N/A time=00:00:54.33 bitrate=N/A speed= 0.5x    
+frame= 1308 fps= 12 q=28.0 size=N/A time=00:00:54.54 bitrate=N/A speed= 0.5x    
+frame= 1315 fps= 12 q=28.0 size=N/A time=00:00:54.82 bitrate=N/A speed= 0.5x    
+[hls @ 0x5592241ed0] Opening '/config/data/transcodes/db1b5ec016fd59e4fc8b361d8989d47017.ts' for writing
+frame= 1321 fps= 12 q=28.0 size=N/A time=00:00:55.08 bitrate=N/A speed=0.499x    
+frame= 1329 fps= 12 q=28.0 size=N/A time=00:00:55.42 bitrate=N/A speed=0.499x    
+frame= 1338 fps= 12 q=28.0 size=N/A time=00:00:55.78 bitrate=N/A speed= 0.5x    
+frame= 1344 fps= 12 q=28.0 size=N/A time=00:00:56.04 bitrate=N/A speed= 0.5x    
+frame= 1349 fps= 12 q=28.0 size=N/A time=00:00:56.25 bitrate=N/A speed=0.499x    
+frame= 1356 fps= 12 q=28.0 size=N/A time=00:00:56.53 bitrate=N/A speed=0.499x    
+frame= 1368 fps= 12 q=28.0 size=N/A time=00:00:57.04 bitrate=N/A speed=0.502x    
+frame= 1375 fps= 12 q=28.0 size=N/A time=00:00:57.34 bitrate=N/A speed=0.502x    
+frame= 1381 fps= 12 q=28.0 size=N/A time=00:00:57.57 bitrate=N/A speed=0.501x    
+[hls @ 0x5592241ed0] Opening '/config/data/transcodes/db1b5ec016fd59e4fc8b361d8989d47018.ts' for writing
+frame= 1388 fps= 12 q=28.0 size=N/A time=00:00:57.87 bitrate=N/A speed=0.501x    
+frame= 1394 fps= 12 q=28.0 size=N/A time=00:00:58.13 bitrate=N/A speed= 0.5x    
+frame= 1401 fps= 12 q=28.0 size=N/A time=00:00:58.41 bitrate=N/A speed=0.499x    
+frame= 1407 fps= 12 q=28.0 size=N/A time=00:00:58.66 bitrate=N/A speed=0.499x    
+frame= 1412 fps= 12 q=28.0 size=N/A time=00:00:58.88 bitrate=N/A speed=0.499x    
+frame= 1417 fps= 12 q=28.0 size=N/A time=00:00:59.09 bitrate=N/A speed=0.498x    
+frame= 1423 fps= 12 q=28.0 size=N/A time=00:00:59.32 bitrate=N/A speed=0.498x    
+frame= 1430 fps= 12 q=28.0 size=N/A time=00:00:59.62 bitrate=N/A speed=0.497x    
+frame= 1435 fps= 12 q=28.0 size=N/A time=00:00:59.84 bitrate=N/A speed=0.497x    
+frame= 1444 fps= 12 q=28.0 size=N/A time=00:01:00.20 bitrate=N/A speed=0.498x    
+frame= 1448 fps= 12 q=28.0 size=N/A time=00:01:00.37 bitrate=N/A speed=0.497x    
+frame= 1455 fps= 12 q=25.0 size=N/A time=00:01:00.67 bitrate=N/A speed=0.497x    
+[hls @ 0x5592241ed0] Opening '/config/data/transcodes/db1b5ec016fd59e4fc8b361d8989d47019.ts' for writing
+frame= 1462 fps= 12 q=28.0 size=N/A time=00:01:00.97 bitrate=N/A speed=0.498x    
+frame= 1470 fps= 12 q=28.0 size=N/A time=00:01:01.29 bitrate=N/A speed=0.498x    
+frame= 1476 fps= 12 q=28.0 size=N/A time=00:01:01.54 bitrate=N/A speed=0.498x    
+frame= 1485 fps= 12 q=28.0 size=N/A time=00:01:01.93 bitrate=N/A speed=0.499x    
+frame= 1494 fps= 12 q=28.0 size=N/A time=00:01:02.29 bitrate=N/A speed= 0.5x    
+frame= 1503 fps= 12 q=28.0 size=N/A time=00:01:02.67 bitrate=N/A speed=0.501x    
+frame= 1513 fps= 12 q=28.0 size=N/A time=00:01:03.08 bitrate=N/A speed=0.502x    
+frame= 1522 fps= 12 q=28.0 size=N/A time=00:01:03.46 bitrate=N/A speed=0.502x    
+frame= 1530 fps= 12 q=28.0 size=N/A time=00:01:03.80 bitrate=N/A speed=0.503x    
+[hls @ 0x5592241ed0] Opening '/config/data/transcodes/db1b5ec016fd59e4fc8b361d8989d47020.ts' for writing
+frame= 1536 fps= 12 q=28.0 size=N/A time=00:01:04.04 bitrate=N/A speed=0.503x    
+frame= 1547 fps= 12 q=28.0 size=N/A time=00:01:04.51 bitrate=N/A speed=0.504x    
+frame= 1556 fps= 12 q=28.0 size=N/A time=00:01:04.87 bitrate=N/A speed=0.505x    
+frame= 1563 fps= 12 q=28.0 size=N/A time=00:01:05.19 bitrate=N/A speed=0.505x    
+frame= 1570 fps= 12 q=28.0 size=N/A time=00:01:05.47 bitrate=N/A speed=0.504x    
+frame= 1575 fps= 12 q=28.0 size=N/A time=00:01:05.68 bitrate=N/A speed=0.504x    
+frame= 1580 fps= 12 q=28.0 size=N/A time=00:01:05.87 bitrate=N/A speed=0.504x    
+frame= 1588 fps= 12 q=28.0 size=N/A time=00:01:06.21 bitrate=N/A speed=0.503x    
+frame= 1594 fps= 12 q=28.0 size=N/A time=00:01:06.47 bitrate=N/A speed=0.503x    
+frame= 1600 fps= 12 q=28.0 size=N/A time=00:01:06.70 bitrate=N/A speed=0.502x    
+[hls @ 0x5592241ed0] Opening '/config/data/transcodes/db1b5ec016fd59e4fc8b361d8989d47021.ts' for writing
+frame= 1606 fps= 12 q=28.0 size=N/A time=00:01:06.96 bitrate=N/A speed=0.502x    
+frame= 1611 fps= 12 q=28.0 size=N/A time=00:01:07.17 bitrate=N/A speed=0.502x    
+frame= 1616 fps= 12 q=28.0 size=N/A time=00:01:07.39 bitrate=N/A speed=0.501x    
+frame= 1621 fps= 12 q=28.0 size=N/A time=00:01:07.60 bitrate=N/A speed=0.501x    
+frame= 1626 fps= 12 q=28.0 size=N/A time=00:01:07.79 bitrate=N/A speed= 0.5x    
+frame= 1631 fps= 12 q=28.0 size=N/A time=00:01:08.01 bitrate=N/A speed=0.499x    
+frame= 1637 fps= 12 q=28.0 size=N/A time=00:01:08.26 bitrate=N/A speed=0.499x    
+frame= 1642 fps= 12 q=28.0 size=N/A time=00:01:08.48 bitrate=N/A speed=0.498x    
+frame= 1647 fps= 12 q=28.0 size=N/A time=00:01:08.67 bitrate=N/A speed=0.498x    
+frame= 1651 fps= 12 q=28.0 size=N/A time=00:01:08.84 bitrate=N/A speed=0.497x    
+frame= 1655 fps= 12 q=28.0 size=N/A time=00:01:09.03 bitrate=N/A speed=0.496x    
+frame= 1662 fps= 12 q=28.0 size=N/A time=00:01:09.31 bitrate=N/A speed=0.496x    
+frame= 1666 fps= 12 q=28.0 size=N/A time=00:01:09.48 bitrate=N/A speed=0.496x    
+frame= 1671 fps= 12 q=25.0 size=N/A time=00:01:09.67 bitrate=N/A speed=0.495x    
+[hls @ 0x5592241ed0] Opening '/config/data/transcodes/db1b5ec016fd59e4fc8b361d8989d47022.ts' for writing
+frame= 1677 fps= 12 q=28.0 size=N/A time=00:01:09.93 bitrate=N/A speed=0.495x    
+frame= 1683 fps= 12 q=28.0 size=N/A time=00:01:10.20 bitrate=N/A speed=0.495x    
+frame= 1685 fps= 12 q=28.0 size=N/A time=00:01:10.27 bitrate=N/A speed=0.493x    
+frame= 1691 fps= 12 q=28.0 size=N/A time=00:01:10.50 bitrate=N/A speed=0.492x    
+frame= 1697 fps= 12 q=28.0 size=N/A time=00:01:10.76 bitrate=N/A speed=0.492x    
+frame= 1703 fps= 12 q=28.0 size=N/A time=00:01:11.01 bitrate=N/A speed=0.491x    
+frame= 1710 fps= 12 q=28.0 size=N/A time=00:01:11.31 bitrate=N/A speed=0.491x    
+frame= 1713 fps= 12 q=28.0 size=N/A time=00:01:11.42 bitrate=N/A speed=0.49x    
+frame= 1719 fps= 12 q=28.0 size=N/A time=00:01:11.68 bitrate=N/A speed=0.49x    
+frame= 1726 fps= 12 q=28.0 size=N/A time=00:01:11.97 bitrate=N/A speed=0.49x    
+frame= 1730 fps= 12 q=28.0 size=N/A time=00:01:12.14 bitrate=N/A speed=0.489x    
+frame= 1737 fps= 12 q=28.0 size=N/A time=00:01:12.42 bitrate=N/A speed=0.488x    
+frame= 1742 fps= 12 q=28.0 size=N/A time=00:01:12.64 bitrate=N/A speed=0.488x    
+frame= 1747 fps= 12 q=28.0 size=N/A time=00:01:12.85 bitrate=N/A speed=0.487x    
+[hls @ 0x5592241ed0] Opening '/config/data/transcodes/db1b5ec016fd59e4fc8b361d8989d47023.ts' for writing
+frame= 1754 fps= 12 q=28.0 size=N/A time=00:01:13.15 bitrate=N/A speed=0.487x    
+frame= 1762 fps= 12 q=28.0 size=N/A time=00:01:13.47 bitrate=N/A speed=0.487x    
+frame= 1768 fps= 12 q=28.0 size=N/A time=00:01:13.72 bitrate=N/A speed=0.487x    
+frame= 1775 fps= 12 q=28.0 size=N/A time=00:01:14.02 bitrate=N/A speed=0.487x    
+frame= 1780 fps= 12 q=28.0 size=N/A time=00:01:14.21 bitrate=N/A speed=0.487x    
+frame= 1786 fps= 12 q=28.0 size=N/A time=00:01:14.47 bitrate=N/A speed=0.487x    
+frame= 1792 fps= 12 q=28.0 size=N/A time=00:01:14.73 bitrate=N/A speed=0.487x    
+frame= 1797 fps= 12 q=28.0 size=N/A time=00:01:14.94 bitrate=N/A speed=0.486x    
+frame= 1803 fps= 12 q=28.0 size=N/A time=00:01:15.17 bitrate=N/A speed=0.486x    
+frame= 1811 fps= 12 q=28.0 size=N/A time=00:01:15.52 bitrate=N/A speed=0.486x    
+frame= 1819 fps= 12 q=28.0 size=N/A time=00:01:15.86 bitrate=N/A speed=0.487x    
+[hls @ 0x5592241ed0] Opening '/config/data/transcodes/db1b5ec016fd59e4fc8b361d8989d47024.ts' for writing
+frame= 1821 fps= 12 q=28.0 size=N/A time=00:01:15.94 bitrate=N/A speed=0.486x    
+frame= 1826 fps= 12 q=28.0 size=N/A time=00:01:16.13 bitrate=N/A speed=0.485x    
+frame= 1833 fps= 12 q=28.0 size=N/A time=00:01:16.43 bitrate=N/A speed=0.485x    
+frame= 1840 fps= 12 q=28.0 size=N/A time=00:01:16.73 bitrate=N/A speed=0.484x    
+frame= 1846 fps= 12 q=28.0 size=N/A time=00:01:16.97 bitrate=N/A speed=0.484x    
+frame= 1851 fps= 12 q=28.0 size=N/A time=00:01:17.18 bitrate=N/A speed=0.483x    
+frame= 1855 fps= 12 q=28.0 size=N/A time=00:01:17.35 bitrate=N/A speed=0.483x    
+frame= 1861 fps= 12 q=28.0 size=N/A time=00:01:17.61 bitrate=N/A speed=0.482x    
+frame= 1867 fps= 12 q=28.0 size=N/A time=00:01:17.84 bitrate=N/A speed=0.482x    
+frame= 1873 fps= 12 q=28.0 size=N/A time=00:01:18.10 bitrate=N/A speed=0.482x    
+frame= 1879 fps= 12 q=28.0 size=N/A time=00:01:18.35 bitrate=N/A speed=0.482x    
+frame= 1886 fps= 12 q=28.0 size=N/A time=00:01:18.65 bitrate=N/A speed=0.482x    
+[hls @ 0x5592241ed0] Opening '/config/data/transcodes/db1b5ec016fd59e4fc8b361d8989d47025.ts' for writing
+frame= 1894 fps= 12 q=28.0 size=N/A time=00:01:18.97 bitrate=N/A speed=0.482x    
+frame= 1900 fps= 12 q=28.0 size=N/A time=00:01:19.23 bitrate=N/A speed=0.482x    
+frame= 1903 fps= 12 q=28.0 size=N/A time=00:01:19.36 bitrate=N/A speed=0.481x    
+frame= 1911 fps= 12 q=28.0 size=N/A time=00:01:19.70 bitrate=N/A speed=0.481x    
+frame= 1917 fps= 12 q=28.0 size=N/A time=00:01:19.93 bitrate=N/A speed=0.481x    
+frame= 1922 fps= 12 q=28.0 size=N/A time=00:01:20.14 bitrate=N/A speed=0.481x    
+frame= 1927 fps= 12 q=28.0 size=N/A time=00:01:20.36 bitrate=N/A speed=0.48x    
+frame= 1932 fps= 12 q=28.0 size=N/A time=00:01:20.57 bitrate=N/A speed=0.48x    
+frame= 1939 fps= 12 q=28.0 size=N/A time=00:01:20.85 bitrate=N/A speed=0.48x    
+frame= 1945 fps= 11 q=28.0 size=N/A time=00:01:21.10 bitrate=N/A speed=0.48x    
+frame= 1954 fps= 12 q=28.0 size=N/A time=00:01:21.47 bitrate=N/A speed=0.48x    
+frame= 1959 fps= 12 q=25.0 size=N/A time=00:01:21.68 bitrate=N/A speed=0.48x    
+[hls @ 0x5592241ed0] Opening '/config/data/transcodes/db1b5ec016fd59e4fc8b361d8989d47026.ts' for writing
+frame= 1964 fps= 11 q=28.0 size=N/A time=00:01:21.89 bitrate=N/A speed=0.479x    
+frame= 1969 fps= 11 q=28.0 size=N/A time=00:01:22.11 bitrate=N/A speed=0.479x    
+frame= 1976 fps= 11 q=28.0 size=N/A time=00:01:22.41 bitrate=N/A speed=0.478x    
+frame= 1981 fps= 11 q=28.0 size=N/A time=00:01:22.60 bitrate=N/A speed=0.478x    
+frame= 1987 fps= 11 q=28.0 size=N/A time=00:01:22.85 bitrate=N/A speed=0.477x    
+frame= 1993 fps= 11 q=28.0 size=N/A time=00:01:23.11 bitrate=N/A speed=0.477x    
+frame= 1997 fps= 11 q=28.0 size=N/A time=00:01:23.28 bitrate=N/A speed=0.477x    
+frame= 2001 fps= 11 q=28.0 size=N/A time=00:01:23.43 bitrate=N/A speed=0.476x    
+frame= 2008 fps= 11 q=28.0 size=N/A time=00:01:23.73 bitrate=N/A speed=0.476x    
+frame= 2013 fps= 11 q=28.0 size=N/A time=00:01:23.94 bitrate=N/A speed=0.476x    
+frame= 2018 fps= 11 q=28.0 size=N/A time=00:01:24.16 bitrate=N/A speed=0.475x    
+frame= 2024 fps= 11 q=28.0 size=N/A time=00:01:24.39 bitrate=N/A speed=0.475x    
+frame= 2026 fps= 11 q=28.0 size=N/A time=00:01:24.48 bitrate=N/A speed=0.474x    
+[hls @ 0x5592241ed0] Opening '/config/data/transcodes/db1b5ec016fd59e4fc8b361d8989d47027.ts' for writing
+frame= 2035 fps= 11 q=28.0 size=N/A time=00:01:24.86 bitrate=N/A speed=0.474x    
+frame= 2040 fps= 11 q=28.0 size=N/A time=00:01:25.09 bitrate=N/A speed=0.474x    
+frame= 2045 fps= 11 q=28.0 size=N/A time=00:01:25.26 bitrate=N/A speed=0.473x    
+frame= 2052 fps= 11 q=28.0 size=N/A time=00:01:25.56 bitrate=N/A speed=0.473x    
+frame= 2059 fps= 11 q=28.0 size=N/A time=00:01:25.86 bitrate=N/A speed=0.473x    
+frame= 2064 fps= 11 q=28.0 size=N/A time=00:01:26.08 bitrate=N/A speed=0.473x    
+frame= 2069 fps= 11 q=28.0 size=N/A time=00:01:26.27 bitrate=N/A speed=0.472x    
+frame= 2073 fps= 11 q=28.0 size=N/A time=00:01:26.44 bitrate=N/A speed=0.472x    
+frame= 2079 fps= 11 q=28.0 size=N/A time=00:01:26.69 bitrate=N/A speed=0.471x    
+frame= 2085 fps= 11 q=28.0 size=N/A time=00:01:26.95 bitrate=N/A speed=0.471x    
+frame= 2092 fps= 11 q=28.0 size=N/A time=00:01:27.23 bitrate=N/A speed=0.471x    
+frame= 2097 fps= 11 q=28.0 size=N/A time=00:01:27.44 bitrate=N/A speed=0.47x    
+frame= 2104 fps= 11 q=28.0 size=N/A time=00:01:27.74 bitrate=N/A speed=0.47x    
+[hls @ 0x5592241ed0] Opening '/config/data/transcodes/db1b5ec016fd59e4fc8b361d8989d47028.ts' for writing
+frame= 2110 fps= 11 q=28.0 size=N/A time=00:01:28.00 bitrate=N/A speed=0.47x    
+frame= 2113 fps= 11 q=28.0 size=N/A time=00:01:28.10 bitrate=N/A speed=0.469x    
+frame= 2117 fps= 11 q=28.0 size=N/A time=00:01:28.27 bitrate=N/A speed=0.468x    
+frame= 2122 fps= 11 q=28.0 size=N/A time=00:01:28.49 bitrate=N/A speed=0.468x    
+frame= 2127 fps= 11 q=28.0 size=N/A time=00:01:28.70 bitrate=N/A speed=0.468x    
+frame= 2130 fps= 11 q=28.0 size=N/A time=00:01:28.83 bitrate=N/A speed=0.467x    
+frame= 2137 fps= 11 q=28.0 size=N/A time=00:01:29.10 bitrate=N/A speed=0.467x    
+frame= 2143 fps= 11 q=28.0 size=N/A time=00:01:29.38 bitrate=N/A speed=0.467x    
+frame= 2149 fps= 11 q=28.0 size=N/A time=00:01:29.62 bitrate=N/A speed=0.467x    
+frame= 2155 fps= 11 q=28.0 size=N/A time=00:01:29.87 bitrate=N/A speed=0.467x    
+frame= 2159 fps= 11 q=28.0 size=N/A time=00:01:30.02 bitrate=N/A speed=0.467x    
+frame= 2168 fps= 11 q=28.0 size=N/A time=00:01:30.41 bitrate=N/A speed=0.467x    
+frame= 2174 fps= 11 q=25.0 size=N/A time=00:01:30.66 bitrate=N/A speed=0.467x    
+[hls @ 0x5592241ed0] Opening '/config/data/transcodes/db1b5ec016fd59e4fc8b361d8989d47029.ts' for writing
+frame= 2182 fps= 11 q=28.0 size=N/A time=00:01:30.98 bitrate=N/A speed=0.467x    
+frame= 2187 fps= 11 q=28.0 size=N/A time=00:01:31.20 bitrate=N/A speed=0.467x    
+frame= 2193 fps= 11 q=28.0 size=N/A time=00:01:31.45 bitrate=N/A speed=0.467x    
+frame= 2200 fps= 11 q=28.0 size=N/A time=00:01:31.75 bitrate=N/A speed=0.467x    
+frame= 2207 fps= 11 q=28.0 size=N/A time=00:01:32.03 bitrate=N/A speed=0.467x    
+frame= 2214 fps= 11 q=28.0 size=N/A time=00:01:32.33 bitrate=N/A speed=0.468x    
+frame= 2221 fps= 11 q=28.0 size=N/A time=00:01:32.62 bitrate=N/A speed=0.468x    
+frame= 2228 fps= 11 q=28.0 size=N/A time=00:01:32.90 bitrate=N/A speed=0.468x    
+frame= 2236 fps= 11 q=28.0 size=N/A time=00:01:33.24 bitrate=N/A speed=0.468x    
+frame= 2243 fps= 11 q=28.0 size=N/A time=00:01:33.54 bitrate=N/A speed=0.468x    
+frame= 2249 fps= 11 q=28.0 size=N/A time=00:01:33.78 bitrate=N/A speed=0.468x    
+[hls @ 0x5592241ed0] Opening '/config/data/transcodes/db1b5ec016fd59e4fc8b361d8989d47030.ts' for writing
+frame= 2253 fps= 11 q=28.0 size=N/A time=00:01:33.95 bitrate=N/A speed=0.467x    
+frame= 2260 fps= 11 q=28.0 size=N/A time=00:01:34.25 bitrate=N/A speed=0.468x    
+frame= 2265 fps= 11 q=28.0 size=N/A time=00:01:34.46 bitrate=N/A speed=0.468x    
+frame= 2269 fps= 11 q=28.0 size=N/A time=00:01:34.61 bitrate=N/A speed=0.467x    
+frame= 2277 fps= 11 q=28.0 size=N/A time=00:01:34.95 bitrate=N/A speed=0.467x    
+frame= 2284 fps= 11 q=28.0 size=N/A time=00:01:35.25 bitrate=N/A speed=0.467x    
+frame= 2292 fps= 11 q=28.0 size=N/A time=00:01:35.57 bitrate=N/A speed=0.467x    
+frame= 2299 fps= 11 q=28.0 size=N/A time=00:01:35.87 bitrate=N/A speed=0.468x    
+frame= 2307 fps= 11 q=28.0 size=N/A time=00:01:36.21 bitrate=N/A speed=0.468x    
+frame= 2312 fps= 11 q=28.0 size=N/A time=00:01:36.42 bitrate=N/A speed=0.468x    
+frame= 2317 fps= 11 q=28.0 size=N/A time=00:01:36.61 bitrate=N/A speed=0.467x    
+[hls @ 0x5592241ed0] Opening '/config/data/transcodes/db1b5ec016fd59e4fc8b361d8989d47031.ts' for writing
+frame= 2323 fps= 11 q=28.0 size=N/A time=00:01:36.87 bitrate=N/A speed=0.467x    
+frame= 2331 fps= 11 q=28.0 size=N/A time=00:01:37.21 bitrate=N/A speed=0.468x    
+frame= 2337 fps= 11 q=28.0 size=N/A time=00:01:37.45 bitrate=N/A speed=0.468x    
+frame= 2341 fps= 11 q=28.0 size=N/A time=00:01:37.62 bitrate=N/A speed=0.467x    
+frame= 2349 fps= 11 q=28.0 size=N/A time=00:01:37.98 bitrate=N/A speed=0.468x    
+frame= 2355 fps= 11 q=28.0 size=N/A time=00:01:38.21 bitrate=N/A speed=0.468x    
+frame= 2360 fps= 11 q=28.0 size=N/A time=00:01:38.41 bitrate=N/A speed=0.467x    
+frame= 2367 fps= 11 q=28.0 size=N/A time=00:01:38.70 bitrate=N/A speed=0.467x    
+frame= 2375 fps= 11 q=28.0 size=N/A time=00:01:39.05 bitrate=N/A speed=0.468x    
+frame= 2379 fps= 11 q=28.0 size=N/A time=00:01:39.20 bitrate=N/A speed=0.467x    
+frame= 2387 fps= 11 q=28.0 size=N/A time=00:01:39.56 bitrate=N/A speed=0.468x    
+frame= 2392 fps= 11 q=28.0 size=N/A time=00:01:39.75 bitrate=N/A speed=0.468x    
+[hls @ 0x5592241ed0] Opening '/config/data/transcodes/db1b5ec016fd59e4fc8b361d8989d47032.ts' for writing
+frame= 2396 fps= 11 q=28.0 size=N/A time=00:01:39.92 bitrate=N/A speed=0.467x    
+frame= 2408 fps= 11 q=28.0 size=N/A time=00:01:40.41 bitrate=N/A speed=0.468x    
+frame= 2415 fps= 11 q=28.0 size=N/A time=00:01:40.71 bitrate=N/A speed=0.468x    
+frame= 2424 fps= 11 q=28.0 size=N/A time=00:01:41.07 bitrate=N/A speed=0.469x    
+frame= 2430 fps= 11 q=28.0 size=N/A time=00:01:41.33 bitrate=N/A speed=0.469x    
+frame= 2438 fps= 11 q=28.0 size=N/A time=00:01:41.67 bitrate=N/A speed=0.469x    
+frame= 2445 fps= 11 q=28.0 size=N/A time=00:01:41.97 bitrate=N/A speed=0.469x    
+frame= 2453 fps= 11 q=28.0 size=N/A time=00:01:42.29 bitrate=N/A speed=0.47x    
+frame= 2460 fps= 11 q=28.0 size=N/A time=00:01:42.59 bitrate=N/A speed=0.47x    
+[hls @ 0x5592241ed0] Opening '/config/data/transcodes/db1b5ec016fd59e4fc8b361d8989d47033.ts' for writing
+frame= 2467 fps= 11 q=28.0 size=N/A time=00:01:42.89 bitrate=N/A speed=0.47x    
+frame= 2474 fps= 11 q=28.0 size=N/A time=00:01:43.16 bitrate=N/A speed=0.47x    
+frame= 2479 fps= 11 q=28.0 size=N/A time=00:01:43.38 bitrate=N/A speed=0.47x    
+frame= 2485 fps= 11 q=28.0 size=N/A time=00:01:43.63 bitrate=N/A speed=0.47x    
+frame= 2492 fps= 11 q=28.0 size=N/A time=00:01:43.91 bitrate=N/A speed=0.47x    
+frame= 2499 fps= 11 q=28.0 size=N/A time=00:01:44.21 bitrate=N/A speed=0.47x    
+frame= 2506 fps= 11 q=28.0 size=N/A time=00:01:44.51 bitrate=N/A speed=0.47x    
+frame= 2513 fps= 11 q=28.0 size=N/A time=00:01:44.78 bitrate=N/A speed=0.47x    
+frame= 2520 fps= 11 q=28.0 size=N/A time=00:01:45.08 bitrate=N/A speed=0.47x    
+frame= 2524 fps= 11 q=28.0 size=N/A time=00:01:45.25 bitrate=N/A speed=0.47x    
+frame= 2531 fps= 11 q=28.0 size=N/A time=00:01:45.55 bitrate=N/A speed=0.47x    
+frame= 2538 fps= 11 q=28.0 size=N/A time=00:01:45.83 bitrate=N/A speed=0.47x    
+[hls @ 0x5592241ed0] Opening '/config/data/transcodes/db1b5ec016fd59e4fc8b361d8989d47034.ts' for writing
+frame= 2547 fps= 11 q=28.0 size=N/A time=00:01:46.21 bitrate=N/A speed=0.471x    
+frame= 2553 fps= 11 q=28.0 size=N/A time=00:01:46.47 bitrate=N/A speed=0.471x    
+frame= 2560 fps= 11 q=28.0 size=N/A time=00:01:46.75 bitrate=N/A speed=0.471x    
+frame= 2568 fps= 11 q=28.0 size=N/A time=00:01:47.09 bitrate=N/A speed=0.471x    
+frame= 2577 fps= 11 q=28.0 size=N/A time=00:01:47.47 bitrate=N/A speed=0.472x    
+frame= 2584 fps= 11 q=28.0 size=N/A time=00:01:47.75 bitrate=N/A speed=0.472x    
+frame= 2593 fps= 11 q=28.0 size=N/A time=00:01:48.13 bitrate=N/A speed=0.472x    
+frame= 2600 fps= 11 q=28.0 size=N/A time=00:01:48.43 bitrate=N/A speed=0.473x    
+frame= 2609 fps= 11 q=28.0 size=N/A time=00:01:48.80 bitrate=N/A speed=0.473x    
+[hls @ 0x5592241ed0] Opening '/config/data/transcodes/db1b5ec016fd59e4fc8b361d8989d47035.ts' for writing
+frame= 2611 fps= 11 q=28.0 size=N/A time=00:01:48.88 bitrate=N/A speed=0.472x    
+frame= 2617 fps= 11 q=28.0 size=N/A time=00:01:49.14 bitrate=N/A speed=0.472x    
+frame= 2625 fps= 11 q=28.0 size=N/A time=00:01:49.46 bitrate=N/A speed=0.473x    
+frame= 2630 fps= 11 q=28.0 size=N/A time=00:01:49.67 bitrate=N/A speed=0.472x    
+frame= 2636 fps= 11 q=28.0 size=N/A time=00:01:49.93 bitrate=N/A speed=0.472x    
+frame= 2642 fps= 11 q=28.0 size=N/A time=00:01:50.18 bitrate=N/A speed=0.472x    
+frame= 2649 fps= 11 q=28.0 size=N/A time=00:01:50.46 bitrate=N/A speed=0.472x    
+frame= 2656 fps= 11 q=28.0 size=N/A time=00:01:50.76 bitrate=N/A speed=0.472x    
+frame= 2662 fps= 11 q=28.0 size=N/A time=00:01:51.01 bitrate=N/A speed=0.472x    
+frame= 2667 fps= 11 q=28.0 size=N/A time=00:01:51.23 bitrate=N/A speed=0.472x    
+frame= 2672 fps= 11 q=28.0 size=N/A time=00:01:51.42 bitrate=N/A speed=0.471x    
+frame= 2678 fps= 11 q=25.0 size=N/A time=00:01:51.68 bitrate=N/A speed=0.471x    
+[hls @ 0x5592241ed0] Opening '/config/data/transcodes/db1b5ec016fd59e4fc8b361d8989d47036.ts' for writing
+frame= 2684 fps= 11 q=28.0 size=N/A time=00:01:51.93 bitrate=N/A speed=0.471x    
+frame= 2689 fps= 11 q=28.0 size=N/A time=00:01:52.14 bitrate=N/A speed=0.471x    
+frame= 2698 fps= 11 q=28.0 size=N/A time=00:01:52.51 bitrate=N/A speed=0.471x    
+frame= 2702 fps= 11 q=28.0 size=N/A time=00:01:52.68 bitrate=N/A speed=0.471x    
+frame= 2709 fps= 11 q=28.0 size=N/A time=00:01:52.98 bitrate=N/A speed=0.471x    
+frame= 2714 fps= 11 q=28.0 size=N/A time=00:01:53.17 bitrate=N/A speed=0.471x    
+frame= 2721 fps= 11 q=28.0 size=N/A time=00:01:53.47 bitrate=N/A speed=0.471x    
+frame= 2727 fps= 11 q=28.0 size=N/A time=00:01:53.72 bitrate=N/A speed=0.471x    
+frame= 2733 fps= 11 q=28.0 size=N/A time=00:01:53.98 bitrate=N/A speed=0.471x    
+frame= 2741 fps= 11 q=28.0 size=N/A time=00:01:54.30 bitrate=N/A speed=0.471x    
+frame= 2745 fps= 11 q=28.0 size=N/A time=00:01:54.47 bitrate=N/A speed=0.471x    
+frame= 2751 fps= 11 q=28.0 size=N/A time=00:01:54.73 bitrate=N/A speed=0.471x    
+[hls @ 0x5592241ed0] Opening '/config/data/transcodes/db1b5ec016fd59e4fc8b361d8989d47037.ts' for writing
+frame= 2756 fps= 11 q=28.0 size=N/A time=00:01:54.96 bitrate=N/A speed=0.471x    
+frame= 2764 fps= 11 q=28.0 size=N/A time=00:01:55.26 bitrate=N/A speed=0.471x    
+frame= 2772 fps= 11 q=28.0 size=N/A time=00:01:55.60 bitrate=N/A speed=0.471x    
+frame= 2776 fps= 11 q=28.0 size=N/A time=00:01:55.77 bitrate=N/A speed=0.471x    
+frame= 2785 fps= 11 q=28.0 size=N/A time=00:01:56.13 bitrate=N/A speed=0.471x    
+frame= 2791 fps= 11 q=28.0 size=N/A time=00:01:56.39 bitrate=N/A speed=0.471x    
+frame= 2796 fps= 11 q=28.0 size=N/A time=00:01:56.60 bitrate=N/A speed=0.471x    
+frame= 2803 fps= 11 q=28.0 size=N/A time=00:01:56.88 bitrate=N/A speed=0.471x    
+frame= 2807 fps= 11 q=28.0 size=N/A time=00:01:57.05 bitrate=N/A speed=0.471x    
+frame= 2814 fps= 11 q=28.0 size=N/A time=00:01:57.35 bitrate=N/A speed=0.471x    
+frame= 2820 fps= 11 q=28.0 size=N/A time=00:01:57.61 bitrate=N/A speed=0.471x    
+[hls @ 0x5592241ed0] Opening '/config/data/transcodes/db1b5ec016fd59e4fc8b361d8989d47038.ts' for writing
+frame= 2827 fps= 11 q=28.0 size=N/A time=00:01:57.88 bitrate=N/A speed=0.471x    
+frame= 2834 fps= 11 q=28.0 size=N/A time=00:01:58.18 bitrate=N/A speed=0.471x    
+frame= 2838 fps= 11 q=28.0 size=N/A time=00:01:58.35 bitrate=N/A speed=0.47x    
+frame= 2846 fps= 11 q=28.0 size=N/A time=00:01:58.69 bitrate=N/A speed=0.471x    
+frame= 2852 fps= 11 q=28.0 size=N/A time=00:01:58.93 bitrate=N/A speed=0.471x    
+frame= 2857 fps= 11 q=28.0 size=N/A time=00:01:59.14 bitrate=N/A speed=0.471x    
+frame= 2863 fps= 11 q=28.0 size=N/A time=00:01:59.40 bitrate=N/A speed=0.471x    
+frame= 2870 fps= 11 q=28.0 size=N/A time=00:01:59.68 bitrate=N/A speed=0.471x    
+frame= 2875 fps= 11 q=28.0 size=N/A time=00:01:59.89 bitrate=N/A speed=0.471x    
+frame= 2884 fps= 11 q=28.0 size=N/A time=00:02:00.27 bitrate=N/A speed=0.471x    
+frame= 2889 fps= 11 q=28.0 size=N/A time=00:02:00.49 bitrate=N/A speed=0.471x    
+frame= 2897 fps= 11 q=28.0 size=N/A time=00:02:00.81 bitrate=N/A speed=0.471x    
+[hls @ 0x5592241ed0] Opening '/config/data/transcodes/db1b5ec016fd59e4fc8b361d8989d47039.ts' for writing
+frame= 2899 fps= 11 q=28.0 size=N/A time=00:02:00.89 bitrate=N/A speed=0.471x    
+frame= 2907 fps= 11 q=28.0 size=N/A time=00:02:01.23 bitrate=N/A speed=0.471x    
+frame= 2913 fps= 11 q=28.0 size=N/A time=00:02:01.49 bitrate=N/A speed=0.471x    
+frame= 2918 fps= 11 q=28.0 size=N/A time=00:02:01.68 bitrate=N/A speed=0.471x    
+frame= 2927 fps= 11 q=28.0 size=N/A time=00:02:02.06 bitrate=N/A speed=0.471x    
+frame= 2930 fps= 11 q=28.0 size=N/A time=00:02:02.19 bitrate=N/A speed=0.471x    
+frame= 2937 fps= 11 q=28.0 size=N/A time=00:02:02.47 bitrate=N/A speed=0.471x    
+frame= 2943 fps= 11 q=28.0 size=N/A time=00:02:02.73 bitrate=N/A speed=0.471x    
+frame= 2949 fps= 11 q=28.0 size=N/A time=00:02:02.98 bitrate=N/A speed=0.471x    
+frame= 2956 fps= 11 q=28.0 size=N/A time=00:02:03.28 bitrate=N/A speed=0.471x    
+frame= 2961 fps= 11 q=28.0 size=N/A time=00:02:03.47 bitrate=N/A speed=0.471x    
+frame= 2969 fps= 11 q=28.0 size=N/A time=00:02:03.81 bitrate=N/A speed=0.471x    
+[hls @ 0x5592241ed0] Opening '/config/data/transcodes/db1b5ec016fd59e4fc8b361d8989d47040.ts' for writing
+frame= 2976 fps= 11 q=28.0 size=N/A time=00:02:04.11 bitrate=N/A speed=0.471x    
+frame= 2982 fps= 11 q=28.0 size=N/A time=00:02:04.35 bitrate=N/A speed=0.471x    
+frame= 2989 fps= 11 q=28.0 size=N/A time=00:02:04.65 bitrate=N/A speed=0.471x    
+frame= 2995 fps= 11 q=28.0 size=N/A time=00:02:04.90 bitrate=N/A speed=0.471x    
+frame= 3002 fps= 11 q=28.0 size=N/A time=00:02:05.20 bitrate=N/A speed=0.471x    
+frame= 3011 fps= 11 q=28.0 size=N/A time=00:02:05.56 bitrate=N/A speed=0.472x    
+frame= 3014 fps= 11 q=28.0 size=N/A time=00:02:05.69 bitrate=N/A speed=0.471x    
+frame= 3023 fps= 11 q=28.0 size=N/A time=00:02:06.08 bitrate=N/A speed=0.472x    
+frame= 3029 fps= 11 q=28.0 size=N/A time=00:02:06.31 bitrate=N/A speed=0.471x    
+frame= 3037 fps= 11 q=25.0 size=N/A time=00:02:06.65 bitrate=N/A speed=0.472x    
+[hls @ 0x5592241ed0] Opening '/config/data/transcodes/db1b5ec016fd59e4fc8b361d8989d47041.ts' for writing
+frame= 3042 fps= 11 q=28.0 size=N/A time=00:02:06.86 bitrate=N/A speed=0.471x    
+frame= 3049 fps= 11 q=28.0 size=N/A time=00:02:07.14 bitrate=N/A speed=0.471x    
+frame= 3056 fps= 11 q=28.0 size=N/A time=00:02:07.44 bitrate=N/A speed=0.471x    
+frame= 3062 fps= 11 q=28.0 size=N/A time=00:02:07.70 bitrate=N/A speed=0.471x    
+frame= 3068 fps= 11 q=28.0 size=N/A time=00:02:07.95 bitrate=N/A speed=0.471x    
+frame= 3074 fps= 11 q=28.0 size=N/A time=00:02:08.19 bitrate=N/A speed=0.471x    
+frame= 3081 fps= 11 q=28.0 size=N/A time=00:02:08.51 bitrate=N/A speed=0.471x    
+frame= 3085 fps= 11 q=28.0 size=N/A time=00:02:08.66 bitrate=N/A speed=0.471x    
+frame= 3092 fps= 11 q=28.0 size=N/A time=00:02:08.93 bitrate=N/A speed=0.471x    
+frame= 3097 fps= 11 q=28.0 size=N/A time=00:02:09.15 bitrate=N/A speed=0.471x    
+frame= 3102 fps= 11 q=28.0 size=N/A time=00:02:09.36 bitrate=N/A speed=0.47x    
+frame= 3109 fps= 11 q=25.0 size=N/A time=00:02:09.66 bitrate=N/A speed=0.47x    
+[hls @ 0x5592241ed0] Opening '/config/data/transcodes/db1b5ec016fd59e4fc8b361d8989d47042.ts' for writing
+frame= 3116 fps= 11 q=28.0 size=N/A time=00:02:09.94 bitrate=N/A speed=0.47x    
+frame= 3122 fps= 11 q=28.0 size=N/A time=00:02:10.19 bitrate=N/A speed=0.47x    
+frame= 3128 fps= 11 q=28.0 size=N/A time=00:02:10.45 bitrate=N/A speed=0.47x    
+frame= 3134 fps= 11 q=28.0 size=N/A time=00:02:10.70 bitrate=N/A speed=0.47x    
+frame= 3142 fps= 11 q=28.0 size=N/A time=00:02:11.02 bitrate=N/A speed=0.47x    
+frame= 3150 fps= 11 q=28.0 size=N/A time=00:02:11.37 bitrate=N/A speed=0.47x    
+frame= 3157 fps= 11 q=28.0 size=N/A time=00:02:11.66 bitrate=N/A speed=0.47x    
+frame= 3163 fps= 11 q=28.0 size=N/A time=00:02:11.90 bitrate=N/A speed=0.47x    
+frame= 3170 fps= 11 q=28.0 size=N/A time=00:02:12.20 bitrate=N/A speed=0.47x    
+frame= 3176 fps= 11 q=28.0 size=N/A time=00:02:12.45 bitrate=N/A speed=0.47x    
+frame= 3182 fps= 11 q=28.0 size=N/A time=00:02:12.69 bitrate=N/A speed=0.47x    
+[hls @ 0x5592241ed0] Opening '/config/data/transcodes/db1b5ec016fd59e4fc8b361d8989d47043.ts' for writing
+frame= 3186 fps= 11 q=28.0 size=N/A time=00:02:12.86 bitrate=N/A speed=0.47x    
+frame= 3192 fps= 11 q=28.0 size=N/A time=00:02:13.12 bitrate=N/A speed=0.47x    
+frame= 3198 fps= 11 q=28.0 size=N/A time=00:02:13.37 bitrate=N/A speed=0.47x    
+frame= 3204 fps= 11 q=28.0 size=N/A time=00:02:13.61 bitrate=N/A speed=0.47x    
+frame= 3212 fps= 11 q=28.0 size=N/A time=00:02:13.95 bitrate=N/A speed=0.47x    
+frame= 3221 fps= 11 q=28.0 size=N/A time=00:02:14.33 bitrate=N/A speed=0.47x    
+frame= 3228 fps= 11 q=28.0 size=N/A time=00:02:14.61 bitrate=N/A speed=0.47x    
+frame= 3235 fps= 11 q=28.0 size=N/A time=00:02:14.91 bitrate=N/A speed=0.47x    
+frame= 3240 fps= 11 q=28.0 size=N/A time=00:02:15.12 bitrate=N/A speed=0.47x    
+frame= 3248 fps= 11 q=28.0 size=N/A time=00:02:15.44 bitrate=N/A speed=0.471x    
+frame= 3252 fps= 11 q=28.0 size=N/A time=00:02:15.61 bitrate=N/A speed=0.47x    
+[hls @ 0x5592241ed0] Opening '/config/data/transcodes/db1b5ec016fd59e4fc8b361d8989d47044.ts' for writing
+frame= 3260 fps= 11 q=28.0 size=N/A time=00:02:15.95 bitrate=N/A speed=0.47x    
+frame= 3268 fps= 11 q=28.0 size=N/A time=00:02:16.29 bitrate=N/A speed=0.471x    
+frame= 3276 fps= 11 q=28.0 size=N/A time=00:02:16.61 bitrate=N/A speed=0.471x    
+frame= 3284 fps= 11 q=28.0 size=N/A time=00:02:16.96 bitrate=N/A speed=0.471x    
+frame= 3290 fps= 11 q=28.0 size=N/A time=00:02:17.21 bitrate=N/A speed=0.471x    
+frame= 3297 fps= 11 q=28.0 size=N/A time=00:02:17.49 bitrate=N/A speed=0.471x    
+frame= 3303 fps= 11 q=28.0 size=N/A time=00:02:17.74 bitrate=N/A speed=0.472x    
+frame= 3313 fps= 11 q=28.0 size=N/A time=00:02:18.17 bitrate=N/A speed=0.472x    
+frame= 3320 fps= 11 q=28.0 size=N/A time=00:02:18.45 bitrate=N/A speed=0.472x    
+frame= 3329 fps= 11 q=28.0 size=N/A time=00:02:18.83 bitrate=N/A speed=0.472x    
+[hls @ 0x5592241ed0] Opening '/config/data/transcodes/db1b5ec016fd59e4fc8b361d8989d47045.ts' for writing
+frame= 3331 fps= 11 q=28.0 size=N/A time=00:02:18.92 bitrate=N/A speed=0.472x    
+frame= 3336 fps= 11 q=28.0 size=N/A time=00:02:19.13 bitrate=N/A speed=0.472x    
+frame= 3345 fps= 11 q=28.0 size=N/A time=00:02:19.49 bitrate=N/A speed=0.472x    
+frame= 3352 fps= 11 q=28.0 size=N/A time=00:02:19.79 bitrate=N/A speed=0.472x    
+frame= 3358 fps= 11 q=28.0 size=N/A time=00:02:20.05 bitrate=N/A speed=0.472x    
+frame= 3364 fps= 11 q=28.0 size=N/A time=00:02:20.28 bitrate=N/A speed=0.472x    
+frame= 3367 fps= 11 q=28.0 size=N/A time=00:02:20.41 bitrate=N/A speed=0.472x    
+frame= 3373 fps= 11 q=28.0 size=N/A time=00:02:20.67 bitrate=N/A speed=0.471x    
+frame= 3377 fps= 11 q=28.0 size=N/A time=00:02:20.84 bitrate=N/A speed=0.471x    
+frame= 3384 fps= 11 q=28.0 size=N/A time=00:02:21.12 bitrate=N/A speed=0.471x    
+frame= 3390 fps= 11 q=28.0 size=N/A time=00:02:21.37 bitrate=N/A speed=0.471x    
+frame= 3397 fps= 11 q=25.0 size=N/A time=00:02:21.67 bitrate=N/A speed=0.471x    
+[hls @ 0x5592241ed0] Opening '/config/data/transcodes/db1b5ec016fd59e4fc8b361d8989d47046.ts' for writing
+frame= 3403 fps= 11 q=28.0 size=N/A time=00:02:21.90 bitrate=N/A speed=0.471x    
+frame= 3411 fps= 11 q=28.0 size=N/A time=00:02:22.25 bitrate=N/A speed=0.471x    
+frame= 3419 fps= 11 q=28.0 size=N/A time=00:02:22.61 bitrate=N/A speed=0.471x    
+frame= 3427 fps= 11 q=28.0 size=N/A time=00:02:22.91 bitrate=N/A speed=0.471x    
+frame= 3432 fps= 11 q=28.0 size=N/A time=00:02:23.12 bitrate=N/A speed=0.471x    
+frame= 3441 fps= 11 q=28.0 size=N/A time=00:02:23.50 bitrate=N/A speed=0.471x    
+frame= 3446 fps= 11 q=28.0 size=N/A time=00:02:23.72 bitrate=N/A speed=0.471x    
+frame= 3452 fps= 11 q=28.0 size=N/A time=00:02:23.95 bitrate=N/A speed=0.471x    
+frame= 3460 fps= 11 q=28.0 size=N/A time=00:02:24.29 bitrate=N/A speed=0.471x    
+frame= 3468 fps= 11 q=28.0 size=N/A time=00:02:24.64 bitrate=N/A speed=0.471x    
+[hls @ 0x5592241ed0] Opening '/config/data/transcodes/db1b5ec016fd59e4fc8b361d8989d47047.ts' for writing
+frame= 3474 fps= 11 q=28.0 size=N/A time=00:02:24.87 bitrate=N/A speed=0.471x    
+frame= 3485 fps= 11 q=28.0 size=N/A time=00:02:25.32 bitrate=N/A speed=0.472x    
+frame= 3493 fps= 11 q=28.0 size=N/A time=00:02:25.66 bitrate=N/A speed=0.472x    
+frame= 3499 fps= 11 q=28.0 size=N/A time=00:02:25.92 bitrate=N/A speed=0.472x    
+frame= 3505 fps= 11 q=28.0 size=N/A time=00:02:26.17 bitrate=N/A speed=0.472x    
+frame= 3512 fps= 11 q=28.0 size=N/A time=00:02:26.47 bitrate=N/A speed=0.472x    
+frame= 3515 fps= 11 q=28.0 size=N/A time=00:02:26.60 bitrate=N/A speed=0.472x    
+frame= 3522 fps= 11 q=28.0 size=N/A time=00:02:26.88 bitrate=N/A speed=0.472x    
+frame= 3528 fps= 11 q=28.0 size=N/A time=00:02:27.13 bitrate=N/A speed=0.472x    
+frame= 3532 fps= 11 q=28.0 size=N/A time=00:02:27.30 bitrate=N/A speed=0.472x    
+frame= 3540 fps= 11 q=28.0 size=N/A time=00:02:27.62 bitrate=N/A speed=0.472x    
+frame= 3544 fps= 11 q=28.0 size=N/A time=00:02:27.79 bitrate=N/A speed=0.471x    
+[hls @ 0x5592241ed0] Opening '/config/data/transcodes/db1b5ec016fd59e4fc8b361d8989d47048.ts' for writing
+frame= 3550 fps= 11 q=28.0 size=N/A time=00:02:28.05 bitrate=N/A speed=0.471x    
+frame= 3556 fps= 11 q=28.0 size=N/A time=00:02:28.30 bitrate=N/A speed=0.471x    
+frame= 3560 fps= 11 q=28.0 size=N/A time=00:02:28.45 bitrate=N/A speed=0.471x    
+frame= 3566 fps= 11 q=28.0 size=N/A time=00:02:28.71 bitrate=N/A speed=0.471x    
+frame= 3571 fps= 11 q=28.0 size=N/A time=00:02:28.92 bitrate=N/A speed=0.471x    
+frame= 3578 fps= 11 q=28.0 size=N/A time=00:02:29.22 bitrate=N/A speed=0.471x    
+frame= 3585 fps= 11 q=28.0 size=N/A time=00:02:29.48 bitrate=N/A speed=0.471x    
+frame= 3590 fps= 11 q=28.0 size=N/A time=00:02:29.71 bitrate=N/A speed=0.471x    
+frame= 3596 fps= 11 q=28.0 size=N/A time=00:02:29.97 bitrate=N/A speed=0.471x    
+frame= 3605 fps= 11 q=28.0 size=N/A time=00:02:30.31 bitrate=N/A speed=0.471x    
+frame= 3609 fps= 11 q=28.0 size=N/A time=00:02:30.50 bitrate=N/A speed=0.471x    
+frame= 3616 fps= 11 q=28.0 size=N/A time=00:02:30.80 bitrate=N/A speed=0.471x    
+[hls @ 0x5592241ed0] Opening '/config/data/transcodes/db1b5ec016fd59e4fc8b361d8989d47049.ts' for writing
+frame= 3622 fps= 11 q=28.0 size=N/A time=00:02:31.06 bitrate=N/A speed=0.471x    
+frame= 3628 fps= 11 q=28.0 size=N/A time=00:02:31.29 bitrate=N/A speed=0.47x    
+frame= 3634 fps= 11 q=28.0 size=N/A time=00:02:31.55 bitrate=N/A speed=0.47x    
+frame= 3641 fps= 11 q=28.0 size=N/A time=00:02:31.85 bitrate=N/A speed=0.47x    
+frame= 3647 fps= 11 q=28.0 size=N/A time=00:02:32.10 bitrate=N/A speed=0.47x    
+frame= 3654 fps= 11 q=28.0 size=N/A time=00:02:32.38 bitrate=N/A speed=0.47x    
+frame= 3658 fps= 11 q=28.0 size=N/A time=00:02:32.55 bitrate=N/A speed=0.47x    
+frame= 3662 fps= 11 q=28.0 size=N/A time=00:02:32.72 bitrate=N/A speed=0.47x    
+frame= 3668 fps= 11 q=28.0 size=N/A time=00:02:32.98 bitrate=N/A speed=0.469x    
+frame= 3674 fps= 11 q=28.0 size=N/A time=00:02:33.21 bitrate=N/A speed=0.469x    
+frame= 3679 fps= 11 q=28.0 size=N/A time=00:02:33.42 bitrate=N/A speed=0.469x    
+frame= 3687 fps= 11 q=28.0 size=N/A time=00:02:33.77 bitrate=N/A speed=0.469x    
+[hls @ 0x5592241ed0] Opening '/config/data/transcodes/db1b5ec016fd59e4fc8b361d8989d47050.ts' for writing
+frame= 3692 fps= 11 q=28.0 size=N/A time=00:02:33.98 bitrate=N/A speed=0.469x    
+frame= 3697 fps= 11 q=28.0 size=N/A time=00:02:34.17 bitrate=N/A speed=0.469x    
+frame= 3706 fps= 11 q=28.0 size=N/A time=00:02:34.56 bitrate=N/A speed=0.469x    
+frame= 3710 fps= 11 q=28.0 size=N/A time=00:02:34.73 bitrate=N/A speed=0.469x    
+frame= 3717 fps= 11 q=28.0 size=N/A time=00:02:35.00 bitrate=N/A speed=0.469x    
+frame= 3723 fps= 11 q=28.0 size=N/A time=00:02:35.26 bitrate=N/A speed=0.469x    
+frame= 3727 fps= 11 q=28.0 size=N/A time=00:02:35.43 bitrate=N/A speed=0.468x    
+frame= 3735 fps= 11 q=28.0 size=N/A time=00:02:35.77 bitrate=N/A speed=0.468x    
+frame= 3743 fps= 11 q=28.0 size=N/A time=00:02:36.09 bitrate=N/A speed=0.469x    
+frame= 3750 fps= 11 q=28.0 size=N/A time=00:02:36.39 bitrate=N/A speed=0.469x    
+frame= 3756 fps= 11 q=28.0 size=N/A time=00:02:36.65 bitrate=N/A speed=0.469x    
+[hls @ 0x5592241ed0] Opening '/config/data/transcodes/db1b5ec016fd59e4fc8b361d8989d47051.ts' for writing
+frame= 3762 fps= 11 q=28.0 size=N/A time=00:02:36.88 bitrate=N/A speed=0.468x    
+frame= 3769 fps= 11 q=28.0 size=N/A time=00:02:37.18 bitrate=N/A speed=0.469x    
+frame= 3774 fps= 11 q=28.0 size=N/A time=00:02:37.39 bitrate=N/A speed=0.468x    
+frame= 3783 fps= 11 q=28.0 size=N/A time=00:02:37.76 bitrate=N/A speed=0.468x    
+frame= 3791 fps= 11 q=28.0 size=N/A time=00:02:38.10 bitrate=N/A speed=0.468x    
+frame= 3799 fps= 11 q=28.0 size=N/A time=00:02:38.44 bitrate=N/A speed=0.469x    
+frame= 3805 fps= 11 q=28.0 size=N/A time=00:02:38.67 bitrate=N/A speed=0.469x    
+frame= 3813 fps= 11 q=28.0 size=N/A time=00:02:39.01 bitrate=N/A speed=0.469x    
+frame= 3819 fps= 11 q=28.0 size=N/A time=00:02:39.27 bitrate=N/A speed=0.469x    
+frame= 3825 fps= 11 q=28.0 size=N/A time=00:02:39.53 bitrate=N/A speed=0.469x    
+frame= 3830 fps= 11 q=28.0 size=N/A time=00:02:39.72 bitrate=N/A speed=0.469x    
+[hls @ 0x5592241ed0] Opening '/config/data/transcodes/db1b5ec016fd59e4fc8b361d8989d47052.ts' for writing
+frame= 3838 fps= 11 q=28.0 size=N/A time=00:02:40.06 bitrate=N/A speed=0.469x    
+frame= 3846 fps= 11 q=28.0 size=N/A time=00:02:40.40 bitrate=N/A speed=0.469x    
+frame= 3853 fps= 11 q=28.0 size=N/A time=00:02:40.68 bitrate=N/A speed=0.469x    
+frame= 3860 fps= 11 q=28.0 size=N/A time=00:02:40.98 bitrate=N/A speed=0.469x    
+frame= 3864 fps= 11 q=28.0 size=N/A time=00:02:41.15 bitrate=N/A speed=0.469x    
+frame= 3870 fps= 11 q=28.0 size=N/A time=00:02:41.40 bitrate=N/A speed=0.468x    
+frame= 3876 fps= 11 q=28.0 size=N/A time=00:02:41.64 bitrate=N/A speed=0.468x    
+frame= 3882 fps= 11 q=28.0 size=N/A time=00:02:41.89 bitrate=N/A speed=0.468x    
+frame= 3888 fps= 11 q=28.0 size=N/A time=00:02:42.15 bitrate=N/A speed=0.468x    
+frame= 3894 fps= 11 q=28.0 size=N/A time=00:02:42.38 bitrate=N/A speed=0.468x    
+frame= 3899 fps= 11 q=28.0 size=N/A time=00:02:42.60 bitrate=N/A speed=0.468x    
+frame= 3902 fps= 11 q=28.0 size=N/A time=00:02:42.73 bitrate=N/A speed=0.468x    
+[hls @ 0x5592241ed0] Opening '/config/data/transcodes/db1b5ec016fd59e4fc8b361d8989d47053.ts' for writing
+frame= 3910 fps= 11 q=28.0 size=N/A time=00:02:43.07 bitrate=N/A speed=0.468x    
+frame= 3913 fps= 11 q=28.0 size=N/A time=00:02:43.20 bitrate=N/A speed=0.468x    
+frame= 3918 fps= 11 q=28.0 size=N/A time=00:02:43.39 bitrate=N/A speed=0.468x    
+frame= 3921 fps= 11 q=28.0 size=N/A time=00:02:43.52 bitrate=N/A speed=0.467x    
+frame= 3925 fps= 11 q=28.0 size=N/A time=00:02:43.69 bitrate=N/A speed=0.467x    
+frame= 3931 fps= 11 q=28.0 size=N/A time=00:02:43.94 bitrate=N/A speed=0.467x    
+frame= 3941 fps= 11 q=28.0 size=N/A time=00:02:44.35 bitrate=N/A speed=0.467x    
+frame= 3947 fps= 11 q=28.0 size=N/A time=00:02:44.60 bitrate=N/A speed=0.467x    
+frame= 3954 fps= 11 q=28.0 size=N/A time=00:02:44.90 bitrate=N/A speed=0.467x    
+frame= 3961 fps= 11 q=28.0 size=N/A time=00:02:45.18 bitrate=N/A speed=0.467x    
+frame= 3966 fps= 11 q=28.0 size=N/A time=00:02:45.39 bitrate=N/A speed=0.467x    
+frame= 3975 fps= 11 q=28.0 size=N/A time=00:02:45.78 bitrate=N/A speed=0.467x    
+[hls @ 0x5592241ed0] Opening '/config/data/transcodes/db1b5ec016fd59e4fc8b361d8989d47054.ts' for writing
+frame= 3979 fps= 11 q=28.0 size=N/A time=00:02:45.95 bitrate=N/A speed=0.467x    
+frame= 3983 fps= 11 q=28.0 size=N/A time=00:02:46.10 bitrate=N/A speed=0.467x    
+frame= 3989 fps= 11 q=28.0 size=N/A time=00:02:46.35 bitrate=N/A speed=0.467x    
+frame= 3994 fps= 11 q=28.0 size=N/A time=00:02:46.57 bitrate=N/A speed=0.467x    
+frame= 3998 fps= 11 q=28.0 size=N/A time=00:02:46.74 bitrate=N/A speed=0.466x    
+frame= 4003 fps= 11 q=28.0 size=N/A time=00:02:46.95 bitrate=N/A speed=0.466x    
+frame= 4009 fps= 11 q=28.0 size=N/A time=00:02:47.18 bitrate=N/A speed=0.466x    
+frame= 4011 fps= 11 q=28.0 size=N/A time=00:02:47.27 bitrate=N/A speed=0.466x    
+frame= 4017 fps= 11 q=28.0 size=N/A time=00:02:47.53 bitrate=N/A speed=0.465x    
+frame= 4023 fps= 11 q=28.0 size=N/A time=00:02:47.78 bitrate=N/A speed=0.465x    
+frame= 4029 fps= 11 q=28.0 size=N/A time=00:02:48.02 bitrate=N/A speed=0.465x    
+frame= 4034 fps= 11 q=28.0 size=N/A time=00:02:48.21 bitrate=N/A speed=0.465x    
+frame= 4038 fps= 11 q=28.0 size=N/A time=00:02:48.40 bitrate=N/A speed=0.465x    
+frame= 4044 fps= 11 q=25.0 size=N/A time=00:02:48.66 bitrate=N/A speed=0.464x    
+[hls @ 0x5592241ed0] Opening '/config/data/transcodes/db1b5ec016fd59e4fc8b361d8989d47055.ts' for writing
+frame= 4049 fps= 11 q=28.0 size=N/A time=00:02:48.85 bitrate=N/A speed=0.464x    
+frame= 4054 fps= 11 q=28.0 size=N/A time=00:02:49.06 bitrate=N/A speed=0.464x    
+frame= 4060 fps= 11 q=28.0 size=N/A time=00:02:49.32 bitrate=N/A speed=0.464x    
+frame= 4064 fps= 11 q=28.0 size=N/A time=00:02:49.49 bitrate=N/A speed=0.463x    
+frame= 4069 fps= 11 q=28.0 size=N/A time=00:02:49.70 bitrate=N/A speed=0.463x    
+frame= 4075 fps= 11 q=28.0 size=N/A time=00:02:49.94 bitrate=N/A speed=0.463x    
+frame= 4082 fps= 11 q=28.0 size=N/A time=00:02:50.24 bitrate=N/A speed=0.463x    
+frame= 4086 fps= 11 q=28.0 size=N/A time=00:02:50.41 bitrate=N/A speed=0.463x    
+frame= 4090 fps= 11 q=28.0 size=N/A time=00:02:50.58 bitrate=N/A speed=0.463x    
+frame= 4094 fps= 11 q=28.0 size=N/A time=00:02:50.73 bitrate=N/A speed=0.463x    
+frame= 4098 fps= 11 q=28.0 size=N/A time=00:02:50.90 bitrate=N/A speed=0.462x    
+frame= 4105 fps= 11 q=28.0 size=N/A time=00:02:51.20 bitrate=N/A speed=0.462x    
+frame= 4109 fps= 11 q=28.0 size=N/A time=00:02:51.34 bitrate=N/A speed=0.462x    
+frame= 4117 fps= 11 q=28.0 size=N/A time=00:02:51.69 bitrate=N/A speed=0.462x    
+[hls @ 0x5592241ed0] Opening '/config/data/transcodes/db1b5ec016fd59e4fc8b361d8989d47056.ts' for writing
+frame= 4123 fps= 11 q=28.0 size=N/A time=00:02:51.94 bitrate=N/A speed=0.462x    
+frame= 4129 fps= 11 q=28.0 size=N/A time=00:02:52.20 bitrate=N/A speed=0.462x    
+frame= 4133 fps= 11 q=28.0 size=N/A time=00:02:52.37 bitrate=N/A speed=0.462x    
+frame= 4140 fps= 11 q=28.0 size=N/A time=00:02:52.65 bitrate=N/A speed=0.461x    
+frame= 4145 fps= 11 q=28.0 size=N/A time=00:02:52.86 bitrate=N/A speed=0.461x    
+frame= 4149 fps= 11 q=28.0 size=N/A time=00:02:53.03 bitrate=N/A speed=0.461x    
+frame= 4154 fps= 11 q=28.0 size=N/A time=00:02:53.26 bitrate=N/A speed=0.461x    
+frame= 4160 fps= 11 q=28.0 size=N/A time=00:02:53.48 bitrate=N/A speed=0.461x    
+frame= 4163 fps= 11 q=28.0 size=N/A time=00:02:53.61 bitrate=N/A speed=0.46x    
+frame= 4170 fps= 11 q=28.0 size=N/A time=00:02:53.90 bitrate=N/A speed=0.46x    
+frame= 4176 fps= 11 q=28.0 size=N/A time=00:02:54.16 bitrate=N/A speed=0.46x    
+frame= 4184 fps= 11 q=28.0 size=N/A time=00:02:54.48 bitrate=N/A speed=0.461x    
+frame= 4192 fps= 11 q=28.0 size=N/A time=00:02:54.82 bitrate=N/A speed=0.461x    
+[hls @ 0x5592241ed0] Opening '/config/data/transcodes/db1b5ec016fd59e4fc8b361d8989d47057.ts' for writing
+frame= 4197 fps= 11 q=28.0 size=N/A time=00:02:55.04 bitrate=N/A speed=0.461x    
+frame= 4201 fps= 11 q=28.0 size=N/A time=00:02:55.21 bitrate=N/A speed=0.461x    
+frame= 4206 fps= 11 q=28.0 size=N/A time=00:02:55.40 bitrate=N/A speed=0.46x    
+frame= 4212 fps= 11 q=28.0 size=N/A time=00:02:55.65 bitrate=N/A speed=0.46x    
+frame= 4218 fps= 11 q=28.0 size=N/A time=00:02:55.91 bitrate=N/A speed=0.46x    
+frame= 4220 fps= 11 q=28.0 size=N/A time=00:02:56.02 bitrate=N/A speed=0.46x    
+frame= 4225 fps= 11 q=28.0 size=N/A time=00:02:56.21 bitrate=N/A speed=0.46x    
+frame= 4231 fps= 11 q=28.0 size=N/A time=00:02:56.44 bitrate=N/A speed=0.459x    
+frame= 4234 fps= 11 q=28.0 size=N/A time=00:02:56.57 bitrate=N/A speed=0.459x    
+frame= 4239 fps= 11 q=28.0 size=N/A time=00:02:56.78 bitrate=N/A speed=0.459x    
+frame= 4241 fps= 11 q=28.0 size=N/A time=00:02:56.87 bitrate=N/A speed=0.459x    
+frame= 4247 fps= 11 q=28.0 size=N/A time=00:02:57.13 bitrate=N/A speed=0.458x    
+frame= 4252 fps= 11 q=28.0 size=N/A time=00:02:57.34 bitrate=N/A speed=0.458x    
+frame= 4256 fps= 11 q=28.0 size=N/A time=00:02:57.49 bitrate=N/A speed=0.458x    
+frame= 4260 fps= 11 q=25.0 size=N/A time=00:02:57.66 bitrate=N/A speed=0.458x    
+[hls @ 0x5592241ed0] Opening '/config/data/transcodes/db1b5ec016fd59e4fc8b361d8989d47058.ts' for writing
+frame= 4266 fps= 11 q=28.0 size=N/A time=00:02:57.92 bitrate=N/A speed=0.458x    
+frame= 4270 fps= 11 q=28.0 size=N/A time=00:02:58.09 bitrate=N/A speed=0.457x    
+frame= 4276 fps= 11 q=28.0 size=N/A time=00:02:58.32 bitrate=N/A speed=0.457x    
+frame= 4282 fps= 11 q=28.0 size=N/A time=00:02:58.58 bitrate=N/A speed=0.457x    
+frame= 4286 fps= 11 q=28.0 size=N/A time=00:02:58.75 bitrate=N/A speed=0.457x    
+frame= 4291 fps= 11 q=28.0 size=N/A time=00:02:58.96 bitrate=N/A speed=0.456x    
+frame= 4297 fps= 11 q=28.0 size=N/A time=00:02:59.20 bitrate=N/A speed=0.456x    
+frame= 4301 fps= 11 q=28.0 size=N/A time=00:02:59.37 bitrate=N/A speed=0.456x    
+frame= 4306 fps= 11 q=28.0 size=N/A time=00:02:59.58 bitrate=N/A speed=0.456x    
+frame= 4312 fps= 11 q=28.0 size=N/A time=00:02:59.84 bitrate=N/A speed=0.456x    
+frame= 4317 fps= 11 q=28.0 size=N/A time=00:03:00.03 bitrate=N/A speed=0.455x    
+frame= 4320 fps= 11 q=28.0 size=N/A time=00:03:00.16 bitrate=N/A speed=0.455x    
+frame= 4324 fps= 11 q=28.0 size=N/A time=00:03:00.33 bitrate=N/A speed=0.455x    
+frame= 4329 fps= 11 q=28.0 size=N/A time=00:03:00.54 bitrate=N/A speed=0.455x    
+frame= 4335 fps= 11 q=28.0 size=N/A time=00:03:00.80 bitrate=N/A speed=0.455x    
+[hls @ 0x5592241ed0] Opening '/config/data/transcodes/db1b5ec016fd59e4fc8b361d8989d47059.ts' for writing
+frame= 4337 fps= 11 q=28.0 size=N/A time=00:03:00.88 bitrate=N/A speed=0.454x    
+frame= 4342 fps= 11 q=28.0 size=N/A time=00:03:01.07 bitrate=N/A speed=0.454x    
+frame= 4344 fps= 11 q=28.0 size=N/A time=00:03:01.16 bitrate=N/A speed=0.454x    
+frame= 4349 fps= 11 q=28.0 size=N/A time=00:03:01.37 bitrate=N/A speed=0.453x    
+frame= 4353 fps= 11 q=28.0 size=N/A time=00:03:01.52 bitrate=N/A speed=0.453x    
+frame= 4357 fps= 11 q=28.0 size=N/A time=00:03:01.71 bitrate=N/A speed=0.453x    
+frame= 4362 fps= 11 q=28.0 size=N/A time=00:03:01.90 bitrate=N/A speed=0.453x    
+frame= 4368 fps= 11 q=28.0 size=N/A time=00:03:02.16 bitrate=N/A speed=0.453x    
+frame= 4374 fps= 11 q=28.0 size=N/A time=00:03:02.40 bitrate=N/A speed=0.453x    
+frame= 4379 fps= 11 q=28.0 size=N/A time=00:03:02.63 bitrate=N/A speed=0.453x    
+frame= 4384 fps= 11 q=28.0 size=N/A time=00:03:02.82 bitrate=N/A speed=0.453x    
+frame= 4390 fps= 11 q=28.0 size=N/A time=00:03:03.08 bitrate=N/A speed=0.452x    
+frame= 4397 fps= 11 q=28.0 size=N/A time=00:03:03.36 bitrate=N/A speed=0.453x    
+frame= 4400 fps= 11 q=28.0 size=N/A time=00:03:03.50 bitrate=N/A speed=0.452x    
+frame= 4405 fps= 11 q=28.0 size=N/A time=00:03:03.70 bitrate=N/A speed=0.452x    
+[hls @ 0x5592241ed0] Opening '/config/data/transcodes/db1b5ec016fd59e4fc8b361d8989d47060.ts' for writing
+frame= 4409 fps= 11 q=28.0 size=N/A time=00:03:03.87 bitrate=N/A speed=0.452x    
+frame= 4413 fps= 11 q=28.0 size=N/A time=00:03:04.04 bitrate=N/A speed=0.452x    
+frame= 4415 fps= 11 q=28.0 size=N/A time=00:03:04.12 bitrate=N/A speed=0.451x    
+frame= 4420 fps= 11 q=28.0 size=N/A time=00:03:04.34 bitrate=N/A speed=0.451x    
+frame= 4423 fps= 11 q=28.0 size=N/A time=00:03:04.46 bitrate=N/A speed=0.451x    
+frame= 4429 fps= 11 q=28.0 size=N/A time=00:03:04.70 bitrate=N/A speed=0.451x    
+frame= 4436 fps= 11 q=28.0 size=N/A time=00:03:05.00 bitrate=N/A speed=0.451x    
+frame= 4443 fps= 11 q=28.0 size=N/A time=00:03:05.30 bitrate=N/A speed=0.451x    
+frame= 4447 fps= 11 q=28.0 size=N/A time=00:03:05.47 bitrate=N/A speed=0.45x    
+frame= 4451 fps= 11 q=28.0 size=N/A time=00:03:05.62 bitrate=N/A speed=0.45x    
+frame= 4458 fps= 11 q=28.0 size=N/A time=00:03:05.89 bitrate=N/A speed=0.45x    
+frame= 4465 fps= 11 q=28.0 size=N/A time=00:03:06.21 bitrate=N/A speed=0.45x    
+frame= 4472 fps= 11 q=28.0 size=N/A time=00:03:06.49 bitrate=N/A speed=0.45x    
+frame= 4478 fps= 11 q=28.0 size=N/A time=00:03:06.75 bitrate=N/A speed=0.45x    
+[hls @ 0x5592241ed0] Opening '/config/data/transcodes/db1b5ec016fd59e4fc8b361d8989d47061.ts' for writing
+frame= 4485 fps= 11 q=28.0 size=N/A time=00:03:07.05 bitrate=N/A speed=0.451x    
+frame= 4491 fps= 11 q=28.0 size=N/A time=00:03:07.30 bitrate=N/A speed=0.45x    
+frame= 4499 fps= 11 q=28.0 size=N/A time=00:03:07.62 bitrate=N/A speed=0.451x    
+frame= 4502 fps= 11 q=28.0 size=N/A time=00:03:07.75 bitrate=N/A speed=0.45x    
+frame= 4511 fps= 11 q=28.0 size=N/A time=00:03:08.13 bitrate=N/A speed=0.451x    
+frame= 4515 fps= 11 q=28.0 size=N/A time=00:03:08.30 bitrate=N/A speed=0.45x    
+frame= 4519 fps= 11 q=28.0 size=N/A time=00:03:08.45 bitrate=N/A speed=0.45x    
+frame= 4526 fps= 11 q=28.0 size=N/A time=00:03:08.75 bitrate=N/A speed=0.45x    
+frame= 4534 fps= 11 q=28.0 size=N/A time=00:03:09.09 bitrate=N/A speed=0.451x    
+frame= 4541 fps= 11 q=28.0 size=N/A time=00:03:09.37 bitrate=N/A speed=0.451x    
+frame= 4545 fps= 11 q=28.0 size=N/A time=00:03:09.54 bitrate=N/A speed=0.451x    
+frame= 4551 fps= 11 q=28.0 size=N/A time=00:03:09.80 bitrate=N/A speed=0.451x    
+[hls @ 0x5592241ed0] Opening '/config/data/transcodes/db1b5ec016fd59e4fc8b361d8989d47062.ts' for writing
+frame= 4557 fps= 11 q=28.0 size=N/A time=00:03:10.05 bitrate=N/A speed=0.45x    
+frame= 4562 fps= 11 q=28.0 size=N/A time=00:03:10.25 bitrate=N/A speed=0.45x    
+frame= 4567 fps= 11 q=28.0 size=N/A time=00:03:10.46 bitrate=N/A speed=0.45x    
+frame= 4572 fps= 11 q=28.0 size=N/A time=00:03:10.67 bitrate=N/A speed=0.45x    
+frame= 4577 fps= 11 q=28.0 size=N/A time=00:03:10.89 bitrate=N/A speed=0.45x    
+frame= 4582 fps= 11 q=28.0 size=N/A time=00:03:11.10 bitrate=N/A speed=0.45x    
+frame= 4586 fps= 11 q=28.0 size=N/A time=00:03:11.25 bitrate=N/A speed=0.449x    
+frame= 4591 fps= 11 q=28.0 size=N/A time=00:03:11.48 bitrate=N/A speed=0.449x    
+
+[q] command received. Exiting.
+
+[hls @ 0x5592241ed0] Opening '/config/data/transcodes/db1b5ec016fd59e4fc8b361d8989d47063.ts' for writing
+frame= 4596 fps= 11 q=-1.0 Lsize=N/A time=00:03:11.70 bitrate=N/A speed=0.447x    
+video:41032kB audio:8994kB subtitle:0kB other streams:0kB global headers:0kB muxing overhead: unknown
+[libx264 @ 0x5592242480] frame I:64    Avg QP:17.67  size: 85660
+[libx264 @ 0x5592242480] frame P:1418  Avg QP:21.10  size: 19332
+[libx264 @ 0x5592242480] frame B:3114  Avg QP:24.53  size:  2929
+[libx264 @ 0x5592242480] consecutive B-frames:  7.5%  4.4%  5.9% 82.2%
+[libx264 @ 0x5592242480] mb I  I16..4: 48.0%  0.0% 52.0%
+[libx264 @ 0x5592242480] mb P  I16..4: 19.8%  0.0%  0.0%  P16..4: 32.6%  0.0%  0.0%  0.0%  0.0%    skip:47.6%
+[libx264 @ 0x5592242480] mb B  I16..4:  1.1%  0.0%  0.0%  B16..8:  9.9%  0.0%  0.0%  direct: 2.7%  skip:86.4%  L0:37.5% L1:49.6% BI:12.9%
+[libx264 @ 0x5592242480] coded y,uvDC,uvAC intra: 27.0% 34.0% 7.7% inter: 4.3% 4.9% 0.1%
+[libx264 @ 0x5592242480] i16 v,h,dc,p: 37% 29% 13% 21%
+[libx264 @ 0x5592242480] i4 v,h,dc,ddl,ddr,vr,hd,vl,hu: 24% 24% 17%  4%  7%  5%  6%  5%  8%
+[libx264 @ 0x5592242480] i8c dc,h,v,p: 50% 23% 20%  7%
+[libx264 @ 0x5592242480] Weighted P-Frames: Y:2.7% UV:1.1%
+[libx264 @ 0x5592242480] kb/s:1753.48

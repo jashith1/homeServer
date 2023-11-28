@@ -1,0 +1,838 @@
+Nov 28, 2023 01:26:47.617 [548597301304] INFO - Plex Media Scanner v1.32.7.7621-871adbd44 - Docker Docker Container (LinuxServer.io) aarch64 - build: linux-aarch64 - GMT 00:00
+Nov 28, 2023 01:26:47.623 [548597301304] INFO - Linux version: 6.1.0-rpi6-rpi-v8, language: en-US
+Nov 28, 2023 01:26:47.623 [548597301304] INFO - Processor: 4-core AArch64
+Nov 28, 2023 01:26:47.623 [548597301304] INFO - /usr/lib/plexmediaserver/Plex Media Scanner --analyze --log-file-suffix  Analysis --no-thumbs --item 41,42,43,44,45,46,47,48,49,50,51,52,53,54,55,56,57
+Nov 28, 2023 01:26:47.620 [548664401976] DEBUG - Opening 20 database sessions to library (com.plexapp.plugins.library), SQLite 3.39.4, threadsafe=1
+Nov 28, 2023 01:26:47.966 [548664401976] DEBUG - Analyzing media parts for item 41 (Em-Shade! Operation 1: The Seven Shadows Want Their Mission to Succeed!): 39
+Nov 28, 2023 01:26:47.970 [548664401976] DEBUG - Downloading document http://127.0.0.1:32400/library/changestamp
+Nov 28, 2023 01:26:47.970 [548664401976] DEBUG - [HCl#1] HTTP requesting GET http://127.0.0.1:32400/library/changestamp
+Nov 28, 2023 01:26:47.974 [548586086456] DEBUG - [HttpClient/HCl#1] HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/library/changestamp
+Nov 28, 2023 01:26:47.974 [548664401976] DEBUG - Updating metadata item (save) (Em-Shade! Operation 1: The Seven Shadows Want Their Mission to Succeed!) with ID 41
+Nov 28, 2023 01:26:47.979 [548584886328] DEBUG - [HCl#2] HTTP requesting GET http://127.0.0.1:32400/:/metadata/flushMetadataCounterCache?metadataItemID=10
+Nov 28, 2023 01:26:47.980 [548586086456] DEBUG - [HttpClient/HCl#2] HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/:/metadata/flushMetadataCounterCache?metadataItemID=10 (reused)
+Nov 28, 2023 01:26:47.981 [548664401976] DEBUG - [ID 39] Media part analysis: /media/tv/The Eminence in Shadow/Specials/The Eminence In Shadow - S00E01 - Kage-Jitsu! Operation 1 The Seven Shadows Want Their Operation To Succeed!.mkv
+Nov 28, 2023 01:26:47.981 [548664401976] DEBUG - [MI] Opening input file: "/media/tv/The Eminence in Shadow/Specials/The Eminence In Shadow - S00E01 - Kage-Jitsu! Operation 1 The Seven Shadows Want Their Operation To Succeed!.mkv"
+Nov 28, 2023 01:26:47.982 [548664401976] DEBUG - [FFMPEG] - Opening '/media/tv/The Eminence in Shadow/Specials/The Eminence In Shadow - S00E01 - Kage-Jitsu! Operation 1 The Seven Shadows Want Their Operation To Succeed!.mkv' for reading
+Nov 28, 2023 01:26:47.982 [548664401976] DEBUG - [FFMPEG] - Setting default whitelist 'file,crypto,data'
+Nov 28, 2023 01:26:47.982 [548664401976] DEBUG - [FFMPEG] - Format matroska,webm probed with size=2048 and score=100
+Nov 28, 2023 01:26:47.983 [548664401976] DEBUG - [FFMPEG] - Unknown entry 0x22B59D at pos. 2795
+Nov 28, 2023 01:26:47.983 [548664401976] DEBUG - [FFMPEG] - Unknown entry 0x22B59D at pos. 2952
+Nov 28, 2023 01:26:47.983 [548664401976] DEBUG - [FFMPEG] - Unknown entry 0x22B59D at pos. 3936
+Nov 28, 2023 01:26:47.983 [548664401976] DEBUG - [FFMPEG] - st:0 removing common factor 1000000 from timebase
+Nov 28, 2023 01:26:47.983 [548664401976] DEBUG - [FFMPEG] - st:1 removing common factor 1000000 from timebase
+Nov 28, 2023 01:26:47.983 [548664401976] DEBUG - [FFMPEG] - st:2 removing common factor 1000000 from timebase
+Nov 28, 2023 01:26:47.985 [548664401976] DEBUG - [FFMPEG] - Before avformat_find_stream_info() pos: 320067 bytes read:315398 seeks:3 nb_streams:6
+Nov 28, 2023 01:26:47.986 [548664401976] DEBUG - [FFMPEG] - nal_unit_type: 32(VPS), nuh_layer_id: 0, temporal_id: 0
+Nov 28, 2023 01:26:47.986 [548664401976] DEBUG - [FFMPEG] - Decoding VPS
+Nov 28, 2023 01:26:47.986 [548664401976] DEBUG - [FFMPEG] - Main 10 profile bitstream
+Nov 28, 2023 01:26:47.986 [548664401976] DEBUG - [FFMPEG] - nal_unit_type: 33(SPS), nuh_layer_id: 0, temporal_id: 0
+Nov 28, 2023 01:26:47.986 [548664401976] DEBUG - [FFMPEG] - Decoding SPS
+Nov 28, 2023 01:26:47.986 [548664401976] DEBUG - [FFMPEG] - Main 10 profile bitstream
+Nov 28, 2023 01:26:47.986 [548664401976] DEBUG - [FFMPEG] - Decoding VUI
+Nov 28, 2023 01:26:47.986 [548664401976] DEBUG - [FFMPEG] - nal_unit_type: 34(PPS), nuh_layer_id: 0, temporal_id: 0
+Nov 28, 2023 01:26:47.986 [548664401976] DEBUG - [FFMPEG] - Decoding PPS
+Nov 28, 2023 01:26:47.987 [548664401976] DEBUG - [FFMPEG] - nal_unit_type: 39(SEI_PREFIX), nuh_layer_id: 0, temporal_id: 0
+Nov 28, 2023 01:26:47.987 [548664401976] DEBUG - [FFMPEG] - Decoding SEI
+Nov 28, 2023 01:26:47.989 [548664401976] DEBUG - [FFMPEG] - skip 312/960 samples
+Nov 28, 2023 01:26:47.989 [548664401976] DEBUG - [FFMPEG] - All info found
+Nov 28, 2023 01:26:47.991 [548664401976] DEBUG - [FFMPEG] - After avformat_find_stream_info() pos: 483632 bytes read:495599 seeks:3 frames:27
+Nov 28, 2023 01:26:48.007 [548664401976] DEBUG - [MI]  * 2ae615f8dfa638303cd09cea96cfd737194ca305 [mkv hevc/opus] Duration: 121141ms, 1920x1080 (1.777778) 23.976fps, bitrate=1415kbps, audio channels=2, optimizedForStreaming=0 ("/media/tv/The Eminence in Shadow/Specials/The Eminence In Shadow - S00E01 - Kage-Jitsu! Operation 1 The Seven Shadows Want Their Operation To Succeed!.mkv")
+Nov 28, 2023 01:26:48.007 [548664401976] DEBUG - [MI] Chapters had generic titles, clearing.
+Nov 28, 2023 01:26:48.008 [548664401976] DEBUG - [MI] Closing input file: "/media/tv/The Eminence in Shadow/Specials/The Eminence In Shadow - S00E01 - Kage-Jitsu! Operation 1 The Seven Shadows Want Their Operation To Succeed!.mkv"
+Nov 28, 2023 01:26:48.009 [548664401976] DEBUG - Committing media stream changes for part 39
+Nov 28, 2023 01:26:48.014 [548664401976] DEBUG - Updating media item 39, size=21435105, metadata_item_id=41
+Nov 28, 2023 01:26:48.014 [548664401976] DEBUG - Updating part with ID=39 [/media/tv/The Eminence in Shadow/Specials/The Eminence In Shadow - S00E01 - Kage-Jitsu! Operation 1 The Seven Shadows Want Their Operation To Succeed!.mkv]
+Nov 28, 2023 01:26:48.015 [548584886328] DEBUG - [HCl#3] HTTP requesting GET http://127.0.0.1:32400/:/metadata/notify/changeItemState?librarySectionID=2&metadataItemID=41&metadataType=4&state=-1&parentID=-1&rootID=-1&mediaState=analyzing
+Nov 28, 2023 01:26:48.019 [548586086456] DEBUG - [HttpClient/HCl#3] HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/:/metadata/notify/changeItemState?librarySectionID=2&metadataItemID=41&metadataType=4&state=-1&parentID=-1&rootID=-1&mediaState=analyzing (reused)
+Nov 28, 2023 01:26:48.020 [548584886328] DEBUG - [HCl#4] HTTP requesting GET http://127.0.0.1:32400/:/metadata/notify/changeItemState?librarySectionID=2&metadataItemID=41&metadataType=4&state=-1&parentID=-1&rootID=-1&mediaState=idle
+Nov 28, 2023 01:26:48.024 [548664401976] DEBUG - Downloading document http://127.0.0.1:32400/library/changestamp
+Nov 28, 2023 01:26:48.024 [548664401976] DEBUG - [HCl#5] HTTP requesting GET http://127.0.0.1:32400/library/changestamp
+Nov 28, 2023 01:26:48.025 [548586086456] DEBUG - [HttpClient/HCl#4] HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/:/metadata/notify/changeItemState?librarySectionID=2&metadataItemID=41&metadataType=4&state=-1&parentID=-1&rootID=-1&mediaState=idle (reused)
+Nov 28, 2023 01:26:48.027 [548586086456] DEBUG - [HttpClient/HCl#5] HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/library/changestamp (reused)
+Nov 28, 2023 01:26:48.027 [548664401976] DEBUG - Updating metadata item (save) (Em-Shade! Operation 1: The Seven Shadows Want Their Mission to Succeed!) with ID 41
+Nov 28, 2023 01:26:48.040 [548584886328] DEBUG - [HCl#6] HTTP requesting GET http://127.0.0.1:32400/:/metadata/flushMetadataCounterCache?metadataItemID=10
+Nov 28, 2023 01:26:48.042 [548586086456] DEBUG - [HttpClient/HCl#6] HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/:/metadata/flushMetadataCounterCache?metadataItemID=10 (reused)
+Nov 28, 2023 01:26:48.048 [548664401976] DEBUG - Analyzing media parts for item 42 (Em-Shade! Operation 2: The Seven Shadows Want the War Chronicles to Be Perfect!): 40
+Nov 28, 2023 01:26:48.049 [548664401976] DEBUG - Downloading document http://127.0.0.1:32400/library/changestamp
+Nov 28, 2023 01:26:48.049 [548664401976] DEBUG - [HCl#7] HTTP requesting GET http://127.0.0.1:32400/library/changestamp
+Nov 28, 2023 01:26:48.052 [548586086456] DEBUG - [HttpClient/HCl#7] HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/library/changestamp (reused)
+Nov 28, 2023 01:26:48.052 [548664401976] DEBUG - Updating metadata item (save) (Em-Shade! Operation 2: The Seven Shadows Want the War Chronicles to Be Perfect!) with ID 42
+Nov 28, 2023 01:26:48.066 [548584886328] DEBUG - [HCl#8] HTTP requesting GET http://127.0.0.1:32400/:/metadata/flushMetadataCounterCache?metadataItemID=10
+Nov 28, 2023 01:26:48.067 [548664401976] DEBUG - [ID 40] Media part analysis: /media/tv/The Eminence in Shadow/Specials/The Eminence In Shadow - S00E02 - Kage-Jitsu! Operation 2 The Seven Shadows Want To Perfect An Amazing War Chronicle!.mkv
+Nov 28, 2023 01:26:48.067 [548664401976] DEBUG - [MI] Opening input file: "/media/tv/The Eminence in Shadow/Specials/The Eminence In Shadow - S00E02 - Kage-Jitsu! Operation 2 The Seven Shadows Want To Perfect An Amazing War Chronicle!.mkv"
+Nov 28, 2023 01:26:48.068 [548664401976] DEBUG - [FFMPEG] - Opening '/media/tv/The Eminence in Shadow/Specials/The Eminence In Shadow - S00E02 - Kage-Jitsu! Operation 2 The Seven Shadows Want To Perfect An Amazing War Chronicle!.mkv' for reading
+Nov 28, 2023 01:26:48.068 [548664401976] DEBUG - [FFMPEG] - Setting default whitelist 'file,crypto,data'
+Nov 28, 2023 01:26:48.068 [548664401976] DEBUG - [FFMPEG] - Format matroska,webm probed with size=2048 and score=100
+Nov 28, 2023 01:26:48.068 [548664401976] DEBUG - [FFMPEG] - Unknown entry 0x22B59D at pos. 2795
+Nov 28, 2023 01:26:48.068 [548664401976] DEBUG - [FFMPEG] - Unknown entry 0x22B59D at pos. 2952
+Nov 28, 2023 01:26:48.068 [548664401976] DEBUG - [FFMPEG] - Unknown entry 0x22B59D at pos. 3820
+Nov 28, 2023 01:26:48.068 [548586086456] DEBUG - [HttpClient/HCl#8] HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/:/metadata/flushMetadataCounterCache?metadataItemID=10 (reused)
+Nov 28, 2023 01:26:48.078 [548664401976] DEBUG - [FFMPEG] - st:0 removing common factor 1000000 from timebase
+Nov 28, 2023 01:26:48.079 [548664401976] DEBUG - [FFMPEG] - st:1 removing common factor 1000000 from timebase
+Nov 28, 2023 01:26:48.079 [548664401976] DEBUG - [FFMPEG] - st:2 removing common factor 1000000 from timebase
+Nov 28, 2023 01:26:48.082 [548664401976] DEBUG - [FFMPEG] - Before avformat_find_stream_info() pos: 391127 bytes read:386458 seeks:3 nb_streams:6
+Nov 28, 2023 01:26:48.086 [548664401976] DEBUG - [FFMPEG] - nal_unit_type: 32(VPS), nuh_layer_id: 0, temporal_id: 0
+Nov 28, 2023 01:26:48.086 [548664401976] DEBUG - [FFMPEG] - Decoding VPS
+Nov 28, 2023 01:26:48.086 [548664401976] DEBUG - [FFMPEG] - Main 10 profile bitstream
+Nov 28, 2023 01:26:48.086 [548664401976] DEBUG - [FFMPEG] - nal_unit_type: 33(SPS), nuh_layer_id: 0, temporal_id: 0
+Nov 28, 2023 01:26:48.087 [548664401976] DEBUG - [FFMPEG] - Decoding SPS
+Nov 28, 2023 01:26:48.087 [548664401976] DEBUG - [FFMPEG] - Main 10 profile bitstream
+Nov 28, 2023 01:26:48.088 [548664401976] DEBUG - [FFMPEG] - Decoding VUI
+Nov 28, 2023 01:26:48.088 [548664401976] DEBUG - [FFMPEG] - nal_unit_type: 34(PPS), nuh_layer_id: 0, temporal_id: 0
+Nov 28, 2023 01:26:48.088 [548664401976] DEBUG - [FFMPEG] - Decoding PPS
+Nov 28, 2023 01:26:48.088 [548664401976] DEBUG - [FFMPEG] - nal_unit_type: 39(SEI_PREFIX), nuh_layer_id: 0, temporal_id: 0
+Nov 28, 2023 01:26:48.088 [548664401976] DEBUG - [FFMPEG] - Decoding SEI
+Nov 28, 2023 01:26:48.091 [548664401976] DEBUG - [FFMPEG] - skip 312/960 samples
+Nov 28, 2023 01:26:48.092 [548664401976] DEBUG - [FFMPEG] - All info found
+Nov 28, 2023 01:26:48.093 [548664401976] DEBUG - [FFMPEG] - After avformat_find_stream_info() pos: 560974 bytes read:565804 seeks:3 frames:19
+Nov 28, 2023 01:26:48.094 [548664401976] DEBUG - [MI]  * e17d374501534550bcbae59e734d2717a481d1e1 [mkv hevc/opus] Duration: 121141ms, 1920x1080 (1.777778) 23.976fps, bitrate=1618kbps, audio channels=2, optimizedForStreaming=0 ("/media/tv/The Eminence in Shadow/Specials/The Eminence In Shadow - S00E02 - Kage-Jitsu! Operation 2 The Seven Shadows Want To Perfect An Amazing War Chronicle!.mkv")
+Nov 28, 2023 01:26:48.094 [548664401976] DEBUG - [MI] Chapters had generic titles, clearing.
+Nov 28, 2023 01:26:48.095 [548664401976] DEBUG - [MI] Closing input file: "/media/tv/The Eminence in Shadow/Specials/The Eminence In Shadow - S00E02 - Kage-Jitsu! Operation 2 The Seven Shadows Want To Perfect An Amazing War Chronicle!.mkv"
+Nov 28, 2023 01:26:48.096 [548664401976] DEBUG - Committing media stream changes for part 40
+Nov 28, 2023 01:26:48.098 [548664401976] DEBUG - Updating media item 40, size=24510888, metadata_item_id=42
+Nov 28, 2023 01:26:48.098 [548664401976] DEBUG - Updating part with ID=40 [/media/tv/The Eminence in Shadow/Specials/The Eminence In Shadow - S00E02 - Kage-Jitsu! Operation 2 The Seven Shadows Want To Perfect An Amazing War Chronicle!.mkv]
+Nov 28, 2023 01:26:48.099 [548584886328] DEBUG - [HCl#9] HTTP requesting GET http://127.0.0.1:32400/:/metadata/notify/changeItemState?librarySectionID=2&metadataItemID=42&metadataType=4&state=-1&parentID=-1&rootID=-1&mediaState=analyzing
+Nov 28, 2023 01:26:48.101 [548586086456] DEBUG - [HttpClient/HCl#9] HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/:/metadata/notify/changeItemState?librarySectionID=2&metadataItemID=42&metadataType=4&state=-1&parentID=-1&rootID=-1&mediaState=analyzing (reused)
+Nov 28, 2023 01:26:48.103 [548584886328] DEBUG - [HCl#a] HTTP requesting GET http://127.0.0.1:32400/:/metadata/notify/changeItemState?librarySectionID=2&metadataItemID=42&metadataType=4&state=-1&parentID=-1&rootID=-1&mediaState=idle
+Nov 28, 2023 01:26:48.105 [548586086456] DEBUG - [HttpClient/HCl#a] HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/:/metadata/notify/changeItemState?librarySectionID=2&metadataItemID=42&metadataType=4&state=-1&parentID=-1&rootID=-1&mediaState=idle (reused)
+Nov 28, 2023 01:26:48.109 [548664401976] DEBUG - Downloading document http://127.0.0.1:32400/library/changestamp
+Nov 28, 2023 01:26:48.109 [548664401976] DEBUG - [HCl#b] HTTP requesting GET http://127.0.0.1:32400/library/changestamp
+Nov 28, 2023 01:26:48.111 [548586086456] DEBUG - [HttpClient/HCl#b] HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/library/changestamp (reused)
+Nov 28, 2023 01:26:48.112 [548664401976] DEBUG - Updating metadata item (save) (Em-Shade! Operation 2: The Seven Shadows Want the War Chronicles to Be Perfect!) with ID 42
+Nov 28, 2023 01:26:48.115 [548584886328] DEBUG - [HCl#c] HTTP requesting GET http://127.0.0.1:32400/:/metadata/flushMetadataCounterCache?metadataItemID=10
+Nov 28, 2023 01:26:48.117 [548586086456] DEBUG - [HttpClient/HCl#c] HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/:/metadata/flushMetadataCounterCache?metadataItemID=10 (reused)
+Nov 28, 2023 01:26:48.122 [548664401976] DEBUG - Analyzing media parts for item 43 (Em-Shade! Operation 3: The Seven Shadows Want to Make Delicious Chocolate!): 41
+Nov 28, 2023 01:26:48.123 [548664401976] DEBUG - Downloading document http://127.0.0.1:32400/library/changestamp
+Nov 28, 2023 01:26:48.123 [548664401976] DEBUG - [HCl#d] HTTP requesting GET http://127.0.0.1:32400/library/changestamp
+Nov 28, 2023 01:26:48.125 [548586086456] DEBUG - [HttpClient/HCl#d] HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/library/changestamp (reused)
+Nov 28, 2023 01:26:48.125 [548664401976] DEBUG - Updating metadata item (save) (Em-Shade! Operation 3: The Seven Shadows Want to Make Delicious Chocolate!) with ID 43
+Nov 28, 2023 01:26:48.129 [548584886328] DEBUG - [HCl#e] HTTP requesting GET http://127.0.0.1:32400/:/metadata/flushMetadataCounterCache?metadataItemID=10
+Nov 28, 2023 01:26:48.131 [548586086456] DEBUG - [HttpClient/HCl#e] HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/:/metadata/flushMetadataCounterCache?metadataItemID=10 (reused)
+Nov 28, 2023 01:26:48.149 [548664401976] DEBUG - [ID 41] Media part analysis: /media/tv/The Eminence in Shadow/Specials/The Eminence In Shadow - S00E03 - Kage-Jitsu! Operation 3 The Seven Shadows Want To Make Delicious Chocolate!.mkv
+Nov 28, 2023 01:26:48.150 [548664401976] DEBUG - [MI] Opening input file: "/media/tv/The Eminence in Shadow/Specials/The Eminence In Shadow - S00E03 - Kage-Jitsu! Operation 3 The Seven Shadows Want To Make Delicious Chocolate!.mkv"
+Nov 28, 2023 01:26:48.150 [548664401976] DEBUG - [FFMPEG] - Opening '/media/tv/The Eminence in Shadow/Specials/The Eminence In Shadow - S00E03 - Kage-Jitsu! Operation 3 The Seven Shadows Want To Make Delicious Chocolate!.mkv' for reading
+Nov 28, 2023 01:26:48.150 [548664401976] DEBUG - [FFMPEG] - Setting default whitelist 'file,crypto,data'
+Nov 28, 2023 01:26:48.151 [548664401976] DEBUG - [FFMPEG] - Format matroska,webm probed with size=2048 and score=100
+Nov 28, 2023 01:26:48.151 [548664401976] DEBUG - [FFMPEG] - Unknown entry 0x22B59D at pos. 2795
+Nov 28, 2023 01:26:48.151 [548664401976] DEBUG - [FFMPEG] - Unknown entry 0x22B59D at pos. 2952
+Nov 28, 2023 01:26:48.151 [548664401976] DEBUG - [FFMPEG] - Unknown entry 0x22B59D at pos. 3820
+Nov 28, 2023 01:26:48.157 [548664401976] DEBUG - [FFMPEG] - st:0 removing common factor 1000000 from timebase
+Nov 28, 2023 01:26:48.157 [548664401976] DEBUG - [FFMPEG] - st:1 removing common factor 1000000 from timebase
+Nov 28, 2023 01:26:48.157 [548664401976] DEBUG - [FFMPEG] - st:2 removing common factor 1000000 from timebase
+Nov 28, 2023 01:26:48.158 [548664401976] DEBUG - [FFMPEG] - Before avformat_find_stream_info() pos: 241841 bytes read:237172 seeks:3 nb_streams:5
+Nov 28, 2023 01:26:48.160 [548664401976] DEBUG - [FFMPEG] - nal_unit_type: 32(VPS), nuh_layer_id: 0, temporal_id: 0
+Nov 28, 2023 01:26:48.160 [548664401976] DEBUG - [FFMPEG] - Decoding VPS
+Nov 28, 2023 01:26:48.160 [548664401976] DEBUG - [FFMPEG] - Main 10 profile bitstream
+Nov 28, 2023 01:26:48.160 [548664401976] DEBUG - [FFMPEG] - nal_unit_type: 33(SPS), nuh_layer_id: 0, temporal_id: 0
+Nov 28, 2023 01:26:48.160 [548664401976] DEBUG - [FFMPEG] - Decoding SPS
+Nov 28, 2023 01:26:48.160 [548664401976] DEBUG - [FFMPEG] - Main 10 profile bitstream
+Nov 28, 2023 01:26:48.160 [548664401976] DEBUG - [FFMPEG] - Decoding VUI
+Nov 28, 2023 01:26:48.160 [548664401976] DEBUG - [FFMPEG] - nal_unit_type: 34(PPS), nuh_layer_id: 0, temporal_id: 0
+Nov 28, 2023 01:26:48.160 [548664401976] DEBUG - [FFMPEG] - Decoding PPS
+Nov 28, 2023 01:26:48.160 [548664401976] DEBUG - [FFMPEG] - nal_unit_type: 39(SEI_PREFIX), nuh_layer_id: 0, temporal_id: 0
+Nov 28, 2023 01:26:48.160 [548664401976] DEBUG - [FFMPEG] - Decoding SEI
+Nov 28, 2023 01:26:48.162 [548664401976] DEBUG - [FFMPEG] - skip 312/960 samples
+Nov 28, 2023 01:26:48.163 [548664401976] DEBUG - [FFMPEG] - All info found
+Nov 28, 2023 01:26:48.166 [548664401976] DEBUG - [FFMPEG] - After avformat_find_stream_info() pos: 411549 bytes read:425858 seeks:3 frames:19
+Nov 28, 2023 01:26:48.166 [548664401976] DEBUG - [MI]  * ec3d73f5e88b1fb7fc44406c7ad9028717d38a5e [mkv hevc/opus] Duration: 121141ms, 1920x1080 (1.777778) 23.976fps, bitrate=1521kbps, audio channels=2, optimizedForStreaming=0 ("/media/tv/The Eminence in Shadow/Specials/The Eminence In Shadow - S00E03 - Kage-Jitsu! Operation 3 The Seven Shadows Want To Make Delicious Chocolate!.mkv")
+Nov 28, 2023 01:26:48.166 [548664401976] DEBUG - [MI] Chapters had generic titles, clearing.
+Nov 28, 2023 01:26:48.168 [548664401976] DEBUG - [MI] Closing input file: "/media/tv/The Eminence in Shadow/Specials/The Eminence In Shadow - S00E03 - Kage-Jitsu! Operation 3 The Seven Shadows Want To Make Delicious Chocolate!.mkv"
+Nov 28, 2023 01:26:48.173 [548664401976] DEBUG - Committing media stream changes for part 41
+Nov 28, 2023 01:26:48.176 [548664401976] DEBUG - Updating media item 41, size=23032077, metadata_item_id=43
+Nov 28, 2023 01:26:48.177 [548664401976] DEBUG - Updating part with ID=41 [/media/tv/The Eminence in Shadow/Specials/The Eminence In Shadow - S00E03 - Kage-Jitsu! Operation 3 The Seven Shadows Want To Make Delicious Chocolate!.mkv]
+Nov 28, 2023 01:26:48.226 [548584886328] DEBUG - [HCl#f] HTTP requesting GET http://127.0.0.1:32400/:/metadata/notify/changeItemState?librarySectionID=2&metadataItemID=43&metadataType=4&state=-1&parentID=-1&rootID=-1&mediaState=analyzing
+Nov 28, 2023 01:26:48.228 [548586086456] DEBUG - [HttpClient/HCl#f] HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/:/metadata/notify/changeItemState?librarySectionID=2&metadataItemID=43&metadataType=4&state=-1&parentID=-1&rootID=-1&mediaState=analyzing (reused)
+Nov 28, 2023 01:26:48.228 [548584886328] DEBUG - [HCl#10] HTTP requesting GET http://127.0.0.1:32400/:/metadata/notify/changeItemState?librarySectionID=2&metadataItemID=43&metadataType=4&state=-1&parentID=-1&rootID=-1&mediaState=idle
+Nov 28, 2023 01:26:48.230 [548586086456] DEBUG - [HttpClient/HCl#10] HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/:/metadata/notify/changeItemState?librarySectionID=2&metadataItemID=43&metadataType=4&state=-1&parentID=-1&rootID=-1&mediaState=idle (reused)
+Nov 28, 2023 01:26:48.234 [548664401976] DEBUG - Downloading document http://127.0.0.1:32400/library/changestamp
+Nov 28, 2023 01:26:48.234 [548664401976] DEBUG - [HCl#11] HTTP requesting GET http://127.0.0.1:32400/library/changestamp
+Nov 28, 2023 01:26:48.237 [548586086456] DEBUG - [HttpClient/HCl#11] HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/library/changestamp (reused)
+Nov 28, 2023 01:26:48.237 [548664401976] DEBUG - Updating metadata item (save) (Em-Shade! Operation 3: The Seven Shadows Want to Make Delicious Chocolate!) with ID 43
+Nov 28, 2023 01:26:48.240 [548584886328] DEBUG - [HCl#12] HTTP requesting GET http://127.0.0.1:32400/:/metadata/flushMetadataCounterCache?metadataItemID=10
+Nov 28, 2023 01:26:48.241 [548586086456] DEBUG - [HttpClient/HCl#12] HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/:/metadata/flushMetadataCounterCache?metadataItemID=10 (reused)
+Nov 28, 2023 01:26:48.245 [548664401976] DEBUG - Analyzing media parts for item 44 (Em-Shade! Operation 4: The Seven Shadows Want to Procure the Legendary Coffee!): 42
+Nov 28, 2023 01:26:48.246 [548664401976] DEBUG - Downloading document http://127.0.0.1:32400/library/changestamp
+Nov 28, 2023 01:26:48.246 [548664401976] DEBUG - [HCl#13] HTTP requesting GET http://127.0.0.1:32400/library/changestamp
+Nov 28, 2023 01:26:48.248 [548586086456] DEBUG - [HttpClient/HCl#13] HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/library/changestamp (reused)
+Nov 28, 2023 01:26:48.248 [548664401976] DEBUG - Updating metadata item (save) (Em-Shade! Operation 4: The Seven Shadows Want to Procure the Legendary Coffee!) with ID 44
+Nov 28, 2023 01:26:48.250 [548584886328] DEBUG - [HCl#14] HTTP requesting GET http://127.0.0.1:32400/:/metadata/flushMetadataCounterCache?metadataItemID=10
+Nov 28, 2023 01:26:48.251 [548664401976] DEBUG - [ID 42] Media part analysis: /media/tv/The Eminence in Shadow/Specials/The Eminence In Shadow - S00E04 - Kage-Jitsu! Operation 4 The Seven Shadows Want To Procure The Legendary Coffee!.mkv
+Nov 28, 2023 01:26:48.252 [548586086456] DEBUG - [HttpClient/HCl#14] HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/:/metadata/flushMetadataCounterCache?metadataItemID=10 (reused)
+Nov 28, 2023 01:26:48.252 [548664401976] DEBUG - [MI] Opening input file: "/media/tv/The Eminence in Shadow/Specials/The Eminence In Shadow - S00E04 - Kage-Jitsu! Operation 4 The Seven Shadows Want To Procure The Legendary Coffee!.mkv"
+Nov 28, 2023 01:26:48.252 [548664401976] DEBUG - [FFMPEG] - Opening '/media/tv/The Eminence in Shadow/Specials/The Eminence In Shadow - S00E04 - Kage-Jitsu! Operation 4 The Seven Shadows Want To Procure The Legendary Coffee!.mkv' for reading
+Nov 28, 2023 01:26:48.252 [548664401976] DEBUG - [FFMPEG] - Setting default whitelist 'file,crypto,data'
+Nov 28, 2023 01:26:48.253 [548664401976] DEBUG - [FFMPEG] - Format matroska,webm probed with size=2048 and score=100
+Nov 28, 2023 01:26:48.253 [548664401976] DEBUG - [FFMPEG] - Unknown entry 0x22B59D at pos. 2795
+Nov 28, 2023 01:26:48.253 [548664401976] DEBUG - [FFMPEG] - Unknown entry 0x22B59D at pos. 2952
+Nov 28, 2023 01:26:48.253 [548664401976] DEBUG - [FFMPEG] - Unknown entry 0x22B59D at pos. 4537
+Nov 28, 2023 01:26:48.310 [548664401976] DEBUG - [FFMPEG] - st:0 removing common factor 1000000 from timebase
+Nov 28, 2023 01:26:48.310 [548664401976] DEBUG - [FFMPEG] - st:1 removing common factor 1000000 from timebase
+Nov 28, 2023 01:26:48.311 [548664401976] DEBUG - [FFMPEG] - st:2 removing common factor 1000000 from timebase
+Nov 28, 2023 01:26:48.316 [548664401976] DEBUG - [FFMPEG] - Before avformat_find_stream_info() pos: 1440221 bytes read:1435552 seeks:3 nb_streams:9
+Nov 28, 2023 01:26:48.318 [548664401976] DEBUG - [FFMPEG] - nal_unit_type: 32(VPS), nuh_layer_id: 0, temporal_id: 0
+Nov 28, 2023 01:26:48.318 [548664401976] DEBUG - [FFMPEG] - Decoding VPS
+Nov 28, 2023 01:26:48.318 [548664401976] DEBUG - [FFMPEG] - Main 10 profile bitstream
+Nov 28, 2023 01:26:48.318 [548664401976] DEBUG - [FFMPEG] - nal_unit_type: 33(SPS), nuh_layer_id: 0, temporal_id: 0
+Nov 28, 2023 01:26:48.318 [548664401976] DEBUG - [FFMPEG] - Decoding SPS
+Nov 28, 2023 01:26:48.318 [548664401976] DEBUG - [FFMPEG] - Main 10 profile bitstream
+Nov 28, 2023 01:26:48.318 [548664401976] DEBUG - [FFMPEG] - Decoding VUI
+Nov 28, 2023 01:26:48.318 [548664401976] DEBUG - [FFMPEG] - nal_unit_type: 34(PPS), nuh_layer_id: 0, temporal_id: 0
+Nov 28, 2023 01:26:48.318 [548664401976] DEBUG - [FFMPEG] - Decoding PPS
+Nov 28, 2023 01:26:48.319 [548664401976] DEBUG - [FFMPEG] - nal_unit_type: 39(SEI_PREFIX), nuh_layer_id: 0, temporal_id: 0
+Nov 28, 2023 01:26:48.319 [548664401976] DEBUG - [FFMPEG] - Decoding SEI
+Nov 28, 2023 01:26:48.323 [548664401976] DEBUG - [FFMPEG] - skip 312/960 samples
+Nov 28, 2023 01:26:48.324 [548664401976] DEBUG - [FFMPEG] - All info found
+Nov 28, 2023 01:26:48.328 [548664401976] DEBUG - [FFMPEG] - After avformat_find_stream_info() pos: 1604536 bytes read:1624611 seeks:3 frames:19
+Nov 28, 2023 01:26:48.328 [548664401976] DEBUG - [MI]  * 3af5425c7466ea0b8c4aa94e0da1bad9cff1fb0e [mkv hevc/opus] Duration: 121141ms, 1920x1080 (1.777778) 23.976fps, bitrate=1612kbps, audio channels=2, optimizedForStreaming=0 ("/media/tv/The Eminence in Shadow/Specials/The Eminence In Shadow - S00E04 - Kage-Jitsu! Operation 4 The Seven Shadows Want To Procure The Legendary Coffee!.mkv")
+Nov 28, 2023 01:26:48.329 [548664401976] DEBUG - [MI] Chapters had generic titles, clearing.
+Nov 28, 2023 01:26:48.330 [548664401976] DEBUG - [MI] Closing input file: "/media/tv/The Eminence in Shadow/Specials/The Eminence In Shadow - S00E04 - Kage-Jitsu! Operation 4 The Seven Shadows Want To Procure The Legendary Coffee!.mkv"
+Nov 28, 2023 01:26:48.342 [548664401976] DEBUG - Committing media stream changes for part 42
+Nov 28, 2023 01:26:48.344 [548664401976] DEBUG - Updating media item 42, size=24423800, metadata_item_id=44
+Nov 28, 2023 01:26:48.345 [548664401976] DEBUG - Updating part with ID=42 [/media/tv/The Eminence in Shadow/Specials/The Eminence In Shadow - S00E04 - Kage-Jitsu! Operation 4 The Seven Shadows Want To Procure The Legendary Coffee!.mkv]
+Nov 28, 2023 01:26:48.345 [548584886328] DEBUG - [HCl#15] HTTP requesting GET http://127.0.0.1:32400/:/metadata/notify/changeItemState?librarySectionID=2&metadataItemID=44&metadataType=4&state=-1&parentID=-1&rootID=-1&mediaState=analyzing
+Nov 28, 2023 01:26:48.347 [548586086456] DEBUG - [HttpClient/HCl#15] HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/:/metadata/notify/changeItemState?librarySectionID=2&metadataItemID=44&metadataType=4&state=-1&parentID=-1&rootID=-1&mediaState=analyzing (reused)
+Nov 28, 2023 01:26:48.347 [548584886328] DEBUG - [HCl#16] HTTP requesting GET http://127.0.0.1:32400/:/metadata/notify/changeItemState?librarySectionID=2&metadataItemID=44&metadataType=4&state=-1&parentID=-1&rootID=-1&mediaState=idle
+Nov 28, 2023 01:26:48.349 [548586086456] DEBUG - [HttpClient/HCl#16] HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/:/metadata/notify/changeItemState?librarySectionID=2&metadataItemID=44&metadataType=4&state=-1&parentID=-1&rootID=-1&mediaState=idle (reused)
+Nov 28, 2023 01:26:48.353 [548664401976] DEBUG - Downloading document http://127.0.0.1:32400/library/changestamp
+Nov 28, 2023 01:26:48.354 [548664401976] DEBUG - [HCl#17] HTTP requesting GET http://127.0.0.1:32400/library/changestamp
+Nov 28, 2023 01:26:48.356 [548586086456] DEBUG - [HttpClient/HCl#17] HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/library/changestamp (reused)
+Nov 28, 2023 01:26:48.357 [548664401976] DEBUG - Updating metadata item (save) (Em-Shade! Operation 4: The Seven Shadows Want to Procure the Legendary Coffee!) with ID 44
+Nov 28, 2023 01:26:48.367 [548584886328] DEBUG - [HCl#18] HTTP requesting GET http://127.0.0.1:32400/:/metadata/flushMetadataCounterCache?metadataItemID=10
+Nov 28, 2023 01:26:48.368 [548586086456] DEBUG - [HttpClient/HCl#18] HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/:/metadata/flushMetadataCounterCache?metadataItemID=10 (reused)
+Nov 28, 2023 01:26:48.374 [548664401976] DEBUG - Analyzing media parts for item 45 (Em-Shade! Operation 5: The Seven Shadows Want to Make an Artifact!): 43
+Nov 28, 2023 01:26:48.376 [548664401976] DEBUG - Downloading document http://127.0.0.1:32400/library/changestamp
+Nov 28, 2023 01:26:48.376 [548664401976] DEBUG - [HCl#19] HTTP requesting GET http://127.0.0.1:32400/library/changestamp
+Nov 28, 2023 01:26:48.378 [548586086456] DEBUG - [HttpClient/HCl#19] HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/library/changestamp (reused)
+Nov 28, 2023 01:26:48.379 [548664401976] DEBUG - Updating metadata item (save) (Em-Shade! Operation 5: The Seven Shadows Want to Make an Artifact!) with ID 45
+Nov 28, 2023 01:26:48.381 [548584886328] DEBUG - [HCl#1a] HTTP requesting GET http://127.0.0.1:32400/:/metadata/flushMetadataCounterCache?metadataItemID=10
+Nov 28, 2023 01:26:48.383 [548586086456] DEBUG - [HttpClient/HCl#1a] HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/:/metadata/flushMetadataCounterCache?metadataItemID=10 (reused)
+Nov 28, 2023 01:26:48.384 [548664401976] DEBUG - [ID 43] Media part analysis: /media/tv/The Eminence in Shadow/Specials/The Eminence In Shadow - S00E05 - Kage-Jitsu! Operation 5 The Seven Shadows Want To Create An Artifact!.mkv
+Nov 28, 2023 01:26:48.384 [548664401976] DEBUG - [MI] Opening input file: "/media/tv/The Eminence in Shadow/Specials/The Eminence In Shadow - S00E05 - Kage-Jitsu! Operation 5 The Seven Shadows Want To Create An Artifact!.mkv"
+Nov 28, 2023 01:26:48.385 [548664401976] DEBUG - [FFMPEG] - Opening '/media/tv/The Eminence in Shadow/Specials/The Eminence In Shadow - S00E05 - Kage-Jitsu! Operation 5 The Seven Shadows Want To Create An Artifact!.mkv' for reading
+Nov 28, 2023 01:26:48.385 [548664401976] DEBUG - [FFMPEG] - Setting default whitelist 'file,crypto,data'
+Nov 28, 2023 01:26:48.385 [548664401976] DEBUG - [FFMPEG] - Format matroska,webm probed with size=2048 and score=100
+Nov 28, 2023 01:26:48.385 [548664401976] DEBUG - [FFMPEG] - Unknown entry 0x22B59D at pos. 2795
+Nov 28, 2023 01:26:48.386 [548664401976] DEBUG - [FFMPEG] - Unknown entry 0x22B59D at pos. 2952
+Nov 28, 2023 01:26:48.386 [548664401976] DEBUG - [FFMPEG] - Unknown entry 0x22B59D at pos. 4072
+Nov 28, 2023 01:26:48.395 [548664401976] DEBUG - [FFMPEG] - st:0 removing common factor 1000000 from timebase
+Nov 28, 2023 01:26:48.395 [548664401976] DEBUG - [FFMPEG] - st:1 removing common factor 1000000 from timebase
+Nov 28, 2023 01:26:48.395 [548664401976] DEBUG - [FFMPEG] - st:2 removing common factor 1000000 from timebase
+Nov 28, 2023 01:26:48.397 [548664401976] DEBUG - [FFMPEG] - Before avformat_find_stream_info() pos: 469610 bytes read:464941 seeks:3 nb_streams:7
+Nov 28, 2023 01:26:48.398 [548664401976] DEBUG - [FFMPEG] - nal_unit_type: 32(VPS), nuh_layer_id: 0, temporal_id: 0
+Nov 28, 2023 01:26:48.398 [548664401976] DEBUG - [FFMPEG] - Decoding VPS
+Nov 28, 2023 01:26:48.398 [548664401976] DEBUG - [FFMPEG] - Main 10 profile bitstream
+Nov 28, 2023 01:26:48.398 [548664401976] DEBUG - [FFMPEG] - nal_unit_type: 33(SPS), nuh_layer_id: 0, temporal_id: 0
+Nov 28, 2023 01:26:48.398 [548664401976] DEBUG - [FFMPEG] - Decoding SPS
+Nov 28, 2023 01:26:48.398 [548664401976] DEBUG - [FFMPEG] - Main 10 profile bitstream
+Nov 28, 2023 01:26:48.399 [548664401976] DEBUG - [FFMPEG] - Decoding VUI
+Nov 28, 2023 01:26:48.399 [548664401976] DEBUG - [FFMPEG] - nal_unit_type: 34(PPS), nuh_layer_id: 0, temporal_id: 0
+Nov 28, 2023 01:26:48.399 [548664401976] DEBUG - [FFMPEG] - Decoding PPS
+Nov 28, 2023 01:26:48.399 [548664401976] DEBUG - [FFMPEG] - nal_unit_type: 39(SEI_PREFIX), nuh_layer_id: 0, temporal_id: 0
+Nov 28, 2023 01:26:48.399 [548664401976] DEBUG - [FFMPEG] - Decoding SEI
+Nov 28, 2023 01:26:48.401 [548664401976] DEBUG - [FFMPEG] - skip 312/960 samples
+Nov 28, 2023 01:26:48.405 [548664401976] DEBUG - [FFMPEG] - All info found
+Nov 28, 2023 01:26:48.406 [548664401976] DEBUG - [FFMPEG] - After avformat_find_stream_info() pos: 636067 bytes read:653888 seeks:3 frames:19
+Nov 28, 2023 01:26:48.407 [548664401976] DEBUG - [MI]  * 7c3dc88df03da4ee1fcb8119b7a4cc85b0278695 [mkv hevc/opus] Duration: 121141ms, 1920x1080 (1.777778) 23.976fps, bitrate=1568kbps, audio channels=2, optimizedForStreaming=0 ("/media/tv/The Eminence in Shadow/Specials/The Eminence In Shadow - S00E05 - Kage-Jitsu! Operation 5 The Seven Shadows Want To Create An Artifact!.mkv")
+Nov 28, 2023 01:26:48.407 [548664401976] DEBUG - [MI] Chapters had generic titles, clearing.
+Nov 28, 2023 01:26:48.408 [548664401976] DEBUG - [MI] Closing input file: "/media/tv/The Eminence in Shadow/Specials/The Eminence In Shadow - S00E05 - Kage-Jitsu! Operation 5 The Seven Shadows Want To Create An Artifact!.mkv"
+Nov 28, 2023 01:26:48.409 [548664401976] DEBUG - Committing media stream changes for part 43
+Nov 28, 2023 01:26:48.411 [548664401976] DEBUG - Updating media item 43, size=23758335, metadata_item_id=45
+Nov 28, 2023 01:26:48.411 [548664401976] DEBUG - Updating part with ID=43 [/media/tv/The Eminence in Shadow/Specials/The Eminence In Shadow - S00E05 - Kage-Jitsu! Operation 5 The Seven Shadows Want To Create An Artifact!.mkv]
+Nov 28, 2023 01:26:48.411 [548584886328] DEBUG - [HCl#1b] HTTP requesting GET http://127.0.0.1:32400/:/metadata/notify/changeItemState?librarySectionID=2&metadataItemID=45&metadataType=4&state=-1&parentID=-1&rootID=-1&mediaState=analyzing
+Nov 28, 2023 01:26:48.413 [548586086456] DEBUG - [HttpClient/HCl#1b] HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/:/metadata/notify/changeItemState?librarySectionID=2&metadataItemID=45&metadataType=4&state=-1&parentID=-1&rootID=-1&mediaState=analyzing (reused)
+Nov 28, 2023 01:26:48.413 [548584886328] DEBUG - [HCl#1c] HTTP requesting GET http://127.0.0.1:32400/:/metadata/notify/changeItemState?librarySectionID=2&metadataItemID=45&metadataType=4&state=-1&parentID=-1&rootID=-1&mediaState=idle
+Nov 28, 2023 01:26:48.414 [548586086456] DEBUG - [HttpClient/HCl#1c] HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/:/metadata/notify/changeItemState?librarySectionID=2&metadataItemID=45&metadataType=4&state=-1&parentID=-1&rootID=-1&mediaState=idle (reused)
+Nov 28, 2023 01:26:48.420 [548664401976] DEBUG - Downloading document http://127.0.0.1:32400/library/changestamp
+Nov 28, 2023 01:26:48.420 [548664401976] DEBUG - [HCl#1d] HTTP requesting GET http://127.0.0.1:32400/library/changestamp
+Nov 28, 2023 01:26:48.422 [548586086456] DEBUG - [HttpClient/HCl#1d] HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/library/changestamp (reused)
+Nov 28, 2023 01:26:48.423 [548664401976] DEBUG - Updating metadata item (save) (Em-Shade! Operation 5: The Seven Shadows Want to Make an Artifact!) with ID 45
+Nov 28, 2023 01:26:48.425 [548584886328] DEBUG - [HCl#1e] HTTP requesting GET http://127.0.0.1:32400/:/metadata/flushMetadataCounterCache?metadataItemID=10
+Nov 28, 2023 01:26:48.427 [548586086456] DEBUG - [HttpClient/HCl#1e] HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/:/metadata/flushMetadataCounterCache?metadataItemID=10 (reused)
+Nov 28, 2023 01:26:48.431 [548664401976] DEBUG - Analyzing media parts for item 46 (Em-Shade! Operation 6: The Seven Shadows Want to Recommend Cute Underwear!): 44
+Nov 28, 2023 01:26:48.432 [548664401976] DEBUG - Downloading document http://127.0.0.1:32400/library/changestamp
+Nov 28, 2023 01:26:48.432 [548664401976] DEBUG - [HCl#1f] HTTP requesting GET http://127.0.0.1:32400/library/changestamp
+Nov 28, 2023 01:26:48.434 [548586086456] DEBUG - [HttpClient/HCl#1f] HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/library/changestamp (reused)
+Nov 28, 2023 01:26:48.434 [548664401976] DEBUG - Updating metadata item (save) (Em-Shade! Operation 6: The Seven Shadows Want to Recommend Cute Underwear!) with ID 46
+Nov 28, 2023 01:26:48.437 [548584886328] DEBUG - [HCl#20] HTTP requesting GET http://127.0.0.1:32400/:/metadata/flushMetadataCounterCache?metadataItemID=10
+Nov 28, 2023 01:26:48.439 [548586086456] DEBUG - [HttpClient/HCl#20] HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/:/metadata/flushMetadataCounterCache?metadataItemID=10 (reused)
+Nov 28, 2023 01:26:48.490 [548664401976] DEBUG - [ID 44] Media part analysis: /media/tv/The Eminence in Shadow/Specials/The Eminence In Shadow - S00E06 - Kage-Jitsu! Operation 6 The Seven Shadows Want To Recommend Cute Underwear!.mkv
+Nov 28, 2023 01:26:48.490 [548664401976] DEBUG - [MI] Opening input file: "/media/tv/The Eminence in Shadow/Specials/The Eminence In Shadow - S00E06 - Kage-Jitsu! Operation 6 The Seven Shadows Want To Recommend Cute Underwear!.mkv"
+Nov 28, 2023 01:26:48.490 [548664401976] DEBUG - [FFMPEG] - Opening '/media/tv/The Eminence in Shadow/Specials/The Eminence In Shadow - S00E06 - Kage-Jitsu! Operation 6 The Seven Shadows Want To Recommend Cute Underwear!.mkv' for reading
+Nov 28, 2023 01:26:48.490 [548664401976] DEBUG - [FFMPEG] - Setting default whitelist 'file,crypto,data'
+Nov 28, 2023 01:26:48.492 [548664401976] DEBUG - [FFMPEG] - Format matroska,webm probed with size=2048 and score=100
+Nov 28, 2023 01:26:48.492 [548664401976] DEBUG - [FFMPEG] - Unknown entry 0x22B59D at pos. 2795
+Nov 28, 2023 01:26:48.492 [548664401976] DEBUG - [FFMPEG] - Unknown entry 0x22B59D at pos. 2952
+Nov 28, 2023 01:26:48.492 [548664401976] DEBUG - [FFMPEG] - Unknown entry 0x22B59D at pos. 4099
+Nov 28, 2023 01:26:48.502 [548664401976] DEBUG - [FFMPEG] - st:0 removing common factor 1000000 from timebase
+Nov 28, 2023 01:26:48.502 [548664401976] DEBUG - [FFMPEG] - st:1 removing common factor 1000000 from timebase
+Nov 28, 2023 01:26:48.502 [548664401976] DEBUG - [FFMPEG] - st:2 removing common factor 1000000 from timebase
+Nov 28, 2023 01:26:48.503 [548664401976] DEBUG - [FFMPEG] - Before avformat_find_stream_info() pos: 391406 bytes read:386737 seeks:3 nb_streams:6
+Nov 28, 2023 01:26:48.505 [548664401976] DEBUG - [FFMPEG] - nal_unit_type: 32(VPS), nuh_layer_id: 0, temporal_id: 0
+Nov 28, 2023 01:26:48.505 [548664401976] DEBUG - [FFMPEG] - Decoding VPS
+Nov 28, 2023 01:26:48.505 [548664401976] DEBUG - [FFMPEG] - Main 10 profile bitstream
+Nov 28, 2023 01:26:48.505 [548664401976] DEBUG - [FFMPEG] - nal_unit_type: 33(SPS), nuh_layer_id: 0, temporal_id: 0
+Nov 28, 2023 01:26:48.505 [548664401976] DEBUG - [FFMPEG] - Decoding SPS
+Nov 28, 2023 01:26:48.505 [548664401976] DEBUG - [FFMPEG] - Main 10 profile bitstream
+Nov 28, 2023 01:26:48.505 [548664401976] DEBUG - [FFMPEG] - Decoding VUI
+Nov 28, 2023 01:26:48.505 [548664401976] DEBUG - [FFMPEG] - nal_unit_type: 34(PPS), nuh_layer_id: 0, temporal_id: 0
+Nov 28, 2023 01:26:48.505 [548664401976] DEBUG - [FFMPEG] - Decoding PPS
+Nov 28, 2023 01:26:48.505 [548664401976] DEBUG - [FFMPEG] - nal_unit_type: 39(SEI_PREFIX), nuh_layer_id: 0, temporal_id: 0
+Nov 28, 2023 01:26:48.505 [548664401976] DEBUG - [FFMPEG] - Decoding SEI
+Nov 28, 2023 01:26:48.508 [548664401976] DEBUG - [FFMPEG] - skip 312/960 samples
+Nov 28, 2023 01:26:48.509 [548664401976] DEBUG - [FFMPEG] - All info found
+Nov 28, 2023 01:26:48.511 [548664401976] DEBUG - [FFMPEG] - After avformat_find_stream_info() pos: 565225 bytes read:575761 seeks:3 frames:19
+Nov 28, 2023 01:26:48.511 [548664401976] DEBUG - [MI]  * 5fb8b328482275f07a08c5d725981f2a85bedde5 [mkv hevc/opus] Duration: 121141ms, 1920x1080 (1.777778) 23.976fps, bitrate=1537kbps, audio channels=2, optimizedForStreaming=0 ("/media/tv/The Eminence in Shadow/Specials/The Eminence In Shadow - S00E06 - Kage-Jitsu! Operation 6 The Seven Shadows Want To Recommend Cute Underwear!.mkv")
+Nov 28, 2023 01:26:48.511 [548664401976] DEBUG - [MI] Chapters had generic titles, clearing.
+Nov 28, 2023 01:26:48.513 [548664401976] DEBUG - [MI] Closing input file: "/media/tv/The Eminence in Shadow/Specials/The Eminence In Shadow - S00E06 - Kage-Jitsu! Operation 6 The Seven Shadows Want To Recommend Cute Underwear!.mkv"
+Nov 28, 2023 01:26:48.514 [548664401976] DEBUG - Committing media stream changes for part 44
+Nov 28, 2023 01:26:48.516 [548664401976] DEBUG - Updating media item 44, size=23282805, metadata_item_id=46
+Nov 28, 2023 01:26:48.517 [548664401976] DEBUG - Updating part with ID=44 [/media/tv/The Eminence in Shadow/Specials/The Eminence In Shadow - S00E06 - Kage-Jitsu! Operation 6 The Seven Shadows Want To Recommend Cute Underwear!.mkv]
+Nov 28, 2023 01:26:48.517 [548584886328] DEBUG - [HCl#21] HTTP requesting GET http://127.0.0.1:32400/:/metadata/notify/changeItemState?librarySectionID=2&metadataItemID=46&metadataType=4&state=-1&parentID=-1&rootID=-1&mediaState=analyzing
+Nov 28, 2023 01:26:48.519 [548586086456] DEBUG - [HttpClient/HCl#21] HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/:/metadata/notify/changeItemState?librarySectionID=2&metadataItemID=46&metadataType=4&state=-1&parentID=-1&rootID=-1&mediaState=analyzing (reused)
+Nov 28, 2023 01:26:48.519 [548584886328] DEBUG - [HCl#22] HTTP requesting GET http://127.0.0.1:32400/:/metadata/notify/changeItemState?librarySectionID=2&metadataItemID=46&metadataType=4&state=-1&parentID=-1&rootID=-1&mediaState=idle
+Nov 28, 2023 01:26:48.520 [548586086456] DEBUG - [HttpClient/HCl#22] HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/:/metadata/notify/changeItemState?librarySectionID=2&metadataItemID=46&metadataType=4&state=-1&parentID=-1&rootID=-1&mediaState=idle (reused)
+Nov 28, 2023 01:26:48.524 [548664401976] DEBUG - Downloading document http://127.0.0.1:32400/library/changestamp
+Nov 28, 2023 01:26:48.524 [548664401976] DEBUG - [HCl#23] HTTP requesting GET http://127.0.0.1:32400/library/changestamp
+Nov 28, 2023 01:26:48.526 [548586086456] DEBUG - [HttpClient/HCl#23] HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/library/changestamp (reused)
+Nov 28, 2023 01:26:48.526 [548664401976] DEBUG - Updating metadata item (save) (Em-Shade! Operation 6: The Seven Shadows Want to Recommend Cute Underwear!) with ID 46
+Nov 28, 2023 01:26:48.530 [548584886328] DEBUG - [HCl#24] HTTP requesting GET http://127.0.0.1:32400/:/metadata/flushMetadataCounterCache?metadataItemID=10
+Nov 28, 2023 01:26:48.531 [548586086456] DEBUG - [HttpClient/HCl#24] HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/:/metadata/flushMetadataCounterCache?metadataItemID=10 (reused)
+Nov 28, 2023 01:26:48.536 [548664401976] DEBUG - Analyzing media parts for item 47 (Em-Shade! Operation 7: The Seven Shadows Want to Choose Cute Underwear!): 45
+Nov 28, 2023 01:26:48.537 [548664401976] DEBUG - Downloading document http://127.0.0.1:32400/library/changestamp
+Nov 28, 2023 01:26:48.538 [548664401976] DEBUG - [HCl#25] HTTP requesting GET http://127.0.0.1:32400/library/changestamp
+Nov 28, 2023 01:26:48.540 [548586086456] DEBUG - [HttpClient/HCl#25] HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/library/changestamp (reused)
+Nov 28, 2023 01:26:48.540 [548664401976] DEBUG - Updating metadata item (save) (Em-Shade! Operation 7: The Seven Shadows Want to Choose Cute Underwear!) with ID 47
+Nov 28, 2023 01:26:48.561 [548584886328] DEBUG - [HCl#26] HTTP requesting GET http://127.0.0.1:32400/:/metadata/flushMetadataCounterCache?metadataItemID=10
+Nov 28, 2023 01:26:48.564 [548586086456] DEBUG - [HttpClient/HCl#26] HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/:/metadata/flushMetadataCounterCache?metadataItemID=10 (reused)
+Nov 28, 2023 01:26:48.582 [548664401976] DEBUG - [ID 45] Media part analysis: /media/tv/The Eminence in Shadow/Specials/The Eminence In Shadow - S00E07 - Kage-Jitsu! Operation 7 The Seven Shadows Want To Select Cute Underwear!.mkv
+Nov 28, 2023 01:26:48.583 [548664401976] DEBUG - [MI] Opening input file: "/media/tv/The Eminence in Shadow/Specials/The Eminence In Shadow - S00E07 - Kage-Jitsu! Operation 7 The Seven Shadows Want To Select Cute Underwear!.mkv"
+Nov 28, 2023 01:26:48.583 [548664401976] DEBUG - [FFMPEG] - Opening '/media/tv/The Eminence in Shadow/Specials/The Eminence In Shadow - S00E07 - Kage-Jitsu! Operation 7 The Seven Shadows Want To Select Cute Underwear!.mkv' for reading
+Nov 28, 2023 01:26:48.583 [548664401976] DEBUG - [FFMPEG] - Setting default whitelist 'file,crypto,data'
+Nov 28, 2023 01:26:48.584 [548664401976] DEBUG - [FFMPEG] - Format matroska,webm probed with size=2048 and score=100
+Nov 28, 2023 01:26:48.585 [548664401976] DEBUG - [FFMPEG] - Unknown entry 0x22B59D at pos. 2795
+Nov 28, 2023 01:26:48.585 [548664401976] DEBUG - [FFMPEG] - Unknown entry 0x22B59D at pos. 2952
+Nov 28, 2023 01:26:48.585 [548664401976] DEBUG - [FFMPEG] - Unknown entry 0x22B59D at pos. 3961
+Nov 28, 2023 01:26:48.597 [548664401976] DEBUG - [FFMPEG] - st:0 removing common factor 1000000 from timebase
+Nov 28, 2023 01:26:48.597 [548664401976] DEBUG - [FFMPEG] - st:1 removing common factor 1000000 from timebase
+Nov 28, 2023 01:26:48.598 [548664401976] DEBUG - [FFMPEG] - st:2 removing common factor 1000000 from timebase
+Nov 28, 2023 01:26:48.603 [548664401976] DEBUG - [FFMPEG] - Before avformat_find_stream_info() pos: 391268 bytes read:386599 seeks:3 nb_streams:6
+Nov 28, 2023 01:26:48.606 [548664401976] DEBUG - [FFMPEG] - nal_unit_type: 32(VPS), nuh_layer_id: 0, temporal_id: 0
+Nov 28, 2023 01:26:48.606 [548664401976] DEBUG - [FFMPEG] - Decoding VPS
+Nov 28, 2023 01:26:48.606 [548664401976] DEBUG - [FFMPEG] - Main 10 profile bitstream
+Nov 28, 2023 01:26:48.606 [548664401976] DEBUG - [FFMPEG] - nal_unit_type: 33(SPS), nuh_layer_id: 0, temporal_id: 0
+Nov 28, 2023 01:26:48.606 [548664401976] DEBUG - [FFMPEG] - Decoding SPS
+Nov 28, 2023 01:26:48.606 [548664401976] DEBUG - [FFMPEG] - Main 10 profile bitstream
+Nov 28, 2023 01:26:48.606 [548664401976] DEBUG - [FFMPEG] - Decoding VUI
+Nov 28, 2023 01:26:48.606 [548664401976] DEBUG - [FFMPEG] - nal_unit_type: 34(PPS), nuh_layer_id: 0, temporal_id: 0
+Nov 28, 2023 01:26:48.606 [548664401976] DEBUG - [FFMPEG] - Decoding PPS
+Nov 28, 2023 01:26:48.606 [548664401976] DEBUG - [FFMPEG] - nal_unit_type: 39(SEI_PREFIX), nuh_layer_id: 0, temporal_id: 0
+Nov 28, 2023 01:26:48.606 [548664401976] DEBUG - [FFMPEG] - Decoding SEI
+Nov 28, 2023 01:26:48.608 [548664401976] DEBUG - [FFMPEG] - skip 312/960 samples
+Nov 28, 2023 01:26:48.612 [548664401976] DEBUG - [FFMPEG] - All info found
+Nov 28, 2023 01:26:48.616 [548664401976] DEBUG - [FFMPEG] - After avformat_find_stream_info() pos: 560487 bytes read:575369 seeks:3 frames:19
+Nov 28, 2023 01:26:48.616 [548664401976] DEBUG - [MI]  * 0414f86ad714502d39674fe90d71054eb585f0bf [mkv hevc/opus] Duration: 121141ms, 1920x1080 (1.777778) 23.976fps, bitrate=1697kbps, audio channels=2, optimizedForStreaming=0 ("/media/tv/The Eminence in Shadow/Specials/The Eminence In Shadow - S00E07 - Kage-Jitsu! Operation 7 The Seven Shadows Want To Select Cute Underwear!.mkv")
+Nov 28, 2023 01:26:48.616 [548664401976] DEBUG - [MI] Chapters had generic titles, clearing.
+Nov 28, 2023 01:26:48.617 [548664401976] DEBUG - [MI] Closing input file: "/media/tv/The Eminence in Shadow/Specials/The Eminence In Shadow - S00E07 - Kage-Jitsu! Operation 7 The Seven Shadows Want To Select Cute Underwear!.mkv"
+Nov 28, 2023 01:26:48.619 [548664401976] DEBUG - Committing media stream changes for part 45
+Nov 28, 2023 01:26:48.621 [548664401976] DEBUG - Updating media item 45, size=25701188, metadata_item_id=47
+Nov 28, 2023 01:26:48.622 [548664401976] DEBUG - Updating part with ID=45 [/media/tv/The Eminence in Shadow/Specials/The Eminence In Shadow - S00E07 - Kage-Jitsu! Operation 7 The Seven Shadows Want To Select Cute Underwear!.mkv]
+Nov 28, 2023 01:26:48.629 [548584886328] DEBUG - [HCl#27] HTTP requesting GET http://127.0.0.1:32400/:/metadata/notify/changeItemState?librarySectionID=2&metadataItemID=47&metadataType=4&state=-1&parentID=-1&rootID=-1&mediaState=analyzing
+Nov 28, 2023 01:26:48.632 [548586086456] DEBUG - [HttpClient/HCl#27] HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/:/metadata/notify/changeItemState?librarySectionID=2&metadataItemID=47&metadataType=4&state=-1&parentID=-1&rootID=-1&mediaState=analyzing (reused)
+Nov 28, 2023 01:26:48.633 [548584886328] DEBUG - [HCl#28] HTTP requesting GET http://127.0.0.1:32400/:/metadata/notify/changeItemState?librarySectionID=2&metadataItemID=47&metadataType=4&state=-1&parentID=-1&rootID=-1&mediaState=idle
+Nov 28, 2023 01:26:48.635 [548586086456] DEBUG - [HttpClient/HCl#28] HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/:/metadata/notify/changeItemState?librarySectionID=2&metadataItemID=47&metadataType=4&state=-1&parentID=-1&rootID=-1&mediaState=idle (reused)
+Nov 28, 2023 01:26:48.639 [548664401976] DEBUG - Downloading document http://127.0.0.1:32400/library/changestamp
+Nov 28, 2023 01:26:48.639 [548664401976] DEBUG - [HCl#29] HTTP requesting GET http://127.0.0.1:32400/library/changestamp
+Nov 28, 2023 01:26:48.642 [548586086456] DEBUG - [HttpClient/HCl#29] HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/library/changestamp (reused)
+Nov 28, 2023 01:26:48.644 [548664401976] DEBUG - Updating metadata item (save) (Em-Shade! Operation 7: The Seven Shadows Want to Choose Cute Underwear!) with ID 47
+Nov 28, 2023 01:26:48.653 [548584886328] DEBUG - [HCl#2a] HTTP requesting GET http://127.0.0.1:32400/:/metadata/flushMetadataCounterCache?metadataItemID=10
+Nov 28, 2023 01:26:48.655 [548586086456] DEBUG - [HttpClient/HCl#2a] HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/:/metadata/flushMetadataCounterCache?metadataItemID=10 (reused)
+Nov 28, 2023 01:26:48.668 [548664401976] DEBUG - Analyzing media parts for item 48 (Em-Shade! Operation 8: The Seven Shadows Want to Soak in the Best Bath!): 46
+Nov 28, 2023 01:26:48.670 [548664401976] DEBUG - Downloading document http://127.0.0.1:32400/library/changestamp
+Nov 28, 2023 01:26:48.670 [548664401976] DEBUG - [HCl#2b] HTTP requesting GET http://127.0.0.1:32400/library/changestamp
+Nov 28, 2023 01:26:48.673 [548586086456] DEBUG - [HttpClient/HCl#2b] HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/library/changestamp (reused)
+Nov 28, 2023 01:26:48.673 [548664401976] DEBUG - Updating metadata item (save) (Em-Shade! Operation 8: The Seven Shadows Want to Soak in the Best Bath!) with ID 48
+Nov 28, 2023 01:26:48.680 [548584886328] DEBUG - [HCl#2c] HTTP requesting GET http://127.0.0.1:32400/:/metadata/flushMetadataCounterCache?metadataItemID=10
+Nov 28, 2023 01:26:48.681 [548586086456] DEBUG - [HttpClient/HCl#2c] HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/:/metadata/flushMetadataCounterCache?metadataItemID=10 (reused)
+Nov 28, 2023 01:26:48.692 [548664401976] DEBUG - [ID 46] Media part analysis: /media/tv/The Eminence in Shadow/Specials/The Eminence In Shadow - S00E08 - Kage-Jitsu! Operation 8 The Seven Shadows Want To Bathe In The Finest Hot Spa!.mkv
+Nov 28, 2023 01:26:48.693 [548664401976] DEBUG - [MI] Opening input file: "/media/tv/The Eminence in Shadow/Specials/The Eminence In Shadow - S00E08 - Kage-Jitsu! Operation 8 The Seven Shadows Want To Bathe In The Finest Hot Spa!.mkv"
+Nov 28, 2023 01:26:48.693 [548664401976] DEBUG - [FFMPEG] - Opening '/media/tv/The Eminence in Shadow/Specials/The Eminence In Shadow - S00E08 - Kage-Jitsu! Operation 8 The Seven Shadows Want To Bathe In The Finest Hot Spa!.mkv' for reading
+Nov 28, 2023 01:26:48.693 [548664401976] DEBUG - [FFMPEG] - Setting default whitelist 'file,crypto,data'
+Nov 28, 2023 01:26:48.694 [548664401976] DEBUG - [FFMPEG] - Format matroska,webm probed with size=2048 and score=100
+Nov 28, 2023 01:26:48.694 [548664401976] DEBUG - [FFMPEG] - Unknown entry 0x22B59D at pos. 2795
+Nov 28, 2023 01:26:48.694 [548664401976] DEBUG - [FFMPEG] - Unknown entry 0x22B59D at pos. 2952
+Nov 28, 2023 01:26:48.694 [548664401976] DEBUG - [FFMPEG] - Unknown entry 0x22B59D at pos. 3820
+Nov 28, 2023 01:26:48.701 [548664401976] DEBUG - [FFMPEG] - st:0 removing common factor 1000000 from timebase
+Nov 28, 2023 01:26:48.701 [548664401976] DEBUG - [FFMPEG] - st:1 removing common factor 1000000 from timebase
+Nov 28, 2023 01:26:48.701 [548664401976] DEBUG - [FFMPEG] - st:2 removing common factor 1000000 from timebase
+Nov 28, 2023 01:26:48.702 [548664401976] DEBUG - [FFMPEG] - Before avformat_find_stream_info() pos: 241841 bytes read:237172 seeks:3 nb_streams:5
+Nov 28, 2023 01:26:48.704 [548664401976] DEBUG - [FFMPEG] - nal_unit_type: 32(VPS), nuh_layer_id: 0, temporal_id: 0
+Nov 28, 2023 01:26:48.704 [548664401976] DEBUG - [FFMPEG] - Decoding VPS
+Nov 28, 2023 01:26:48.704 [548664401976] DEBUG - [FFMPEG] - Main 10 profile bitstream
+Nov 28, 2023 01:26:48.704 [548664401976] DEBUG - [FFMPEG] - nal_unit_type: 33(SPS), nuh_layer_id: 0, temporal_id: 0
+Nov 28, 2023 01:26:48.704 [548664401976] DEBUG - [FFMPEG] - Decoding SPS
+Nov 28, 2023 01:26:48.704 [548664401976] DEBUG - [FFMPEG] - Main 10 profile bitstream
+Nov 28, 2023 01:26:48.704 [548664401976] DEBUG - [FFMPEG] - Decoding VUI
+Nov 28, 2023 01:26:48.704 [548664401976] DEBUG - [FFMPEG] - nal_unit_type: 34(PPS), nuh_layer_id: 0, temporal_id: 0
+Nov 28, 2023 01:26:48.704 [548664401976] DEBUG - [FFMPEG] - Decoding PPS
+Nov 28, 2023 01:26:48.704 [548664401976] DEBUG - [FFMPEG] - nal_unit_type: 39(SEI_PREFIX), nuh_layer_id: 0, temporal_id: 0
+Nov 28, 2023 01:26:48.704 [548664401976] DEBUG - [FFMPEG] - Decoding SEI
+Nov 28, 2023 01:26:48.706 [548664401976] DEBUG - [FFMPEG] - skip 312/960 samples
+Nov 28, 2023 01:26:48.707 [548664401976] DEBUG - [FFMPEG] - All info found
+Nov 28, 2023 01:26:48.709 [548664401976] DEBUG - [FFMPEG] - After avformat_find_stream_info() pos: 415979 bytes read:422972 seeks:3 frames:19
+Nov 28, 2023 01:26:48.709 [548664401976] DEBUG - [MI]  * 906147fe383ea3d7aab8b6f4306f4466625c846b [mkv hevc/opus] Duration: 121141ms, 1920x1080 (1.777778) 23.976fps, bitrate=2067kbps, audio channels=2, optimizedForStreaming=0 ("/media/tv/The Eminence in Shadow/Specials/The Eminence In Shadow - S00E08 - Kage-Jitsu! Operation 8 The Seven Shadows Want To Bathe In The Finest Hot Spa!.mkv")
+Nov 28, 2023 01:26:48.709 [548664401976] DEBUG - [MI] Chapters had generic titles, clearing.
+Nov 28, 2023 01:26:48.710 [548664401976] DEBUG - [MI] Closing input file: "/media/tv/The Eminence in Shadow/Specials/The Eminence In Shadow - S00E08 - Kage-Jitsu! Operation 8 The Seven Shadows Want To Bathe In The Finest Hot Spa!.mkv"
+Nov 28, 2023 01:26:48.711 [548664401976] DEBUG - Committing media stream changes for part 46
+Nov 28, 2023 01:26:48.722 [548664401976] DEBUG - Updating media item 46, size=31312788, metadata_item_id=48
+Nov 28, 2023 01:26:48.723 [548664401976] DEBUG - Updating part with ID=46 [/media/tv/The Eminence in Shadow/Specials/The Eminence In Shadow - S00E08 - Kage-Jitsu! Operation 8 The Seven Shadows Want To Bathe In The Finest Hot Spa!.mkv]
+Nov 28, 2023 01:26:48.726 [548584886328] DEBUG - [HCl#2d] HTTP requesting GET http://127.0.0.1:32400/:/metadata/notify/changeItemState?librarySectionID=2&metadataItemID=48&metadataType=4&state=-1&parentID=-1&rootID=-1&mediaState=analyzing
+Nov 28, 2023 01:26:48.729 [548586086456] DEBUG - [HttpClient/HCl#2d] HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/:/metadata/notify/changeItemState?librarySectionID=2&metadataItemID=48&metadataType=4&state=-1&parentID=-1&rootID=-1&mediaState=analyzing (reused)
+Nov 28, 2023 01:26:48.730 [548584886328] DEBUG - [HCl#2e] HTTP requesting GET http://127.0.0.1:32400/:/metadata/notify/changeItemState?librarySectionID=2&metadataItemID=48&metadataType=4&state=-1&parentID=-1&rootID=-1&mediaState=idle
+Nov 28, 2023 01:26:48.736 [548586086456] DEBUG - [HttpClient/HCl#2e] HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/:/metadata/notify/changeItemState?librarySectionID=2&metadataItemID=48&metadataType=4&state=-1&parentID=-1&rootID=-1&mediaState=idle (reused)
+Nov 28, 2023 01:26:48.753 [548664401976] DEBUG - Downloading document http://127.0.0.1:32400/library/changestamp
+Nov 28, 2023 01:26:48.753 [548664401976] DEBUG - [HCl#2f] HTTP requesting GET http://127.0.0.1:32400/library/changestamp
+Nov 28, 2023 01:26:48.759 [548586086456] DEBUG - [HttpClient/HCl#2f] HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/library/changestamp (reused)
+Nov 28, 2023 01:26:48.759 [548664401976] DEBUG - Updating metadata item (save) (Em-Shade! Operation 8: The Seven Shadows Want to Soak in the Best Bath!) with ID 48
+Nov 28, 2023 01:26:48.764 [548584886328] DEBUG - [HCl#30] HTTP requesting GET http://127.0.0.1:32400/:/metadata/flushMetadataCounterCache?metadataItemID=10
+Nov 28, 2023 01:26:48.766 [548586086456] DEBUG - [HttpClient/HCl#30] HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/:/metadata/flushMetadataCounterCache?metadataItemID=10 (reused)
+Nov 28, 2023 01:26:48.780 [548664401976] DEBUG - Analyzing media parts for item 49 (Em-Shade! Operation 9: The Seven Shadows Want to Get Along!): 47
+Nov 28, 2023 01:26:48.782 [548664401976] DEBUG - Downloading document http://127.0.0.1:32400/library/changestamp
+Nov 28, 2023 01:26:48.782 [548664401976] DEBUG - [HCl#31] HTTP requesting GET http://127.0.0.1:32400/library/changestamp
+Nov 28, 2023 01:26:48.786 [548586086456] DEBUG - [HttpClient/HCl#31] HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/library/changestamp (reused)
+Nov 28, 2023 01:26:48.787 [548664401976] DEBUG - Updating metadata item (save) (Em-Shade! Operation 9: The Seven Shadows Want to Get Along!) with ID 49
+Nov 28, 2023 01:26:48.793 [548584886328] DEBUG - [HCl#32] HTTP requesting GET http://127.0.0.1:32400/:/metadata/flushMetadataCounterCache?metadataItemID=10
+Nov 28, 2023 01:26:48.794 [548586086456] DEBUG - [HttpClient/HCl#32] HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/:/metadata/flushMetadataCounterCache?metadataItemID=10 (reused)
+Nov 28, 2023 01:26:48.796 [548664401976] DEBUG - [ID 47] Media part analysis: /media/tv/The Eminence in Shadow/Specials/The Eminence In Shadow - S00E09 - Kage-Jitsu! Operation 9 The Seven Shadows Want To Get Along Together!.mkv
+Nov 28, 2023 01:26:48.796 [548664401976] DEBUG - [MI] Opening input file: "/media/tv/The Eminence in Shadow/Specials/The Eminence In Shadow - S00E09 - Kage-Jitsu! Operation 9 The Seven Shadows Want To Get Along Together!.mkv"
+Nov 28, 2023 01:26:48.796 [548664401976] DEBUG - [FFMPEG] - Opening '/media/tv/The Eminence in Shadow/Specials/The Eminence In Shadow - S00E09 - Kage-Jitsu! Operation 9 The Seven Shadows Want To Get Along Together!.mkv' for reading
+Nov 28, 2023 01:26:48.796 [548664401976] DEBUG - [FFMPEG] - Setting default whitelist 'file,crypto,data'
+Nov 28, 2023 01:26:48.797 [548664401976] DEBUG - [FFMPEG] - Format matroska,webm probed with size=2048 and score=100
+Nov 28, 2023 01:26:48.798 [548664401976] DEBUG - [FFMPEG] - Unknown entry 0x22B59D at pos. 2795
+Nov 28, 2023 01:26:48.798 [548664401976] DEBUG - [FFMPEG] - Unknown entry 0x22B59D at pos. 2952
+Nov 28, 2023 01:26:48.798 [548664401976] DEBUG - [FFMPEG] - Unknown entry 0x22B59D at pos. 3820
+Nov 28, 2023 01:26:48.816 [548664401976] DEBUG - [FFMPEG] - st:0 removing common factor 1000000 from timebase
+Nov 28, 2023 01:26:48.816 [548664401976] DEBUG - [FFMPEG] - st:1 removing common factor 1000000 from timebase
+Nov 28, 2023 01:26:48.816 [548664401976] DEBUG - [FFMPEG] - st:2 removing common factor 1000000 from timebase
+Nov 28, 2023 01:26:48.819 [548664401976] DEBUG - [FFMPEG] - Before avformat_find_stream_info() pos: 391127 bytes read:386458 seeks:3 nb_streams:6
+Nov 28, 2023 01:26:48.828 [548664401976] DEBUG - [FFMPEG] - nal_unit_type: 32(VPS), nuh_layer_id: 0, temporal_id: 0
+Nov 28, 2023 01:26:48.829 [548664401976] DEBUG - [FFMPEG] - Decoding VPS
+Nov 28, 2023 01:26:48.829 [548664401976] DEBUG - [FFMPEG] - Main 10 profile bitstream
+Nov 28, 2023 01:26:48.829 [548664401976] DEBUG - [FFMPEG] - nal_unit_type: 33(SPS), nuh_layer_id: 0, temporal_id: 0
+Nov 28, 2023 01:26:48.829 [548664401976] DEBUG - [FFMPEG] - Decoding SPS
+Nov 28, 2023 01:26:48.829 [548664401976] DEBUG - [FFMPEG] - Main 10 profile bitstream
+Nov 28, 2023 01:26:48.829 [548664401976] DEBUG - [FFMPEG] - Decoding VUI
+Nov 28, 2023 01:26:48.829 [548664401976] DEBUG - [FFMPEG] - nal_unit_type: 34(PPS), nuh_layer_id: 0, temporal_id: 0
+Nov 28, 2023 01:26:48.829 [548664401976] DEBUG - [FFMPEG] - Decoding PPS
+Nov 28, 2023 01:26:48.829 [548664401976] DEBUG - [FFMPEG] - nal_unit_type: 39(SEI_PREFIX), nuh_layer_id: 0, temporal_id: 0
+Nov 28, 2023 01:26:48.829 [548664401976] DEBUG - [FFMPEG] - Decoding SEI
+Nov 28, 2023 01:26:48.832 [548664401976] DEBUG - [FFMPEG] - skip 312/960 samples
+Nov 28, 2023 01:26:48.833 [548664401976] DEBUG - [FFMPEG] - All info found
+Nov 28, 2023 01:26:48.836 [548664401976] DEBUG - [FFMPEG] - After avformat_find_stream_info() pos: 566734 bytes read:574198 seeks:3 frames:19
+Nov 28, 2023 01:26:48.836 [548664401976] DEBUG - [MI]  * 338c431289c792d8999e7cac5b48f2ddd8ecf32f [mkv hevc/opus] Duration: 121141ms, 1920x1080 (1.777778) 23.976fps, bitrate=1996kbps, audio channels=2, optimizedForStreaming=0 ("/media/tv/The Eminence in Shadow/Specials/The Eminence In Shadow - S00E09 - Kage-Jitsu! Operation 9 The Seven Shadows Want To Get Along Together!.mkv")
+Nov 28, 2023 01:26:48.836 [548664401976] DEBUG - [MI] Chapters had generic titles, clearing.
+Nov 28, 2023 01:26:48.838 [548664401976] DEBUG - [MI] Closing input file: "/media/tv/The Eminence in Shadow/Specials/The Eminence In Shadow - S00E09 - Kage-Jitsu! Operation 9 The Seven Shadows Want To Get Along Together!.mkv"
+Nov 28, 2023 01:26:48.862 [548664401976] DEBUG - Committing media stream changes for part 47
+Nov 28, 2023 01:26:48.865 [548664401976] DEBUG - Updating media item 47, size=30230323, metadata_item_id=49
+Nov 28, 2023 01:26:48.865 [548664401976] DEBUG - Updating part with ID=47 [/media/tv/The Eminence in Shadow/Specials/The Eminence In Shadow - S00E09 - Kage-Jitsu! Operation 9 The Seven Shadows Want To Get Along Together!.mkv]
+Nov 28, 2023 01:26:48.866 [548584886328] DEBUG - [HCl#33] HTTP requesting GET http://127.0.0.1:32400/:/metadata/notify/changeItemState?librarySectionID=2&metadataItemID=49&metadataType=4&state=-1&parentID=-1&rootID=-1&mediaState=analyzing
+Nov 28, 2023 01:26:48.872 [548586086456] DEBUG - [HttpClient/HCl#33] HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/:/metadata/notify/changeItemState?librarySectionID=2&metadataItemID=49&metadataType=4&state=-1&parentID=-1&rootID=-1&mediaState=analyzing (reused)
+Nov 28, 2023 01:26:48.873 [548584886328] DEBUG - [HCl#34] HTTP requesting GET http://127.0.0.1:32400/:/metadata/notify/changeItemState?librarySectionID=2&metadataItemID=49&metadataType=4&state=-1&parentID=-1&rootID=-1&mediaState=idle
+Nov 28, 2023 01:26:48.877 [548586086456] DEBUG - [HttpClient/HCl#34] HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/:/metadata/notify/changeItemState?librarySectionID=2&metadataItemID=49&metadataType=4&state=-1&parentID=-1&rootID=-1&mediaState=idle (reused)
+Nov 28, 2023 01:26:48.883 [548664401976] DEBUG - Downloading document http://127.0.0.1:32400/library/changestamp
+Nov 28, 2023 01:26:48.883 [548664401976] DEBUG - [HCl#35] HTTP requesting GET http://127.0.0.1:32400/library/changestamp
+Nov 28, 2023 01:26:48.886 [548586086456] DEBUG - [HttpClient/HCl#35] HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/library/changestamp (reused)
+Nov 28, 2023 01:26:48.886 [548664401976] DEBUG - Updating metadata item (save) (Em-Shade! Operation 9: The Seven Shadows Want to Get Along!) with ID 49
+Nov 28, 2023 01:26:48.895 [548584886328] DEBUG - [HCl#36] HTTP requesting GET http://127.0.0.1:32400/:/metadata/flushMetadataCounterCache?metadataItemID=10
+Nov 28, 2023 01:26:48.896 [548586086456] DEBUG - [HttpClient/HCl#36] HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/:/metadata/flushMetadataCounterCache?metadataItemID=10 (reused)
+Nov 28, 2023 01:26:48.905 [548664401976] DEBUG - Analyzing media parts for item 50 (Em-Shade! Operation 10: The Seven Shadows Want to Get Amazing Muscles!): 48
+Nov 28, 2023 01:26:48.907 [548664401976] DEBUG - Downloading document http://127.0.0.1:32400/library/changestamp
+Nov 28, 2023 01:26:48.907 [548664401976] DEBUG - [HCl#37] HTTP requesting GET http://127.0.0.1:32400/library/changestamp
+Nov 28, 2023 01:26:48.910 [548586086456] DEBUG - [HttpClient/HCl#37] HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/library/changestamp (reused)
+Nov 28, 2023 01:26:48.910 [548664401976] DEBUG - Updating metadata item (save) (Em-Shade! Operation 10: The Seven Shadows Want to Get Amazing Muscles!) with ID 50
+Nov 28, 2023 01:26:48.913 [548584886328] DEBUG - [HCl#38] HTTP requesting GET http://127.0.0.1:32400/:/metadata/flushMetadataCounterCache?metadataItemID=10
+Nov 28, 2023 01:26:48.914 [548586086456] DEBUG - [HttpClient/HCl#38] HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/:/metadata/flushMetadataCounterCache?metadataItemID=10 (reused)
+Nov 28, 2023 01:26:48.915 [548664401976] DEBUG - [ID 48] Media part analysis: /media/tv/The Eminence in Shadow/Specials/The Eminence In Shadow - S00E10 - Kage-Jitsu! Operation 10 The Seven Shadows Want To Gain Awesome Muscles!.mkv
+Nov 28, 2023 01:26:48.916 [548664401976] DEBUG - [MI] Opening input file: "/media/tv/The Eminence in Shadow/Specials/The Eminence In Shadow - S00E10 - Kage-Jitsu! Operation 10 The Seven Shadows Want To Gain Awesome Muscles!.mkv"
+Nov 28, 2023 01:26:48.916 [548664401976] DEBUG - [FFMPEG] - Opening '/media/tv/The Eminence in Shadow/Specials/The Eminence In Shadow - S00E10 - Kage-Jitsu! Operation 10 The Seven Shadows Want To Gain Awesome Muscles!.mkv' for reading
+Nov 28, 2023 01:26:48.916 [548664401976] DEBUG - [FFMPEG] - Setting default whitelist 'file,crypto,data'
+Nov 28, 2023 01:26:48.917 [548664401976] DEBUG - [FFMPEG] - Format matroska,webm probed with size=2048 and score=100
+Nov 28, 2023 01:26:48.917 [548664401976] DEBUG - [FFMPEG] - Unknown entry 0x22B59D at pos. 2795
+Nov 28, 2023 01:26:48.917 [548664401976] DEBUG - [FFMPEG] - Unknown entry 0x22B59D at pos. 2952
+Nov 28, 2023 01:26:48.917 [548664401976] DEBUG - [FFMPEG] - Unknown entry 0x22B59D at pos. 3938
+Nov 28, 2023 01:26:48.925 [548664401976] DEBUG - [FFMPEG] - st:0 removing common factor 1000000 from timebase
+Nov 28, 2023 01:26:48.926 [548664401976] DEBUG - [FFMPEG] - st:1 removing common factor 1000000 from timebase
+Nov 28, 2023 01:26:48.926 [548664401976] DEBUG - [FFMPEG] - st:2 removing common factor 1000000 from timebase
+Nov 28, 2023 01:26:48.927 [548664401976] DEBUG - [FFMPEG] - Before avformat_find_stream_info() pos: 241959 bytes read:237290 seeks:3 nb_streams:5
+Nov 28, 2023 01:26:48.929 [548664401976] DEBUG - [FFMPEG] - nal_unit_type: 32(VPS), nuh_layer_id: 0, temporal_id: 0
+Nov 28, 2023 01:26:48.929 [548664401976] DEBUG - [FFMPEG] - Decoding VPS
+Nov 28, 2023 01:26:48.929 [548664401976] DEBUG - [FFMPEG] - Main 10 profile bitstream
+Nov 28, 2023 01:26:48.929 [548664401976] DEBUG - [FFMPEG] - nal_unit_type: 33(SPS), nuh_layer_id: 0, temporal_id: 0
+Nov 28, 2023 01:26:48.929 [548664401976] DEBUG - [FFMPEG] - Decoding SPS
+Nov 28, 2023 01:26:48.929 [548664401976] DEBUG - [FFMPEG] - Main 10 profile bitstream
+Nov 28, 2023 01:26:48.929 [548664401976] DEBUG - [FFMPEG] - Decoding VUI
+Nov 28, 2023 01:26:48.929 [548664401976] DEBUG - [FFMPEG] - nal_unit_type: 34(PPS), nuh_layer_id: 0, temporal_id: 0
+Nov 28, 2023 01:26:48.929 [548664401976] DEBUG - [FFMPEG] - Decoding PPS
+Nov 28, 2023 01:26:48.929 [548664401976] DEBUG - [FFMPEG] - nal_unit_type: 39(SEI_PREFIX), nuh_layer_id: 0, temporal_id: 0
+Nov 28, 2023 01:26:48.929 [548664401976] DEBUG - [FFMPEG] - Decoding SEI
+Nov 28, 2023 01:26:48.934 [548664401976] DEBUG - [FFMPEG] - skip 312/960 samples
+Nov 28, 2023 01:26:48.935 [548664401976] DEBUG - [FFMPEG] - All info found
+Nov 28, 2023 01:26:48.937 [548664401976] DEBUG - [FFMPEG] - After avformat_find_stream_info() pos: 417653 bytes read:424877 seeks:3 frames:19
+Nov 28, 2023 01:26:48.937 [548664401976] DEBUG - [MI]  * 7e5b8d8e17c5256080ee0ffe1cc36d7065359aa7 [mkv hevc/opus] Duration: 121141ms, 1920x1080 (1.777778) 23.976fps, bitrate=2185kbps, audio channels=2, optimizedForStreaming=0 ("/media/tv/The Eminence in Shadow/Specials/The Eminence In Shadow - S00E10 - Kage-Jitsu! Operation 10 The Seven Shadows Want To Gain Awesome Muscles!.mkv")
+Nov 28, 2023 01:26:48.937 [548664401976] DEBUG - [MI] Chapters had generic titles, clearing.
+Nov 28, 2023 01:26:48.938 [548664401976] DEBUG - [MI] Closing input file: "/media/tv/The Eminence in Shadow/Specials/The Eminence In Shadow - S00E10 - Kage-Jitsu! Operation 10 The Seven Shadows Want To Gain Awesome Muscles!.mkv"
+Nov 28, 2023 01:26:48.940 [548664401976] DEBUG - Committing media stream changes for part 48
+Nov 28, 2023 01:26:48.942 [548664401976] DEBUG - Updating media item 48, size=33097798, metadata_item_id=50
+Nov 28, 2023 01:26:48.943 [548664401976] DEBUG - Updating part with ID=48 [/media/tv/The Eminence in Shadow/Specials/The Eminence In Shadow - S00E10 - Kage-Jitsu! Operation 10 The Seven Shadows Want To Gain Awesome Muscles!.mkv]
+Nov 28, 2023 01:26:48.943 [548584886328] DEBUG - [HCl#39] HTTP requesting GET http://127.0.0.1:32400/:/metadata/notify/changeItemState?librarySectionID=2&metadataItemID=50&metadataType=4&state=-1&parentID=-1&rootID=-1&mediaState=analyzing
+Nov 28, 2023 01:26:48.945 [548586086456] DEBUG - [HttpClient/HCl#39] HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/:/metadata/notify/changeItemState?librarySectionID=2&metadataItemID=50&metadataType=4&state=-1&parentID=-1&rootID=-1&mediaState=analyzing (reused)
+Nov 28, 2023 01:26:48.945 [548584886328] DEBUG - [HCl#3a] HTTP requesting GET http://127.0.0.1:32400/:/metadata/notify/changeItemState?librarySectionID=2&metadataItemID=50&metadataType=4&state=-1&parentID=-1&rootID=-1&mediaState=idle
+Nov 28, 2023 01:26:48.947 [548586086456] DEBUG - [HttpClient/HCl#3a] HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/:/metadata/notify/changeItemState?librarySectionID=2&metadataItemID=50&metadataType=4&state=-1&parentID=-1&rootID=-1&mediaState=idle (reused)
+Nov 28, 2023 01:26:48.953 [548664401976] DEBUG - Downloading document http://127.0.0.1:32400/library/changestamp
+Nov 28, 2023 01:26:48.953 [548664401976] DEBUG - [HCl#3b] HTTP requesting GET http://127.0.0.1:32400/library/changestamp
+Nov 28, 2023 01:26:48.955 [548586086456] DEBUG - [HttpClient/HCl#3b] HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/library/changestamp (reused)
+Nov 28, 2023 01:26:48.955 [548664401976] DEBUG - Updating metadata item (save) (Em-Shade! Operation 10: The Seven Shadows Want to Get Amazing Muscles!) with ID 50
+Nov 28, 2023 01:26:48.958 [548584886328] DEBUG - [HCl#3c] HTTP requesting GET http://127.0.0.1:32400/:/metadata/flushMetadataCounterCache?metadataItemID=10
+Nov 28, 2023 01:26:48.959 [548586086456] DEBUG - [HttpClient/HCl#3c] HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/:/metadata/flushMetadataCounterCache?metadataItemID=10 (reused)
+Nov 28, 2023 01:26:48.964 [548664401976] DEBUG - Analyzing media parts for item 51 (Em-Shade! Operation 11: The Seven Shadows Want to Understand Economic Bubbles!): 49
+Nov 28, 2023 01:26:48.965 [548664401976] DEBUG - Downloading document http://127.0.0.1:32400/library/changestamp
+Nov 28, 2023 01:26:48.965 [548664401976] DEBUG - [HCl#3d] HTTP requesting GET http://127.0.0.1:32400/library/changestamp
+Nov 28, 2023 01:26:48.967 [548586086456] DEBUG - [HttpClient/HCl#3d] HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/library/changestamp (reused)
+Nov 28, 2023 01:26:48.968 [548664401976] DEBUG - Updating metadata item (save) (Em-Shade! Operation 11: The Seven Shadows Want to Understand Economic Bubbles!) with ID 51
+Nov 28, 2023 01:26:49.021 [548584886328] DEBUG - [HCl#3e] HTTP requesting GET http://127.0.0.1:32400/:/metadata/flushMetadataCounterCache?metadataItemID=10
+Nov 28, 2023 01:26:49.022 [548586086456] DEBUG - [HttpClient/HCl#3e] HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/:/metadata/flushMetadataCounterCache?metadataItemID=10 (reused)
+Nov 28, 2023 01:26:49.023 [548664401976] DEBUG - [ID 49] Media part analysis: /media/tv/The Eminence in Shadow/Specials/The Eminence In Shadow - S00E11 - Kage-Jitsu! Operation 11 The Seven Shadows Want To Understand What Bubble Means!.mkv
+Nov 28, 2023 01:26:49.023 [548664401976] DEBUG - [MI] Opening input file: "/media/tv/The Eminence in Shadow/Specials/The Eminence In Shadow - S00E11 - Kage-Jitsu! Operation 11 The Seven Shadows Want To Understand What Bubble Means!.mkv"
+Nov 28, 2023 01:26:49.023 [548664401976] DEBUG - [FFMPEG] - Opening '/media/tv/The Eminence in Shadow/Specials/The Eminence In Shadow - S00E11 - Kage-Jitsu! Operation 11 The Seven Shadows Want To Understand What Bubble Means!.mkv' for reading
+Nov 28, 2023 01:26:49.024 [548664401976] DEBUG - [FFMPEG] - Setting default whitelist 'file,crypto,data'
+Nov 28, 2023 01:26:49.024 [548664401976] DEBUG - [FFMPEG] - Format matroska,webm probed with size=2048 and score=100
+Nov 28, 2023 01:26:49.025 [548664401976] DEBUG - [FFMPEG] - Unknown entry 0x22B59D at pos. 2795
+Nov 28, 2023 01:26:49.025 [548664401976] DEBUG - [FFMPEG] - Unknown entry 0x22B59D at pos. 2952
+Nov 28, 2023 01:26:49.025 [548664401976] DEBUG - [FFMPEG] - Unknown entry 0x22B59D at pos. 3820
+Nov 28, 2023 01:26:49.035 [548664401976] DEBUG - [FFMPEG] - st:0 removing common factor 1000000 from timebase
+Nov 28, 2023 01:26:49.035 [548664401976] DEBUG - [FFMPEG] - st:1 removing common factor 1000000 from timebase
+Nov 28, 2023 01:26:49.035 [548664401976] DEBUG - [FFMPEG] - st:2 removing common factor 1000000 from timebase
+Nov 28, 2023 01:26:49.036 [548664401976] DEBUG - [FFMPEG] - Before avformat_find_stream_info() pos: 391127 bytes read:386458 seeks:3 nb_streams:6
+Nov 28, 2023 01:26:49.038 [548664401976] DEBUG - [FFMPEG] - nal_unit_type: 32(VPS), nuh_layer_id: 0, temporal_id: 0
+Nov 28, 2023 01:26:49.038 [548664401976] DEBUG - [FFMPEG] - Decoding VPS
+Nov 28, 2023 01:26:49.038 [548664401976] DEBUG - [FFMPEG] - Main 10 profile bitstream
+Nov 28, 2023 01:26:49.038 [548664401976] DEBUG - [FFMPEG] - nal_unit_type: 33(SPS), nuh_layer_id: 0, temporal_id: 0
+Nov 28, 2023 01:26:49.038 [548664401976] DEBUG - [FFMPEG] - Decoding SPS
+Nov 28, 2023 01:26:49.038 [548664401976] DEBUG - [FFMPEG] - Main 10 profile bitstream
+Nov 28, 2023 01:26:49.038 [548664401976] DEBUG - [FFMPEG] - Decoding VUI
+Nov 28, 2023 01:26:49.038 [548664401976] DEBUG - [FFMPEG] - nal_unit_type: 34(PPS), nuh_layer_id: 0, temporal_id: 0
+Nov 28, 2023 01:26:49.038 [548664401976] DEBUG - [FFMPEG] - Decoding PPS
+Nov 28, 2023 01:26:49.038 [548664401976] DEBUG - [FFMPEG] - nal_unit_type: 39(SEI_PREFIX), nuh_layer_id: 0, temporal_id: 0
+Nov 28, 2023 01:26:49.038 [548664401976] DEBUG - [FFMPEG] - Decoding SEI
+Nov 28, 2023 01:26:49.040 [548664401976] DEBUG - [FFMPEG] - skip 312/960 samples
+Nov 28, 2023 01:26:49.041 [548664401976] DEBUG - [FFMPEG] - All info found
+Nov 28, 2023 01:26:49.042 [548664401976] DEBUG - [FFMPEG] - After avformat_find_stream_info() pos: 567797 bytes read:575380 seeks:3 frames:19
+Nov 28, 2023 01:26:49.043 [548664401976] DEBUG - [MI]  * 963e9ca0fce1b9e1038587819a1507375b7caa57 [mkv hevc/opus] Duration: 121141ms, 1920x1080 (1.777778) 23.976fps, bitrate=1737kbps, audio channels=2, optimizedForStreaming=0 ("/media/tv/The Eminence in Shadow/Specials/The Eminence In Shadow - S00E11 - Kage-Jitsu! Operation 11 The Seven Shadows Want To Understand What Bubble Means!.mkv")
+Nov 28, 2023 01:26:49.043 [548664401976] DEBUG - [MI] Chapters had generic titles, clearing.
+Nov 28, 2023 01:26:49.044 [548664401976] DEBUG - [MI] Closing input file: "/media/tv/The Eminence in Shadow/Specials/The Eminence In Shadow - S00E11 - Kage-Jitsu! Operation 11 The Seven Shadows Want To Understand What Bubble Means!.mkv"
+Nov 28, 2023 01:26:49.045 [548664401976] DEBUG - Committing media stream changes for part 49
+Nov 28, 2023 01:26:49.089 [548664401976] DEBUG - Updating media item 49, size=26312948, metadata_item_id=51
+Nov 28, 2023 01:26:49.089 [548664401976] DEBUG - Updating part with ID=49 [/media/tv/The Eminence in Shadow/Specials/The Eminence In Shadow - S00E11 - Kage-Jitsu! Operation 11 The Seven Shadows Want To Understand What Bubble Means!.mkv]
+Nov 28, 2023 01:26:49.098 [548584886328] DEBUG - [HCl#3f] HTTP requesting GET http://127.0.0.1:32400/:/metadata/notify/changeItemState?librarySectionID=2&metadataItemID=51&metadataType=4&state=-1&parentID=-1&rootID=-1&mediaState=analyzing
+Nov 28, 2023 01:26:49.100 [548586086456] DEBUG - [HttpClient/HCl#3f] HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/:/metadata/notify/changeItemState?librarySectionID=2&metadataItemID=51&metadataType=4&state=-1&parentID=-1&rootID=-1&mediaState=analyzing (reused)
+Nov 28, 2023 01:26:49.100 [548584886328] DEBUG - [HCl#40] HTTP requesting GET http://127.0.0.1:32400/:/metadata/notify/changeItemState?librarySectionID=2&metadataItemID=51&metadataType=4&state=-1&parentID=-1&rootID=-1&mediaState=idle
+Nov 28, 2023 01:26:49.102 [548586086456] DEBUG - [HttpClient/HCl#40] HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/:/metadata/notify/changeItemState?librarySectionID=2&metadataItemID=51&metadataType=4&state=-1&parentID=-1&rootID=-1&mediaState=idle (reused)
+Nov 28, 2023 01:26:49.107 [548664401976] DEBUG - Downloading document http://127.0.0.1:32400/library/changestamp
+Nov 28, 2023 01:26:49.108 [548664401976] DEBUG - [HCl#41] HTTP requesting GET http://127.0.0.1:32400/library/changestamp
+Nov 28, 2023 01:26:49.109 [548586086456] DEBUG - [HttpClient/HCl#41] HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/library/changestamp (reused)
+Nov 28, 2023 01:26:49.110 [548664401976] DEBUG - Updating metadata item (save) (Em-Shade! Operation 11: The Seven Shadows Want to Understand Economic Bubbles!) with ID 51
+Nov 28, 2023 01:26:49.146 [548584886328] DEBUG - [HCl#42] HTTP requesting GET http://127.0.0.1:32400/:/metadata/flushMetadataCounterCache?metadataItemID=10
+Nov 28, 2023 01:26:49.147 [548586086456] DEBUG - [HttpClient/HCl#42] HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/:/metadata/flushMetadataCounterCache?metadataItemID=10 (reused)
+Nov 28, 2023 01:26:49.154 [548664401976] DEBUG - Analyzing media parts for item 52 (Em-Shade! Operation 12: The Seven Shadows Want to Create a New Taste Sensation!): 50
+Nov 28, 2023 01:26:49.156 [548664401976] DEBUG - Downloading document http://127.0.0.1:32400/library/changestamp
+Nov 28, 2023 01:26:49.156 [548664401976] DEBUG - [HCl#43] HTTP requesting GET http://127.0.0.1:32400/library/changestamp
+Nov 28, 2023 01:26:49.158 [548586086456] DEBUG - [HttpClient/HCl#43] HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/library/changestamp (reused)
+Nov 28, 2023 01:26:49.158 [548664401976] DEBUG - Updating metadata item (save) (Em-Shade! Operation 12: The Seven Shadows Want to Create a New Taste Sensation!) with ID 52
+Nov 28, 2023 01:26:49.161 [548584886328] DEBUG - [HCl#44] HTTP requesting GET http://127.0.0.1:32400/:/metadata/flushMetadataCounterCache?metadataItemID=10
+Nov 28, 2023 01:26:49.162 [548586086456] DEBUG - [HttpClient/HCl#44] HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/:/metadata/flushMetadataCounterCache?metadataItemID=10 (reused)
+Nov 28, 2023 01:26:49.163 [548664401976] DEBUG - [ID 50] Media part analysis: /media/tv/The Eminence in Shadow/Specials/The Eminence In Shadow - S00E12 - Kage-Jitsu! Operation 12 The Seven Shadows Want To Create A New Flavor!.mkv
+Nov 28, 2023 01:26:49.163 [548664401976] DEBUG - [MI] Opening input file: "/media/tv/The Eminence in Shadow/Specials/The Eminence In Shadow - S00E12 - Kage-Jitsu! Operation 12 The Seven Shadows Want To Create A New Flavor!.mkv"
+Nov 28, 2023 01:26:49.164 [548664401976] DEBUG - [FFMPEG] - Opening '/media/tv/The Eminence in Shadow/Specials/The Eminence In Shadow - S00E12 - Kage-Jitsu! Operation 12 The Seven Shadows Want To Create A New Flavor!.mkv' for reading
+Nov 28, 2023 01:26:49.164 [548664401976] DEBUG - [FFMPEG] - Setting default whitelist 'file,crypto,data'
+Nov 28, 2023 01:26:49.164 [548664401976] DEBUG - [FFMPEG] - Format matroska,webm probed with size=2048 and score=100
+Nov 28, 2023 01:26:49.165 [548664401976] DEBUG - [FFMPEG] - Unknown entry 0x22B59D at pos. 2795
+Nov 28, 2023 01:26:49.165 [548664401976] DEBUG - [FFMPEG] - Unknown entry 0x22B59D at pos. 2952
+Nov 28, 2023 01:26:49.165 [548664401976] DEBUG - [FFMPEG] - Unknown entry 0x22B59D at pos. 3820
+Nov 28, 2023 01:26:49.175 [548664401976] DEBUG - [FFMPEG] - st:0 removing common factor 1000000 from timebase
+Nov 28, 2023 01:26:49.175 [548664401976] DEBUG - [FFMPEG] - st:1 removing common factor 1000000 from timebase
+Nov 28, 2023 01:26:49.175 [548664401976] DEBUG - [FFMPEG] - st:2 removing common factor 1000000 from timebase
+Nov 28, 2023 01:26:49.178 [548664401976] DEBUG - [FFMPEG] - Before avformat_find_stream_info() pos: 391127 bytes read:386458 seeks:3 nb_streams:6
+Nov 28, 2023 01:26:49.180 [548664401976] DEBUG - [FFMPEG] - nal_unit_type: 32(VPS), nuh_layer_id: 0, temporal_id: 0
+Nov 28, 2023 01:26:49.180 [548664401976] DEBUG - [FFMPEG] - Decoding VPS
+Nov 28, 2023 01:26:49.180 [548664401976] DEBUG - [FFMPEG] - Main 10 profile bitstream
+Nov 28, 2023 01:26:49.180 [548664401976] DEBUG - [FFMPEG] - nal_unit_type: 33(SPS), nuh_layer_id: 0, temporal_id: 0
+Nov 28, 2023 01:26:49.180 [548664401976] DEBUG - [FFMPEG] - Decoding SPS
+Nov 28, 2023 01:26:49.181 [548664401976] DEBUG - [FFMPEG] - Main 10 profile bitstream
+Nov 28, 2023 01:26:49.181 [548664401976] DEBUG - [FFMPEG] - Decoding VUI
+Nov 28, 2023 01:26:49.181 [548664401976] DEBUG - [FFMPEG] - nal_unit_type: 34(PPS), nuh_layer_id: 0, temporal_id: 0
+Nov 28, 2023 01:26:49.181 [548664401976] DEBUG - [FFMPEG] - Decoding PPS
+Nov 28, 2023 01:26:49.181 [548664401976] DEBUG - [FFMPEG] - nal_unit_type: 39(SEI_PREFIX), nuh_layer_id: 0, temporal_id: 0
+Nov 28, 2023 01:26:49.181 [548664401976] DEBUG - [FFMPEG] - Decoding SEI
+Nov 28, 2023 01:26:49.183 [548664401976] DEBUG - [FFMPEG] - skip 312/960 samples
+Nov 28, 2023 01:26:49.184 [548664401976] DEBUG - [FFMPEG] - All info found
+Nov 28, 2023 01:26:49.186 [548664401976] DEBUG - [FFMPEG] - After avformat_find_stream_info() pos: 566257 bytes read:574155 seeks:3 frames:19
+Nov 28, 2023 01:26:49.186 [548664401976] DEBUG - [MI]  * d543599ee8023120621e4fc13a3d00094c3e4a6c [mkv hevc/opus] Duration: 121141ms, 1920x1080 (1.777778) 23.976fps, bitrate=1504kbps, audio channels=2, optimizedForStreaming=0 ("/media/tv/The Eminence in Shadow/Specials/The Eminence In Shadow - S00E12 - Kage-Jitsu! Operation 12 The Seven Shadows Want To Create A New Flavor!.mkv")
+Nov 28, 2023 01:26:49.187 [548664401976] DEBUG - [MI] Chapters had generic titles, clearing.
+Nov 28, 2023 01:26:49.188 [548664401976] DEBUG - [MI] Closing input file: "/media/tv/The Eminence in Shadow/Specials/The Eminence In Shadow - S00E12 - Kage-Jitsu! Operation 12 The Seven Shadows Want To Create A New Flavor!.mkv"
+Nov 28, 2023 01:26:49.189 [548664401976] DEBUG - Committing media stream changes for part 50
+Nov 28, 2023 01:26:49.191 [548664401976] DEBUG - Updating media item 50, size=22786202, metadata_item_id=52
+Nov 28, 2023 01:26:49.191 [548664401976] DEBUG - Updating part with ID=50 [/media/tv/The Eminence in Shadow/Specials/The Eminence In Shadow - S00E12 - Kage-Jitsu! Operation 12 The Seven Shadows Want To Create A New Flavor!.mkv]
+Nov 28, 2023 01:26:49.192 [548584886328] DEBUG - [HCl#45] HTTP requesting GET http://127.0.0.1:32400/:/metadata/notify/changeItemState?librarySectionID=2&metadataItemID=52&metadataType=4&state=-1&parentID=-1&rootID=-1&mediaState=analyzing
+Nov 28, 2023 01:26:49.193 [548586086456] DEBUG - [HttpClient/HCl#45] HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/:/metadata/notify/changeItemState?librarySectionID=2&metadataItemID=52&metadataType=4&state=-1&parentID=-1&rootID=-1&mediaState=analyzing (reused)
+Nov 28, 2023 01:26:49.193 [548584886328] DEBUG - [HCl#46] HTTP requesting GET http://127.0.0.1:32400/:/metadata/notify/changeItemState?librarySectionID=2&metadataItemID=52&metadataType=4&state=-1&parentID=-1&rootID=-1&mediaState=idle
+Nov 28, 2023 01:26:49.194 [548586086456] DEBUG - [HttpClient/HCl#46] HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/:/metadata/notify/changeItemState?librarySectionID=2&metadataItemID=52&metadataType=4&state=-1&parentID=-1&rootID=-1&mediaState=idle (reused)
+Nov 28, 2023 01:26:49.199 [548664401976] DEBUG - Downloading document http://127.0.0.1:32400/library/changestamp
+Nov 28, 2023 01:26:49.199 [548664401976] DEBUG - [HCl#47] HTTP requesting GET http://127.0.0.1:32400/library/changestamp
+Nov 28, 2023 01:26:49.201 [548586086456] DEBUG - [HttpClient/HCl#47] HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/library/changestamp (reused)
+Nov 28, 2023 01:26:49.201 [548664401976] DEBUG - Updating metadata item (save) (Em-Shade! Operation 12: The Seven Shadows Want to Create a New Taste Sensation!) with ID 52
+Nov 28, 2023 01:26:49.204 [548584886328] DEBUG - [HCl#48] HTTP requesting GET http://127.0.0.1:32400/:/metadata/flushMetadataCounterCache?metadataItemID=10
+Nov 28, 2023 01:26:49.205 [548586086456] DEBUG - [HttpClient/HCl#48] HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/:/metadata/flushMetadataCounterCache?metadataItemID=10 (reused)
+Nov 28, 2023 01:26:49.209 [548664401976] DEBUG - Analyzing media parts for item 53 (Em-Shade! Operation 13: The Seven Shadows Want to See Each Other Getting Along!): 51
+Nov 28, 2023 01:26:49.210 [548664401976] DEBUG - Downloading document http://127.0.0.1:32400/library/changestamp
+Nov 28, 2023 01:26:49.210 [548664401976] DEBUG - [HCl#49] HTTP requesting GET http://127.0.0.1:32400/library/changestamp
+Nov 28, 2023 01:26:49.212 [548586086456] DEBUG - [HttpClient/HCl#49] HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/library/changestamp (reused)
+Nov 28, 2023 01:26:49.212 [548664401976] DEBUG - Updating metadata item (save) (Em-Shade! Operation 13: The Seven Shadows Want to See Each Other Getting Along!) with ID 53
+Nov 28, 2023 01:26:49.214 [548584886328] DEBUG - [HCl#4a] HTTP requesting GET http://127.0.0.1:32400/:/metadata/flushMetadataCounterCache?metadataItemID=10
+Nov 28, 2023 01:26:49.215 [548586086456] DEBUG - [HttpClient/HCl#4a] HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/:/metadata/flushMetadataCounterCache?metadataItemID=10 (reused)
+Nov 28, 2023 01:26:49.216 [548664401976] DEBUG - [ID 51] Media part analysis: /media/tv/The Eminence in Shadow/Specials/The Eminence In Shadow - S00E13 - Kage-Jitsu! Operation 13 The Seven Shadows Want To See Friendliness Being Displayed!.mkv
+Nov 28, 2023 01:26:49.216 [548664401976] DEBUG - [MI] Opening input file: "/media/tv/The Eminence in Shadow/Specials/The Eminence In Shadow - S00E13 - Kage-Jitsu! Operation 13 The Seven Shadows Want To See Friendliness Being Displayed!.mkv"
+Nov 28, 2023 01:26:49.216 [548664401976] DEBUG - [FFMPEG] - Opening '/media/tv/The Eminence in Shadow/Specials/The Eminence In Shadow - S00E13 - Kage-Jitsu! Operation 13 The Seven Shadows Want To See Friendliness Being Displayed!.mkv' for reading
+Nov 28, 2023 01:26:49.217 [548664401976] DEBUG - [FFMPEG] - Setting default whitelist 'file,crypto,data'
+Nov 28, 2023 01:26:49.217 [548664401976] DEBUG - [FFMPEG] - Format matroska,webm probed with size=2048 and score=100
+Nov 28, 2023 01:26:49.217 [548664401976] DEBUG - [FFMPEG] - Unknown entry 0x22B59D at pos. 2795
+Nov 28, 2023 01:26:49.218 [548664401976] DEBUG - [FFMPEG] - Unknown entry 0x22B59D at pos. 2952
+Nov 28, 2023 01:26:49.218 [548664401976] DEBUG - [FFMPEG] - Unknown entry 0x22B59D at pos. 3820
+Nov 28, 2023 01:26:49.227 [548664401976] DEBUG - [FFMPEG] - st:0 removing common factor 1000000 from timebase
+Nov 28, 2023 01:26:49.227 [548664401976] DEBUG - [FFMPEG] - st:1 removing common factor 1000000 from timebase
+Nov 28, 2023 01:26:49.227 [548664401976] DEBUG - [FFMPEG] - st:2 removing common factor 1000000 from timebase
+Nov 28, 2023 01:26:49.229 [548664401976] DEBUG - [FFMPEG] - Before avformat_find_stream_info() pos: 391127 bytes read:386458 seeks:3 nb_streams:6
+Nov 28, 2023 01:26:49.230 [548664401976] DEBUG - [FFMPEG] - nal_unit_type: 32(VPS), nuh_layer_id: 0, temporal_id: 0
+Nov 28, 2023 01:26:49.231 [548664401976] DEBUG - [FFMPEG] - Decoding VPS
+Nov 28, 2023 01:26:49.231 [548664401976] DEBUG - [FFMPEG] - Main 10 profile bitstream
+Nov 28, 2023 01:26:49.231 [548664401976] DEBUG - [FFMPEG] - nal_unit_type: 33(SPS), nuh_layer_id: 0, temporal_id: 0
+Nov 28, 2023 01:26:49.231 [548664401976] DEBUG - [FFMPEG] - Decoding SPS
+Nov 28, 2023 01:26:49.231 [548664401976] DEBUG - [FFMPEG] - Main 10 profile bitstream
+Nov 28, 2023 01:26:49.231 [548664401976] DEBUG - [FFMPEG] - Decoding VUI
+Nov 28, 2023 01:26:49.231 [548664401976] DEBUG - [FFMPEG] - nal_unit_type: 34(PPS), nuh_layer_id: 0, temporal_id: 0
+Nov 28, 2023 01:26:49.231 [548664401976] DEBUG - [FFMPEG] - Decoding PPS
+Nov 28, 2023 01:26:49.231 [548664401976] DEBUG - [FFMPEG] - nal_unit_type: 39(SEI_PREFIX), nuh_layer_id: 0, temporal_id: 0
+Nov 28, 2023 01:26:49.231 [548664401976] DEBUG - [FFMPEG] - Decoding SEI
+Nov 28, 2023 01:26:49.233 [548664401976] DEBUG - [FFMPEG] - skip 312/960 samples
+Nov 28, 2023 01:26:49.234 [548664401976] DEBUG - [FFMPEG] - All info found
+Nov 28, 2023 01:26:49.236 [548664401976] DEBUG - [FFMPEG] - After avformat_find_stream_info() pos: 540428 bytes read:555640 seeks:3 frames:19
+Nov 28, 2023 01:26:49.236 [548664401976] DEBUG - [MI]  * 3aec905f3e7a0a566ae6dae85253aad161f02d61 [mkv hevc/opus] Duration: 121141ms, 1920x1080 (1.777778) 23.976fps, bitrate=1544kbps, audio channels=2, optimizedForStreaming=0 ("/media/tv/The Eminence in Shadow/Specials/The Eminence In Shadow - S00E13 - Kage-Jitsu! Operation 13 The Seven Shadows Want To See Friendliness Being Displayed!.mkv")
+Nov 28, 2023 01:26:49.237 [548664401976] DEBUG - [MI] Chapters had generic titles, clearing.
+Nov 28, 2023 01:26:49.238 [548664401976] DEBUG - [MI] Closing input file: "/media/tv/The Eminence in Shadow/Specials/The Eminence In Shadow - S00E13 - Kage-Jitsu! Operation 13 The Seven Shadows Want To See Friendliness Being Displayed!.mkv"
+Nov 28, 2023 01:26:49.239 [548664401976] DEBUG - Committing media stream changes for part 51
+Nov 28, 2023 01:26:49.241 [548664401976] DEBUG - Updating media item 51, size=23386405, metadata_item_id=53
+Nov 28, 2023 01:26:49.241 [548664401976] DEBUG - Updating part with ID=51 [/media/tv/The Eminence in Shadow/Specials/The Eminence In Shadow - S00E13 - Kage-Jitsu! Operation 13 The Seven Shadows Want To See Friendliness Being Displayed!.mkv]
+Nov 28, 2023 01:26:49.241 [548584886328] DEBUG - [HCl#4b] HTTP requesting GET http://127.0.0.1:32400/:/metadata/notify/changeItemState?librarySectionID=2&metadataItemID=53&metadataType=4&state=-1&parentID=-1&rootID=-1&mediaState=analyzing
+Nov 28, 2023 01:26:49.243 [548586086456] DEBUG - [HttpClient/HCl#4b] HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/:/metadata/notify/changeItemState?librarySectionID=2&metadataItemID=53&metadataType=4&state=-1&parentID=-1&rootID=-1&mediaState=analyzing (reused)
+Nov 28, 2023 01:26:49.243 [548584886328] DEBUG - [HCl#4c] HTTP requesting GET http://127.0.0.1:32400/:/metadata/notify/changeItemState?librarySectionID=2&metadataItemID=53&metadataType=4&state=-1&parentID=-1&rootID=-1&mediaState=idle
+Nov 28, 2023 01:26:49.244 [548586086456] DEBUG - [HttpClient/HCl#4c] HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/:/metadata/notify/changeItemState?librarySectionID=2&metadataItemID=53&metadataType=4&state=-1&parentID=-1&rootID=-1&mediaState=idle (reused)
+Nov 28, 2023 01:26:49.248 [548664401976] DEBUG - Downloading document http://127.0.0.1:32400/library/changestamp
+Nov 28, 2023 01:26:49.248 [548664401976] DEBUG - [HCl#4d] HTTP requesting GET http://127.0.0.1:32400/library/changestamp
+Nov 28, 2023 01:26:49.250 [548586086456] DEBUG - [HttpClient/HCl#4d] HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/library/changestamp (reused)
+Nov 28, 2023 01:26:49.250 [548664401976] DEBUG - Updating metadata item (save) (Em-Shade! Operation 13: The Seven Shadows Want to See Each Other Getting Along!) with ID 53
+Nov 28, 2023 01:26:49.253 [548584886328] DEBUG - [HCl#4e] HTTP requesting GET http://127.0.0.1:32400/:/metadata/flushMetadataCounterCache?metadataItemID=10
+Nov 28, 2023 01:26:49.254 [548586086456] DEBUG - [HttpClient/HCl#4e] HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/:/metadata/flushMetadataCounterCache?metadataItemID=10 (reused)
+Nov 28, 2023 01:26:49.258 [548664401976] DEBUG - Analyzing media parts for item 54 (Em-Shade! Operation 14: The Seven Shadows Want to Receive Words of Praise!): 52
+Nov 28, 2023 01:26:49.259 [548664401976] DEBUG - Downloading document http://127.0.0.1:32400/library/changestamp
+Nov 28, 2023 01:26:49.259 [548664401976] DEBUG - [HCl#4f] HTTP requesting GET http://127.0.0.1:32400/library/changestamp
+Nov 28, 2023 01:26:49.261 [548586086456] DEBUG - [HttpClient/HCl#4f] HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/library/changestamp (reused)
+Nov 28, 2023 01:26:49.261 [548664401976] DEBUG - Updating metadata item (save) (Em-Shade! Operation 14: The Seven Shadows Want to Receive Words of Praise!) with ID 54
+Nov 28, 2023 01:26:49.263 [548584886328] DEBUG - [HCl#50] HTTP requesting GET http://127.0.0.1:32400/:/metadata/flushMetadataCounterCache?metadataItemID=10
+Nov 28, 2023 01:26:49.264 [548586086456] DEBUG - [HttpClient/HCl#50] HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/:/metadata/flushMetadataCounterCache?metadataItemID=10 (reused)
+Nov 28, 2023 01:26:49.265 [548664401976] DEBUG - [ID 52] Media part analysis: /media/tv/The Eminence in Shadow/Specials/The Eminence In Shadow - S00E14 - Kage-Jitsu! Operation 14 The Seven Shadows Want To Receive Words Of Praise!.mkv
+Nov 28, 2023 01:26:49.266 [548664401976] DEBUG - [MI] Opening input file: "/media/tv/The Eminence in Shadow/Specials/The Eminence In Shadow - S00E14 - Kage-Jitsu! Operation 14 The Seven Shadows Want To Receive Words Of Praise!.mkv"
+Nov 28, 2023 01:26:49.266 [548664401976] DEBUG - [FFMPEG] - Opening '/media/tv/The Eminence in Shadow/Specials/The Eminence In Shadow - S00E14 - Kage-Jitsu! Operation 14 The Seven Shadows Want To Receive Words Of Praise!.mkv' for reading
+Nov 28, 2023 01:26:49.266 [548664401976] DEBUG - [FFMPEG] - Setting default whitelist 'file,crypto,data'
+Nov 28, 2023 01:26:49.267 [548664401976] DEBUG - [FFMPEG] - Format matroska,webm probed with size=2048 and score=100
+Nov 28, 2023 01:26:49.267 [548664401976] DEBUG - [FFMPEG] - Unknown entry 0x22B59D at pos. 2795
+Nov 28, 2023 01:26:49.267 [548664401976] DEBUG - [FFMPEG] - Unknown entry 0x22B59D at pos. 2952
+Nov 28, 2023 01:26:49.267 [548664401976] DEBUG - [FFMPEG] - Unknown entry 0x22B59D at pos. 3936
+Nov 28, 2023 01:26:49.280 [548664401976] DEBUG - [FFMPEG] - st:0 removing common factor 1000000 from timebase
+Nov 28, 2023 01:26:49.280 [548664401976] DEBUG - [FFMPEG] - st:1 removing common factor 1000000 from timebase
+Nov 28, 2023 01:26:49.280 [548664401976] DEBUG - [FFMPEG] - st:2 removing common factor 1000000 from timebase
+Nov 28, 2023 01:26:49.282 [548664401976] DEBUG - [FFMPEG] - Before avformat_find_stream_info() pos: 603413 bytes read:598744 seeks:3 nb_streams:7
+Nov 28, 2023 01:26:49.284 [548664401976] DEBUG - [FFMPEG] - nal_unit_type: 32(VPS), nuh_layer_id: 0, temporal_id: 0
+Nov 28, 2023 01:26:49.284 [548664401976] DEBUG - [FFMPEG] - Decoding VPS
+Nov 28, 2023 01:26:49.284 [548664401976] DEBUG - [FFMPEG] - Main 10 profile bitstream
+Nov 28, 2023 01:26:49.284 [548664401976] DEBUG - [FFMPEG] - nal_unit_type: 33(SPS), nuh_layer_id: 0, temporal_id: 0
+Nov 28, 2023 01:26:49.285 [548664401976] DEBUG - [FFMPEG] - Decoding SPS
+Nov 28, 2023 01:26:49.285 [548664401976] DEBUG - [FFMPEG] - Main 10 profile bitstream
+Nov 28, 2023 01:26:49.285 [548664401976] DEBUG - [FFMPEG] - Decoding VUI
+Nov 28, 2023 01:26:49.285 [548664401976] DEBUG - [FFMPEG] - nal_unit_type: 34(PPS), nuh_layer_id: 0, temporal_id: 0
+Nov 28, 2023 01:26:49.285 [548664401976] DEBUG - [FFMPEG] - Decoding PPS
+Nov 28, 2023 01:26:49.285 [548664401976] DEBUG - [FFMPEG] - nal_unit_type: 39(SEI_PREFIX), nuh_layer_id: 0, temporal_id: 0
+Nov 28, 2023 01:26:49.285 [548664401976] DEBUG - [FFMPEG] - Decoding SEI
+Nov 28, 2023 01:26:49.287 [548664401976] DEBUG - [FFMPEG] - skip 312/960 samples
+Nov 28, 2023 01:26:49.288 [548664401976] DEBUG - [FFMPEG] - All info found
+Nov 28, 2023 01:26:49.291 [548664401976] DEBUG - [FFMPEG] - After avformat_find_stream_info() pos: 751717 bytes read:769727 seeks:3 frames:19
+Nov 28, 2023 01:26:49.291 [548664401976] DEBUG - [MI]  * 23022705a13b3044838e5192355de8b14a611100 [mkv hevc/opus] Duration: 121141ms, 1920x1080 (1.777778) 23.976fps, bitrate=1754kbps, audio channels=2, optimizedForStreaming=0 ("/media/tv/The Eminence in Shadow/Specials/The Eminence In Shadow - S00E14 - Kage-Jitsu! Operation 14 The Seven Shadows Want To Receive Words Of Praise!.mkv")
+Nov 28, 2023 01:26:49.291 [548664401976] DEBUG - [MI] Chapters had generic titles, clearing.
+Nov 28, 2023 01:26:49.292 [548664401976] DEBUG - [MI] Closing input file: "/media/tv/The Eminence in Shadow/Specials/The Eminence In Shadow - S00E14 - Kage-Jitsu! Operation 14 The Seven Shadows Want To Receive Words Of Praise!.mkv"
+Nov 28, 2023 01:26:49.294 [548664401976] DEBUG - Committing media stream changes for part 52
+Nov 28, 2023 01:26:49.296 [548664401976] DEBUG - Updating media item 52, size=26570530, metadata_item_id=54
+Nov 28, 2023 01:26:49.296 [548664401976] DEBUG - Updating part with ID=52 [/media/tv/The Eminence in Shadow/Specials/The Eminence In Shadow - S00E14 - Kage-Jitsu! Operation 14 The Seven Shadows Want To Receive Words Of Praise!.mkv]
+Nov 28, 2023 01:26:49.296 [548584886328] DEBUG - [HCl#51] HTTP requesting GET http://127.0.0.1:32400/:/metadata/notify/changeItemState?librarySectionID=2&metadataItemID=54&metadataType=4&state=-1&parentID=-1&rootID=-1&mediaState=analyzing
+Nov 28, 2023 01:26:49.298 [548586086456] DEBUG - [HttpClient/HCl#51] HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/:/metadata/notify/changeItemState?librarySectionID=2&metadataItemID=54&metadataType=4&state=-1&parentID=-1&rootID=-1&mediaState=analyzing (reused)
+Nov 28, 2023 01:26:49.298 [548584886328] DEBUG - [HCl#52] HTTP requesting GET http://127.0.0.1:32400/:/metadata/notify/changeItemState?librarySectionID=2&metadataItemID=54&metadataType=4&state=-1&parentID=-1&rootID=-1&mediaState=idle
+Nov 28, 2023 01:26:49.299 [548586086456] DEBUG - [HttpClient/HCl#52] HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/:/metadata/notify/changeItemState?librarySectionID=2&metadataItemID=54&metadataType=4&state=-1&parentID=-1&rootID=-1&mediaState=idle (reused)
+Nov 28, 2023 01:26:49.303 [548664401976] DEBUG - Downloading document http://127.0.0.1:32400/library/changestamp
+Nov 28, 2023 01:26:49.304 [548664401976] DEBUG - [HCl#53] HTTP requesting GET http://127.0.0.1:32400/library/changestamp
+Nov 28, 2023 01:26:49.305 [548586086456] DEBUG - [HttpClient/HCl#53] HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/library/changestamp (reused)
+Nov 28, 2023 01:26:49.306 [548664401976] DEBUG - Updating metadata item (save) (Em-Shade! Operation 14: The Seven Shadows Want to Receive Words of Praise!) with ID 54
+Nov 28, 2023 01:26:49.308 [548584886328] DEBUG - [HCl#54] HTTP requesting GET http://127.0.0.1:32400/:/metadata/flushMetadataCounterCache?metadataItemID=10
+Nov 28, 2023 01:26:49.309 [548586086456] DEBUG - [HttpClient/HCl#54] HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/:/metadata/flushMetadataCounterCache?metadataItemID=10 (reused)
+Nov 28, 2023 01:26:49.313 [548664401976] DEBUG - Analyzing media parts for item 55 (Em-Shade! Operation 15: The Seven Shadows Want to Enjoy Pleasant Melodies!): 53
+Nov 28, 2023 01:26:49.314 [548664401976] DEBUG - Downloading document http://127.0.0.1:32400/library/changestamp
+Nov 28, 2023 01:26:49.314 [548664401976] DEBUG - [HCl#55] HTTP requesting GET http://127.0.0.1:32400/library/changestamp
+Nov 28, 2023 01:26:49.316 [548586086456] DEBUG - [HttpClient/HCl#55] HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/library/changestamp (reused)
+Nov 28, 2023 01:26:49.317 [548664401976] DEBUG - Updating metadata item (save) (Em-Shade! Operation 15: The Seven Shadows Want to Enjoy Pleasant Melodies!) with ID 55
+Nov 28, 2023 01:26:49.319 [548584886328] DEBUG - [HCl#56] HTTP requesting GET http://127.0.0.1:32400/:/metadata/flushMetadataCounterCache?metadataItemID=10
+Nov 28, 2023 01:26:49.320 [548586086456] DEBUG - [HttpClient/HCl#56] HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/:/metadata/flushMetadataCounterCache?metadataItemID=10 (reused)
+Nov 28, 2023 01:26:49.320 [548664401976] DEBUG - [ID 53] Media part analysis: /media/tv/The Eminence in Shadow/Specials/The Eminence In Shadow - S00E15 - Kage-Jitsu! Operation 15 The Seven Shadows Want To Enjoy Pleasant Music!.mkv
+Nov 28, 2023 01:26:49.321 [548664401976] DEBUG - [MI] Opening input file: "/media/tv/The Eminence in Shadow/Specials/The Eminence In Shadow - S00E15 - Kage-Jitsu! Operation 15 The Seven Shadows Want To Enjoy Pleasant Music!.mkv"
+Nov 28, 2023 01:26:49.321 [548664401976] DEBUG - [FFMPEG] - Opening '/media/tv/The Eminence in Shadow/Specials/The Eminence In Shadow - S00E15 - Kage-Jitsu! Operation 15 The Seven Shadows Want To Enjoy Pleasant Music!.mkv' for reading
+Nov 28, 2023 01:26:49.321 [548664401976] DEBUG - [FFMPEG] - Setting default whitelist 'file,crypto,data'
+Nov 28, 2023 01:26:49.322 [548664401976] DEBUG - [FFMPEG] - Format matroska,webm probed with size=2048 and score=100
+Nov 28, 2023 01:26:49.322 [548664401976] DEBUG - [FFMPEG] - Unknown entry 0x22B59D at pos. 2795
+Nov 28, 2023 01:26:49.322 [548664401976] DEBUG - [FFMPEG] - Unknown entry 0x22B59D at pos. 2952
+Nov 28, 2023 01:26:49.322 [548664401976] DEBUG - [FFMPEG] - Unknown entry 0x22B59D at pos. 3993
+Nov 28, 2023 01:26:49.332 [548664401976] DEBUG - [FFMPEG] - st:0 removing common factor 1000000 from timebase
+Nov 28, 2023 01:26:49.332 [548664401976] DEBUG - [FFMPEG] - st:1 removing common factor 1000000 from timebase
+Nov 28, 2023 01:26:49.332 [548664401976] DEBUG - [FFMPEG] - st:2 removing common factor 1000000 from timebase
+Nov 28, 2023 01:26:49.333 [548664401976] DEBUG - [FFMPEG] - Before avformat_find_stream_info() pos: 391297 bytes read:386628 seeks:3 nb_streams:6
+Nov 28, 2023 01:26:49.335 [548664401976] DEBUG - [FFMPEG] - nal_unit_type: 32(VPS), nuh_layer_id: 0, temporal_id: 0
+Nov 28, 2023 01:26:49.335 [548664401976] DEBUG - [FFMPEG] - Decoding VPS
+Nov 28, 2023 01:26:49.335 [548664401976] DEBUG - [FFMPEG] - Main 10 profile bitstream
+Nov 28, 2023 01:26:49.335 [548664401976] DEBUG - [FFMPEG] - nal_unit_type: 33(SPS), nuh_layer_id: 0, temporal_id: 0
+Nov 28, 2023 01:26:49.336 [548664401976] DEBUG - [FFMPEG] - Decoding SPS
+Nov 28, 2023 01:26:49.336 [548664401976] DEBUG - [FFMPEG] - Main 10 profile bitstream
+Nov 28, 2023 01:26:49.336 [548664401976] DEBUG - [FFMPEG] - Decoding VUI
+Nov 28, 2023 01:26:49.336 [548664401976] DEBUG - [FFMPEG] - nal_unit_type: 34(PPS), nuh_layer_id: 0, temporal_id: 0
+Nov 28, 2023 01:26:49.336 [548664401976] DEBUG - [FFMPEG] - Decoding PPS
+Nov 28, 2023 01:26:49.336 [548664401976] DEBUG - [FFMPEG] - nal_unit_type: 39(SEI_PREFIX), nuh_layer_id: 0, temporal_id: 0
+Nov 28, 2023 01:26:49.336 [548664401976] DEBUG - [FFMPEG] - Decoding SEI
+Nov 28, 2023 01:26:49.338 [548664401976] DEBUG - [FFMPEG] - skip 312/960 samples
+Nov 28, 2023 01:26:49.338 [548664401976] DEBUG - [FFMPEG] - All info found
+Nov 28, 2023 01:26:49.340 [548664401976] DEBUG - [FFMPEG] - After avformat_find_stream_info() pos: 394844 bytes read:419396 seeks:3 frames:19
+Nov 28, 2023 01:26:49.340 [548664401976] DEBUG - [MI]  * f38fba3a7bb2f8fd3f88e2239cb826767d38409a [mkv hevc/opus] Duration: 122141ms, 1920x1080 (1.777778) 23.976fps, bitrate=1634kbps, audio channels=2, optimizedForStreaming=0 ("/media/tv/The Eminence in Shadow/Specials/The Eminence In Shadow - S00E15 - Kage-Jitsu! Operation 15 The Seven Shadows Want To Enjoy Pleasant Music!.mkv")
+Nov 28, 2023 01:26:49.340 [548664401976] DEBUG - [MI] Chapters had generic titles, clearing.
+Nov 28, 2023 01:26:49.341 [548664401976] DEBUG - [MI] Closing input file: "/media/tv/The Eminence in Shadow/Specials/The Eminence In Shadow - S00E15 - Kage-Jitsu! Operation 15 The Seven Shadows Want To Enjoy Pleasant Music!.mkv"
+Nov 28, 2023 01:26:49.343 [548664401976] DEBUG - Committing media stream changes for part 53
+Nov 28, 2023 01:26:49.344 [548664401976] DEBUG - Updating media item 53, size=24961863, metadata_item_id=55
+Nov 28, 2023 01:26:49.345 [548664401976] DEBUG - Updating part with ID=53 [/media/tv/The Eminence in Shadow/Specials/The Eminence In Shadow - S00E15 - Kage-Jitsu! Operation 15 The Seven Shadows Want To Enjoy Pleasant Music!.mkv]
+Nov 28, 2023 01:26:49.345 [548584886328] DEBUG - [HCl#57] HTTP requesting GET http://127.0.0.1:32400/:/metadata/notify/changeItemState?librarySectionID=2&metadataItemID=55&metadataType=4&state=-1&parentID=-1&rootID=-1&mediaState=analyzing
+Nov 28, 2023 01:26:49.346 [548586086456] DEBUG - [HttpClient/HCl#57] HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/:/metadata/notify/changeItemState?librarySectionID=2&metadataItemID=55&metadataType=4&state=-1&parentID=-1&rootID=-1&mediaState=analyzing (reused)
+Nov 28, 2023 01:26:49.347 [548584886328] DEBUG - [HCl#58] HTTP requesting GET http://127.0.0.1:32400/:/metadata/notify/changeItemState?librarySectionID=2&metadataItemID=55&metadataType=4&state=-1&parentID=-1&rootID=-1&mediaState=idle
+Nov 28, 2023 01:26:49.348 [548586086456] DEBUG - [HttpClient/HCl#58] HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/:/metadata/notify/changeItemState?librarySectionID=2&metadataItemID=55&metadataType=4&state=-1&parentID=-1&rootID=-1&mediaState=idle (reused)
+Nov 28, 2023 01:26:49.353 [548664401976] DEBUG - Downloading document http://127.0.0.1:32400/library/changestamp
+Nov 28, 2023 01:26:49.353 [548664401976] DEBUG - [HCl#59] HTTP requesting GET http://127.0.0.1:32400/library/changestamp
+Nov 28, 2023 01:26:49.355 [548586086456] DEBUG - [HttpClient/HCl#59] HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/library/changestamp (reused)
+Nov 28, 2023 01:26:49.355 [548664401976] DEBUG - Updating metadata item (save) (Em-Shade! Operation 15: The Seven Shadows Want to Enjoy Pleasant Melodies!) with ID 55
+Nov 28, 2023 01:26:49.357 [548584886328] DEBUG - [HCl#5a] HTTP requesting GET http://127.0.0.1:32400/:/metadata/flushMetadataCounterCache?metadataItemID=10
+Nov 28, 2023 01:26:49.358 [548586086456] DEBUG - [HttpClient/HCl#5a] HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/:/metadata/flushMetadataCounterCache?metadataItemID=10 (reused)
+Nov 28, 2023 01:26:49.362 [548664401976] DEBUG - Analyzing media parts for item 56 (Em-Shade! Operation 16: The Seven Shadows Want to Wear Impressive Undergarments!): 54
+Nov 28, 2023 01:26:49.363 [548664401976] DEBUG - Downloading document http://127.0.0.1:32400/library/changestamp
+Nov 28, 2023 01:26:49.363 [548664401976] DEBUG - [HCl#5b] HTTP requesting GET http://127.0.0.1:32400/library/changestamp
+Nov 28, 2023 01:26:49.364 [548586086456] DEBUG - [HttpClient/HCl#5b] HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/library/changestamp (reused)
+Nov 28, 2023 01:26:49.364 [548664401976] DEBUG - Updating metadata item (save) (Em-Shade! Operation 16: The Seven Shadows Want to Wear Impressive Undergarments!) with ID 56
+Nov 28, 2023 01:26:49.367 [548584886328] DEBUG - [HCl#5c] HTTP requesting GET http://127.0.0.1:32400/:/metadata/flushMetadataCounterCache?metadataItemID=10
+Nov 28, 2023 01:26:49.368 [548664401976] DEBUG - [ID 54] Media part analysis: /media/tv/The Eminence in Shadow/Specials/The Eminence In Shadow - S00E16 - Kage-Jitsu! Operation 16 The Seven Shadows Want To Put On Amazing Underwear!.mkv
+Nov 28, 2023 01:26:49.368 [548586086456] DEBUG - [HttpClient/HCl#5c] HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/:/metadata/flushMetadataCounterCache?metadataItemID=10 (reused)
+Nov 28, 2023 01:26:49.368 [548664401976] DEBUG - [MI] Opening input file: "/media/tv/The Eminence in Shadow/Specials/The Eminence In Shadow - S00E16 - Kage-Jitsu! Operation 16 The Seven Shadows Want To Put On Amazing Underwear!.mkv"
+Nov 28, 2023 01:26:49.368 [548664401976] DEBUG - [FFMPEG] - Opening '/media/tv/The Eminence in Shadow/Specials/The Eminence In Shadow - S00E16 - Kage-Jitsu! Operation 16 The Seven Shadows Want To Put On Amazing Underwear!.mkv' for reading
+Nov 28, 2023 01:26:49.368 [548664401976] DEBUG - [FFMPEG] - Setting default whitelist 'file,crypto,data'
+Nov 28, 2023 01:26:49.369 [548664401976] DEBUG - [FFMPEG] - Format matroska,webm probed with size=2048 and score=100
+Nov 28, 2023 01:26:49.369 [548664401976] DEBUG - [FFMPEG] - Unknown entry 0x22B59D at pos. 2795
+Nov 28, 2023 01:26:49.369 [548664401976] DEBUG - [FFMPEG] - Unknown entry 0x22B59D at pos. 2952
+Nov 28, 2023 01:26:49.369 [548664401976] DEBUG - [FFMPEG] - Unknown entry 0x22B59D at pos. 3819
+Nov 28, 2023 01:26:49.376 [548664401976] DEBUG - [FFMPEG] - st:0 removing common factor 1000000 from timebase
+Nov 28, 2023 01:26:49.376 [548664401976] DEBUG - [FFMPEG] - st:1 removing common factor 1000000 from timebase
+Nov 28, 2023 01:26:49.376 [548664401976] DEBUG - [FFMPEG] - st:2 removing common factor 1000000 from timebase
+Nov 28, 2023 01:26:49.376 [548664401976] DEBUG - [FFMPEG] - Before avformat_find_stream_info() pos: 241840 bytes read:237170 seeks:3 nb_streams:5
+Nov 28, 2023 01:26:49.378 [548664401976] DEBUG - [FFMPEG] - nal_unit_type: 32(VPS), nuh_layer_id: 0, temporal_id: 0
+Nov 28, 2023 01:26:49.378 [548664401976] DEBUG - [FFMPEG] - Decoding VPS
+Nov 28, 2023 01:26:49.378 [548664401976] DEBUG - [FFMPEG] - Main 10 profile bitstream
+Nov 28, 2023 01:26:49.378 [548664401976] DEBUG - [FFMPEG] - nal_unit_type: 33(SPS), nuh_layer_id: 0, temporal_id: 0
+Nov 28, 2023 01:26:49.378 [548664401976] DEBUG - [FFMPEG] - Decoding SPS
+Nov 28, 2023 01:26:49.378 [548664401976] DEBUG - [FFMPEG] - Main 10 profile bitstream
+Nov 28, 2023 01:26:49.378 [548664401976] DEBUG - [FFMPEG] - Decoding VUI
+Nov 28, 2023 01:26:49.378 [548664401976] DEBUG - [FFMPEG] - nal_unit_type: 34(PPS), nuh_layer_id: 0, temporal_id: 0
+Nov 28, 2023 01:26:49.378 [548664401976] DEBUG - [FFMPEG] - Decoding PPS
+Nov 28, 2023 01:26:49.378 [548664401976] DEBUG - [FFMPEG] - nal_unit_type: 39(SEI_PREFIX), nuh_layer_id: 0, temporal_id: 0
+Nov 28, 2023 01:26:49.378 [548664401976] DEBUG - [FFMPEG] - Decoding SEI
+Nov 28, 2023 01:26:49.380 [548664401976] DEBUG - [FFMPEG] - skip 312/960 samples
+Nov 28, 2023 01:26:49.381 [548664401976] DEBUG - [FFMPEG] - All info found
+Nov 28, 2023 01:26:49.382 [548664401976] DEBUG - [FFMPEG] - After avformat_find_stream_info() pos: 398988 bytes read:405409 seeks:3 frames:19
+Nov 28, 2023 01:26:49.382 [548664401976] DEBUG - [MI]  * f93788c799c8f93c3f3133d1d3b41a94b01f23c1 [mkv hevc/opus] Duration: 121141ms, 1920x1080 (1.777778) 23.976fps, bitrate=1883kbps, audio channels=2, optimizedForStreaming=0 ("/media/tv/The Eminence in Shadow/Specials/The Eminence In Shadow - S00E16 - Kage-Jitsu! Operation 16 The Seven Shadows Want To Put On Amazing Underwear!.mkv")
+Nov 28, 2023 01:26:49.382 [548664401976] DEBUG - [MI] Chapters had generic titles, clearing.
+Nov 28, 2023 01:26:49.383 [548664401976] DEBUG - [MI] Closing input file: "/media/tv/The Eminence in Shadow/Specials/The Eminence In Shadow - S00E16 - Kage-Jitsu! Operation 16 The Seven Shadows Want To Put On Amazing Underwear!.mkv"
+Nov 28, 2023 01:26:49.384 [548664401976] DEBUG - Committing media stream changes for part 54
+Nov 28, 2023 01:26:49.385 [548664401976] DEBUG - Updating media item 54, size=28517854, metadata_item_id=56
+Nov 28, 2023 01:26:49.386 [548664401976] DEBUG - Updating part with ID=54 [/media/tv/The Eminence in Shadow/Specials/The Eminence In Shadow - S00E16 - Kage-Jitsu! Operation 16 The Seven Shadows Want To Put On Amazing Underwear!.mkv]
+Nov 28, 2023 01:26:49.386 [548584886328] DEBUG - [HCl#5d] HTTP requesting GET http://127.0.0.1:32400/:/metadata/notify/changeItemState?librarySectionID=2&metadataItemID=56&metadataType=4&state=-1&parentID=-1&rootID=-1&mediaState=analyzing
+Nov 28, 2023 01:26:49.388 [548586086456] DEBUG - [HttpClient/HCl#5d] HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/:/metadata/notify/changeItemState?librarySectionID=2&metadataItemID=56&metadataType=4&state=-1&parentID=-1&rootID=-1&mediaState=analyzing (reused)
+Nov 28, 2023 01:26:49.389 [548584886328] DEBUG - [HCl#5e] HTTP requesting GET http://127.0.0.1:32400/:/metadata/notify/changeItemState?librarySectionID=2&metadataItemID=56&metadataType=4&state=-1&parentID=-1&rootID=-1&mediaState=idle
+Nov 28, 2023 01:26:49.390 [548586086456] DEBUG - [HttpClient/HCl#5e] HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/:/metadata/notify/changeItemState?librarySectionID=2&metadataItemID=56&metadataType=4&state=-1&parentID=-1&rootID=-1&mediaState=idle (reused)
+Nov 28, 2023 01:26:49.393 [548664401976] DEBUG - Downloading document http://127.0.0.1:32400/library/changestamp
+Nov 28, 2023 01:26:49.393 [548664401976] DEBUG - [HCl#5f] HTTP requesting GET http://127.0.0.1:32400/library/changestamp
+Nov 28, 2023 01:26:49.395 [548586086456] DEBUG - [HttpClient/HCl#5f] HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/library/changestamp (reused)
+Nov 28, 2023 01:26:49.395 [548664401976] DEBUG - Updating metadata item (save) (Em-Shade! Operation 16: The Seven Shadows Want to Wear Impressive Undergarments!) with ID 56
+Nov 28, 2023 01:26:49.397 [548584886328] DEBUG - [HCl#60] HTTP requesting GET http://127.0.0.1:32400/:/metadata/flushMetadataCounterCache?metadataItemID=10
+Nov 28, 2023 01:26:49.398 [548586086456] DEBUG - [HttpClient/HCl#60] HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/:/metadata/flushMetadataCounterCache?metadataItemID=10 (reused)
+Nov 28, 2023 01:26:49.402 [548664401976] DEBUG - Analyzing media parts for item 57 (Em-Shade! Operation 17: The Seven Shadows Want to Continue the Mission!): 55
+Nov 28, 2023 01:26:49.403 [548664401976] DEBUG - Downloading document http://127.0.0.1:32400/library/changestamp
+Nov 28, 2023 01:26:49.403 [548664401976] DEBUG - [HCl#61] HTTP requesting GET http://127.0.0.1:32400/library/changestamp
+Nov 28, 2023 01:26:49.405 [548586086456] DEBUG - [HttpClient/HCl#61] HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/library/changestamp (reused)
+Nov 28, 2023 01:26:49.405 [548664401976] DEBUG - Updating metadata item (save) (Em-Shade! Operation 17: The Seven Shadows Want to Continue the Mission!) with ID 57
+Nov 28, 2023 01:26:49.407 [548584886328] DEBUG - [HCl#62] HTTP requesting GET http://127.0.0.1:32400/:/metadata/flushMetadataCounterCache?metadataItemID=10
+Nov 28, 2023 01:26:49.409 [548586086456] DEBUG - [HttpClient/HCl#62] HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/:/metadata/flushMetadataCounterCache?metadataItemID=10 (reused)
+Nov 28, 2023 01:26:49.409 [548664401976] DEBUG - [ID 55] Media part analysis: /media/tv/The Eminence in Shadow/Specials/The Eminence In Shadow - S00E17 - Kage-Jitsu! Operation 17 The Seven Shadows Want To Continue This Operation!.mkv
+Nov 28, 2023 01:26:49.410 [548664401976] DEBUG - [MI] Opening input file: "/media/tv/The Eminence in Shadow/Specials/The Eminence In Shadow - S00E17 - Kage-Jitsu! Operation 17 The Seven Shadows Want To Continue This Operation!.mkv"
+Nov 28, 2023 01:26:49.410 [548664401976] DEBUG - [FFMPEG] - Opening '/media/tv/The Eminence in Shadow/Specials/The Eminence In Shadow - S00E17 - Kage-Jitsu! Operation 17 The Seven Shadows Want To Continue This Operation!.mkv' for reading
+Nov 28, 2023 01:26:49.410 [548664401976] DEBUG - [FFMPEG] - Setting default whitelist 'file,crypto,data'
+Nov 28, 2023 01:26:49.411 [548664401976] DEBUG - [FFMPEG] - Format matroska,webm probed with size=2048 and score=100
+Nov 28, 2023 01:26:49.411 [548664401976] DEBUG - [FFMPEG] - Unknown entry 0x22B59D at pos. 2795
+Nov 28, 2023 01:26:49.411 [548664401976] DEBUG - [FFMPEG] - Unknown entry 0x22B59D at pos. 2952
+Nov 28, 2023 01:26:49.411 [548664401976] DEBUG - [FFMPEG] - Unknown entry 0x22B59D at pos. 3936
+Nov 28, 2023 01:26:49.421 [548664401976] DEBUG - [FFMPEG] - st:0 removing common factor 1000000 from timebase
+Nov 28, 2023 01:26:49.421 [548664401976] DEBUG - [FFMPEG] - st:1 removing common factor 1000000 from timebase
+Nov 28, 2023 01:26:49.421 [548664401976] DEBUG - [FFMPEG] - st:2 removing common factor 1000000 from timebase
+Nov 28, 2023 01:26:49.423 [548664401976] DEBUG - [FFMPEG] - Before avformat_find_stream_info() pos: 469353 bytes read:464684 seeks:3 nb_streams:7
+Nov 28, 2023 01:26:49.424 [548664401976] DEBUG - [FFMPEG] - nal_unit_type: 32(VPS), nuh_layer_id: 0, temporal_id: 0
+Nov 28, 2023 01:26:49.425 [548664401976] DEBUG - [FFMPEG] - Decoding VPS
+Nov 28, 2023 01:26:49.425 [548664401976] DEBUG - [FFMPEG] - Main 10 profile bitstream
+Nov 28, 2023 01:26:49.425 [548664401976] DEBUG - [FFMPEG] - nal_unit_type: 33(SPS), nuh_layer_id: 0, temporal_id: 0
+Nov 28, 2023 01:26:49.425 [548664401976] DEBUG - [FFMPEG] - Decoding SPS
+Nov 28, 2023 01:26:49.425 [548664401976] DEBUG - [FFMPEG] - Main 10 profile bitstream
+Nov 28, 2023 01:26:49.425 [548664401976] DEBUG - [FFMPEG] - Decoding VUI
+Nov 28, 2023 01:26:49.425 [548664401976] DEBUG - [FFMPEG] - nal_unit_type: 34(PPS), nuh_layer_id: 0, temporal_id: 0
+Nov 28, 2023 01:26:49.425 [548664401976] DEBUG - [FFMPEG] - Decoding PPS
+Nov 28, 2023 01:26:49.425 [548664401976] DEBUG - [FFMPEG] - nal_unit_type: 39(SEI_PREFIX), nuh_layer_id: 0, temporal_id: 0
+Nov 28, 2023 01:26:49.425 [548664401976] DEBUG - [FFMPEG] - Decoding SEI
+Nov 28, 2023 01:26:49.427 [548664401976] DEBUG - [FFMPEG] - skip 312/960 samples
+Nov 28, 2023 01:26:49.428 [548664401976] DEBUG - [FFMPEG] - All info found
+Nov 28, 2023 01:26:49.430 [548664401976] DEBUG - [FFMPEG] - After avformat_find_stream_info() pos: 645108 bytes read:644234 seeks:3 frames:27
+Nov 28, 2023 01:26:49.431 [548664401976] DEBUG - [MI]  * b607e48dfceeee48193752502e65841debdb192d [mkv hevc/opus] Duration: 121141ms, 1920x1080 (1.777778) 23.976fps, bitrate=1694kbps, audio channels=2, optimizedForStreaming=0 ("/media/tv/The Eminence in Shadow/Specials/The Eminence In Shadow - S00E17 - Kage-Jitsu! Operation 17 The Seven Shadows Want To Continue This Operation!.mkv")
+Nov 28, 2023 01:26:49.431 [548664401976] DEBUG - [MI] Chapters had generic titles, clearing.
+Nov 28, 2023 01:26:49.432 [548664401976] DEBUG - [MI] Closing input file: "/media/tv/The Eminence in Shadow/Specials/The Eminence In Shadow - S00E17 - Kage-Jitsu! Operation 17 The Seven Shadows Want To Continue This Operation!.mkv"
+Nov 28, 2023 01:26:49.434 [548664401976] DEBUG - Committing media stream changes for part 55
+Nov 28, 2023 01:26:49.435 [548664401976] DEBUG - Updating media item 55, size=25665925, metadata_item_id=57
+Nov 28, 2023 01:26:49.435 [548664401976] DEBUG - Updating part with ID=55 [/media/tv/The Eminence in Shadow/Specials/The Eminence In Shadow - S00E17 - Kage-Jitsu! Operation 17 The Seven Shadows Want To Continue This Operation!.mkv]
+Nov 28, 2023 01:26:49.436 [548584886328] DEBUG - [HCl#63] HTTP requesting GET http://127.0.0.1:32400/:/metadata/notify/changeItemState?librarySectionID=2&metadataItemID=57&metadataType=4&state=-1&parentID=-1&rootID=-1&mediaState=analyzing
+Nov 28, 2023 01:26:49.437 [548586086456] DEBUG - [HttpClient/HCl#63] HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/:/metadata/notify/changeItemState?librarySectionID=2&metadataItemID=57&metadataType=4&state=-1&parentID=-1&rootID=-1&mediaState=analyzing (reused)
+Nov 28, 2023 01:26:49.438 [548584886328] DEBUG - [HCl#64] HTTP requesting GET http://127.0.0.1:32400/:/metadata/notify/changeItemState?librarySectionID=2&metadataItemID=57&metadataType=4&state=-1&parentID=-1&rootID=-1&mediaState=idle
+Nov 28, 2023 01:26:49.439 [548586086456] DEBUG - [HttpClient/HCl#64] HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/:/metadata/notify/changeItemState?librarySectionID=2&metadataItemID=57&metadataType=4&state=-1&parentID=-1&rootID=-1&mediaState=idle (reused)
+Nov 28, 2023 01:26:49.444 [548664401976] DEBUG - Downloading document http://127.0.0.1:32400/library/changestamp
+Nov 28, 2023 01:26:49.444 [548664401976] DEBUG - [HCl#65] HTTP requesting GET http://127.0.0.1:32400/library/changestamp
+Nov 28, 2023 01:26:49.446 [548586086456] DEBUG - [HttpClient/HCl#65] HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/library/changestamp (reused)
+Nov 28, 2023 01:26:49.446 [548664401976] DEBUG - Updating metadata item (save) (Em-Shade! Operation 17: The Seven Shadows Want to Continue the Mission!) with ID 57
+Nov 28, 2023 01:26:49.448 [548584886328] DEBUG - [HCl#66] HTTP requesting GET http://127.0.0.1:32400/:/metadata/flushMetadataCounterCache?metadataItemID=10
+Nov 28, 2023 01:26:49.449 [548586086456] DEBUG - [HttpClient/HCl#66] HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/:/metadata/flushMetadataCounterCache?metadataItemID=10 (reused)

@@ -1,0 +1,162 @@
+Nov 28, 2023 01:26:43.372 [547724730424] INFO - Plex Media Scanner v1.32.7.7621-871adbd44 - Docker Docker Container (LinuxServer.io) aarch64 - build: linux-aarch64 - GMT 00:00
+Nov 28, 2023 01:26:43.372 [547724730424] INFO - Linux version: 6.1.0-rpi6-rpi-v8, language: en-US
+Nov 28, 2023 01:26:43.372 [547724730424] INFO - Processor: 4-core AArch64
+Nov 28, 2023 01:26:43.372 [547724730424] INFO - /usr/lib/plexmediaserver/Plex Media Scanner --match --type 2 --log-file-suffix  Matcher --item 5
+Nov 28, 2023 01:26:43.373 [547791831096] DEBUG - Opening 20 database sessions to library (com.plexapp.plugins.library), SQLite 3.39.4, threadsafe=1
+Nov 28, 2023 01:26:43.703 [547791831096] DEBUG - Matcher: found 5 auxiliary files for Season 1
+Nov 28, 2023 01:26:43.708 [547791831096] DEBUG - [MI] Opening input file: "/media/tv/Soundtrack (2022)/Season 1/Soundtrack.1.S01E01.KOREAN.1080p.WEBRip.x265-RARBG.mp4"
+Nov 28, 2023 01:26:43.708 [547791831096] DEBUG - [FFMPEG] - Opening '/media/tv/Soundtrack (2022)/Season 1/Soundtrack.1.S01E01.KOREAN.1080p.WEBRip.x265-RARBG.mp4' for reading
+Nov 28, 2023 01:26:43.708 [547791831096] DEBUG - [FFMPEG] - Setting default whitelist 'file,crypto,data'
+Nov 28, 2023 01:26:43.709 [547791831096] DEBUG - [FFMPEG] - Format mov,mp4,m4a,3gp,3g2,mj2 probed with size=2048 and score=100
+Nov 28, 2023 01:26:43.709 [547791831096] DEBUG - [FFMPEG] - ISO: File Type Major Brand: isom
+Nov 28, 2023 01:26:43.709 [547791831096] DEBUG - [FFMPEG] - Unknown dref type 0x206c7275 size 12
+Nov 28, 2023 01:26:43.726 [547791831096] DEBUG - [FFMPEG] - Processing st: 0, edit list 0 - media time: 2002, duration: 62010960
+Nov 28, 2023 01:26:43.739 [547791831096] DEBUG - [FFMPEG] - Offset DTS by 2002 to make first pts zero.
+Nov 28, 2023 01:26:43.741 [547791831096] DEBUG - [FFMPEG] - Unknown dref type 0x206c7275 size 12
+Nov 28, 2023 01:26:43.757 [547791831096] DEBUG - [FFMPEG] - Processing st: 1, edit list 0 - media time: 2048, duration: 124022736
+Nov 28, 2023 01:26:43.757 [547791831096] DEBUG - [FFMPEG] - drop a frame at curr_cts: 0 @ 0
+Nov 28, 2023 01:26:43.757 [547791831096] DEBUG - [FFMPEG] - drop a frame at curr_cts: 1024 @ 1
+Nov 28, 2023 01:26:43.766 [547791831096] DEBUG - [FFMPEG] - Before avformat_find_stream_info() pos: 720085545 bytes read:1808621 seeks:1 nb_streams:2
+Nov 28, 2023 01:26:43.767 [547791831096] DEBUG - [FFMPEG] - nal_unit_type: 32(VPS), nuh_layer_id: 0, temporal_id: 0
+Nov 28, 2023 01:26:43.767 [547791831096] DEBUG - [FFMPEG] - Decoding VPS
+Nov 28, 2023 01:26:43.767 [547791831096] DEBUG - [FFMPEG] - Main 10 profile bitstream
+Nov 28, 2023 01:26:43.767 [547791831096] DEBUG - [FFMPEG] - nal_unit_type: 33(SPS), nuh_layer_id: 0, temporal_id: 0
+Nov 28, 2023 01:26:43.767 [547791831096] DEBUG - [FFMPEG] - Decoding SPS
+Nov 28, 2023 01:26:43.767 [547791831096] DEBUG - [FFMPEG] - Main 10 profile bitstream
+Nov 28, 2023 01:26:43.767 [547791831096] DEBUG - [FFMPEG] - Decoding VUI
+Nov 28, 2023 01:26:43.767 [547791831096] DEBUG - [FFMPEG] - nal_unit_type: 34(PPS), nuh_layer_id: 0, temporal_id: 0
+Nov 28, 2023 01:26:43.767 [547791831096] DEBUG - [FFMPEG] - Decoding PPS
+Nov 28, 2023 01:26:43.768 [547791831096] DEBUG - [FFMPEG] - demuxer injecting skip 2048 / discard 0
+Nov 28, 2023 01:26:43.768 [547791831096] DEBUG - [FFMPEG] - All info found
+Nov 28, 2023 01:26:43.768 [547791831096] DEBUG - [FFMPEG] - After avformat_find_stream_info() pos: 3397 bytes read:1841389 seeks:2 frames:2
+Nov 28, 2023 01:26:43.770 [547791831096] DEBUG - [FFMPEG] - nal_unit_type: 32(VPS), nuh_layer_id: 0, temporal_id: 0
+Nov 28, 2023 01:26:43.770 [547791831096] DEBUG - [FFMPEG] - Decoding VPS
+Nov 28, 2023 01:26:43.770 [547791831096] DEBUG - [FFMPEG] - Main 10 profile bitstream
+Nov 28, 2023 01:26:43.770 [547791831096] DEBUG - [FFMPEG] - nal_unit_type: 33(SPS), nuh_layer_id: 0, temporal_id: 0
+Nov 28, 2023 01:26:43.770 [547791831096] DEBUG - [FFMPEG] - Decoding SPS
+Nov 28, 2023 01:26:43.770 [547791831096] DEBUG - [FFMPEG] - Main 10 profile bitstream
+Nov 28, 2023 01:26:43.770 [547791831096] DEBUG - [FFMPEG] - Decoding VUI
+Nov 28, 2023 01:26:43.770 [547791831096] DEBUG - [FFMPEG] - nal_unit_type: 34(PPS), nuh_layer_id: 0, temporal_id: 0
+Nov 28, 2023 01:26:43.770 [547791831096] DEBUG - [FFMPEG] - Decoding PPS
+Nov 28, 2023 01:26:43.770 [547791831096] DEBUG - [MI] Closing input file: "/media/tv/Soundtrack (2022)/Season 1/Soundtrack.1.S01E01.KOREAN.1080p.WEBRip.x265-RARBG.mp4"
+Nov 28, 2023 01:26:43.771 [547791831096] DEBUG - Scanner: found local sidecar subtitle "/media/tv/Soundtrack (2022)/Season 1/Soundtrack.1.S01E01.KOREAN.1080p.WEBRip.x265-RARBG.en.srt"
+Nov 28, 2023 01:26:43.771 [547791831096] DEBUG - [FFMPEG] - Opening '/media/tv/Soundtrack (2022)/Season 1/Soundtrack.1.S01E01.KOREAN.1080p.WEBRip.x265-RARBG.en.srt' for reading
+Nov 28, 2023 01:26:43.772 [547791831096] DEBUG - [FFMPEG] - Setting default whitelist 'file,crypto,data'
+Nov 28, 2023 01:26:43.772 [547791831096] DEBUG - [FFMPEG] - Format srt probed with size=2048 and score=100
+Nov 28, 2023 01:26:43.792 [547791831096] DEBUG - [MI] Opening input file: "/media/tv/Soundtrack (2022)/Season 1/Soundtrack.1.S01E02.KOREAN.1080p.WEBRip.x265-RARBG.mp4"
+Nov 28, 2023 01:26:43.792 [547791831096] DEBUG - [FFMPEG] - Opening '/media/tv/Soundtrack (2022)/Season 1/Soundtrack.1.S01E02.KOREAN.1080p.WEBRip.x265-RARBG.mp4' for reading
+Nov 28, 2023 01:26:43.792 [547791831096] DEBUG - [FFMPEG] - Setting default whitelist 'file,crypto,data'
+Nov 28, 2023 01:26:43.793 [547791831096] DEBUG - [FFMPEG] - Format mov,mp4,m4a,3gp,3g2,mj2 probed with size=2048 and score=100
+Nov 28, 2023 01:26:43.793 [547791831096] DEBUG - [FFMPEG] - ISO: File Type Major Brand: isom
+Nov 28, 2023 01:26:43.794 [547791831096] DEBUG - [FFMPEG] - Unknown dref type 0x206c7275 size 12
+Nov 28, 2023 01:26:43.813 [547791831096] DEBUG - [FFMPEG] - Processing st: 0, edit list 0 - media time: 2002, duration: 55642608
+Nov 28, 2023 01:26:43.821 [547791831096] DEBUG - [FFMPEG] - Offset DTS by 2002 to make first pts zero.
+Nov 28, 2023 01:26:43.823 [547791831096] DEBUG - [FFMPEG] - Unknown dref type 0x206c7275 size 12
+Nov 28, 2023 01:26:43.837 [547791831096] DEBUG - [FFMPEG] - Processing st: 1, edit list 0 - media time: 2048, duration: 111286224
+Nov 28, 2023 01:26:43.837 [547791831096] DEBUG - [FFMPEG] - drop a frame at curr_cts: 0 @ 0
+Nov 28, 2023 01:26:43.837 [547791831096] DEBUG - [FFMPEG] - drop a frame at curr_cts: 1024 @ 1
+Nov 28, 2023 01:26:43.845 [547791831096] DEBUG - [FFMPEG] - Before avformat_find_stream_info() pos: 646139599 bytes read:1627149 seeks:1 nb_streams:2
+Nov 28, 2023 01:26:43.847 [547791831096] DEBUG - [FFMPEG] - nal_unit_type: 32(VPS), nuh_layer_id: 0, temporal_id: 0
+Nov 28, 2023 01:26:43.847 [547791831096] DEBUG - [FFMPEG] - Decoding VPS
+Nov 28, 2023 01:26:43.847 [547791831096] DEBUG - [FFMPEG] - Main 10 profile bitstream
+Nov 28, 2023 01:26:43.847 [547791831096] DEBUG - [FFMPEG] - nal_unit_type: 33(SPS), nuh_layer_id: 0, temporal_id: 0
+Nov 28, 2023 01:26:43.847 [547791831096] DEBUG - [FFMPEG] - Decoding SPS
+Nov 28, 2023 01:26:43.847 [547791831096] DEBUG - [FFMPEG] - Main 10 profile bitstream
+Nov 28, 2023 01:26:43.847 [547791831096] DEBUG - [FFMPEG] - Decoding VUI
+Nov 28, 2023 01:26:43.847 [547791831096] DEBUG - [FFMPEG] - nal_unit_type: 34(PPS), nuh_layer_id: 0, temporal_id: 0
+Nov 28, 2023 01:26:43.847 [547791831096] DEBUG - [FFMPEG] - Decoding PPS
+Nov 28, 2023 01:26:43.847 [547791831096] DEBUG - [FFMPEG] - demuxer injecting skip 2048 / discard 0
+Nov 28, 2023 01:26:43.847 [547791831096] DEBUG - [FFMPEG] - All info found
+Nov 28, 2023 01:26:43.848 [547791831096] DEBUG - [FFMPEG] - After avformat_find_stream_info() pos: 3398 bytes read:1659917 seeks:2 frames:2
+Nov 28, 2023 01:26:43.849 [547791831096] DEBUG - [FFMPEG] - nal_unit_type: 32(VPS), nuh_layer_id: 0, temporal_id: 0
+Nov 28, 2023 01:26:43.849 [547791831096] DEBUG - [FFMPEG] - Decoding VPS
+Nov 28, 2023 01:26:43.849 [547791831096] DEBUG - [FFMPEG] - Main 10 profile bitstream
+Nov 28, 2023 01:26:43.849 [547791831096] DEBUG - [FFMPEG] - nal_unit_type: 33(SPS), nuh_layer_id: 0, temporal_id: 0
+Nov 28, 2023 01:26:43.849 [547791831096] DEBUG - [FFMPEG] - Decoding SPS
+Nov 28, 2023 01:26:43.849 [547791831096] DEBUG - [FFMPEG] - Main 10 profile bitstream
+Nov 28, 2023 01:26:43.849 [547791831096] DEBUG - [FFMPEG] - Decoding VUI
+Nov 28, 2023 01:26:43.849 [547791831096] DEBUG - [FFMPEG] - nal_unit_type: 34(PPS), nuh_layer_id: 0, temporal_id: 0
+Nov 28, 2023 01:26:43.849 [547791831096] DEBUG - [FFMPEG] - Decoding PPS
+Nov 28, 2023 01:26:43.849 [547791831096] DEBUG - [MI] Closing input file: "/media/tv/Soundtrack (2022)/Season 1/Soundtrack.1.S01E02.KOREAN.1080p.WEBRip.x265-RARBG.mp4"
+Nov 28, 2023 01:26:43.850 [547791831096] DEBUG - Scanner: found local sidecar subtitle "/media/tv/Soundtrack (2022)/Season 1/Soundtrack.1.S01E02.KOREAN.1080p.WEBRip.x265-RARBG.en.srt"
+Nov 28, 2023 01:26:43.850 [547791831096] DEBUG - [FFMPEG] - Opening '/media/tv/Soundtrack (2022)/Season 1/Soundtrack.1.S01E02.KOREAN.1080p.WEBRip.x265-RARBG.en.srt' for reading
+Nov 28, 2023 01:26:43.850 [547791831096] DEBUG - [FFMPEG] - Setting default whitelist 'file,crypto,data'
+Nov 28, 2023 01:26:43.856 [547791831096] DEBUG - [FFMPEG] - Format srt probed with size=2048 and score=100
+Nov 28, 2023 01:26:43.861 [547791831096] DEBUG - [MI] Opening input file: "/media/tv/Soundtrack (2022)/Season 1/Soundtrack.1.S01E03.KOREAN.1080p.WEBRip.x265-RARBG.mp4"
+Nov 28, 2023 01:26:43.861 [547791831096] DEBUG - [FFMPEG] - Opening '/media/tv/Soundtrack (2022)/Season 1/Soundtrack.1.S01E03.KOREAN.1080p.WEBRip.x265-RARBG.mp4' for reading
+Nov 28, 2023 01:26:43.861 [547791831096] DEBUG - [FFMPEG] - Setting default whitelist 'file,crypto,data'
+Nov 28, 2023 01:26:43.861 [547791831096] DEBUG - [FFMPEG] - Format mov,mp4,m4a,3gp,3g2,mj2 probed with size=2048 and score=100
+Nov 28, 2023 01:26:43.862 [547791831096] DEBUG - [FFMPEG] - ISO: File Type Major Brand: isom
+Nov 28, 2023 01:26:43.862 [547791831096] DEBUG - [FFMPEG] - Unknown dref type 0x206c7275 size 12
+Nov 28, 2023 01:26:43.884 [547791831096] DEBUG - [FFMPEG] - Processing st: 0, edit list 0 - media time: 2002, duration: 66348288
+Nov 28, 2023 01:26:43.893 [547791831096] DEBUG - [FFMPEG] - Offset DTS by 2002 to make first pts zero.
+Nov 28, 2023 01:26:43.895 [547791831096] DEBUG - [FFMPEG] - Unknown dref type 0x206c7275 size 12
+Nov 28, 2023 01:26:43.912 [547791831096] DEBUG - [FFMPEG] - Processing st: 1, edit list 0 - media time: 2048, duration: 132696576
+Nov 28, 2023 01:26:43.912 [547791831096] DEBUG - [FFMPEG] - drop a frame at curr_cts: 0 @ 0
+Nov 28, 2023 01:26:43.912 [547791831096] DEBUG - [FFMPEG] - drop a frame at curr_cts: 1024 @ 1
+Nov 28, 2023 01:26:43.922 [547791831096] DEBUG - [FFMPEG] - Before avformat_find_stream_info() pos: 770514430 bytes read:1931429 seeks:1 nb_streams:2
+Nov 28, 2023 01:26:43.923 [547791831096] DEBUG - [FFMPEG] - nal_unit_type: 32(VPS), nuh_layer_id: 0, temporal_id: 0
+Nov 28, 2023 01:26:43.923 [547791831096] DEBUG - [FFMPEG] - Decoding VPS
+Nov 28, 2023 01:26:43.923 [547791831096] DEBUG - [FFMPEG] - Main 10 profile bitstream
+Nov 28, 2023 01:26:43.923 [547791831096] DEBUG - [FFMPEG] - nal_unit_type: 33(SPS), nuh_layer_id: 0, temporal_id: 0
+Nov 28, 2023 01:26:43.923 [547791831096] DEBUG - [FFMPEG] - Decoding SPS
+Nov 28, 2023 01:26:43.923 [547791831096] DEBUG - [FFMPEG] - Main 10 profile bitstream
+Nov 28, 2023 01:26:43.923 [547791831096] DEBUG - [FFMPEG] - Decoding VUI
+Nov 28, 2023 01:26:43.923 [547791831096] DEBUG - [FFMPEG] - nal_unit_type: 34(PPS), nuh_layer_id: 0, temporal_id: 0
+Nov 28, 2023 01:26:43.923 [547791831096] DEBUG - [FFMPEG] - Decoding PPS
+Nov 28, 2023 01:26:43.923 [547791831096] DEBUG - [FFMPEG] - demuxer injecting skip 2048 / discard 0
+Nov 28, 2023 01:26:43.923 [547791831096] DEBUG - [FFMPEG] - All info found
+Nov 28, 2023 01:26:43.924 [547791831096] DEBUG - [FFMPEG] - After avformat_find_stream_info() pos: 3400 bytes read:1964197 seeks:2 frames:2
+Nov 28, 2023 01:26:43.925 [547791831096] DEBUG - [FFMPEG] - nal_unit_type: 32(VPS), nuh_layer_id: 0, temporal_id: 0
+Nov 28, 2023 01:26:43.925 [547791831096] DEBUG - [FFMPEG] - Decoding VPS
+Nov 28, 2023 01:26:43.925 [547791831096] DEBUG - [FFMPEG] - Main 10 profile bitstream
+Nov 28, 2023 01:26:43.925 [547791831096] DEBUG - [FFMPEG] - nal_unit_type: 33(SPS), nuh_layer_id: 0, temporal_id: 0
+Nov 28, 2023 01:26:43.925 [547791831096] DEBUG - [FFMPEG] - Decoding SPS
+Nov 28, 2023 01:26:43.925 [547791831096] DEBUG - [FFMPEG] - Main 10 profile bitstream
+Nov 28, 2023 01:26:43.925 [547791831096] DEBUG - [FFMPEG] - Decoding VUI
+Nov 28, 2023 01:26:43.925 [547791831096] DEBUG - [FFMPEG] - nal_unit_type: 34(PPS), nuh_layer_id: 0, temporal_id: 0
+Nov 28, 2023 01:26:43.925 [547791831096] DEBUG - [FFMPEG] - Decoding PPS
+Nov 28, 2023 01:26:43.926 [547791831096] DEBUG - [MI] Closing input file: "/media/tv/Soundtrack (2022)/Season 1/Soundtrack.1.S01E03.KOREAN.1080p.WEBRip.x265-RARBG.mp4"
+Nov 28, 2023 01:26:43.927 [547791831096] DEBUG - Scanner: found local sidecar subtitle "/media/tv/Soundtrack (2022)/Season 1/Soundtrack.1.S01E03.KOREAN.1080p.WEBRip.x265-RARBG.en.srt"
+Nov 28, 2023 01:26:43.927 [547791831096] DEBUG - [FFMPEG] - Opening '/media/tv/Soundtrack (2022)/Season 1/Soundtrack.1.S01E03.KOREAN.1080p.WEBRip.x265-RARBG.en.srt' for reading
+Nov 28, 2023 01:26:43.927 [547791831096] DEBUG - [FFMPEG] - Setting default whitelist 'file,crypto,data'
+Nov 28, 2023 01:26:43.929 [547791831096] DEBUG - [FFMPEG] - Format srt probed with size=2048 and score=100
+Nov 28, 2023 01:26:43.935 [547791831096] DEBUG - [MI] Opening input file: "/media/tv/Soundtrack (2022)/Season 1/Soundtrack.1.S01E04.KOREAN.1080p.WEBRip.x265-RARBG.mp4"
+Nov 28, 2023 01:26:43.935 [547791831096] DEBUG - [FFMPEG] - Opening '/media/tv/Soundtrack (2022)/Season 1/Soundtrack.1.S01E04.KOREAN.1080p.WEBRip.x265-RARBG.mp4' for reading
+Nov 28, 2023 01:26:43.935 [547791831096] DEBUG - [FFMPEG] - Setting default whitelist 'file,crypto,data'
+Nov 28, 2023 01:26:43.935 [547791831096] DEBUG - [FFMPEG] - Format mov,mp4,m4a,3gp,3g2,mj2 probed with size=2048 and score=100
+Nov 28, 2023 01:26:43.936 [547791831096] DEBUG - [FFMPEG] - ISO: File Type Major Brand: isom
+Nov 28, 2023 01:26:43.936 [547791831096] DEBUG - [FFMPEG] - Unknown dref type 0x206c7275 size 12
+Nov 28, 2023 01:26:43.961 [547791831096] DEBUG - [FFMPEG] - Processing st: 0, edit list 0 - media time: 2002, duration: 77018952
+Nov 28, 2023 01:26:43.973 [547791831096] DEBUG - [FFMPEG] - Offset DTS by 2002 to make first pts zero.
+Nov 28, 2023 01:26:43.976 [547791831096] DEBUG - [FFMPEG] - Unknown dref type 0x206c7275 size 12
+Nov 28, 2023 01:26:43.995 [547791831096] DEBUG - [FFMPEG] - Processing st: 1, edit list 0 - media time: 2048, duration: 154039296
+Nov 28, 2023 01:26:43.995 [547791831096] DEBUG - [FFMPEG] - drop a frame at curr_cts: 0 @ 0
+Nov 28, 2023 01:26:43.995 [547791831096] DEBUG - [FFMPEG] - drop a frame at curr_cts: 1024 @ 1
+Nov 28, 2023 01:26:44.006 [547791831096] DEBUG - [FFMPEG] - Before avformat_find_stream_info() pos: 894914687 bytes read:2236061 seeks:1 nb_streams:2
+Nov 28, 2023 01:26:44.007 [547791831096] DEBUG - [FFMPEG] - nal_unit_type: 32(VPS), nuh_layer_id: 0, temporal_id: 0
+Nov 28, 2023 01:26:44.007 [547791831096] DEBUG - [FFMPEG] - Decoding VPS
+Nov 28, 2023 01:26:44.007 [547791831096] DEBUG - [FFMPEG] - Main 10 profile bitstream
+Nov 28, 2023 01:26:44.007 [547791831096] DEBUG - [FFMPEG] - nal_unit_type: 33(SPS), nuh_layer_id: 0, temporal_id: 0
+Nov 28, 2023 01:26:44.007 [547791831096] DEBUG - [FFMPEG] - Decoding SPS
+Nov 28, 2023 01:26:44.007 [547791831096] DEBUG - [FFMPEG] - Main 10 profile bitstream
+Nov 28, 2023 01:26:44.007 [547791831096] DEBUG - [FFMPEG] - Decoding VUI
+Nov 28, 2023 01:26:44.007 [547791831096] DEBUG - [FFMPEG] - nal_unit_type: 34(PPS), nuh_layer_id: 0, temporal_id: 0
+Nov 28, 2023 01:26:44.008 [547791831096] DEBUG - [FFMPEG] - Decoding PPS
+Nov 28, 2023 01:26:44.008 [547791831096] DEBUG - [FFMPEG] - demuxer injecting skip 2048 / discard 0
+Nov 28, 2023 01:26:44.008 [547791831096] DEBUG - [FFMPEG] - All info found
+Nov 28, 2023 01:26:44.008 [547791831096] DEBUG - [FFMPEG] - After avformat_find_stream_info() pos: 3398 bytes read:2268829 seeks:2 frames:2
+Nov 28, 2023 01:26:44.010 [547791831096] DEBUG - [FFMPEG] - nal_unit_type: 32(VPS), nuh_layer_id: 0, temporal_id: 0
+Nov 28, 2023 01:26:44.010 [547791831096] DEBUG - [FFMPEG] - Decoding VPS
+Nov 28, 2023 01:26:44.010 [547791831096] DEBUG - [FFMPEG] - Main 10 profile bitstream
+Nov 28, 2023 01:26:44.010 [547791831096] DEBUG - [FFMPEG] - nal_unit_type: 33(SPS), nuh_layer_id: 0, temporal_id: 0
+Nov 28, 2023 01:26:44.010 [547791831096] DEBUG - [FFMPEG] - Decoding SPS
+Nov 28, 2023 01:26:44.010 [547791831096] DEBUG - [FFMPEG] - Main 10 profile bitstream
+Nov 28, 2023 01:26:44.010 [547791831096] DEBUG - [FFMPEG] - Decoding VUI
+Nov 28, 2023 01:26:44.010 [547791831096] DEBUG - [FFMPEG] - nal_unit_type: 34(PPS), nuh_layer_id: 0, temporal_id: 0
+Nov 28, 2023 01:26:44.010 [547791831096] DEBUG - [FFMPEG] - Decoding PPS
+Nov 28, 2023 01:26:44.010 [547791831096] DEBUG - [MI] Closing input file: "/media/tv/Soundtrack (2022)/Season 1/Soundtrack.1.S01E04.KOREAN.1080p.WEBRip.x265-RARBG.mp4"
+Nov 28, 2023 01:26:44.012 [547791831096] DEBUG - Scanner: found local sidecar subtitle "/media/tv/Soundtrack (2022)/Season 1/Soundtrack.1.S01E04.KOREAN.1080p.WEBRip.x265-RARBG.en.srt"
+Nov 28, 2023 01:26:44.012 [547791831096] DEBUG - [FFMPEG] - Opening '/media/tv/Soundtrack (2022)/Season 1/Soundtrack.1.S01E04.KOREAN.1080p.WEBRip.x265-RARBG.en.srt' for reading
+Nov 28, 2023 01:26:44.012 [547791831096] DEBUG - [FFMPEG] - Setting default whitelist 'file,crypto,data'
+Nov 28, 2023 01:26:44.019 [547791831096] DEBUG - [FFMPEG] - Format srt probed with size=2048 and score=100

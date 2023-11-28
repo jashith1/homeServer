@@ -1,0 +1,26 @@
+Nov 28, 2023 01:26:45.826 [548446126136] INFO - Plex Media Scanner v1.32.7.7621-871adbd44 - Docker Docker Container (LinuxServer.io) aarch64 - build: linux-aarch64 - GMT 00:00
+Nov 28, 2023 01:26:45.826 [548446126136] INFO - Linux version: 6.1.0-rpi6-rpi-v8, language: en-US
+Nov 28, 2023 01:26:45.826 [548446126136] INFO - Processor: 4-core AArch64
+Nov 28, 2023 01:26:45.826 [548446126136] INFO - /usr/lib/plexmediaserver/Plex Media Scanner --match --type 2 --log-file-suffix  Matcher --item 11
+Nov 28, 2023 01:26:45.827 [548513226808] DEBUG - Opening 20 database sessions to library (com.plexapp.plugins.library), SQLite 3.39.4, threadsafe=1
+Nov 28, 2023 01:26:46.215 [548513226808] DEBUG - Matcher: found 0 auxiliary files for Season 1
+Nov 28, 2023 01:26:46.239 [548513226808] DEBUG - Matcher: no sidecar subtitle files found for /media/tv/The Eminence in Shadow/Season 1/The Eminence In Shadow - S01E01 - The Hated Classmate.mkv
+Nov 28, 2023 01:26:46.239 [548513226808] DEBUG - Matcher: no sidecar subtitle files found for /media/tv/The Eminence in Shadow/Season 1/The Eminence In Shadow - S01E02 - Shadow Garden Is Born.mkv
+Nov 28, 2023 01:26:46.239 [548513226808] DEBUG - Matcher: no sidecar subtitle files found for /media/tv/The Eminence in Shadow/Season 1/The Eminence In Shadow - S01E03 - Fencer Ordinaire.mkv
+Nov 28, 2023 01:26:46.239 [548513226808] DEBUG - Matcher: no sidecar subtitle files found for /media/tv/The Eminence in Shadow/Season 1/The Eminence In Shadow - S01E04 - Sadism's Rewards.mkv
+Nov 28, 2023 01:26:46.239 [548513226808] DEBUG - Matcher: no sidecar subtitle files found for /media/tv/The Eminence in Shadow/Season 1/The Eminence In Shadow - S01E05 - I Am....mkv
+Nov 28, 2023 01:26:46.239 [548513226808] DEBUG - Matcher: no sidecar subtitle files found for /media/tv/The Eminence in Shadow/Season 1/The Eminence In Shadow - S01E06 - Pretenders.mkv
+Nov 28, 2023 01:26:46.239 [548513226808] DEBUG - Matcher: no sidecar subtitle files found for /media/tv/The Eminence in Shadow/Season 1/The Eminence In Shadow - S01E07 - A Fencing Tournament Of Intrigue & Bloodshed.mkv
+Nov 28, 2023 01:26:46.239 [548513226808] DEBUG - Matcher: no sidecar subtitle files found for /media/tv/The Eminence in Shadow/Season 1/The Eminence In Shadow - S01E08 - Dark Knight Academy Under Attack.mkv
+Nov 28, 2023 01:26:46.239 [548513226808] DEBUG - Matcher: no sidecar subtitle files found for /media/tv/The Eminence in Shadow/Season 1/The Eminence In Shadow - S01E09 - The End Of A Lie.mkv
+Nov 28, 2023 01:26:46.239 [548513226808] DEBUG - Matcher: no sidecar subtitle files found for /media/tv/The Eminence in Shadow/Season 1/The Eminence In Shadow - S01E10 - The Sacred Land, City Of Deception.mkv
+Nov 28, 2023 01:26:46.240 [548513226808] DEBUG - Matcher: no sidecar subtitle files found for /media/tv/The Eminence in Shadow/Season 1/The Eminence In Shadow - S01E11 - The Goddess' Trial.mkv
+Nov 28, 2023 01:26:46.240 [548513226808] DEBUG - Matcher: no sidecar subtitle files found for /media/tv/The Eminence in Shadow/Season 1/The Eminence In Shadow - S01E12 - The Truth Within The Memories.mkv
+Nov 28, 2023 01:26:46.240 [548513226808] DEBUG - Matcher: no sidecar subtitle files found for /media/tv/The Eminence in Shadow/Season 1/The Eminence In Shadow - S01E13 - A Bloody Showdown As An Offering To Annihilation.mkv
+Nov 28, 2023 01:26:46.240 [548513226808] DEBUG - Matcher: no sidecar subtitle files found for /media/tv/The Eminence in Shadow/Season 1/The Eminence In Shadow - S01E14 - Your Lie, Your Wish.mkv
+Nov 28, 2023 01:26:46.240 [548513226808] DEBUG - Matcher: no sidecar subtitle files found for /media/tv/The Eminence in Shadow/Season 1/The Eminence In Shadow - S01E15 - The Strongest Weakest Man.mkv
+Nov 28, 2023 01:26:46.240 [548513226808] DEBUG - Matcher: no sidecar subtitle files found for /media/tv/The Eminence in Shadow/Season 1/The Eminence In Shadow - S01E16 - Unseen Intentions.mkv
+Nov 28, 2023 01:26:46.240 [548513226808] DEBUG - Matcher: no sidecar subtitle files found for /media/tv/The Eminence in Shadow/Season 1/The Eminence In Shadow - S01E17 - Moonlight That Pierces The Darkness.mkv
+Nov 28, 2023 01:26:46.240 [548513226808] DEBUG - Matcher: no sidecar subtitle files found for /media/tv/The Eminence in Shadow/Season 1/The Eminence In Shadow - S01E18 - Betting On A Moment.mkv
+Nov 28, 2023 01:26:46.240 [548513226808] DEBUG - Matcher: no sidecar subtitle files found for /media/tv/The Eminence in Shadow/Season 1/The Eminence In Shadow - S01E19 - Dancing Puppet.mkv
+Nov 28, 2023 01:26:46.240 [548513226808] DEBUG - Matcher: no sidecar subtitle files found for /media/tv/The Eminence in Shadow/Season 1/The Eminence In Shadow - S01E20 - Advent Of The Demon.mkv

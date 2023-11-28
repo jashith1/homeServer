@@ -1,0 +1,1303 @@
+Nov 28, 2023 01:26:42.389 [547821248568] INFO - Plex Media Scanner v1.32.7.7621-871adbd44 - Docker Docker Container (LinuxServer.io) aarch64 - build: linux-aarch64 - GMT 00:00
+Nov 28, 2023 01:26:42.390 [547821248568] INFO - Linux version: 6.1.0-rpi6-rpi-v8, language: en-US
+Nov 28, 2023 01:26:42.390 [547821248568] INFO - Processor: 4-core AArch64
+Nov 28, 2023 01:26:42.390 [547821248568] INFO - /usr/lib/plexmediaserver/Plex Media Scanner --analyze --log-file-suffix  Analysis --no-thumbs --item 12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31
+Nov 28, 2023 01:26:42.391 [547888349240] DEBUG - Opening 20 database sessions to library (com.plexapp.plugins.library), SQLite 3.39.4, threadsafe=1
+Nov 28, 2023 01:26:42.706 [547888349240] DEBUG - Analyzing media parts for item 12 (The Hated Classmate): 12
+Nov 28, 2023 01:26:42.709 [547888349240] DEBUG - Downloading document http://127.0.0.1:32400/library/changestamp
+Nov 28, 2023 01:26:42.709 [547888349240] DEBUG - [HCl#1] HTTP requesting GET http://127.0.0.1:32400/library/changestamp
+Nov 28, 2023 01:26:42.712 [547811348536] DEBUG - [HttpClient/HCl#1] HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/library/changestamp
+Nov 28, 2023 01:26:42.712 [547888349240] DEBUG - Updating metadata item (save) (The Hated Classmate) with ID 12
+Nov 28, 2023 01:26:42.716 [547810492472] DEBUG - [HCl#2] HTTP requesting GET http://127.0.0.1:32400/:/metadata/flushMetadataCounterCache?metadataItemID=10
+Nov 28, 2023 01:26:42.718 [547811348536] DEBUG - [HttpClient/HCl#2] HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/:/metadata/flushMetadataCounterCache?metadataItemID=10 (reused)
+Nov 28, 2023 01:26:42.718 [547888349240] DEBUG - [ID 12] Media part analysis: /media/tv/The Eminence in Shadow/Season 1/The Eminence In Shadow - S01E01 - The Hated Classmate.mkv
+Nov 28, 2023 01:26:42.719 [547888349240] DEBUG - [MI] Opening input file: "/media/tv/The Eminence in Shadow/Season 1/The Eminence In Shadow - S01E01 - The Hated Classmate.mkv"
+Nov 28, 2023 01:26:42.719 [547888349240] DEBUG - [FFMPEG] - Opening '/media/tv/The Eminence in Shadow/Season 1/The Eminence In Shadow - S01E01 - The Hated Classmate.mkv' for reading
+Nov 28, 2023 01:26:42.719 [547888349240] DEBUG - [FFMPEG] - Setting default whitelist 'file,crypto,data'
+Nov 28, 2023 01:26:42.720 [547888349240] DEBUG - [FFMPEG] - Format matroska,webm probed with size=2048 and score=100
+Nov 28, 2023 01:26:42.720 [547888349240] DEBUG - [FFMPEG] - Unknown entry 0x22B59D at pos. 2811
+Nov 28, 2023 01:26:42.720 [547888349240] DEBUG - [FFMPEG] - Unknown entry 0x22B59D at pos. 2938
+Nov 28, 2023 01:26:42.720 [547888349240] DEBUG - [FFMPEG] - Unknown entry 0x22B59D at pos. 3041
+Nov 28, 2023 01:26:42.720 [547888349240] DEBUG - [FFMPEG] - Unknown entry 0x22B59D at pos. 6513
+Nov 28, 2023 01:26:42.720 [547888349240] DEBUG - [FFMPEG] - Unknown entry 0x22B59D at pos. 10659
+Nov 28, 2023 01:26:42.742 [547888349240] DEBUG - [FFMPEG] - Unknown entry 0x437D at pos. 12782354
+Nov 28, 2023 01:26:42.742 [547888349240] DEBUG - [FFMPEG] - Unknown entry 0x437D at pos. 12782397
+Nov 28, 2023 01:26:42.742 [547888349240] DEBUG - [FFMPEG] - Unknown entry 0x437D at pos. 12782436
+Nov 28, 2023 01:26:42.742 [547888349240] DEBUG - [FFMPEG] - Unknown entry 0x437D at pos. 12782478
+Nov 28, 2023 01:26:42.742 [547888349240] DEBUG - [FFMPEG] - Unknown entry 0x437D at pos. 12782518
+Nov 28, 2023 01:26:42.743 [547888349240] DEBUG - [FFMPEG] - st:0 removing common factor 1000000 from timebase
+Nov 28, 2023 01:26:42.743 [547888349240] DEBUG - [FFMPEG] - st:1 removing common factor 1000000 from timebase
+Nov 28, 2023 01:26:42.743 [547888349240] DEBUG - [FFMPEG] - st:2 removing common factor 1000000 from timebase
+Nov 28, 2023 01:26:42.743 [547888349240] DEBUG - [FFMPEG] - st:3 removing common factor 1000000 from timebase
+Nov 28, 2023 01:26:42.743 [547888349240] DEBUG - [FFMPEG] - st:4 removing common factor 1000000 from timebase
+Nov 28, 2023 01:26:42.789 [547888349240] DEBUG - [FFMPEG] - Before avformat_find_stream_info() pos: 12782630 bytes read:12778222 seeks:3 nb_streams:13
+Nov 28, 2023 01:26:42.790 [547888349240] DEBUG - [FFMPEG] - nal_unit_type: 32(VPS), nuh_layer_id: 0, temporal_id: 0
+Nov 28, 2023 01:26:42.790 [547888349240] DEBUG - [FFMPEG] - Decoding VPS
+Nov 28, 2023 01:26:42.790 [547888349240] DEBUG - [FFMPEG] - Main 10 profile bitstream
+Nov 28, 2023 01:26:42.790 [547888349240] DEBUG - [FFMPEG] - nal_unit_type: 33(SPS), nuh_layer_id: 0, temporal_id: 0
+Nov 28, 2023 01:26:42.790 [547888349240] DEBUG - [FFMPEG] - Decoding SPS
+Nov 28, 2023 01:26:42.790 [547888349240] DEBUG - [FFMPEG] - Main 10 profile bitstream
+Nov 28, 2023 01:26:42.790 [547888349240] DEBUG - [FFMPEG] - Decoding VUI
+Nov 28, 2023 01:26:42.790 [547888349240] DEBUG - [FFMPEG] - nal_unit_type: 34(PPS), nuh_layer_id: 0, temporal_id: 0
+Nov 28, 2023 01:26:42.790 [547888349240] DEBUG - [FFMPEG] - Decoding PPS
+Nov 28, 2023 01:26:42.790 [547888349240] DEBUG - [FFMPEG] - nal_unit_type: 39(SEI_PREFIX), nuh_layer_id: 0, temporal_id: 0
+Nov 28, 2023 01:26:42.790 [547888349240] DEBUG - [FFMPEG] - Decoding SEI
+Nov 28, 2023 01:26:42.821 [547888349240] DEBUG - [FFMPEG] - skip 312/960 samples
+Nov 28, 2023 01:26:42.822 [547888349240] DEBUG - [FFMPEG] - All info found
+Nov 28, 2023 01:26:42.851 [547888349240] DEBUG - [FFMPEG] - After avformat_find_stream_info() pos: 13017224 bytes read:13029879 seeks:3 frames:43
+Nov 28, 2023 01:26:42.865 [547888349240] DEBUG - [MI]  * 2e6d051cbe8c598e31a4836eeffe58d01dee9f4f [mkv hevc/aac] Duration: 1421101ms, 1920x1080 (1.777778) 23.976fps, bitrate=2523kbps, audio channels=2, optimizedForStreaming=0 ("/media/tv/The Eminence in Shadow/Season 1/The Eminence In Shadow - S01E01 - The Hated Classmate.mkv")
+Nov 28, 2023 01:26:42.865 [547888349240] DEBUG - [MI] Importing 5 media chapters.
+Nov 28, 2023 01:26:42.867 [547888349240] DEBUG - [MI] Closing input file: "/media/tv/The Eminence in Shadow/Season 1/The Eminence In Shadow - S01E01 - The Hated Classmate.mkv"
+Nov 28, 2023 01:26:42.873 [547888349240] DEBUG - Committing media stream changes for part 12
+Nov 28, 2023 01:26:42.876 [547888349240] DEBUG - Updating media item 12, size=448260749, metadata_item_id=12
+Nov 28, 2023 01:26:42.876 [547888349240] DEBUG - Updating part with ID=12 [/media/tv/The Eminence in Shadow/Season 1/The Eminence In Shadow - S01E01 - The Hated Classmate.mkv]
+Nov 28, 2023 01:26:42.877 [547810492472] DEBUG - [HCl#3] HTTP requesting GET http://127.0.0.1:32400/:/metadata/notify/changeItemState?librarySectionID=2&metadataItemID=12&metadataType=4&state=-1&parentID=-1&rootID=-1&mediaState=analyzing
+Nov 28, 2023 01:26:42.882 [547811348536] DEBUG - [HttpClient/HCl#3] HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/:/metadata/notify/changeItemState?librarySectionID=2&metadataItemID=12&metadataType=4&state=-1&parentID=-1&rootID=-1&mediaState=analyzing (reused)
+Nov 28, 2023 01:26:42.883 [547810492472] DEBUG - [HCl#4] HTTP requesting GET http://127.0.0.1:32400/:/metadata/notify/changeItemState?librarySectionID=2&metadataItemID=12&metadataType=4&state=-1&parentID=-1&rootID=-1&mediaState=idle
+Nov 28, 2023 01:26:42.885 [547888349240] DEBUG - Downloading document http://127.0.0.1:32400/library/changestamp
+Nov 28, 2023 01:26:42.885 [547888349240] DEBUG - [HCl#5] HTTP requesting GET http://127.0.0.1:32400/library/changestamp
+Nov 28, 2023 01:26:42.886 [547811348536] DEBUG - [HttpClient/HCl#4] HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/:/metadata/notify/changeItemState?librarySectionID=2&metadataItemID=12&metadataType=4&state=-1&parentID=-1&rootID=-1&mediaState=idle (reused)
+Nov 28, 2023 01:26:42.888 [547811348536] DEBUG - [HttpClient/HCl#5] HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/library/changestamp (reused)
+Nov 28, 2023 01:26:42.888 [547888349240] DEBUG - Updating metadata item (save) (The Hated Classmate) with ID 12
+Nov 28, 2023 01:26:42.890 [547810492472] DEBUG - [HCl#6] HTTP requesting GET http://127.0.0.1:32400/:/metadata/flushMetadataCounterCache?metadataItemID=10
+Nov 28, 2023 01:26:42.892 [547811348536] DEBUG - [HttpClient/HCl#6] HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/:/metadata/flushMetadataCounterCache?metadataItemID=10 (reused)
+Nov 28, 2023 01:26:42.892 [547888349240] DEBUG - Doing expensive tags write for 'The Hated Classmate' because something changed.
+Nov 28, 2023 01:26:42.900 [547888349240] DEBUG - Downloading document http://127.0.0.1:32400/library/changestamp
+Nov 28, 2023 01:26:42.900 [547888349240] DEBUG - [HCl#7] HTTP requesting GET http://127.0.0.1:32400/library/changestamp
+Nov 28, 2023 01:26:42.901 [547811348536] DEBUG - [HttpClient/HCl#7] HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/library/changestamp (reused)
+Nov 28, 2023 01:26:42.902 [547888349240] DEBUG - Updating metadata item (save) (The Hated Classmate) with ID 12
+Nov 28, 2023 01:26:42.904 [547810492472] DEBUG - [HCl#8] HTTP requesting GET http://127.0.0.1:32400/:/metadata/flushMetadataCounterCache?metadataItemID=10
+Nov 28, 2023 01:26:42.905 [547811348536] DEBUG - [HttpClient/HCl#8] HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/:/metadata/flushMetadataCounterCache?metadataItemID=10 (reused)
+Nov 28, 2023 01:26:42.909 [547888349240] DEBUG - Analyzing media parts for item 13 (Shadow Garden Is Born): 13
+Nov 28, 2023 01:26:42.910 [547888349240] DEBUG - Downloading document http://127.0.0.1:32400/library/changestamp
+Nov 28, 2023 01:26:42.910 [547888349240] DEBUG - [HCl#9] HTTP requesting GET http://127.0.0.1:32400/library/changestamp
+Nov 28, 2023 01:26:42.912 [547811348536] DEBUG - [HttpClient/HCl#9] HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/library/changestamp (reused)
+Nov 28, 2023 01:26:42.912 [547888349240] DEBUG - Updating metadata item (save) (Shadow Garden Is Born) with ID 13
+Nov 28, 2023 01:26:42.915 [547810492472] DEBUG - [HCl#a] HTTP requesting GET http://127.0.0.1:32400/:/metadata/flushMetadataCounterCache?metadataItemID=10
+Nov 28, 2023 01:26:42.916 [547811348536] DEBUG - [HttpClient/HCl#a] HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/:/metadata/flushMetadataCounterCache?metadataItemID=10 (reused)
+Nov 28, 2023 01:26:42.916 [547888349240] DEBUG - [ID 13] Media part analysis: /media/tv/The Eminence in Shadow/Season 1/The Eminence In Shadow - S01E02 - Shadow Garden Is Born.mkv
+Nov 28, 2023 01:26:42.917 [547888349240] DEBUG - [MI] Opening input file: "/media/tv/The Eminence in Shadow/Season 1/The Eminence In Shadow - S01E02 - Shadow Garden Is Born.mkv"
+Nov 28, 2023 01:26:42.917 [547888349240] DEBUG - [FFMPEG] - Opening '/media/tv/The Eminence in Shadow/Season 1/The Eminence In Shadow - S01E02 - Shadow Garden Is Born.mkv' for reading
+Nov 28, 2023 01:26:42.917 [547888349240] DEBUG - [FFMPEG] - Setting default whitelist 'file,crypto,data'
+Nov 28, 2023 01:26:42.917 [547888349240] DEBUG - [FFMPEG] - Format matroska,webm probed with size=2048 and score=100
+Nov 28, 2023 01:26:42.917 [547888349240] DEBUG - [FFMPEG] - Unknown entry 0x22B59D at pos. 2811
+Nov 28, 2023 01:26:42.918 [547888349240] DEBUG - [FFMPEG] - Unknown entry 0x22B59D at pos. 2938
+Nov 28, 2023 01:26:42.918 [547888349240] DEBUG - [FFMPEG] - Unknown entry 0x22B59D at pos. 3041
+Nov 28, 2023 01:26:42.918 [547888349240] DEBUG - [FFMPEG] - Unknown entry 0x22B59D at pos. 5617
+Nov 28, 2023 01:26:42.918 [547888349240] DEBUG - [FFMPEG] - Unknown entry 0x22B59D at pos. 8189
+Nov 28, 2023 01:26:42.930 [547888349240] DEBUG - [FFMPEG] - Unknown entry 0x437D at pos. 605693
+Nov 28, 2023 01:26:42.930 [547888349240] DEBUG - [FFMPEG] - Unknown entry 0x437D at pos. 605731
+Nov 28, 2023 01:26:42.930 [547888349240] DEBUG - [FFMPEG] - Unknown entry 0x437D at pos. 605774
+Nov 28, 2023 01:26:42.930 [547888349240] DEBUG - [FFMPEG] - Unknown entry 0x437D at pos. 605817
+Nov 28, 2023 01:26:42.930 [547888349240] DEBUG - [FFMPEG] - Unknown entry 0x437D at pos. 605857
+Nov 28, 2023 01:26:42.931 [547888349240] DEBUG - [FFMPEG] - st:0 removing common factor 1000000 from timebase
+Nov 28, 2023 01:26:42.931 [547888349240] DEBUG - [FFMPEG] - st:1 removing common factor 1000000 from timebase
+Nov 28, 2023 01:26:42.931 [547888349240] DEBUG - [FFMPEG] - st:2 removing common factor 1000000 from timebase
+Nov 28, 2023 01:26:42.931 [547888349240] DEBUG - [FFMPEG] - st:3 removing common factor 1000000 from timebase
+Nov 28, 2023 01:26:42.931 [547888349240] DEBUG - [FFMPEG] - st:4 removing common factor 1000000 from timebase
+Nov 28, 2023 01:26:42.934 [547888349240] DEBUG - [FFMPEG] - Before avformat_find_stream_info() pos: 605969 bytes read:585561 seeks:3 nb_streams:11
+Nov 28, 2023 01:26:42.935 [547888349240] DEBUG - [FFMPEG] - nal_unit_type: 32(VPS), nuh_layer_id: 0, temporal_id: 0
+Nov 28, 2023 01:26:42.935 [547888349240] DEBUG - [FFMPEG] - Decoding VPS
+Nov 28, 2023 01:26:42.935 [547888349240] DEBUG - [FFMPEG] - Main 10 profile bitstream
+Nov 28, 2023 01:26:42.935 [547888349240] DEBUG - [FFMPEG] - nal_unit_type: 33(SPS), nuh_layer_id: 0, temporal_id: 0
+Nov 28, 2023 01:26:42.935 [547888349240] DEBUG - [FFMPEG] - Decoding SPS
+Nov 28, 2023 01:26:42.935 [547888349240] DEBUG - [FFMPEG] - Main 10 profile bitstream
+Nov 28, 2023 01:26:42.935 [547888349240] DEBUG - [FFMPEG] - Decoding VUI
+Nov 28, 2023 01:26:42.935 [547888349240] DEBUG - [FFMPEG] - nal_unit_type: 34(PPS), nuh_layer_id: 0, temporal_id: 0
+Nov 28, 2023 01:26:42.935 [547888349240] DEBUG - [FFMPEG] - Decoding PPS
+Nov 28, 2023 01:26:42.935 [547888349240] DEBUG - [FFMPEG] - nal_unit_type: 39(SEI_PREFIX), nuh_layer_id: 0, temporal_id: 0
+Nov 28, 2023 01:26:42.935 [547888349240] DEBUG - [FFMPEG] - Decoding SEI
+Nov 28, 2023 01:26:42.938 [547888349240] DEBUG - [FFMPEG] - skip 312/960 samples
+Nov 28, 2023 01:26:42.946 [547888349240] DEBUG - [FFMPEG] - All info found
+Nov 28, 2023 01:26:42.949 [547888349240] DEBUG - [FFMPEG] - After avformat_find_stream_info() pos: 1008703 bytes read:988295 seeks:3 frames:51
+Nov 28, 2023 01:26:42.949 [547888349240] DEBUG - [MI]  * 90a9104adde70882d91a1273994bdb137aa84799 [mkv hevc/aac] Duration: 1421101ms, 1920x1080 (1.777778) 23.976fps, bitrate=2882kbps, audio channels=2, optimizedForStreaming=0 ("/media/tv/The Eminence in Shadow/Season 1/The Eminence In Shadow - S01E02 - Shadow Garden Is Born.mkv")
+Nov 28, 2023 01:26:42.949 [547888349240] DEBUG - [MI] Importing 5 media chapters.
+Nov 28, 2023 01:26:42.950 [547888349240] DEBUG - [MI] Closing input file: "/media/tv/The Eminence in Shadow/Season 1/The Eminence In Shadow - S01E02 - Shadow Garden Is Born.mkv"
+Nov 28, 2023 01:26:42.952 [547888349240] DEBUG - Committing media stream changes for part 13
+Nov 28, 2023 01:26:42.954 [547888349240] DEBUG - Updating media item 13, size=512007785, metadata_item_id=13
+Nov 28, 2023 01:26:42.955 [547888349240] DEBUG - Updating part with ID=13 [/media/tv/The Eminence in Shadow/Season 1/The Eminence In Shadow - S01E02 - Shadow Garden Is Born.mkv]
+Nov 28, 2023 01:26:42.955 [547810492472] DEBUG - [HCl#b] HTTP requesting GET http://127.0.0.1:32400/:/metadata/notify/changeItemState?librarySectionID=2&metadataItemID=13&metadataType=4&state=-1&parentID=-1&rootID=-1&mediaState=analyzing
+Nov 28, 2023 01:26:42.959 [547811348536] DEBUG - [HttpClient/HCl#b] HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/:/metadata/notify/changeItemState?librarySectionID=2&metadataItemID=13&metadataType=4&state=-1&parentID=-1&rootID=-1&mediaState=analyzing (reused)
+Nov 28, 2023 01:26:42.960 [547810492472] DEBUG - [HCl#c] HTTP requesting GET http://127.0.0.1:32400/:/metadata/notify/changeItemState?librarySectionID=2&metadataItemID=13&metadataType=4&state=-1&parentID=-1&rootID=-1&mediaState=idle
+Nov 28, 2023 01:26:42.962 [547888349240] DEBUG - Downloading document http://127.0.0.1:32400/library/changestamp
+Nov 28, 2023 01:26:42.963 [547888349240] DEBUG - [HCl#d] HTTP requesting GET http://127.0.0.1:32400/library/changestamp
+Nov 28, 2023 01:26:42.964 [547811348536] DEBUG - [HttpClient/HCl#c] HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/:/metadata/notify/changeItemState?librarySectionID=2&metadataItemID=13&metadataType=4&state=-1&parentID=-1&rootID=-1&mediaState=idle (reused)
+Nov 28, 2023 01:26:42.965 [547811348536] DEBUG - [HttpClient/HCl#d] HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/library/changestamp (reused)
+Nov 28, 2023 01:26:42.966 [547888349240] DEBUG - Updating metadata item (save) (Shadow Garden Is Born) with ID 13
+Nov 28, 2023 01:26:42.969 [547810492472] DEBUG - [HCl#e] HTTP requesting GET http://127.0.0.1:32400/:/metadata/flushMetadataCounterCache?metadataItemID=10
+Nov 28, 2023 01:26:42.970 [547811348536] DEBUG - [HttpClient/HCl#e] HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/:/metadata/flushMetadataCounterCache?metadataItemID=10 (reused)
+Nov 28, 2023 01:26:42.970 [547888349240] DEBUG - Doing expensive tags write for 'Shadow Garden Is Born' because something changed.
+Nov 28, 2023 01:26:42.974 [547888349240] DEBUG - Downloading document http://127.0.0.1:32400/library/changestamp
+Nov 28, 2023 01:26:42.974 [547888349240] DEBUG - [HCl#f] HTTP requesting GET http://127.0.0.1:32400/library/changestamp
+Nov 28, 2023 01:26:42.976 [547811348536] DEBUG - [HttpClient/HCl#f] HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/library/changestamp (reused)
+Nov 28, 2023 01:26:42.976 [547888349240] DEBUG - Updating metadata item (save) (Shadow Garden Is Born) with ID 13
+Nov 28, 2023 01:26:42.978 [547810492472] DEBUG - [HCl#10] HTTP requesting GET http://127.0.0.1:32400/:/metadata/flushMetadataCounterCache?metadataItemID=10
+Nov 28, 2023 01:26:42.980 [547811348536] DEBUG - [HttpClient/HCl#10] HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/:/metadata/flushMetadataCounterCache?metadataItemID=10 (reused)
+Nov 28, 2023 01:26:42.983 [547888349240] DEBUG - Analyzing media parts for item 14 (Fencer Ordinaire): 14
+Nov 28, 2023 01:26:42.984 [547888349240] DEBUG - Downloading document http://127.0.0.1:32400/library/changestamp
+Nov 28, 2023 01:26:42.984 [547888349240] DEBUG - [HCl#11] HTTP requesting GET http://127.0.0.1:32400/library/changestamp
+Nov 28, 2023 01:26:42.986 [547811348536] DEBUG - [HttpClient/HCl#11] HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/library/changestamp (reused)
+Nov 28, 2023 01:26:42.986 [547888349240] DEBUG - Updating metadata item (save) (Fencer Ordinaire) with ID 14
+Nov 28, 2023 01:26:42.989 [547810492472] DEBUG - [HCl#12] HTTP requesting GET http://127.0.0.1:32400/:/metadata/flushMetadataCounterCache?metadataItemID=10
+Nov 28, 2023 01:26:42.990 [547811348536] DEBUG - [HttpClient/HCl#12] HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/:/metadata/flushMetadataCounterCache?metadataItemID=10 (reused)
+Nov 28, 2023 01:26:42.990 [547888349240] DEBUG - [ID 14] Media part analysis: /media/tv/The Eminence in Shadow/Season 1/The Eminence In Shadow - S01E03 - Fencer Ordinaire.mkv
+Nov 28, 2023 01:26:42.991 [547888349240] DEBUG - [MI] Opening input file: "/media/tv/The Eminence in Shadow/Season 1/The Eminence In Shadow - S01E03 - Fencer Ordinaire.mkv"
+Nov 28, 2023 01:26:42.991 [547888349240] DEBUG - [FFMPEG] - Opening '/media/tv/The Eminence in Shadow/Season 1/The Eminence In Shadow - S01E03 - Fencer Ordinaire.mkv' for reading
+Nov 28, 2023 01:26:42.991 [547888349240] DEBUG - [FFMPEG] - Setting default whitelist 'file,crypto,data'
+Nov 28, 2023 01:26:42.991 [547888349240] DEBUG - [FFMPEG] - Format matroska,webm probed with size=2048 and score=100
+Nov 28, 2023 01:26:42.992 [547888349240] DEBUG - [FFMPEG] - Unknown entry 0x22B59D at pos. 2811
+Nov 28, 2023 01:26:42.992 [547888349240] DEBUG - [FFMPEG] - Unknown entry 0x22B59D at pos. 2938
+Nov 28, 2023 01:26:42.992 [547888349240] DEBUG - [FFMPEG] - Unknown entry 0x22B59D at pos. 3037
+Nov 28, 2023 01:26:42.992 [547888349240] DEBUG - [FFMPEG] - Unknown entry 0x22B59D at pos. 5761
+Nov 28, 2023 01:26:42.992 [547888349240] DEBUG - [FFMPEG] - Unknown entry 0x22B59D at pos. 9510
+Nov 28, 2023 01:26:43.004 [547888349240] DEBUG - [FFMPEG] - Unknown entry 0x437D at pos. 571797
+Nov 28, 2023 01:26:43.004 [547888349240] DEBUG - [FFMPEG] - Unknown entry 0x437D at pos. 571836
+Nov 28, 2023 01:26:43.004 [547888349240] DEBUG - [FFMPEG] - Unknown entry 0x437D at pos. 571879
+Nov 28, 2023 01:26:43.004 [547888349240] DEBUG - [FFMPEG] - Unknown entry 0x437D at pos. 571922
+Nov 28, 2023 01:26:43.004 [547888349240] DEBUG - [FFMPEG] - Unknown entry 0x437D at pos. 571962
+Nov 28, 2023 01:26:43.004 [547888349240] DEBUG - [FFMPEG] - st:0 removing common factor 1000000 from timebase
+Nov 28, 2023 01:26:43.004 [547888349240] DEBUG - [FFMPEG] - st:1 removing common factor 1000000 from timebase
+Nov 28, 2023 01:26:43.004 [547888349240] DEBUG - [FFMPEG] - st:2 removing common factor 1000000 from timebase
+Nov 28, 2023 01:26:43.004 [547888349240] DEBUG - [FFMPEG] - st:3 removing common factor 1000000 from timebase
+Nov 28, 2023 01:26:43.004 [547888349240] DEBUG - [FFMPEG] - st:4 removing common factor 1000000 from timebase
+Nov 28, 2023 01:26:43.007 [547888349240] DEBUG - [FFMPEG] - Before avformat_find_stream_info() pos: 572074 bytes read:538811 seeks:3 nb_streams:10
+Nov 28, 2023 01:26:43.008 [547888349240] DEBUG - [FFMPEG] - nal_unit_type: 32(VPS), nuh_layer_id: 0, temporal_id: 0
+Nov 28, 2023 01:26:43.008 [547888349240] DEBUG - [FFMPEG] - Decoding VPS
+Nov 28, 2023 01:26:43.008 [547888349240] DEBUG - [FFMPEG] - Main 10 profile bitstream
+Nov 28, 2023 01:26:43.008 [547888349240] DEBUG - [FFMPEG] - nal_unit_type: 33(SPS), nuh_layer_id: 0, temporal_id: 0
+Nov 28, 2023 01:26:43.008 [547888349240] DEBUG - [FFMPEG] - Decoding SPS
+Nov 28, 2023 01:26:43.008 [547888349240] DEBUG - [FFMPEG] - Main 10 profile bitstream
+Nov 28, 2023 01:26:43.008 [547888349240] DEBUG - [FFMPEG] - Decoding VUI
+Nov 28, 2023 01:26:43.008 [547888349240] DEBUG - [FFMPEG] - nal_unit_type: 34(PPS), nuh_layer_id: 0, temporal_id: 0
+Nov 28, 2023 01:26:43.008 [547888349240] DEBUG - [FFMPEG] - Decoding PPS
+Nov 28, 2023 01:26:43.008 [547888349240] DEBUG - [FFMPEG] - nal_unit_type: 39(SEI_PREFIX), nuh_layer_id: 0, temporal_id: 0
+Nov 28, 2023 01:26:43.008 [547888349240] DEBUG - [FFMPEG] - Decoding SEI
+Nov 28, 2023 01:26:43.011 [547888349240] DEBUG - [FFMPEG] - skip 312/960 samples
+Nov 28, 2023 01:26:43.021 [547888349240] DEBUG - [FFMPEG] - All info found
+Nov 28, 2023 01:26:43.023 [547888349240] DEBUG - [FFMPEG] - After avformat_find_stream_info() pos: 1019745 bytes read:986482 seeks:3 frames:35
+Nov 28, 2023 01:26:43.023 [547888349240] DEBUG - [MI]  * 3826db99e2f57fa1045da0bcea56de224f0469e2 [mkv hevc/aac] Duration: 1421101ms, 1920x1080 (1.777778) 23.976fps, bitrate=2632kbps, audio channels=2, optimizedForStreaming=0 ("/media/tv/The Eminence in Shadow/Season 1/The Eminence In Shadow - S01E03 - Fencer Ordinaire.mkv")
+Nov 28, 2023 01:26:43.023 [547888349240] DEBUG - [MI] Importing 5 media chapters.
+Nov 28, 2023 01:26:43.024 [547888349240] DEBUG - [MI] Closing input file: "/media/tv/The Eminence in Shadow/Season 1/The Eminence In Shadow - S01E03 - Fencer Ordinaire.mkv"
+Nov 28, 2023 01:26:43.026 [547888349240] DEBUG - Committing media stream changes for part 14
+Nov 28, 2023 01:26:43.029 [547888349240] DEBUG - Updating media item 14, size=467631887, metadata_item_id=14
+Nov 28, 2023 01:26:43.029 [547888349240] DEBUG - Updating part with ID=14 [/media/tv/The Eminence in Shadow/Season 1/The Eminence In Shadow - S01E03 - Fencer Ordinaire.mkv]
+Nov 28, 2023 01:26:43.029 [547810492472] DEBUG - [HCl#13] HTTP requesting GET http://127.0.0.1:32400/:/metadata/notify/changeItemState?librarySectionID=2&metadataItemID=14&metadataType=4&state=-1&parentID=-1&rootID=-1&mediaState=analyzing
+Nov 28, 2023 01:26:43.034 [547811348536] DEBUG - [HttpClient/HCl#13] HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/:/metadata/notify/changeItemState?librarySectionID=2&metadataItemID=14&metadataType=4&state=-1&parentID=-1&rootID=-1&mediaState=analyzing (reused)
+Nov 28, 2023 01:26:43.034 [547810492472] DEBUG - [HCl#14] HTTP requesting GET http://127.0.0.1:32400/:/metadata/notify/changeItemState?librarySectionID=2&metadataItemID=14&metadataType=4&state=-1&parentID=-1&rootID=-1&mediaState=idle
+Nov 28, 2023 01:26:43.037 [547888349240] DEBUG - Downloading document http://127.0.0.1:32400/library/changestamp
+Nov 28, 2023 01:26:43.037 [547888349240] DEBUG - [HCl#15] HTTP requesting GET http://127.0.0.1:32400/library/changestamp
+Nov 28, 2023 01:26:43.038 [547811348536] DEBUG - [HttpClient/HCl#14] HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/:/metadata/notify/changeItemState?librarySectionID=2&metadataItemID=14&metadataType=4&state=-1&parentID=-1&rootID=-1&mediaState=idle (reused)
+Nov 28, 2023 01:26:43.040 [547811348536] DEBUG - [HttpClient/HCl#15] HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/library/changestamp (reused)
+Nov 28, 2023 01:26:43.040 [547888349240] DEBUG - Updating metadata item (save) (Fencer Ordinaire) with ID 14
+Nov 28, 2023 01:26:43.042 [547810492472] DEBUG - [HCl#16] HTTP requesting GET http://127.0.0.1:32400/:/metadata/flushMetadataCounterCache?metadataItemID=10
+Nov 28, 2023 01:26:43.044 [547811348536] DEBUG - [HttpClient/HCl#16] HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/:/metadata/flushMetadataCounterCache?metadataItemID=10 (reused)
+Nov 28, 2023 01:26:43.044 [547888349240] DEBUG - Doing expensive tags write for 'Fencer Ordinaire' because something changed.
+Nov 28, 2023 01:26:43.046 [547888349240] DEBUG - Downloading document http://127.0.0.1:32400/library/changestamp
+Nov 28, 2023 01:26:43.046 [547888349240] DEBUG - [HCl#17] HTTP requesting GET http://127.0.0.1:32400/library/changestamp
+Nov 28, 2023 01:26:43.048 [547811348536] DEBUG - [HttpClient/HCl#17] HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/library/changestamp (reused)
+Nov 28, 2023 01:26:43.048 [547888349240] DEBUG - Updating metadata item (save) (Fencer Ordinaire) with ID 14
+Nov 28, 2023 01:26:43.052 [547810492472] DEBUG - [HCl#18] HTTP requesting GET http://127.0.0.1:32400/:/metadata/flushMetadataCounterCache?metadataItemID=10
+Nov 28, 2023 01:26:43.054 [547811348536] DEBUG - [HttpClient/HCl#18] HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/:/metadata/flushMetadataCounterCache?metadataItemID=10 (reused)
+Nov 28, 2023 01:26:43.055 [547888349240] DEBUG - Analyzing media parts for item 15 (Sadism's Rewards): 15
+Nov 28, 2023 01:26:43.056 [547888349240] DEBUG - Downloading document http://127.0.0.1:32400/library/changestamp
+Nov 28, 2023 01:26:43.057 [547888349240] DEBUG - [HCl#19] HTTP requesting GET http://127.0.0.1:32400/library/changestamp
+Nov 28, 2023 01:26:43.059 [547811348536] DEBUG - [HttpClient/HCl#19] HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/library/changestamp (reused)
+Nov 28, 2023 01:26:43.059 [547888349240] DEBUG - Updating metadata item (save) (Sadism's Rewards) with ID 15
+Nov 28, 2023 01:26:43.062 [547810492472] DEBUG - [HCl#1a] HTTP requesting GET http://127.0.0.1:32400/:/metadata/flushMetadataCounterCache?metadataItemID=10
+Nov 28, 2023 01:26:43.063 [547888349240] DEBUG - [ID 15] Media part analysis: /media/tv/The Eminence in Shadow/Season 1/The Eminence In Shadow - S01E04 - Sadism's Rewards.mkv
+Nov 28, 2023 01:26:43.063 [547811348536] DEBUG - [HttpClient/HCl#1a] HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/:/metadata/flushMetadataCounterCache?metadataItemID=10 (reused)
+Nov 28, 2023 01:26:43.064 [547888349240] DEBUG - [MI] Opening input file: "/media/tv/The Eminence in Shadow/Season 1/The Eminence In Shadow - S01E04 - Sadism's Rewards.mkv"
+Nov 28, 2023 01:26:43.064 [547888349240] DEBUG - [FFMPEG] - Opening '/media/tv/The Eminence in Shadow/Season 1/The Eminence In Shadow - S01E04 - Sadism's Rewards.mkv' for reading
+Nov 28, 2023 01:26:43.064 [547888349240] DEBUG - [FFMPEG] - Setting default whitelist 'file,crypto,data'
+Nov 28, 2023 01:26:43.065 [547888349240] DEBUG - [FFMPEG] - Format matroska,webm probed with size=2048 and score=100
+Nov 28, 2023 01:26:43.065 [547888349240] DEBUG - [FFMPEG] - Unknown entry 0x22B59D at pos. 2811
+Nov 28, 2023 01:26:43.065 [547888349240] DEBUG - [FFMPEG] - Unknown entry 0x22B59D at pos. 2938
+Nov 28, 2023 01:26:43.065 [547888349240] DEBUG - [FFMPEG] - Unknown entry 0x22B59D at pos. 3037
+Nov 28, 2023 01:26:43.065 [547888349240] DEBUG - [FFMPEG] - Unknown entry 0x22B59D at pos. 5619
+Nov 28, 2023 01:26:43.065 [547888349240] DEBUG - [FFMPEG] - Unknown entry 0x22B59D at pos. 9443
+Nov 28, 2023 01:26:43.077 [547888349240] DEBUG - [FFMPEG] - Unknown entry 0x437D at pos. 571730
+Nov 28, 2023 01:26:43.077 [547888349240] DEBUG - [FFMPEG] - Unknown entry 0x437D at pos. 571769
+Nov 28, 2023 01:26:43.077 [547888349240] DEBUG - [FFMPEG] - Unknown entry 0x437D at pos. 571812
+Nov 28, 2023 01:26:43.077 [547888349240] DEBUG - [FFMPEG] - Unknown entry 0x437D at pos. 571855
+Nov 28, 2023 01:26:43.077 [547888349240] DEBUG - [FFMPEG] - Unknown entry 0x437D at pos. 571895
+Nov 28, 2023 01:26:43.077 [547888349240] DEBUG - [FFMPEG] - st:0 removing common factor 1000000 from timebase
+Nov 28, 2023 01:26:43.077 [547888349240] DEBUG - [FFMPEG] - st:1 removing common factor 1000000 from timebase
+Nov 28, 2023 01:26:43.077 [547888349240] DEBUG - [FFMPEG] - st:2 removing common factor 1000000 from timebase
+Nov 28, 2023 01:26:43.077 [547888349240] DEBUG - [FFMPEG] - st:3 removing common factor 1000000 from timebase
+Nov 28, 2023 01:26:43.077 [547888349240] DEBUG - [FFMPEG] - st:4 removing common factor 1000000 from timebase
+Nov 28, 2023 01:26:43.079 [547888349240] DEBUG - [FFMPEG] - Before avformat_find_stream_info() pos: 572007 bytes read:538744 seeks:3 nb_streams:10
+Nov 28, 2023 01:26:43.082 [547888349240] DEBUG - [FFMPEG] - nal_unit_type: 32(VPS), nuh_layer_id: 0, temporal_id: 0
+Nov 28, 2023 01:26:43.082 [547888349240] DEBUG - [FFMPEG] - Decoding VPS
+Nov 28, 2023 01:26:43.082 [547888349240] DEBUG - [FFMPEG] - Main 10 profile bitstream
+Nov 28, 2023 01:26:43.082 [547888349240] DEBUG - [FFMPEG] - nal_unit_type: 33(SPS), nuh_layer_id: 0, temporal_id: 0
+Nov 28, 2023 01:26:43.082 [547888349240] DEBUG - [FFMPEG] - Decoding SPS
+Nov 28, 2023 01:26:43.082 [547888349240] DEBUG - [FFMPEG] - Main 10 profile bitstream
+Nov 28, 2023 01:26:43.082 [547888349240] DEBUG - [FFMPEG] - Decoding VUI
+Nov 28, 2023 01:26:43.082 [547888349240] DEBUG - [FFMPEG] - nal_unit_type: 34(PPS), nuh_layer_id: 0, temporal_id: 0
+Nov 28, 2023 01:26:43.082 [547888349240] DEBUG - [FFMPEG] - Decoding PPS
+Nov 28, 2023 01:26:43.082 [547888349240] DEBUG - [FFMPEG] - nal_unit_type: 39(SEI_PREFIX), nuh_layer_id: 0, temporal_id: 0
+Nov 28, 2023 01:26:43.082 [547888349240] DEBUG - [FFMPEG] - Decoding SEI
+Nov 28, 2023 01:26:43.086 [547888349240] DEBUG - [FFMPEG] - skip 312/960 samples
+Nov 28, 2023 01:26:43.093 [547888349240] DEBUG - [FFMPEG] - All info found
+Nov 28, 2023 01:26:43.097 [547888349240] DEBUG - [FFMPEG] - After avformat_find_stream_info() pos: 905240 bytes read:900401 seeks:3 frames:27
+Nov 28, 2023 01:26:43.098 [547888349240] DEBUG - [MI]  * 3ed061a491042b8dfc0c578837701cc0b75d7726 [mkv hevc/aac] Duration: 1421101ms, 1920x1080 (1.777778) 23.976fps, bitrate=2249kbps, audio channels=2, optimizedForStreaming=0 ("/media/tv/The Eminence in Shadow/Season 1/The Eminence In Shadow - S01E04 - Sadism's Rewards.mkv")
+Nov 28, 2023 01:26:43.098 [547888349240] DEBUG - [MI] Importing 5 media chapters.
+Nov 28, 2023 01:26:43.100 [547888349240] DEBUG - [MI] Closing input file: "/media/tv/The Eminence in Shadow/Season 1/The Eminence In Shadow - S01E04 - Sadism's Rewards.mkv"
+Nov 28, 2023 01:26:43.104 [547888349240] DEBUG - Committing media stream changes for part 15
+Nov 28, 2023 01:26:43.109 [547888349240] DEBUG - Updating media item 15, size=399519231, metadata_item_id=15
+Nov 28, 2023 01:26:43.109 [547888349240] DEBUG - Updating part with ID=15 [/media/tv/The Eminence in Shadow/Season 1/The Eminence In Shadow - S01E04 - Sadism's Rewards.mkv]
+Nov 28, 2023 01:26:43.109 [547810492472] DEBUG - [HCl#1b] HTTP requesting GET http://127.0.0.1:32400/:/metadata/notify/changeItemState?librarySectionID=2&metadataItemID=15&metadataType=4&state=-1&parentID=-1&rootID=-1&mediaState=analyzing
+Nov 28, 2023 01:26:43.111 [547811348536] DEBUG - [HttpClient/HCl#1b] HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/:/metadata/notify/changeItemState?librarySectionID=2&metadataItemID=15&metadataType=4&state=-1&parentID=-1&rootID=-1&mediaState=analyzing (reused)
+Nov 28, 2023 01:26:43.111 [547810492472] DEBUG - [HCl#1c] HTTP requesting GET http://127.0.0.1:32400/:/metadata/notify/changeItemState?librarySectionID=2&metadataItemID=15&metadataType=4&state=-1&parentID=-1&rootID=-1&mediaState=idle
+Nov 28, 2023 01:26:43.114 [547811348536] DEBUG - [HttpClient/HCl#1c] HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/:/metadata/notify/changeItemState?librarySectionID=2&metadataItemID=15&metadataType=4&state=-1&parentID=-1&rootID=-1&mediaState=idle (reused)
+Nov 28, 2023 01:26:43.120 [547888349240] DEBUG - Downloading document http://127.0.0.1:32400/library/changestamp
+Nov 28, 2023 01:26:43.120 [547888349240] DEBUG - [HCl#1d] HTTP requesting GET http://127.0.0.1:32400/library/changestamp
+Nov 28, 2023 01:26:43.122 [547811348536] DEBUG - [HttpClient/HCl#1d] HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/library/changestamp (reused)
+Nov 28, 2023 01:26:43.123 [547888349240] DEBUG - Updating metadata item (save) (Sadism's Rewards) with ID 15
+Nov 28, 2023 01:26:43.126 [547810492472] DEBUG - [HCl#1e] HTTP requesting GET http://127.0.0.1:32400/:/metadata/flushMetadataCounterCache?metadataItemID=10
+Nov 28, 2023 01:26:43.127 [547811348536] DEBUG - [HttpClient/HCl#1e] HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/:/metadata/flushMetadataCounterCache?metadataItemID=10 (reused)
+Nov 28, 2023 01:26:43.128 [547888349240] DEBUG - Doing expensive tags write for 'Sadism's Rewards' because something changed.
+Nov 28, 2023 01:26:43.132 [547888349240] DEBUG - Downloading document http://127.0.0.1:32400/library/changestamp
+Nov 28, 2023 01:26:43.132 [547888349240] DEBUG - [HCl#1f] HTTP requesting GET http://127.0.0.1:32400/library/changestamp
+Nov 28, 2023 01:26:43.134 [547811348536] DEBUG - [HttpClient/HCl#1f] HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/library/changestamp (reused)
+Nov 28, 2023 01:26:43.134 [547888349240] DEBUG - Updating metadata item (save) (Sadism's Rewards) with ID 15
+Nov 28, 2023 01:26:43.137 [547810492472] DEBUG - [HCl#20] HTTP requesting GET http://127.0.0.1:32400/:/metadata/flushMetadataCounterCache?metadataItemID=10
+Nov 28, 2023 01:26:43.138 [547811348536] DEBUG - [HttpClient/HCl#20] HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/:/metadata/flushMetadataCounterCache?metadataItemID=10 (reused)
+Nov 28, 2023 01:26:43.141 [547888349240] DEBUG - Analyzing media parts for item 16 (I Am...): 16
+Nov 28, 2023 01:26:43.142 [547888349240] DEBUG - Downloading document http://127.0.0.1:32400/library/changestamp
+Nov 28, 2023 01:26:43.142 [547888349240] DEBUG - [HCl#21] HTTP requesting GET http://127.0.0.1:32400/library/changestamp
+Nov 28, 2023 01:26:43.144 [547811348536] DEBUG - [HttpClient/HCl#21] HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/library/changestamp (reused)
+Nov 28, 2023 01:26:43.144 [547888349240] DEBUG - Updating metadata item (save) (I Am...) with ID 16
+Nov 28, 2023 01:26:43.147 [547810492472] DEBUG - [HCl#22] HTTP requesting GET http://127.0.0.1:32400/:/metadata/flushMetadataCounterCache?metadataItemID=10
+Nov 28, 2023 01:26:43.148 [547811348536] DEBUG - [HttpClient/HCl#22] HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/:/metadata/flushMetadataCounterCache?metadataItemID=10 (reused)
+Nov 28, 2023 01:26:43.148 [547888349240] DEBUG - [ID 16] Media part analysis: /media/tv/The Eminence in Shadow/Season 1/The Eminence In Shadow - S01E05 - I Am....mkv
+Nov 28, 2023 01:26:43.149 [547888349240] DEBUG - [MI] Opening input file: "/media/tv/The Eminence in Shadow/Season 1/The Eminence In Shadow - S01E05 - I Am....mkv"
+Nov 28, 2023 01:26:43.149 [547888349240] DEBUG - [FFMPEG] - Opening '/media/tv/The Eminence in Shadow/Season 1/The Eminence In Shadow - S01E05 - I Am....mkv' for reading
+Nov 28, 2023 01:26:43.149 [547888349240] DEBUG - [FFMPEG] - Setting default whitelist 'file,crypto,data'
+Nov 28, 2023 01:26:43.150 [547888349240] DEBUG - [FFMPEG] - Format matroska,webm probed with size=2048 and score=100
+Nov 28, 2023 01:26:43.150 [547888349240] DEBUG - [FFMPEG] - Unknown entry 0x22B59D at pos. 2811
+Nov 28, 2023 01:26:43.150 [547888349240] DEBUG - [FFMPEG] - Unknown entry 0x22B59D at pos. 2938
+Nov 28, 2023 01:26:43.150 [547888349240] DEBUG - [FFMPEG] - Unknown entry 0x22B59D at pos. 3037
+Nov 28, 2023 01:26:43.150 [547888349240] DEBUG - [FFMPEG] - Unknown entry 0x22B59D at pos. 5501
+Nov 28, 2023 01:26:43.150 [547888349240] DEBUG - [FFMPEG] - Unknown entry 0x22B59D at pos. 8685
+Nov 28, 2023 01:26:43.167 [547888349240] DEBUG - [FFMPEG] - Unknown entry 0x437D at pos. 711150
+Nov 28, 2023 01:26:43.167 [547888349240] DEBUG - [FFMPEG] - Unknown entry 0x437D at pos. 711189
+Nov 28, 2023 01:26:43.167 [547888349240] DEBUG - [FFMPEG] - Unknown entry 0x437D at pos. 711232
+Nov 28, 2023 01:26:43.167 [547888349240] DEBUG - [FFMPEG] - Unknown entry 0x437D at pos. 711275
+Nov 28, 2023 01:26:43.167 [547888349240] DEBUG - [FFMPEG] - Unknown entry 0x437D at pos. 711315
+Nov 28, 2023 01:26:43.167 [547888349240] DEBUG - [FFMPEG] - st:0 removing common factor 1000000 from timebase
+Nov 28, 2023 01:26:43.167 [547888349240] DEBUG - [FFMPEG] - st:1 removing common factor 1000000 from timebase
+Nov 28, 2023 01:26:43.167 [547888349240] DEBUG - [FFMPEG] - st:2 removing common factor 1000000 from timebase
+Nov 28, 2023 01:26:43.167 [547888349240] DEBUG - [FFMPEG] - st:3 removing common factor 1000000 from timebase
+Nov 28, 2023 01:26:43.167 [547888349240] DEBUG - [FFMPEG] - st:4 removing common factor 1000000 from timebase
+Nov 28, 2023 01:26:43.170 [547888349240] DEBUG - [FFMPEG] - Before avformat_find_stream_info() pos: 711427 bytes read:678164 seeks:3 nb_streams:11
+Nov 28, 2023 01:26:43.172 [547888349240] DEBUG - [FFMPEG] - nal_unit_type: 32(VPS), nuh_layer_id: 0, temporal_id: 0
+Nov 28, 2023 01:26:43.172 [547888349240] DEBUG - [FFMPEG] - Decoding VPS
+Nov 28, 2023 01:26:43.172 [547888349240] DEBUG - [FFMPEG] - Main 10 profile bitstream
+Nov 28, 2023 01:26:43.172 [547888349240] DEBUG - [FFMPEG] - nal_unit_type: 33(SPS), nuh_layer_id: 0, temporal_id: 0
+Nov 28, 2023 01:26:43.172 [547888349240] DEBUG - [FFMPEG] - Decoding SPS
+Nov 28, 2023 01:26:43.172 [547888349240] DEBUG - [FFMPEG] - Main 10 profile bitstream
+Nov 28, 2023 01:26:43.172 [547888349240] DEBUG - [FFMPEG] - Decoding VUI
+Nov 28, 2023 01:26:43.172 [547888349240] DEBUG - [FFMPEG] - nal_unit_type: 34(PPS), nuh_layer_id: 0, temporal_id: 0
+Nov 28, 2023 01:26:43.172 [547888349240] DEBUG - [FFMPEG] - Decoding PPS
+Nov 28, 2023 01:26:43.172 [547888349240] DEBUG - [FFMPEG] - nal_unit_type: 39(SEI_PREFIX), nuh_layer_id: 0, temporal_id: 0
+Nov 28, 2023 01:26:43.172 [547888349240] DEBUG - [FFMPEG] - Decoding SEI
+Nov 28, 2023 01:26:43.175 [547888349240] DEBUG - [FFMPEG] - skip 312/960 samples
+Nov 28, 2023 01:26:43.175 [547888349240] DEBUG - [FFMPEG] - All info found
+Nov 28, 2023 01:26:43.178 [547888349240] DEBUG - [FFMPEG] - After avformat_find_stream_info() pos: 849370 bytes read:822815 seeks:3 frames:27
+Nov 28, 2023 01:26:43.178 [547888349240] DEBUG - [MI]  * b6f4a6034157d52c23d9ff876e3a988af574b952 [mkv hevc/aac] Duration: 1421101ms, 1920x1080 (1.777778) 23.976fps, bitrate=3035kbps, audio channels=2, optimizedForStreaming=0 ("/media/tv/The Eminence in Shadow/Season 1/The Eminence In Shadow - S01E05 - I Am....mkv")
+Nov 28, 2023 01:26:43.178 [547888349240] DEBUG - [MI] Importing 5 media chapters.
+Nov 28, 2023 01:26:43.180 [547888349240] DEBUG - [MI] Closing input file: "/media/tv/The Eminence in Shadow/Season 1/The Eminence In Shadow - S01E05 - I Am....mkv"
+Nov 28, 2023 01:26:43.182 [547888349240] DEBUG - Committing media stream changes for part 16
+Nov 28, 2023 01:26:43.184 [547888349240] DEBUG - Updating media item 16, size=539216424, metadata_item_id=16
+Nov 28, 2023 01:26:43.184 [547888349240] DEBUG - Updating part with ID=16 [/media/tv/The Eminence in Shadow/Season 1/The Eminence In Shadow - S01E05 - I Am....mkv]
+Nov 28, 2023 01:26:43.185 [547810492472] DEBUG - [HCl#23] HTTP requesting GET http://127.0.0.1:32400/:/metadata/notify/changeItemState?librarySectionID=2&metadataItemID=16&metadataType=4&state=-1&parentID=-1&rootID=-1&mediaState=analyzing
+Nov 28, 2023 01:26:43.187 [547811348536] DEBUG - [HttpClient/HCl#23] HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/:/metadata/notify/changeItemState?librarySectionID=2&metadataItemID=16&metadataType=4&state=-1&parentID=-1&rootID=-1&mediaState=analyzing (reused)
+Nov 28, 2023 01:26:43.187 [547810492472] DEBUG - [HCl#24] HTTP requesting GET http://127.0.0.1:32400/:/metadata/notify/changeItemState?librarySectionID=2&metadataItemID=16&metadataType=4&state=-1&parentID=-1&rootID=-1&mediaState=idle
+Nov 28, 2023 01:26:43.189 [547811348536] DEBUG - [HttpClient/HCl#24] HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/:/metadata/notify/changeItemState?librarySectionID=2&metadataItemID=16&metadataType=4&state=-1&parentID=-1&rootID=-1&mediaState=idle (reused)
+Nov 28, 2023 01:26:43.197 [547888349240] DEBUG - Downloading document http://127.0.0.1:32400/library/changestamp
+Nov 28, 2023 01:26:43.197 [547888349240] DEBUG - [HCl#25] HTTP requesting GET http://127.0.0.1:32400/library/changestamp
+Nov 28, 2023 01:26:43.199 [547811348536] DEBUG - [HttpClient/HCl#25] HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/library/changestamp (reused)
+Nov 28, 2023 01:26:43.199 [547888349240] DEBUG - Updating metadata item (save) (I Am...) with ID 16
+Nov 28, 2023 01:26:43.215 [547810492472] DEBUG - [HCl#26] HTTP requesting GET http://127.0.0.1:32400/:/metadata/flushMetadataCounterCache?metadataItemID=10
+Nov 28, 2023 01:26:43.216 [547811348536] DEBUG - [HttpClient/HCl#26] HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/:/metadata/flushMetadataCounterCache?metadataItemID=10 (reused)
+Nov 28, 2023 01:26:43.217 [547888349240] DEBUG - Doing expensive tags write for 'I Am...' because something changed.
+Nov 28, 2023 01:26:43.220 [547888349240] DEBUG - Downloading document http://127.0.0.1:32400/library/changestamp
+Nov 28, 2023 01:26:43.220 [547888349240] DEBUG - [HCl#27] HTTP requesting GET http://127.0.0.1:32400/library/changestamp
+Nov 28, 2023 01:26:43.222 [547811348536] DEBUG - [HttpClient/HCl#27] HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/library/changestamp (reused)
+Nov 28, 2023 01:26:43.223 [547888349240] DEBUG - Updating metadata item (save) (I Am...) with ID 16
+Nov 28, 2023 01:26:43.225 [547810492472] DEBUG - [HCl#28] HTTP requesting GET http://127.0.0.1:32400/:/metadata/flushMetadataCounterCache?metadataItemID=10
+Nov 28, 2023 01:26:43.226 [547811348536] DEBUG - [HttpClient/HCl#28] HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/:/metadata/flushMetadataCounterCache?metadataItemID=10 (reused)
+Nov 28, 2023 01:26:43.230 [547888349240] DEBUG - Analyzing media parts for item 17 (Pretenders): 17
+Nov 28, 2023 01:26:43.231 [547888349240] DEBUG - Downloading document http://127.0.0.1:32400/library/changestamp
+Nov 28, 2023 01:26:43.231 [547888349240] DEBUG - [HCl#29] HTTP requesting GET http://127.0.0.1:32400/library/changestamp
+Nov 28, 2023 01:26:43.233 [547811348536] DEBUG - [HttpClient/HCl#29] HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/library/changestamp (reused)
+Nov 28, 2023 01:26:43.233 [547888349240] DEBUG - Updating metadata item (save) (Pretenders) with ID 17
+Nov 28, 2023 01:26:43.236 [547810492472] DEBUG - [HCl#2a] HTTP requesting GET http://127.0.0.1:32400/:/metadata/flushMetadataCounterCache?metadataItemID=10
+Nov 28, 2023 01:26:43.237 [547811348536] DEBUG - [HttpClient/HCl#2a] HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/:/metadata/flushMetadataCounterCache?metadataItemID=10 (reused)
+Nov 28, 2023 01:26:43.247 [547888349240] DEBUG - [ID 17] Media part analysis: /media/tv/The Eminence in Shadow/Season 1/The Eminence In Shadow - S01E06 - Pretenders.mkv
+Nov 28, 2023 01:26:43.248 [547888349240] DEBUG - [MI] Opening input file: "/media/tv/The Eminence in Shadow/Season 1/The Eminence In Shadow - S01E06 - Pretenders.mkv"
+Nov 28, 2023 01:26:43.248 [547888349240] DEBUG - [FFMPEG] - Opening '/media/tv/The Eminence in Shadow/Season 1/The Eminence In Shadow - S01E06 - Pretenders.mkv' for reading
+Nov 28, 2023 01:26:43.248 [547888349240] DEBUG - [FFMPEG] - Setting default whitelist 'file,crypto,data'
+Nov 28, 2023 01:26:43.248 [547888349240] DEBUG - [FFMPEG] - Format matroska,webm probed with size=2048 and score=100
+Nov 28, 2023 01:26:43.249 [547888349240] DEBUG - [FFMPEG] - Unknown entry 0x22B59D at pos. 2811
+Nov 28, 2023 01:26:43.249 [547888349240] DEBUG - [FFMPEG] - Unknown entry 0x22B59D at pos. 2938
+Nov 28, 2023 01:26:43.249 [547888349240] DEBUG - [FFMPEG] - Unknown entry 0x22B59D at pos. 3037
+Nov 28, 2023 01:26:43.249 [547888349240] DEBUG - [FFMPEG] - Unknown entry 0x22B59D at pos. 6123
+Nov 28, 2023 01:26:43.249 [547888349240] DEBUG - [FFMPEG] - Unknown entry 0x22B59D at pos. 9205
+Nov 28, 2023 01:26:43.260 [547888349240] DEBUG - [FFMPEG] - Unknown entry 0x437D at pos. 571492
+Nov 28, 2023 01:26:43.260 [547888349240] DEBUG - [FFMPEG] - Unknown entry 0x437D at pos. 571530
+Nov 28, 2023 01:26:43.260 [547888349240] DEBUG - [FFMPEG] - Unknown entry 0x437D at pos. 571573
+Nov 28, 2023 01:26:43.260 [547888349240] DEBUG - [FFMPEG] - Unknown entry 0x437D at pos. 571616
+Nov 28, 2023 01:26:43.260 [547888349240] DEBUG - [FFMPEG] - Unknown entry 0x437D at pos. 571656
+Nov 28, 2023 01:26:43.261 [547888349240] DEBUG - [FFMPEG] - st:0 removing common factor 1000000 from timebase
+Nov 28, 2023 01:26:43.261 [547888349240] DEBUG - [FFMPEG] - st:1 removing common factor 1000000 from timebase
+Nov 28, 2023 01:26:43.261 [547888349240] DEBUG - [FFMPEG] - st:2 removing common factor 1000000 from timebase
+Nov 28, 2023 01:26:43.261 [547888349240] DEBUG - [FFMPEG] - st:3 removing common factor 1000000 from timebase
+Nov 28, 2023 01:26:43.261 [547888349240] DEBUG - [FFMPEG] - st:4 removing common factor 1000000 from timebase
+Nov 28, 2023 01:26:43.263 [547888349240] DEBUG - [FFMPEG] - Before avformat_find_stream_info() pos: 571768 bytes read:538506 seeks:3 nb_streams:10
+Nov 28, 2023 01:26:43.264 [547888349240] DEBUG - [FFMPEG] - nal_unit_type: 32(VPS), nuh_layer_id: 0, temporal_id: 0
+Nov 28, 2023 01:26:43.264 [547888349240] DEBUG - [FFMPEG] - Decoding VPS
+Nov 28, 2023 01:26:43.264 [547888349240] DEBUG - [FFMPEG] - Main 10 profile bitstream
+Nov 28, 2023 01:26:43.264 [547888349240] DEBUG - [FFMPEG] - nal_unit_type: 33(SPS), nuh_layer_id: 0, temporal_id: 0
+Nov 28, 2023 01:26:43.265 [547888349240] DEBUG - [FFMPEG] - Decoding SPS
+Nov 28, 2023 01:26:43.265 [547888349240] DEBUG - [FFMPEG] - Main 10 profile bitstream
+Nov 28, 2023 01:26:43.265 [547888349240] DEBUG - [FFMPEG] - Decoding VUI
+Nov 28, 2023 01:26:43.265 [547888349240] DEBUG - [FFMPEG] - nal_unit_type: 34(PPS), nuh_layer_id: 0, temporal_id: 0
+Nov 28, 2023 01:26:43.265 [547888349240] DEBUG - [FFMPEG] - Decoding PPS
+Nov 28, 2023 01:26:43.265 [547888349240] DEBUG - [FFMPEG] - nal_unit_type: 39(SEI_PREFIX), nuh_layer_id: 0, temporal_id: 0
+Nov 28, 2023 01:26:43.265 [547888349240] DEBUG - [FFMPEG] - Decoding SEI
+Nov 28, 2023 01:26:43.267 [547888349240] DEBUG - [FFMPEG] - skip 312/960 samples
+Nov 28, 2023 01:26:43.271 [547888349240] DEBUG - [FFMPEG] - All info found
+Nov 28, 2023 01:26:43.273 [547888349240] DEBUG - [FFMPEG] - After avformat_find_stream_info() pos: 757637 bytes read:732315 seeks:3 frames:35
+Nov 28, 2023 01:26:43.273 [547888349240] DEBUG - [MI]  * 5eac4ce4615832e10f4df1ad296cd7ed3b19931a [mkv hevc/aac] Duration: 1421101ms, 1920x1080 (1.777778) 23.976fps, bitrate=2359kbps, audio channels=2, optimizedForStreaming=0 ("/media/tv/The Eminence in Shadow/Season 1/The Eminence In Shadow - S01E06 - Pretenders.mkv")
+Nov 28, 2023 01:26:43.273 [547888349240] DEBUG - [MI] Importing 5 media chapters.
+Nov 28, 2023 01:26:43.274 [547888349240] DEBUG - [MI] Closing input file: "/media/tv/The Eminence in Shadow/Season 1/The Eminence In Shadow - S01E06 - Pretenders.mkv"
+Nov 28, 2023 01:26:43.276 [547888349240] DEBUG - Committing media stream changes for part 17
+Nov 28, 2023 01:26:43.278 [547888349240] DEBUG - Updating media item 17, size=419102480, metadata_item_id=17
+Nov 28, 2023 01:26:43.278 [547888349240] DEBUG - Updating part with ID=17 [/media/tv/The Eminence in Shadow/Season 1/The Eminence In Shadow - S01E06 - Pretenders.mkv]
+Nov 28, 2023 01:26:43.279 [547810492472] DEBUG - [HCl#2b] HTTP requesting GET http://127.0.0.1:32400/:/metadata/notify/changeItemState?librarySectionID=2&metadataItemID=17&metadataType=4&state=-1&parentID=-1&rootID=-1&mediaState=analyzing
+Nov 28, 2023 01:26:43.280 [547811348536] DEBUG - [HttpClient/HCl#2b] HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/:/metadata/notify/changeItemState?librarySectionID=2&metadataItemID=17&metadataType=4&state=-1&parentID=-1&rootID=-1&mediaState=analyzing (reused)
+Nov 28, 2023 01:26:43.280 [547810492472] DEBUG - [HCl#2c] HTTP requesting GET http://127.0.0.1:32400/:/metadata/notify/changeItemState?librarySectionID=2&metadataItemID=17&metadataType=4&state=-1&parentID=-1&rootID=-1&mediaState=idle
+Nov 28, 2023 01:26:43.281 [547811348536] DEBUG - [HttpClient/HCl#2c] HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/:/metadata/notify/changeItemState?librarySectionID=2&metadataItemID=17&metadataType=4&state=-1&parentID=-1&rootID=-1&mediaState=idle (reused)
+Nov 28, 2023 01:26:43.287 [547888349240] DEBUG - Downloading document http://127.0.0.1:32400/library/changestamp
+Nov 28, 2023 01:26:43.287 [547888349240] DEBUG - [HCl#2d] HTTP requesting GET http://127.0.0.1:32400/library/changestamp
+Nov 28, 2023 01:26:43.289 [547811348536] DEBUG - [HttpClient/HCl#2d] HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/library/changestamp (reused)
+Nov 28, 2023 01:26:43.289 [547888349240] DEBUG - Updating metadata item (save) (Pretenders) with ID 17
+Nov 28, 2023 01:26:43.360 [547810492472] DEBUG - [HCl#2e] HTTP requesting GET http://127.0.0.1:32400/:/metadata/flushMetadataCounterCache?metadataItemID=10
+Nov 28, 2023 01:26:43.361 [547811348536] DEBUG - [HttpClient/HCl#2e] HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/:/metadata/flushMetadataCounterCache?metadataItemID=10 (reused)
+Nov 28, 2023 01:26:43.363 [547888349240] DEBUG - Doing expensive tags write for 'Pretenders' because something changed.
+Nov 28, 2023 01:26:43.368 [547888349240] DEBUG - Downloading document http://127.0.0.1:32400/library/changestamp
+Nov 28, 2023 01:26:43.368 [547888349240] DEBUG - [HCl#2f] HTTP requesting GET http://127.0.0.1:32400/library/changestamp
+Nov 28, 2023 01:26:43.370 [547811348536] DEBUG - [HttpClient/HCl#2f] HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/library/changestamp (reused)
+Nov 28, 2023 01:26:43.370 [547888349240] DEBUG - Updating metadata item (save) (Pretenders) with ID 17
+Nov 28, 2023 01:26:43.372 [547810492472] DEBUG - [HCl#30] HTTP requesting GET http://127.0.0.1:32400/:/metadata/flushMetadataCounterCache?metadataItemID=10
+Nov 28, 2023 01:26:43.374 [547811348536] DEBUG - [HttpClient/HCl#30] HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/:/metadata/flushMetadataCounterCache?metadataItemID=10 (reused)
+Nov 28, 2023 01:26:43.378 [547888349240] DEBUG - Analyzing media parts for item 18 (A Fencing Tournament of Intrigue and Bloodshed): 18
+Nov 28, 2023 01:26:43.379 [547888349240] DEBUG - Downloading document http://127.0.0.1:32400/library/changestamp
+Nov 28, 2023 01:26:43.379 [547888349240] DEBUG - [HCl#31] HTTP requesting GET http://127.0.0.1:32400/library/changestamp
+Nov 28, 2023 01:26:43.381 [547811348536] DEBUG - [HttpClient/HCl#31] HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/library/changestamp (reused)
+Nov 28, 2023 01:26:43.381 [547888349240] DEBUG - Updating metadata item (save) (A Fencing Tournament of Intrigue and Bloodshed) with ID 18
+Nov 28, 2023 01:26:43.383 [547810492472] DEBUG - [HCl#32] HTTP requesting GET http://127.0.0.1:32400/:/metadata/flushMetadataCounterCache?metadataItemID=10
+Nov 28, 2023 01:26:43.385 [547811348536] DEBUG - [HttpClient/HCl#32] HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/:/metadata/flushMetadataCounterCache?metadataItemID=10 (reused)
+Nov 28, 2023 01:26:43.386 [547888349240] DEBUG - [ID 18] Media part analysis: /media/tv/The Eminence in Shadow/Season 1/The Eminence In Shadow - S01E07 - A Fencing Tournament Of Intrigue & Bloodshed.mkv
+Nov 28, 2023 01:26:43.386 [547888349240] DEBUG - [MI] Opening input file: "/media/tv/The Eminence in Shadow/Season 1/The Eminence In Shadow - S01E07 - A Fencing Tournament Of Intrigue && Bloodshed.mkv"
+Nov 28, 2023 01:26:43.386 [547888349240] DEBUG - [FFMPEG] - Opening '/media/tv/The Eminence in Shadow/Season 1/The Eminence In Shadow - S01E07 - A Fencing Tournament Of Intrigue & Bloodshed.mkv' for reading
+Nov 28, 2023 01:26:43.387 [547888349240] DEBUG - [FFMPEG] - Setting default whitelist 'file,crypto,data'
+Nov 28, 2023 01:26:43.387 [547888349240] DEBUG - [FFMPEG] - Format matroska,webm probed with size=2048 and score=100
+Nov 28, 2023 01:26:43.388 [547888349240] DEBUG - [FFMPEG] - Unknown entry 0x22B59D at pos. 2811
+Nov 28, 2023 01:26:43.388 [547888349240] DEBUG - [FFMPEG] - Unknown entry 0x22B59D at pos. 2938
+Nov 28, 2023 01:26:43.388 [547888349240] DEBUG - [FFMPEG] - Unknown entry 0x22B59D at pos. 3037
+Nov 28, 2023 01:26:43.388 [547888349240] DEBUG - [FFMPEG] - Unknown entry 0x22B59D at pos. 6337
+Nov 28, 2023 01:26:43.388 [547888349240] DEBUG - [FFMPEG] - Unknown entry 0x22B59D at pos. 9752
+Nov 28, 2023 01:26:43.403 [547888349240] DEBUG - [FFMPEG] - Unknown entry 0x437D at pos. 712217
+Nov 28, 2023 01:26:43.403 [547888349240] DEBUG - [FFMPEG] - Unknown entry 0x437D at pos. 712255
+Nov 28, 2023 01:26:43.403 [547888349240] DEBUG - [FFMPEG] - Unknown entry 0x437D at pos. 712298
+Nov 28, 2023 01:26:43.403 [547888349240] DEBUG - [FFMPEG] - Unknown entry 0x437D at pos. 712341
+Nov 28, 2023 01:26:43.403 [547888349240] DEBUG - [FFMPEG] - Unknown entry 0x437D at pos. 712381
+Nov 28, 2023 01:26:43.403 [547888349240] DEBUG - [FFMPEG] - st:0 removing common factor 1000000 from timebase
+Nov 28, 2023 01:26:43.403 [547888349240] DEBUG - [FFMPEG] - st:1 removing common factor 1000000 from timebase
+Nov 28, 2023 01:26:43.403 [547888349240] DEBUG - [FFMPEG] - st:2 removing common factor 1000000 from timebase
+Nov 28, 2023 01:26:43.404 [547888349240] DEBUG - [FFMPEG] - st:3 removing common factor 1000000 from timebase
+Nov 28, 2023 01:26:43.404 [547888349240] DEBUG - [FFMPEG] - st:4 removing common factor 1000000 from timebase
+Nov 28, 2023 01:26:43.407 [547888349240] DEBUG - [FFMPEG] - Before avformat_find_stream_info() pos: 712493 bytes read:679231 seeks:3 nb_streams:11
+Nov 28, 2023 01:26:43.408 [547888349240] DEBUG - [FFMPEG] - nal_unit_type: 32(VPS), nuh_layer_id: 0, temporal_id: 0
+Nov 28, 2023 01:26:43.409 [547888349240] DEBUG - [FFMPEG] - Decoding VPS
+Nov 28, 2023 01:26:43.409 [547888349240] DEBUG - [FFMPEG] - Main 10 profile bitstream
+Nov 28, 2023 01:26:43.409 [547888349240] DEBUG - [FFMPEG] - nal_unit_type: 33(SPS), nuh_layer_id: 0, temporal_id: 0
+Nov 28, 2023 01:26:43.409 [547888349240] DEBUG - [FFMPEG] - Decoding SPS
+Nov 28, 2023 01:26:43.409 [547888349240] DEBUG - [FFMPEG] - Main 10 profile bitstream
+Nov 28, 2023 01:26:43.409 [547888349240] DEBUG - [FFMPEG] - Decoding VUI
+Nov 28, 2023 01:26:43.409 [547888349240] DEBUG - [FFMPEG] - nal_unit_type: 34(PPS), nuh_layer_id: 0, temporal_id: 0
+Nov 28, 2023 01:26:43.409 [547888349240] DEBUG - [FFMPEG] - Decoding PPS
+Nov 28, 2023 01:26:43.409 [547888349240] DEBUG - [FFMPEG] - nal_unit_type: 39(SEI_PREFIX), nuh_layer_id: 0, temporal_id: 0
+Nov 28, 2023 01:26:43.409 [547888349240] DEBUG - [FFMPEG] - Decoding SEI
+Nov 28, 2023 01:26:43.412 [547888349240] DEBUG - [FFMPEG] - skip 312/960 samples
+Nov 28, 2023 01:26:43.419 [547888349240] DEBUG - [FFMPEG] - All info found
+Nov 28, 2023 01:26:43.422 [547888349240] DEBUG - [FFMPEG] - After avformat_find_stream_info() pos: 1056180 bytes read:1039924 seeks:3 frames:27
+Nov 28, 2023 01:26:43.422 [547888349240] DEBUG - [MI]  * f5f849f5096ac5f2a021865a400fc7e4294b4231 [mkv hevc/aac] Duration: 1421101ms, 1920x1080 (1.777778) 23.976fps, bitrate=2489kbps, audio channels=2, optimizedForStreaming=0 ("/media/tv/The Eminence in Shadow/Season 1/The Eminence In Shadow - S01E07 - A Fencing Tournament Of Intrigue && Bloodshed.mkv")
+Nov 28, 2023 01:26:43.423 [547888349240] DEBUG - [MI] Importing 5 media chapters.
+Nov 28, 2023 01:26:43.424 [547888349240] DEBUG - [MI] Closing input file: "/media/tv/The Eminence in Shadow/Season 1/The Eminence In Shadow - S01E07 - A Fencing Tournament Of Intrigue && Bloodshed.mkv"
+Nov 28, 2023 01:26:43.426 [547888349240] DEBUG - Committing media stream changes for part 18
+Nov 28, 2023 01:26:43.428 [547888349240] DEBUG - Updating media item 18, size=442175768, metadata_item_id=18
+Nov 28, 2023 01:26:43.429 [547888349240] DEBUG - Updating part with ID=18 [/media/tv/The Eminence in Shadow/Season 1/The Eminence In Shadow - S01E07 - A Fencing Tournament Of Intrigue & Bloodshed.mkv]
+Nov 28, 2023 01:26:43.429 [547810492472] DEBUG - [HCl#33] HTTP requesting GET http://127.0.0.1:32400/:/metadata/notify/changeItemState?librarySectionID=2&metadataItemID=18&metadataType=4&state=-1&parentID=-1&rootID=-1&mediaState=analyzing
+Nov 28, 2023 01:26:43.430 [547811348536] DEBUG - [HttpClient/HCl#33] HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/:/metadata/notify/changeItemState?librarySectionID=2&metadataItemID=18&metadataType=4&state=-1&parentID=-1&rootID=-1&mediaState=analyzing (reused)
+Nov 28, 2023 01:26:43.431 [547810492472] DEBUG - [HCl#34] HTTP requesting GET http://127.0.0.1:32400/:/metadata/notify/changeItemState?librarySectionID=2&metadataItemID=18&metadataType=4&state=-1&parentID=-1&rootID=-1&mediaState=idle
+Nov 28, 2023 01:26:43.432 [547811348536] DEBUG - [HttpClient/HCl#34] HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/:/metadata/notify/changeItemState?librarySectionID=2&metadataItemID=18&metadataType=4&state=-1&parentID=-1&rootID=-1&mediaState=idle (reused)
+Nov 28, 2023 01:26:43.439 [547888349240] DEBUG - Downloading document http://127.0.0.1:32400/library/changestamp
+Nov 28, 2023 01:26:43.439 [547888349240] DEBUG - [HCl#35] HTTP requesting GET http://127.0.0.1:32400/library/changestamp
+Nov 28, 2023 01:26:43.441 [547811348536] DEBUG - [HttpClient/HCl#35] HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/library/changestamp (reused)
+Nov 28, 2023 01:26:43.441 [547888349240] DEBUG - Updating metadata item (save) (A Fencing Tournament of Intrigue and Bloodshed) with ID 18
+Nov 28, 2023 01:26:43.443 [547810492472] DEBUG - [HCl#36] HTTP requesting GET http://127.0.0.1:32400/:/metadata/flushMetadataCounterCache?metadataItemID=10
+Nov 28, 2023 01:26:43.445 [547811348536] DEBUG - [HttpClient/HCl#36] HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/:/metadata/flushMetadataCounterCache?metadataItemID=10 (reused)
+Nov 28, 2023 01:26:43.445 [547888349240] DEBUG - Doing expensive tags write for 'A Fencing Tournament of Intrigue and Bloodshed' because something changed.
+Nov 28, 2023 01:26:43.448 [547888349240] DEBUG - Downloading document http://127.0.0.1:32400/library/changestamp
+Nov 28, 2023 01:26:43.448 [547888349240] DEBUG - [HCl#37] HTTP requesting GET http://127.0.0.1:32400/library/changestamp
+Nov 28, 2023 01:26:43.450 [547811348536] DEBUG - [HttpClient/HCl#37] HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/library/changestamp (reused)
+Nov 28, 2023 01:26:43.450 [547888349240] DEBUG - Updating metadata item (save) (A Fencing Tournament of Intrigue and Bloodshed) with ID 18
+Nov 28, 2023 01:26:43.453 [547810492472] DEBUG - [HCl#38] HTTP requesting GET http://127.0.0.1:32400/:/metadata/flushMetadataCounterCache?metadataItemID=10
+Nov 28, 2023 01:26:43.454 [547811348536] DEBUG - [HttpClient/HCl#38] HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/:/metadata/flushMetadataCounterCache?metadataItemID=10 (reused)
+Nov 28, 2023 01:26:43.458 [547888349240] DEBUG - Analyzing media parts for item 19 (Dark Knight Academy Under Attack): 19
+Nov 28, 2023 01:26:43.459 [547888349240] DEBUG - Downloading document http://127.0.0.1:32400/library/changestamp
+Nov 28, 2023 01:26:43.459 [547888349240] DEBUG - [HCl#39] HTTP requesting GET http://127.0.0.1:32400/library/changestamp
+Nov 28, 2023 01:26:43.461 [547811348536] DEBUG - [HttpClient/HCl#39] HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/library/changestamp (reused)
+Nov 28, 2023 01:26:43.461 [547888349240] DEBUG - Updating metadata item (save) (Dark Knight Academy Under Attack) with ID 19
+Nov 28, 2023 01:26:43.464 [547810492472] DEBUG - [HCl#3a] HTTP requesting GET http://127.0.0.1:32400/:/metadata/flushMetadataCounterCache?metadataItemID=10
+Nov 28, 2023 01:26:43.465 [547811348536] DEBUG - [HttpClient/HCl#3a] HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/:/metadata/flushMetadataCounterCache?metadataItemID=10 (reused)
+Nov 28, 2023 01:26:43.465 [547888349240] DEBUG - [ID 19] Media part analysis: /media/tv/The Eminence in Shadow/Season 1/The Eminence In Shadow - S01E08 - Dark Knight Academy Under Attack.mkv
+Nov 28, 2023 01:26:43.466 [547888349240] DEBUG - [MI] Opening input file: "/media/tv/The Eminence in Shadow/Season 1/The Eminence In Shadow - S01E08 - Dark Knight Academy Under Attack.mkv"
+Nov 28, 2023 01:26:43.466 [547888349240] DEBUG - [FFMPEG] - Opening '/media/tv/The Eminence in Shadow/Season 1/The Eminence In Shadow - S01E08 - Dark Knight Academy Under Attack.mkv' for reading
+Nov 28, 2023 01:26:43.466 [547888349240] DEBUG - [FFMPEG] - Setting default whitelist 'file,crypto,data'
+Nov 28, 2023 01:26:43.467 [547888349240] DEBUG - [FFMPEG] - Format matroska,webm probed with size=2048 and score=100
+Nov 28, 2023 01:26:43.467 [547888349240] DEBUG - [FFMPEG] - Unknown entry 0x22B59D at pos. 2811
+Nov 28, 2023 01:26:43.468 [547888349240] DEBUG - [FFMPEG] - Unknown entry 0x22B59D at pos. 2938
+Nov 28, 2023 01:26:43.468 [547888349240] DEBUG - [FFMPEG] - Unknown entry 0x22B59D at pos. 3037
+Nov 28, 2023 01:26:43.468 [547888349240] DEBUG - [FFMPEG] - Unknown entry 0x22B59D at pos. 5741
+Nov 28, 2023 01:26:43.468 [547888349240] DEBUG - [FFMPEG] - Unknown entry 0x22B59D at pos. 9105
+Nov 28, 2023 01:26:43.480 [547888349240] DEBUG - [FFMPEG] - Unknown entry 0x437D at pos. 571392
+Nov 28, 2023 01:26:43.480 [547888349240] DEBUG - [FFMPEG] - Unknown entry 0x437D at pos. 571431
+Nov 28, 2023 01:26:43.480 [547888349240] DEBUG - [FFMPEG] - Unknown entry 0x437D at pos. 571474
+Nov 28, 2023 01:26:43.480 [547888349240] DEBUG - [FFMPEG] - Unknown entry 0x437D at pos. 571517
+Nov 28, 2023 01:26:43.480 [547888349240] DEBUG - [FFMPEG] - Unknown entry 0x437D at pos. 571557
+Nov 28, 2023 01:26:43.480 [547888349240] DEBUG - [FFMPEG] - st:0 removing common factor 1000000 from timebase
+Nov 28, 2023 01:26:43.480 [547888349240] DEBUG - [FFMPEG] - st:1 removing common factor 1000000 from timebase
+Nov 28, 2023 01:26:43.480 [547888349240] DEBUG - [FFMPEG] - st:2 removing common factor 1000000 from timebase
+Nov 28, 2023 01:26:43.481 [547888349240] DEBUG - [FFMPEG] - st:3 removing common factor 1000000 from timebase
+Nov 28, 2023 01:26:43.481 [547888349240] DEBUG - [FFMPEG] - st:4 removing common factor 1000000 from timebase
+Nov 28, 2023 01:26:43.483 [547888349240] DEBUG - [FFMPEG] - Before avformat_find_stream_info() pos: 571669 bytes read:538406 seeks:3 nb_streams:10
+Nov 28, 2023 01:26:43.485 [547888349240] DEBUG - [FFMPEG] - nal_unit_type: 32(VPS), nuh_layer_id: 0, temporal_id: 0
+Nov 28, 2023 01:26:43.485 [547888349240] DEBUG - [FFMPEG] - Decoding VPS
+Nov 28, 2023 01:26:43.485 [547888349240] DEBUG - [FFMPEG] - Main 10 profile bitstream
+Nov 28, 2023 01:26:43.485 [547888349240] DEBUG - [FFMPEG] - nal_unit_type: 33(SPS), nuh_layer_id: 0, temporal_id: 0
+Nov 28, 2023 01:26:43.485 [547888349240] DEBUG - [FFMPEG] - Decoding SPS
+Nov 28, 2023 01:26:43.485 [547888349240] DEBUG - [FFMPEG] - Main 10 profile bitstream
+Nov 28, 2023 01:26:43.485 [547888349240] DEBUG - [FFMPEG] - Decoding VUI
+Nov 28, 2023 01:26:43.485 [547888349240] DEBUG - [FFMPEG] - nal_unit_type: 34(PPS), nuh_layer_id: 0, temporal_id: 0
+Nov 28, 2023 01:26:43.485 [547888349240] DEBUG - [FFMPEG] - Decoding PPS
+Nov 28, 2023 01:26:43.486 [547888349240] DEBUG - [FFMPEG] - nal_unit_type: 39(SEI_PREFIX), nuh_layer_id: 0, temporal_id: 0
+Nov 28, 2023 01:26:43.486 [547888349240] DEBUG - [FFMPEG] - Decoding SEI
+Nov 28, 2023 01:26:43.488 [547888349240] DEBUG - [FFMPEG] - skip 312/960 samples
+Nov 28, 2023 01:26:43.494 [547888349240] DEBUG - [FFMPEG] - All info found
+Nov 28, 2023 01:26:43.497 [547888349240] DEBUG - [FFMPEG] - After avformat_find_stream_info() pos: 896098 bytes read:862835 seeks:3 frames:43
+Nov 28, 2023 01:26:43.497 [547888349240] DEBUG - [MI]  * e71b529b23ea60350d645619827e17bfbe2b21d0 [mkv hevc/aac] Duration: 1421101ms, 1920x1080 (1.777778) 23.976fps, bitrate=2107kbps, audio channels=2, optimizedForStreaming=0 ("/media/tv/The Eminence in Shadow/Season 1/The Eminence In Shadow - S01E08 - Dark Knight Academy Under Attack.mkv")
+Nov 28, 2023 01:26:43.498 [547888349240] DEBUG - [MI] Importing 5 media chapters.
+Nov 28, 2023 01:26:43.499 [547888349240] DEBUG - [MI] Closing input file: "/media/tv/The Eminence in Shadow/Season 1/The Eminence In Shadow - S01E08 - Dark Knight Academy Under Attack.mkv"
+Nov 28, 2023 01:26:43.501 [547888349240] DEBUG - Committing media stream changes for part 19
+Nov 28, 2023 01:26:43.503 [547888349240] DEBUG - Updating media item 19, size=374442778, metadata_item_id=19
+Nov 28, 2023 01:26:43.504 [547888349240] DEBUG - Updating part with ID=19 [/media/tv/The Eminence in Shadow/Season 1/The Eminence In Shadow - S01E08 - Dark Knight Academy Under Attack.mkv]
+Nov 28, 2023 01:26:43.505 [547810492472] DEBUG - [HCl#3b] HTTP requesting GET http://127.0.0.1:32400/:/metadata/notify/changeItemState?librarySectionID=2&metadataItemID=19&metadataType=4&state=-1&parentID=-1&rootID=-1&mediaState=analyzing
+Nov 28, 2023 01:26:43.506 [547811348536] DEBUG - [HttpClient/HCl#3b] HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/:/metadata/notify/changeItemState?librarySectionID=2&metadataItemID=19&metadataType=4&state=-1&parentID=-1&rootID=-1&mediaState=analyzing (reused)
+Nov 28, 2023 01:26:43.506 [547810492472] DEBUG - [HCl#3c] HTTP requesting GET http://127.0.0.1:32400/:/metadata/notify/changeItemState?librarySectionID=2&metadataItemID=19&metadataType=4&state=-1&parentID=-1&rootID=-1&mediaState=idle
+Nov 28, 2023 01:26:43.508 [547811348536] DEBUG - [HttpClient/HCl#3c] HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/:/metadata/notify/changeItemState?librarySectionID=2&metadataItemID=19&metadataType=4&state=-1&parentID=-1&rootID=-1&mediaState=idle (reused)
+Nov 28, 2023 01:26:43.515 [547888349240] DEBUG - Downloading document http://127.0.0.1:32400/library/changestamp
+Nov 28, 2023 01:26:43.515 [547888349240] DEBUG - [HCl#3d] HTTP requesting GET http://127.0.0.1:32400/library/changestamp
+Nov 28, 2023 01:26:43.517 [547811348536] DEBUG - [HttpClient/HCl#3d] HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/library/changestamp (reused)
+Nov 28, 2023 01:26:43.517 [547888349240] DEBUG - Updating metadata item (save) (Dark Knight Academy Under Attack) with ID 19
+Nov 28, 2023 01:26:43.519 [547810492472] DEBUG - [HCl#3e] HTTP requesting GET http://127.0.0.1:32400/:/metadata/flushMetadataCounterCache?metadataItemID=10
+Nov 28, 2023 01:26:43.520 [547811348536] DEBUG - [HttpClient/HCl#3e] HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/:/metadata/flushMetadataCounterCache?metadataItemID=10 (reused)
+Nov 28, 2023 01:26:43.522 [547888349240] DEBUG - Doing expensive tags write for 'Dark Knight Academy Under Attack' because something changed.
+Nov 28, 2023 01:26:43.525 [547888349240] DEBUG - Downloading document http://127.0.0.1:32400/library/changestamp
+Nov 28, 2023 01:26:43.525 [547888349240] DEBUG - [HCl#3f] HTTP requesting GET http://127.0.0.1:32400/library/changestamp
+Nov 28, 2023 01:26:43.527 [547811348536] DEBUG - [HttpClient/HCl#3f] HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/library/changestamp (reused)
+Nov 28, 2023 01:26:43.527 [547888349240] DEBUG - Updating metadata item (save) (Dark Knight Academy Under Attack) with ID 19
+Nov 28, 2023 01:26:43.530 [547810492472] DEBUG - [HCl#40] HTTP requesting GET http://127.0.0.1:32400/:/metadata/flushMetadataCounterCache?metadataItemID=10
+Nov 28, 2023 01:26:43.531 [547811348536] DEBUG - [HttpClient/HCl#40] HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/:/metadata/flushMetadataCounterCache?metadataItemID=10 (reused)
+Nov 28, 2023 01:26:43.535 [547888349240] DEBUG - Analyzing media parts for item 20 (The End of a Lie): 20
+Nov 28, 2023 01:26:43.537 [547888349240] DEBUG - Downloading document http://127.0.0.1:32400/library/changestamp
+Nov 28, 2023 01:26:43.537 [547888349240] DEBUG - [HCl#41] HTTP requesting GET http://127.0.0.1:32400/library/changestamp
+Nov 28, 2023 01:26:43.538 [547811348536] DEBUG - [HttpClient/HCl#41] HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/library/changestamp (reused)
+Nov 28, 2023 01:26:43.539 [547888349240] DEBUG - Updating metadata item (save) (The End of a Lie) with ID 20
+Nov 28, 2023 01:26:43.541 [547810492472] DEBUG - [HCl#42] HTTP requesting GET http://127.0.0.1:32400/:/metadata/flushMetadataCounterCache?metadataItemID=10
+Nov 28, 2023 01:26:43.542 [547811348536] DEBUG - [HttpClient/HCl#42] HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/:/metadata/flushMetadataCounterCache?metadataItemID=10 (reused)
+Nov 28, 2023 01:26:43.543 [547888349240] DEBUG - [ID 20] Media part analysis: /media/tv/The Eminence in Shadow/Season 1/The Eminence In Shadow - S01E09 - The End Of A Lie.mkv
+Nov 28, 2023 01:26:43.544 [547888349240] DEBUG - [MI] Opening input file: "/media/tv/The Eminence in Shadow/Season 1/The Eminence In Shadow - S01E09 - The End Of A Lie.mkv"
+Nov 28, 2023 01:26:43.544 [547888349240] DEBUG - [FFMPEG] - Opening '/media/tv/The Eminence in Shadow/Season 1/The Eminence In Shadow - S01E09 - The End Of A Lie.mkv' for reading
+Nov 28, 2023 01:26:43.544 [547888349240] DEBUG - [FFMPEG] - Setting default whitelist 'file,crypto,data'
+Nov 28, 2023 01:26:43.545 [547888349240] DEBUG - [FFMPEG] - Format matroska,webm probed with size=2048 and score=100
+Nov 28, 2023 01:26:43.545 [547888349240] DEBUG - [FFMPEG] - Unknown entry 0x22B59D at pos. 2811
+Nov 28, 2023 01:26:43.545 [547888349240] DEBUG - [FFMPEG] - Unknown entry 0x22B59D at pos. 2938
+Nov 28, 2023 01:26:43.546 [547888349240] DEBUG - [FFMPEG] - Unknown entry 0x22B59D at pos. 3037
+Nov 28, 2023 01:26:43.546 [547888349240] DEBUG - [FFMPEG] - Unknown entry 0x22B59D at pos. 6161
+Nov 28, 2023 01:26:43.546 [547888349240] DEBUG - [FFMPEG] - Unknown entry 0x22B59D at pos. 9281
+Nov 28, 2023 01:26:43.557 [547888349240] DEBUG - [FFMPEG] - Unknown entry 0x437D at pos. 571568
+Nov 28, 2023 01:26:43.558 [547888349240] DEBUG - [FFMPEG] - Unknown entry 0x437D at pos. 571607
+Nov 28, 2023 01:26:43.558 [547888349240] DEBUG - [FFMPEG] - Unknown entry 0x437D at pos. 571650
+Nov 28, 2023 01:26:43.558 [547888349240] DEBUG - [FFMPEG] - Unknown entry 0x437D at pos. 571693
+Nov 28, 2023 01:26:43.558 [547888349240] DEBUG - [FFMPEG] - Unknown entry 0x437D at pos. 571733
+Nov 28, 2023 01:26:43.558 [547888349240] DEBUG - [FFMPEG] - st:0 removing common factor 1000000 from timebase
+Nov 28, 2023 01:26:43.558 [547888349240] DEBUG - [FFMPEG] - st:1 removing common factor 1000000 from timebase
+Nov 28, 2023 01:26:43.558 [547888349240] DEBUG - [FFMPEG] - st:2 removing common factor 1000000 from timebase
+Nov 28, 2023 01:26:43.558 [547888349240] DEBUG - [FFMPEG] - st:3 removing common factor 1000000 from timebase
+Nov 28, 2023 01:26:43.559 [547888349240] DEBUG - [FFMPEG] - st:4 removing common factor 1000000 from timebase
+Nov 28, 2023 01:26:43.561 [547888349240] DEBUG - [FFMPEG] - Before avformat_find_stream_info() pos: 571845 bytes read:538582 seeks:3 nb_streams:10
+Nov 28, 2023 01:26:43.563 [547888349240] DEBUG - [FFMPEG] - nal_unit_type: 32(VPS), nuh_layer_id: 0, temporal_id: 0
+Nov 28, 2023 01:26:43.563 [547888349240] DEBUG - [FFMPEG] - Decoding VPS
+Nov 28, 2023 01:26:43.563 [547888349240] DEBUG - [FFMPEG] - Main 10 profile bitstream
+Nov 28, 2023 01:26:43.563 [547888349240] DEBUG - [FFMPEG] - nal_unit_type: 33(SPS), nuh_layer_id: 0, temporal_id: 0
+Nov 28, 2023 01:26:43.563 [547888349240] DEBUG - [FFMPEG] - Decoding SPS
+Nov 28, 2023 01:26:43.563 [547888349240] DEBUG - [FFMPEG] - Main 10 profile bitstream
+Nov 28, 2023 01:26:43.564 [547888349240] DEBUG - [FFMPEG] - Decoding VUI
+Nov 28, 2023 01:26:43.564 [547888349240] DEBUG - [FFMPEG] - nal_unit_type: 34(PPS), nuh_layer_id: 0, temporal_id: 0
+Nov 28, 2023 01:26:43.564 [547888349240] DEBUG - [FFMPEG] - Decoding PPS
+Nov 28, 2023 01:26:43.564 [547888349240] DEBUG - [FFMPEG] - nal_unit_type: 39(SEI_PREFIX), nuh_layer_id: 0, temporal_id: 0
+Nov 28, 2023 01:26:43.564 [547888349240] DEBUG - [FFMPEG] - Decoding SEI
+Nov 28, 2023 01:26:43.567 [547888349240] DEBUG - [FFMPEG] - skip 312/960 samples
+Nov 28, 2023 01:26:43.571 [547888349240] DEBUG - [FFMPEG] - All info found
+Nov 28, 2023 01:26:43.573 [547888349240] DEBUG - [FFMPEG] - After avformat_find_stream_info() pos: 768978 bytes read:736089 seeks:3 frames:35
+Nov 28, 2023 01:26:43.574 [547888349240] DEBUG - [MI]  * bc7eb2490751111d6cc99c866d5decf7b7673484 [mkv hevc/aac] Duration: 1421101ms, 1920x1080 (1.777778) 23.976fps, bitrate=2777kbps, audio channels=2, optimizedForStreaming=0 ("/media/tv/The Eminence in Shadow/Season 1/The Eminence In Shadow - S01E09 - The End Of A Lie.mkv")
+Nov 28, 2023 01:26:43.574 [547888349240] DEBUG - [MI] Importing 5 media chapters.
+Nov 28, 2023 01:26:43.575 [547888349240] DEBUG - [MI] Closing input file: "/media/tv/The Eminence in Shadow/Season 1/The Eminence In Shadow - S01E09 - The End Of A Lie.mkv"
+Nov 28, 2023 01:26:43.577 [547888349240] DEBUG - Committing media stream changes for part 20
+Nov 28, 2023 01:26:43.580 [547888349240] DEBUG - Updating media item 20, size=493451250, metadata_item_id=20
+Nov 28, 2023 01:26:43.580 [547888349240] DEBUG - Updating part with ID=20 [/media/tv/The Eminence in Shadow/Season 1/The Eminence In Shadow - S01E09 - The End Of A Lie.mkv]
+Nov 28, 2023 01:26:43.581 [547810492472] DEBUG - [HCl#43] HTTP requesting GET http://127.0.0.1:32400/:/metadata/notify/changeItemState?librarySectionID=2&metadataItemID=20&metadataType=4&state=-1&parentID=-1&rootID=-1&mediaState=analyzing
+Nov 28, 2023 01:26:43.582 [547811348536] DEBUG - [HttpClient/HCl#43] HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/:/metadata/notify/changeItemState?librarySectionID=2&metadataItemID=20&metadataType=4&state=-1&parentID=-1&rootID=-1&mediaState=analyzing (reused)
+Nov 28, 2023 01:26:43.582 [547810492472] DEBUG - [HCl#44] HTTP requesting GET http://127.0.0.1:32400/:/metadata/notify/changeItemState?librarySectionID=2&metadataItemID=20&metadataType=4&state=-1&parentID=-1&rootID=-1&mediaState=idle
+Nov 28, 2023 01:26:43.583 [547811348536] DEBUG - [HttpClient/HCl#44] HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/:/metadata/notify/changeItemState?librarySectionID=2&metadataItemID=20&metadataType=4&state=-1&parentID=-1&rootID=-1&mediaState=idle (reused)
+Nov 28, 2023 01:26:43.590 [547888349240] DEBUG - Downloading document http://127.0.0.1:32400/library/changestamp
+Nov 28, 2023 01:26:43.591 [547888349240] DEBUG - [HCl#45] HTTP requesting GET http://127.0.0.1:32400/library/changestamp
+Nov 28, 2023 01:26:43.593 [547811348536] DEBUG - [HttpClient/HCl#45] HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/library/changestamp (reused)
+Nov 28, 2023 01:26:43.593 [547888349240] DEBUG - Updating metadata item (save) (The End of a Lie) with ID 20
+Nov 28, 2023 01:26:43.595 [547810492472] DEBUG - [HCl#46] HTTP requesting GET http://127.0.0.1:32400/:/metadata/flushMetadataCounterCache?metadataItemID=10
+Nov 28, 2023 01:26:43.597 [547811348536] DEBUG - [HttpClient/HCl#46] HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/:/metadata/flushMetadataCounterCache?metadataItemID=10 (reused)
+Nov 28, 2023 01:26:43.598 [547888349240] DEBUG - Doing expensive tags write for 'The End of a Lie' because something changed.
+Nov 28, 2023 01:26:43.601 [547888349240] DEBUG - Downloading document http://127.0.0.1:32400/library/changestamp
+Nov 28, 2023 01:26:43.601 [547888349240] DEBUG - [HCl#47] HTTP requesting GET http://127.0.0.1:32400/library/changestamp
+Nov 28, 2023 01:26:43.603 [547811348536] DEBUG - [HttpClient/HCl#47] HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/library/changestamp (reused)
+Nov 28, 2023 01:26:43.603 [547888349240] DEBUG - Updating metadata item (save) (The End of a Lie) with ID 20
+Nov 28, 2023 01:26:43.606 [547810492472] DEBUG - [HCl#48] HTTP requesting GET http://127.0.0.1:32400/:/metadata/flushMetadataCounterCache?metadataItemID=10
+Nov 28, 2023 01:26:43.607 [547811348536] DEBUG - [HttpClient/HCl#48] HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/:/metadata/flushMetadataCounterCache?metadataItemID=10 (reused)
+Nov 28, 2023 01:26:43.611 [547888349240] DEBUG - Analyzing media parts for item 21 (The Sacred Land, City of Deception): 21
+Nov 28, 2023 01:26:43.613 [547888349240] DEBUG - Downloading document http://127.0.0.1:32400/library/changestamp
+Nov 28, 2023 01:26:43.613 [547888349240] DEBUG - [HCl#49] HTTP requesting GET http://127.0.0.1:32400/library/changestamp
+Nov 28, 2023 01:26:43.615 [547811348536] DEBUG - [HttpClient/HCl#49] HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/library/changestamp (reused)
+Nov 28, 2023 01:26:43.615 [547888349240] DEBUG - Updating metadata item (save) (The Sacred Land, City of Deception) with ID 21
+Nov 28, 2023 01:26:43.618 [547810492472] DEBUG - [HCl#4a] HTTP requesting GET http://127.0.0.1:32400/:/metadata/flushMetadataCounterCache?metadataItemID=10
+Nov 28, 2023 01:26:43.619 [547811348536] DEBUG - [HttpClient/HCl#4a] HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/:/metadata/flushMetadataCounterCache?metadataItemID=10 (reused)
+Nov 28, 2023 01:26:43.619 [547888349240] DEBUG - [ID 21] Media part analysis: /media/tv/The Eminence in Shadow/Season 1/The Eminence In Shadow - S01E10 - The Sacred Land, City Of Deception.mkv
+Nov 28, 2023 01:26:43.620 [547888349240] DEBUG - [MI] Opening input file: "/media/tv/The Eminence in Shadow/Season 1/The Eminence In Shadow - S01E10 - The Sacred Land, City Of Deception.mkv"
+Nov 28, 2023 01:26:43.620 [547888349240] DEBUG - [FFMPEG] - Opening '/media/tv/The Eminence in Shadow/Season 1/The Eminence In Shadow - S01E10 - The Sacred Land, City Of Deception.mkv' for reading
+Nov 28, 2023 01:26:43.620 [547888349240] DEBUG - [FFMPEG] - Setting default whitelist 'file,crypto,data'
+Nov 28, 2023 01:26:43.621 [547888349240] DEBUG - [FFMPEG] - Format matroska,webm probed with size=2048 and score=100
+Nov 28, 2023 01:26:43.621 [547888349240] DEBUG - [FFMPEG] - Unknown entry 0x22B59D at pos. 2811
+Nov 28, 2023 01:26:43.622 [547888349240] DEBUG - [FFMPEG] - Unknown entry 0x22B59D at pos. 2938
+Nov 28, 2023 01:26:43.622 [547888349240] DEBUG - [FFMPEG] - Unknown entry 0x22B59D at pos. 3037
+Nov 28, 2023 01:26:43.622 [547888349240] DEBUG - [FFMPEG] - Unknown entry 0x22B59D at pos. 6218
+Nov 28, 2023 01:26:43.622 [547888349240] DEBUG - [FFMPEG] - Unknown entry 0x22B59D at pos. 9395
+Nov 28, 2023 01:26:43.633 [547888349240] DEBUG - [FFMPEG] - Unknown entry 0x437D at pos. 571682
+Nov 28, 2023 01:26:43.634 [547888349240] DEBUG - [FFMPEG] - Unknown entry 0x437D at pos. 571720
+Nov 28, 2023 01:26:43.634 [547888349240] DEBUG - [FFMPEG] - Unknown entry 0x437D at pos. 571763
+Nov 28, 2023 01:26:43.634 [547888349240] DEBUG - [FFMPEG] - Unknown entry 0x437D at pos. 571806
+Nov 28, 2023 01:26:43.634 [547888349240] DEBUG - [FFMPEG] - Unknown entry 0x437D at pos. 571846
+Nov 28, 2023 01:26:43.634 [547888349240] DEBUG - [FFMPEG] - st:0 removing common factor 1000000 from timebase
+Nov 28, 2023 01:26:43.634 [547888349240] DEBUG - [FFMPEG] - st:1 removing common factor 1000000 from timebase
+Nov 28, 2023 01:26:43.634 [547888349240] DEBUG - [FFMPEG] - st:2 removing common factor 1000000 from timebase
+Nov 28, 2023 01:26:43.634 [547888349240] DEBUG - [FFMPEG] - st:3 removing common factor 1000000 from timebase
+Nov 28, 2023 01:26:43.635 [547888349240] DEBUG - [FFMPEG] - st:4 removing common factor 1000000 from timebase
+Nov 28, 2023 01:26:43.637 [547888349240] DEBUG - [FFMPEG] - Before avformat_find_stream_info() pos: 571958 bytes read:538696 seeks:3 nb_streams:10
+Nov 28, 2023 01:26:43.639 [547888349240] DEBUG - [FFMPEG] - nal_unit_type: 32(VPS), nuh_layer_id: 0, temporal_id: 0
+Nov 28, 2023 01:26:43.639 [547888349240] DEBUG - [FFMPEG] - Decoding VPS
+Nov 28, 2023 01:26:43.639 [547888349240] DEBUG - [FFMPEG] - Main 10 profile bitstream
+Nov 28, 2023 01:26:43.639 [547888349240] DEBUG - [FFMPEG] - nal_unit_type: 33(SPS), nuh_layer_id: 0, temporal_id: 0
+Nov 28, 2023 01:26:43.640 [547888349240] DEBUG - [FFMPEG] - Decoding SPS
+Nov 28, 2023 01:26:43.640 [547888349240] DEBUG - [FFMPEG] - Main 10 profile bitstream
+Nov 28, 2023 01:26:43.640 [547888349240] DEBUG - [FFMPEG] - Decoding VUI
+Nov 28, 2023 01:26:43.640 [547888349240] DEBUG - [FFMPEG] - nal_unit_type: 34(PPS), nuh_layer_id: 0, temporal_id: 0
+Nov 28, 2023 01:26:43.640 [547888349240] DEBUG - [FFMPEG] - Decoding PPS
+Nov 28, 2023 01:26:43.640 [547888349240] DEBUG - [FFMPEG] - nal_unit_type: 39(SEI_PREFIX), nuh_layer_id: 0, temporal_id: 0
+Nov 28, 2023 01:26:43.640 [547888349240] DEBUG - [FFMPEG] - Decoding SEI
+Nov 28, 2023 01:26:43.643 [547888349240] DEBUG - [FFMPEG] - skip 312/960 samples
+Nov 28, 2023 01:26:43.648 [547888349240] DEBUG - [FFMPEG] - All info found
+Nov 28, 2023 01:26:43.651 [547888349240] DEBUG - [FFMPEG] - After avformat_find_stream_info() pos: 822321 bytes read:818444 seeks:3 frames:51
+Nov 28, 2023 01:26:43.651 [547888349240] DEBUG - [MI]  * 2a2859c831dfd22e698da697927f0fc29070b9e1 [mkv hevc/aac] Duration: 1421101ms, 1920x1080 (1.777778) 23.976fps, bitrate=2421kbps, audio channels=2, optimizedForStreaming=0 ("/media/tv/The Eminence in Shadow/Season 1/The Eminence In Shadow - S01E10 - The Sacred Land, City Of Deception.mkv")
+Nov 28, 2023 01:26:43.651 [547888349240] DEBUG - [MI] Importing 5 media chapters.
+Nov 28, 2023 01:26:43.653 [547888349240] DEBUG - [MI] Closing input file: "/media/tv/The Eminence in Shadow/Season 1/The Eminence In Shadow - S01E10 - The Sacred Land, City Of Deception.mkv"
+Nov 28, 2023 01:26:43.655 [547888349240] DEBUG - Committing media stream changes for part 21
+Nov 28, 2023 01:26:43.657 [547888349240] DEBUG - Updating media item 21, size=430204231, metadata_item_id=21
+Nov 28, 2023 01:26:43.658 [547888349240] DEBUG - Updating part with ID=21 [/media/tv/The Eminence in Shadow/Season 1/The Eminence In Shadow - S01E10 - The Sacred Land, City Of Deception.mkv]
+Nov 28, 2023 01:26:43.658 [547810492472] DEBUG - [HCl#4b] HTTP requesting GET http://127.0.0.1:32400/:/metadata/notify/changeItemState?librarySectionID=2&metadataItemID=21&metadataType=4&state=-1&parentID=-1&rootID=-1&mediaState=analyzing
+Nov 28, 2023 01:26:43.660 [547811348536] DEBUG - [HttpClient/HCl#4b] HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/:/metadata/notify/changeItemState?librarySectionID=2&metadataItemID=21&metadataType=4&state=-1&parentID=-1&rootID=-1&mediaState=analyzing (reused)
+Nov 28, 2023 01:26:43.660 [547810492472] DEBUG - [HCl#4c] HTTP requesting GET http://127.0.0.1:32400/:/metadata/notify/changeItemState?librarySectionID=2&metadataItemID=21&metadataType=4&state=-1&parentID=-1&rootID=-1&mediaState=idle
+Nov 28, 2023 01:26:43.661 [547811348536] DEBUG - [HttpClient/HCl#4c] HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/:/metadata/notify/changeItemState?librarySectionID=2&metadataItemID=21&metadataType=4&state=-1&parentID=-1&rootID=-1&mediaState=idle (reused)
+Nov 28, 2023 01:26:43.668 [547888349240] DEBUG - Downloading document http://127.0.0.1:32400/library/changestamp
+Nov 28, 2023 01:26:43.669 [547888349240] DEBUG - [HCl#4d] HTTP requesting GET http://127.0.0.1:32400/library/changestamp
+Nov 28, 2023 01:26:43.671 [547811348536] DEBUG - [HttpClient/HCl#4d] HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/library/changestamp (reused)
+Nov 28, 2023 01:26:43.671 [547888349240] DEBUG - Updating metadata item (save) (The Sacred Land, City of Deception) with ID 21
+Nov 28, 2023 01:26:43.673 [547810492472] DEBUG - [HCl#4e] HTTP requesting GET http://127.0.0.1:32400/:/metadata/flushMetadataCounterCache?metadataItemID=10
+Nov 28, 2023 01:26:43.674 [547811348536] DEBUG - [HttpClient/HCl#4e] HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/:/metadata/flushMetadataCounterCache?metadataItemID=10 (reused)
+Nov 28, 2023 01:26:43.676 [547888349240] DEBUG - Doing expensive tags write for 'The Sacred Land, City of Deception' because something changed.
+Nov 28, 2023 01:26:43.679 [547888349240] DEBUG - Downloading document http://127.0.0.1:32400/library/changestamp
+Nov 28, 2023 01:26:43.679 [547888349240] DEBUG - [HCl#4f] HTTP requesting GET http://127.0.0.1:32400/library/changestamp
+Nov 28, 2023 01:26:43.681 [547811348536] DEBUG - [HttpClient/HCl#4f] HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/library/changestamp (reused)
+Nov 28, 2023 01:26:43.681 [547888349240] DEBUG - Updating metadata item (save) (The Sacred Land, City of Deception) with ID 21
+Nov 28, 2023 01:26:43.684 [547810492472] DEBUG - [HCl#50] HTTP requesting GET http://127.0.0.1:32400/:/metadata/flushMetadataCounterCache?metadataItemID=10
+Nov 28, 2023 01:26:43.685 [547811348536] DEBUG - [HttpClient/HCl#50] HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/:/metadata/flushMetadataCounterCache?metadataItemID=10 (reused)
+Nov 28, 2023 01:26:43.689 [547888349240] DEBUG - Analyzing media parts for item 22 (The Goddess' Trial): 22
+Nov 28, 2023 01:26:43.690 [547888349240] DEBUG - Downloading document http://127.0.0.1:32400/library/changestamp
+Nov 28, 2023 01:26:43.691 [547888349240] DEBUG - [HCl#51] HTTP requesting GET http://127.0.0.1:32400/library/changestamp
+Nov 28, 2023 01:26:43.693 [547811348536] DEBUG - [HttpClient/HCl#51] HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/library/changestamp (reused)
+Nov 28, 2023 01:26:43.693 [547888349240] DEBUG - Updating metadata item (save) (The Goddess' Trial) with ID 22
+Nov 28, 2023 01:26:43.695 [547810492472] DEBUG - [HCl#52] HTTP requesting GET http://127.0.0.1:32400/:/metadata/flushMetadataCounterCache?metadataItemID=10
+Nov 28, 2023 01:26:43.696 [547811348536] DEBUG - [HttpClient/HCl#52] HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/:/metadata/flushMetadataCounterCache?metadataItemID=10 (reused)
+Nov 28, 2023 01:26:43.697 [547888349240] DEBUG - [ID 22] Media part analysis: /media/tv/The Eminence in Shadow/Season 1/The Eminence In Shadow - S01E11 - The Goddess' Trial.mkv
+Nov 28, 2023 01:26:43.697 [547888349240] DEBUG - [MI] Opening input file: "/media/tv/The Eminence in Shadow/Season 1/The Eminence In Shadow - S01E11 - The Goddess' Trial.mkv"
+Nov 28, 2023 01:26:43.697 [547888349240] DEBUG - [FFMPEG] - Opening '/media/tv/The Eminence in Shadow/Season 1/The Eminence In Shadow - S01E11 - The Goddess' Trial.mkv' for reading
+Nov 28, 2023 01:26:43.697 [547888349240] DEBUG - [FFMPEG] - Setting default whitelist 'file,crypto,data'
+Nov 28, 2023 01:26:43.698 [547888349240] DEBUG - [FFMPEG] - Format matroska,webm probed with size=2048 and score=100
+Nov 28, 2023 01:26:43.698 [547888349240] DEBUG - [FFMPEG] - Unknown entry 0x22B59D at pos. 2811
+Nov 28, 2023 01:26:43.698 [547888349240] DEBUG - [FFMPEG] - Unknown entry 0x22B59D at pos. 2938
+Nov 28, 2023 01:26:43.698 [547888349240] DEBUG - [FFMPEG] - Unknown entry 0x22B59D at pos. 3037
+Nov 28, 2023 01:26:43.698 [547888349240] DEBUG - [FFMPEG] - Unknown entry 0x22B59D at pos. 5946
+Nov 28, 2023 01:26:43.698 [547888349240] DEBUG - [FFMPEG] - Unknown entry 0x22B59D at pos. 8959
+Nov 28, 2023 01:26:43.710 [547888349240] DEBUG - [FFMPEG] - Unknown entry 0x437D at pos. 571246
+Nov 28, 2023 01:26:43.710 [547888349240] DEBUG - [FFMPEG] - Unknown entry 0x437D at pos. 571285
+Nov 28, 2023 01:26:43.710 [547888349240] DEBUG - [FFMPEG] - Unknown entry 0x437D at pos. 571328
+Nov 28, 2023 01:26:43.710 [547888349240] DEBUG - [FFMPEG] - Unknown entry 0x437D at pos. 571371
+Nov 28, 2023 01:26:43.710 [547888349240] DEBUG - [FFMPEG] - Unknown entry 0x437D at pos. 571411
+Nov 28, 2023 01:26:43.710 [547888349240] DEBUG - [FFMPEG] - st:0 removing common factor 1000000 from timebase
+Nov 28, 2023 01:26:43.710 [547888349240] DEBUG - [FFMPEG] - st:1 removing common factor 1000000 from timebase
+Nov 28, 2023 01:26:43.710 [547888349240] DEBUG - [FFMPEG] - st:2 removing common factor 1000000 from timebase
+Nov 28, 2023 01:26:43.710 [547888349240] DEBUG - [FFMPEG] - st:3 removing common factor 1000000 from timebase
+Nov 28, 2023 01:26:43.710 [547888349240] DEBUG - [FFMPEG] - st:4 removing common factor 1000000 from timebase
+Nov 28, 2023 01:26:43.713 [547888349240] DEBUG - [FFMPEG] - Before avformat_find_stream_info() pos: 571523 bytes read:538260 seeks:3 nb_streams:10
+Nov 28, 2023 01:26:43.714 [547888349240] DEBUG - [FFMPEG] - nal_unit_type: 32(VPS), nuh_layer_id: 0, temporal_id: 0
+Nov 28, 2023 01:26:43.714 [547888349240] DEBUG - [FFMPEG] - Decoding VPS
+Nov 28, 2023 01:26:43.714 [547888349240] DEBUG - [FFMPEG] - Main 10 profile bitstream
+Nov 28, 2023 01:26:43.714 [547888349240] DEBUG - [FFMPEG] - nal_unit_type: 33(SPS), nuh_layer_id: 0, temporal_id: 0
+Nov 28, 2023 01:26:43.714 [547888349240] DEBUG - [FFMPEG] - Decoding SPS
+Nov 28, 2023 01:26:43.714 [547888349240] DEBUG - [FFMPEG] - Main 10 profile bitstream
+Nov 28, 2023 01:26:43.714 [547888349240] DEBUG - [FFMPEG] - Decoding VUI
+Nov 28, 2023 01:26:43.714 [547888349240] DEBUG - [FFMPEG] - nal_unit_type: 34(PPS), nuh_layer_id: 0, temporal_id: 0
+Nov 28, 2023 01:26:43.714 [547888349240] DEBUG - [FFMPEG] - Decoding PPS
+Nov 28, 2023 01:26:43.714 [547888349240] DEBUG - [FFMPEG] - nal_unit_type: 39(SEI_PREFIX), nuh_layer_id: 0, temporal_id: 0
+Nov 28, 2023 01:26:43.714 [547888349240] DEBUG - [FFMPEG] - Decoding SEI
+Nov 28, 2023 01:26:43.718 [547888349240] DEBUG - [FFMPEG] - skip 312/960 samples
+Nov 28, 2023 01:26:43.722 [547888349240] DEBUG - [FFMPEG] - All info found
+Nov 28, 2023 01:26:43.725 [547888349240] DEBUG - [FFMPEG] - After avformat_find_stream_info() pos: 807540 bytes read:804619 seeks:3 frames:27
+Nov 28, 2023 01:26:43.725 [547888349240] DEBUG - [MI]  * 1367b2a8a800dae3ac20a66ba2148a16e26bb5ed [mkv hevc/aac] Duration: 1421101ms, 1920x1080 (1.777778) 23.976fps, bitrate=2661kbps, audio channels=2, optimizedForStreaming=0 ("/media/tv/The Eminence in Shadow/Season 1/The Eminence In Shadow - S01E11 - The Goddess' Trial.mkv")
+Nov 28, 2023 01:26:43.725 [547888349240] DEBUG - [MI] Importing 5 media chapters.
+Nov 28, 2023 01:26:43.727 [547888349240] DEBUG - [MI] Closing input file: "/media/tv/The Eminence in Shadow/Season 1/The Eminence In Shadow - S01E11 - The Goddess' Trial.mkv"
+Nov 28, 2023 01:26:43.728 [547888349240] DEBUG - Committing media stream changes for part 22
+Nov 28, 2023 01:26:43.731 [547888349240] DEBUG - Updating media item 22, size=472781667, metadata_item_id=22
+Nov 28, 2023 01:26:43.731 [547888349240] DEBUG - Updating part with ID=22 [/media/tv/The Eminence in Shadow/Season 1/The Eminence In Shadow - S01E11 - The Goddess' Trial.mkv]
+Nov 28, 2023 01:26:43.731 [547810492472] DEBUG - [HCl#53] HTTP requesting GET http://127.0.0.1:32400/:/metadata/notify/changeItemState?librarySectionID=2&metadataItemID=22&metadataType=4&state=-1&parentID=-1&rootID=-1&mediaState=analyzing
+Nov 28, 2023 01:26:43.733 [547811348536] DEBUG - [HttpClient/HCl#53] HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/:/metadata/notify/changeItemState?librarySectionID=2&metadataItemID=22&metadataType=4&state=-1&parentID=-1&rootID=-1&mediaState=analyzing (reused)
+Nov 28, 2023 01:26:43.733 [547810492472] DEBUG - [HCl#54] HTTP requesting GET http://127.0.0.1:32400/:/metadata/notify/changeItemState?librarySectionID=2&metadataItemID=22&metadataType=4&state=-1&parentID=-1&rootID=-1&mediaState=idle
+Nov 28, 2023 01:26:43.734 [547811348536] DEBUG - [HttpClient/HCl#54] HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/:/metadata/notify/changeItemState?librarySectionID=2&metadataItemID=22&metadataType=4&state=-1&parentID=-1&rootID=-1&mediaState=idle (reused)
+Nov 28, 2023 01:26:43.742 [547888349240] DEBUG - Downloading document http://127.0.0.1:32400/library/changestamp
+Nov 28, 2023 01:26:43.742 [547888349240] DEBUG - [HCl#55] HTTP requesting GET http://127.0.0.1:32400/library/changestamp
+Nov 28, 2023 01:26:43.745 [547811348536] DEBUG - [HttpClient/HCl#55] HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/library/changestamp (reused)
+Nov 28, 2023 01:26:43.745 [547888349240] DEBUG - Updating metadata item (save) (The Goddess' Trial) with ID 22
+Nov 28, 2023 01:26:43.747 [547810492472] DEBUG - [HCl#56] HTTP requesting GET http://127.0.0.1:32400/:/metadata/flushMetadataCounterCache?metadataItemID=10
+Nov 28, 2023 01:26:43.749 [547811348536] DEBUG - [HttpClient/HCl#56] HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/:/metadata/flushMetadataCounterCache?metadataItemID=10 (reused)
+Nov 28, 2023 01:26:43.749 [547888349240] DEBUG - Doing expensive tags write for 'The Goddess' Trial' because something changed.
+Nov 28, 2023 01:26:43.752 [547888349240] DEBUG - Downloading document http://127.0.0.1:32400/library/changestamp
+Nov 28, 2023 01:26:43.752 [547888349240] DEBUG - [HCl#57] HTTP requesting GET http://127.0.0.1:32400/library/changestamp
+Nov 28, 2023 01:26:43.754 [547811348536] DEBUG - [HttpClient/HCl#57] HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/library/changestamp (reused)
+Nov 28, 2023 01:26:43.754 [547888349240] DEBUG - Updating metadata item (save) (The Goddess' Trial) with ID 22
+Nov 28, 2023 01:26:43.757 [547810492472] DEBUG - [HCl#58] HTTP requesting GET http://127.0.0.1:32400/:/metadata/flushMetadataCounterCache?metadataItemID=10
+Nov 28, 2023 01:26:43.758 [547811348536] DEBUG - [HttpClient/HCl#58] HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/:/metadata/flushMetadataCounterCache?metadataItemID=10 (reused)
+Nov 28, 2023 01:26:43.763 [547888349240] DEBUG - Analyzing media parts for item 23 (The Truth Within the Memories): 23
+Nov 28, 2023 01:26:43.764 [547888349240] DEBUG - Downloading document http://127.0.0.1:32400/library/changestamp
+Nov 28, 2023 01:26:43.764 [547888349240] DEBUG - [HCl#59] HTTP requesting GET http://127.0.0.1:32400/library/changestamp
+Nov 28, 2023 01:26:43.766 [547811348536] DEBUG - [HttpClient/HCl#59] HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/library/changestamp (reused)
+Nov 28, 2023 01:26:43.766 [547888349240] DEBUG - Updating metadata item (save) (The Truth Within the Memories) with ID 23
+Nov 28, 2023 01:26:43.769 [547810492472] DEBUG - [HCl#5a] HTTP requesting GET http://127.0.0.1:32400/:/metadata/flushMetadataCounterCache?metadataItemID=10
+Nov 28, 2023 01:26:43.770 [547811348536] DEBUG - [HttpClient/HCl#5a] HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/:/metadata/flushMetadataCounterCache?metadataItemID=10 (reused)
+Nov 28, 2023 01:26:43.771 [547888349240] DEBUG - [ID 23] Media part analysis: /media/tv/The Eminence in Shadow/Season 1/The Eminence In Shadow - S01E12 - The Truth Within The Memories.mkv
+Nov 28, 2023 01:26:43.771 [547888349240] DEBUG - [MI] Opening input file: "/media/tv/The Eminence in Shadow/Season 1/The Eminence In Shadow - S01E12 - The Truth Within The Memories.mkv"
+Nov 28, 2023 01:26:43.771 [547888349240] DEBUG - [FFMPEG] - Opening '/media/tv/The Eminence in Shadow/Season 1/The Eminence In Shadow - S01E12 - The Truth Within The Memories.mkv' for reading
+Nov 28, 2023 01:26:43.771 [547888349240] DEBUG - [FFMPEG] - Setting default whitelist 'file,crypto,data'
+Nov 28, 2023 01:26:43.772 [547888349240] DEBUG - [FFMPEG] - Format matroska,webm probed with size=2048 and score=100
+Nov 28, 2023 01:26:43.772 [547888349240] DEBUG - [FFMPEG] - Unknown entry 0x22B59D at pos. 2811
+Nov 28, 2023 01:26:43.772 [547888349240] DEBUG - [FFMPEG] - Unknown entry 0x22B59D at pos. 2938
+Nov 28, 2023 01:26:43.772 [547888349240] DEBUG - [FFMPEG] - Unknown entry 0x22B59D at pos. 3037
+Nov 28, 2023 01:26:43.772 [547888349240] DEBUG - [FFMPEG] - Unknown entry 0x22B59D at pos. 6140
+Nov 28, 2023 01:26:43.772 [547888349240] DEBUG - [FFMPEG] - Unknown entry 0x22B59D at pos. 9249
+Nov 28, 2023 01:26:43.784 [547888349240] DEBUG - [FFMPEG] - Unknown entry 0x437D at pos. 571536
+Nov 28, 2023 01:26:43.784 [547888349240] DEBUG - [FFMPEG] - Unknown entry 0x437D at pos. 571575
+Nov 28, 2023 01:26:43.784 [547888349240] DEBUG - [FFMPEG] - Unknown entry 0x437D at pos. 571618
+Nov 28, 2023 01:26:43.784 [547888349240] DEBUG - [FFMPEG] - Unknown entry 0x437D at pos. 571661
+Nov 28, 2023 01:26:43.784 [547888349240] DEBUG - [FFMPEG] - Unknown entry 0x437D at pos. 571701
+Nov 28, 2023 01:26:43.784 [547888349240] DEBUG - [FFMPEG] - st:0 removing common factor 1000000 from timebase
+Nov 28, 2023 01:26:43.784 [547888349240] DEBUG - [FFMPEG] - st:1 removing common factor 1000000 from timebase
+Nov 28, 2023 01:26:43.784 [547888349240] DEBUG - [FFMPEG] - st:2 removing common factor 1000000 from timebase
+Nov 28, 2023 01:26:43.784 [547888349240] DEBUG - [FFMPEG] - st:3 removing common factor 1000000 from timebase
+Nov 28, 2023 01:26:43.784 [547888349240] DEBUG - [FFMPEG] - st:4 removing common factor 1000000 from timebase
+Nov 28, 2023 01:26:43.787 [547888349240] DEBUG - [FFMPEG] - Before avformat_find_stream_info() pos: 571813 bytes read:538550 seeks:3 nb_streams:10
+Nov 28, 2023 01:26:43.788 [547888349240] DEBUG - [FFMPEG] - nal_unit_type: 32(VPS), nuh_layer_id: 0, temporal_id: 0
+Nov 28, 2023 01:26:43.788 [547888349240] DEBUG - [FFMPEG] - Decoding VPS
+Nov 28, 2023 01:26:43.788 [547888349240] DEBUG - [FFMPEG] - Main 10 profile bitstream
+Nov 28, 2023 01:26:43.788 [547888349240] DEBUG - [FFMPEG] - nal_unit_type: 33(SPS), nuh_layer_id: 0, temporal_id: 0
+Nov 28, 2023 01:26:43.788 [547888349240] DEBUG - [FFMPEG] - Decoding SPS
+Nov 28, 2023 01:26:43.788 [547888349240] DEBUG - [FFMPEG] - Main 10 profile bitstream
+Nov 28, 2023 01:26:43.788 [547888349240] DEBUG - [FFMPEG] - Decoding VUI
+Nov 28, 2023 01:26:43.788 [547888349240] DEBUG - [FFMPEG] - nal_unit_type: 34(PPS), nuh_layer_id: 0, temporal_id: 0
+Nov 28, 2023 01:26:43.788 [547888349240] DEBUG - [FFMPEG] - Decoding PPS
+Nov 28, 2023 01:26:43.788 [547888349240] DEBUG - [FFMPEG] - nal_unit_type: 39(SEI_PREFIX), nuh_layer_id: 0, temporal_id: 0
+Nov 28, 2023 01:26:43.788 [547888349240] DEBUG - [FFMPEG] - Decoding SEI
+Nov 28, 2023 01:26:43.791 [547888349240] DEBUG - [FFMPEG] - skip 312/960 samples
+Nov 28, 2023 01:26:43.792 [547888349240] DEBUG - [FFMPEG] - All info found
+Nov 28, 2023 01:26:43.794 [547888349240] DEBUG - [FFMPEG] - After avformat_find_stream_info() pos: 697030 bytes read:674467 seeks:3 frames:27
+Nov 28, 2023 01:26:43.794 [547888349240] DEBUG - [MI]  * 1902fb7975d702750514c326ed6a6e27999ab3df [mkv hevc/aac] Duration: 1421101ms, 1920x1080 (1.777778) 23.976fps, bitrate=2335kbps, audio channels=2, optimizedForStreaming=0 ("/media/tv/The Eminence in Shadow/Season 1/The Eminence In Shadow - S01E12 - The Truth Within The Memories.mkv")
+Nov 28, 2023 01:26:43.794 [547888349240] DEBUG - [MI] Importing 5 media chapters.
+Nov 28, 2023 01:26:43.795 [547888349240] DEBUG - [MI] Closing input file: "/media/tv/The Eminence in Shadow/Season 1/The Eminence In Shadow - S01E12 - The Truth Within The Memories.mkv"
+Nov 28, 2023 01:26:43.797 [547888349240] DEBUG - Committing media stream changes for part 23
+Nov 28, 2023 01:26:43.800 [547888349240] DEBUG - Updating media item 23, size=414821286, metadata_item_id=23
+Nov 28, 2023 01:26:43.800 [547888349240] DEBUG - Updating part with ID=23 [/media/tv/The Eminence in Shadow/Season 1/The Eminence In Shadow - S01E12 - The Truth Within The Memories.mkv]
+Nov 28, 2023 01:26:43.800 [547810492472] DEBUG - [HCl#5b] HTTP requesting GET http://127.0.0.1:32400/:/metadata/notify/changeItemState?librarySectionID=2&metadataItemID=23&metadataType=4&state=-1&parentID=-1&rootID=-1&mediaState=analyzing
+Nov 28, 2023 01:26:43.802 [547811348536] DEBUG - [HttpClient/HCl#5b] HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/:/metadata/notify/changeItemState?librarySectionID=2&metadataItemID=23&metadataType=4&state=-1&parentID=-1&rootID=-1&mediaState=analyzing (reused)
+Nov 28, 2023 01:26:43.802 [547810492472] DEBUG - [HCl#5c] HTTP requesting GET http://127.0.0.1:32400/:/metadata/notify/changeItemState?librarySectionID=2&metadataItemID=23&metadataType=4&state=-1&parentID=-1&rootID=-1&mediaState=idle
+Nov 28, 2023 01:26:43.803 [547811348536] DEBUG - [HttpClient/HCl#5c] HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/:/metadata/notify/changeItemState?librarySectionID=2&metadataItemID=23&metadataType=4&state=-1&parentID=-1&rootID=-1&mediaState=idle (reused)
+Nov 28, 2023 01:26:43.810 [547888349240] DEBUG - Downloading document http://127.0.0.1:32400/library/changestamp
+Nov 28, 2023 01:26:43.810 [547888349240] DEBUG - [HCl#5d] HTTP requesting GET http://127.0.0.1:32400/library/changestamp
+Nov 28, 2023 01:26:43.812 [547811348536] DEBUG - [HttpClient/HCl#5d] HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/library/changestamp (reused)
+Nov 28, 2023 01:26:43.812 [547888349240] DEBUG - Updating metadata item (save) (The Truth Within the Memories) with ID 23
+Nov 28, 2023 01:26:43.815 [547810492472] DEBUG - [HCl#5e] HTTP requesting GET http://127.0.0.1:32400/:/metadata/flushMetadataCounterCache?metadataItemID=10
+Nov 28, 2023 01:26:43.816 [547811348536] DEBUG - [HttpClient/HCl#5e] HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/:/metadata/flushMetadataCounterCache?metadataItemID=10 (reused)
+Nov 28, 2023 01:26:43.816 [547888349240] DEBUG - Doing expensive tags write for 'The Truth Within the Memories' because something changed.
+Nov 28, 2023 01:26:43.819 [547888349240] DEBUG - Downloading document http://127.0.0.1:32400/library/changestamp
+Nov 28, 2023 01:26:43.819 [547888349240] DEBUG - [HCl#5f] HTTP requesting GET http://127.0.0.1:32400/library/changestamp
+Nov 28, 2023 01:26:43.821 [547811348536] DEBUG - [HttpClient/HCl#5f] HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/library/changestamp (reused)
+Nov 28, 2023 01:26:43.822 [547888349240] DEBUG - Updating metadata item (save) (The Truth Within the Memories) with ID 23
+Nov 28, 2023 01:26:43.825 [547810492472] DEBUG - [HCl#60] HTTP requesting GET http://127.0.0.1:32400/:/metadata/flushMetadataCounterCache?metadataItemID=10
+Nov 28, 2023 01:26:43.827 [547811348536] DEBUG - [HttpClient/HCl#60] HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/:/metadata/flushMetadataCounterCache?metadataItemID=10 (reused)
+Nov 28, 2023 01:26:43.831 [547888349240] DEBUG - Analyzing media parts for item 24 (A Bloody Showdown as an Offering to Annihilation): 24
+Nov 28, 2023 01:26:43.832 [547888349240] DEBUG - Downloading document http://127.0.0.1:32400/library/changestamp
+Nov 28, 2023 01:26:43.832 [547888349240] DEBUG - [HCl#61] HTTP requesting GET http://127.0.0.1:32400/library/changestamp
+Nov 28, 2023 01:26:43.834 [547811348536] DEBUG - [HttpClient/HCl#61] HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/library/changestamp (reused)
+Nov 28, 2023 01:26:43.834 [547888349240] DEBUG - Updating metadata item (save) (A Bloody Showdown as an Offering to Annihilation) with ID 24
+Nov 28, 2023 01:26:43.836 [547810492472] DEBUG - [HCl#62] HTTP requesting GET http://127.0.0.1:32400/:/metadata/flushMetadataCounterCache?metadataItemID=10
+Nov 28, 2023 01:26:43.838 [547811348536] DEBUG - [HttpClient/HCl#62] HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/:/metadata/flushMetadataCounterCache?metadataItemID=10 (reused)
+Nov 28, 2023 01:26:43.838 [547888349240] DEBUG - [ID 24] Media part analysis: /media/tv/The Eminence in Shadow/Season 1/The Eminence In Shadow - S01E13 - A Bloody Showdown As An Offering To Annihilation.mkv
+Nov 28, 2023 01:26:43.839 [547888349240] DEBUG - [MI] Opening input file: "/media/tv/The Eminence in Shadow/Season 1/The Eminence In Shadow - S01E13 - A Bloody Showdown As An Offering To Annihilation.mkv"
+Nov 28, 2023 01:26:43.839 [547888349240] DEBUG - [FFMPEG] - Opening '/media/tv/The Eminence in Shadow/Season 1/The Eminence In Shadow - S01E13 - A Bloody Showdown As An Offering To Annihilation.mkv' for reading
+Nov 28, 2023 01:26:43.839 [547888349240] DEBUG - [FFMPEG] - Setting default whitelist 'file,crypto,data'
+Nov 28, 2023 01:26:43.839 [547888349240] DEBUG - [FFMPEG] - Format matroska,webm probed with size=2048 and score=100
+Nov 28, 2023 01:26:43.840 [547888349240] DEBUG - [FFMPEG] - Unknown entry 0x22B59D at pos. 2811
+Nov 28, 2023 01:26:43.840 [547888349240] DEBUG - [FFMPEG] - Unknown entry 0x22B59D at pos. 2938
+Nov 28, 2023 01:26:43.840 [547888349240] DEBUG - [FFMPEG] - Unknown entry 0x22B59D at pos. 3037
+Nov 28, 2023 01:26:43.840 [547888349240] DEBUG - [FFMPEG] - Unknown entry 0x22B59D at pos. 6235
+Nov 28, 2023 01:26:43.840 [547888349240] DEBUG - [FFMPEG] - Unknown entry 0x22B59D at pos. 9439
+Nov 28, 2023 01:26:43.852 [547888349240] DEBUG - [FFMPEG] - Unknown entry 0x437D at pos. 571726
+Nov 28, 2023 01:26:43.852 [547888349240] DEBUG - [FFMPEG] - Unknown entry 0x437D at pos. 571765
+Nov 28, 2023 01:26:43.852 [547888349240] DEBUG - [FFMPEG] - Unknown entry 0x437D at pos. 571808
+Nov 28, 2023 01:26:43.852 [547888349240] DEBUG - [FFMPEG] - Unknown entry 0x437D at pos. 571851
+Nov 28, 2023 01:26:43.852 [547888349240] DEBUG - [FFMPEG] - Unknown entry 0x437D at pos. 571891
+Nov 28, 2023 01:26:43.852 [547888349240] DEBUG - [FFMPEG] - st:0 removing common factor 1000000 from timebase
+Nov 28, 2023 01:26:43.852 [547888349240] DEBUG - [FFMPEG] - st:1 removing common factor 1000000 from timebase
+Nov 28, 2023 01:26:43.852 [547888349240] DEBUG - [FFMPEG] - st:2 removing common factor 1000000 from timebase
+Nov 28, 2023 01:26:43.852 [547888349240] DEBUG - [FFMPEG] - st:3 removing common factor 1000000 from timebase
+Nov 28, 2023 01:26:43.852 [547888349240] DEBUG - [FFMPEG] - st:4 removing common factor 1000000 from timebase
+Nov 28, 2023 01:26:43.854 [547888349240] DEBUG - [FFMPEG] - Before avformat_find_stream_info() pos: 572003 bytes read:538740 seeks:3 nb_streams:10
+Nov 28, 2023 01:26:43.856 [547888349240] DEBUG - [FFMPEG] - nal_unit_type: 32(VPS), nuh_layer_id: 0, temporal_id: 0
+Nov 28, 2023 01:26:43.856 [547888349240] DEBUG - [FFMPEG] - Decoding VPS
+Nov 28, 2023 01:26:43.856 [547888349240] DEBUG - [FFMPEG] - Main 10 profile bitstream
+Nov 28, 2023 01:26:43.856 [547888349240] DEBUG - [FFMPEG] - nal_unit_type: 33(SPS), nuh_layer_id: 0, temporal_id: 0
+Nov 28, 2023 01:26:43.856 [547888349240] DEBUG - [FFMPEG] - Decoding SPS
+Nov 28, 2023 01:26:43.856 [547888349240] DEBUG - [FFMPEG] - Main 10 profile bitstream
+Nov 28, 2023 01:26:43.856 [547888349240] DEBUG - [FFMPEG] - Decoding VUI
+Nov 28, 2023 01:26:43.856 [547888349240] DEBUG - [FFMPEG] - nal_unit_type: 34(PPS), nuh_layer_id: 0, temporal_id: 0
+Nov 28, 2023 01:26:43.856 [547888349240] DEBUG - [FFMPEG] - Decoding PPS
+Nov 28, 2023 01:26:43.856 [547888349240] DEBUG - [FFMPEG] - nal_unit_type: 39(SEI_PREFIX), nuh_layer_id: 0, temporal_id: 0
+Nov 28, 2023 01:26:43.856 [547888349240] DEBUG - [FFMPEG] - Decoding SEI
+Nov 28, 2023 01:26:43.858 [547888349240] DEBUG - [FFMPEG] - skip 312/960 samples
+Nov 28, 2023 01:26:43.862 [547888349240] DEBUG - [FFMPEG] - All info found
+Nov 28, 2023 01:26:43.865 [547888349240] DEBUG - [FFMPEG] - After avformat_find_stream_info() pos: 788288 bytes read:784945 seeks:3 frames:27
+Nov 28, 2023 01:26:43.865 [547888349240] DEBUG - [MI]  * bc7634ef4de2f35f86b4728dffd6904cab27d46e [mkv hevc/aac] Duration: 1421101ms, 1920x1080 (1.777778) 23.976fps, bitrate=2494kbps, audio channels=2, optimizedForStreaming=0 ("/media/tv/The Eminence in Shadow/Season 1/The Eminence In Shadow - S01E13 - A Bloody Showdown As An Offering To Annihilation.mkv")
+Nov 28, 2023 01:26:43.865 [547888349240] DEBUG - [MI] Importing 5 media chapters.
+Nov 28, 2023 01:26:43.866 [547888349240] DEBUG - [MI] Closing input file: "/media/tv/The Eminence in Shadow/Season 1/The Eminence In Shadow - S01E13 - A Bloody Showdown As An Offering To Annihilation.mkv"
+Nov 28, 2023 01:26:43.868 [547888349240] DEBUG - Committing media stream changes for part 24
+Nov 28, 2023 01:26:43.870 [547888349240] DEBUG - Updating media item 24, size=443094866, metadata_item_id=24
+Nov 28, 2023 01:26:43.871 [547888349240] DEBUG - Updating part with ID=24 [/media/tv/The Eminence in Shadow/Season 1/The Eminence In Shadow - S01E13 - A Bloody Showdown As An Offering To Annihilation.mkv]
+Nov 28, 2023 01:26:43.871 [547810492472] DEBUG - [HCl#63] HTTP requesting GET http://127.0.0.1:32400/:/metadata/notify/changeItemState?librarySectionID=2&metadataItemID=24&metadataType=4&state=-1&parentID=-1&rootID=-1&mediaState=analyzing
+Nov 28, 2023 01:26:43.873 [547811348536] DEBUG - [HttpClient/HCl#63] HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/:/metadata/notify/changeItemState?librarySectionID=2&metadataItemID=24&metadataType=4&state=-1&parentID=-1&rootID=-1&mediaState=analyzing (reused)
+Nov 28, 2023 01:26:43.873 [547810492472] DEBUG - [HCl#64] HTTP requesting GET http://127.0.0.1:32400/:/metadata/notify/changeItemState?librarySectionID=2&metadataItemID=24&metadataType=4&state=-1&parentID=-1&rootID=-1&mediaState=idle
+Nov 28, 2023 01:26:43.874 [547811348536] DEBUG - [HttpClient/HCl#64] HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/:/metadata/notify/changeItemState?librarySectionID=2&metadataItemID=24&metadataType=4&state=-1&parentID=-1&rootID=-1&mediaState=idle (reused)
+Nov 28, 2023 01:26:43.881 [547888349240] DEBUG - Downloading document http://127.0.0.1:32400/library/changestamp
+Nov 28, 2023 01:26:43.881 [547888349240] DEBUG - [HCl#65] HTTP requesting GET http://127.0.0.1:32400/library/changestamp
+Nov 28, 2023 01:26:43.884 [547811348536] DEBUG - [HttpClient/HCl#65] HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/library/changestamp (reused)
+Nov 28, 2023 01:26:43.884 [547888349240] DEBUG - Updating metadata item (save) (A Bloody Showdown as an Offering to Annihilation) with ID 24
+Nov 28, 2023 01:26:43.887 [547810492472] DEBUG - [HCl#66] HTTP requesting GET http://127.0.0.1:32400/:/metadata/flushMetadataCounterCache?metadataItemID=10
+Nov 28, 2023 01:26:43.888 [547811348536] DEBUG - [HttpClient/HCl#66] HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/:/metadata/flushMetadataCounterCache?metadataItemID=10 (reused)
+Nov 28, 2023 01:26:43.889 [547888349240] DEBUG - Doing expensive tags write for 'A Bloody Showdown as an Offering to Annihilation' because something changed.
+Nov 28, 2023 01:26:43.891 [547888349240] DEBUG - Downloading document http://127.0.0.1:32400/library/changestamp
+Nov 28, 2023 01:26:43.891 [547888349240] DEBUG - [HCl#67] HTTP requesting GET http://127.0.0.1:32400/library/changestamp
+Nov 28, 2023 01:26:43.894 [547811348536] DEBUG - [HttpClient/HCl#67] HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/library/changestamp (reused)
+Nov 28, 2023 01:26:43.895 [547888349240] DEBUG - Updating metadata item (save) (A Bloody Showdown as an Offering to Annihilation) with ID 24
+Nov 28, 2023 01:26:43.898 [547810492472] DEBUG - [HCl#68] HTTP requesting GET http://127.0.0.1:32400/:/metadata/flushMetadataCounterCache?metadataItemID=10
+Nov 28, 2023 01:26:43.899 [547811348536] DEBUG - [HttpClient/HCl#68] HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/:/metadata/flushMetadataCounterCache?metadataItemID=10 (reused)
+Nov 28, 2023 01:26:43.903 [547888349240] DEBUG - Analyzing media parts for item 25 (Your Lie, Your Wish): 25
+Nov 28, 2023 01:26:43.904 [547888349240] DEBUG - Downloading document http://127.0.0.1:32400/library/changestamp
+Nov 28, 2023 01:26:43.904 [547888349240] DEBUG - [HCl#69] HTTP requesting GET http://127.0.0.1:32400/library/changestamp
+Nov 28, 2023 01:26:43.906 [547811348536] DEBUG - [HttpClient/HCl#69] HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/library/changestamp (reused)
+Nov 28, 2023 01:26:43.906 [547888349240] DEBUG - Updating metadata item (save) (Your Lie, Your Wish) with ID 25
+Nov 28, 2023 01:26:43.909 [547810492472] DEBUG - [HCl#6a] HTTP requesting GET http://127.0.0.1:32400/:/metadata/flushMetadataCounterCache?metadataItemID=10
+Nov 28, 2023 01:26:43.911 [547811348536] DEBUG - [HttpClient/HCl#6a] HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/:/metadata/flushMetadataCounterCache?metadataItemID=10 (reused)
+Nov 28, 2023 01:26:43.911 [547888349240] DEBUG - [ID 25] Media part analysis: /media/tv/The Eminence in Shadow/Season 1/The Eminence In Shadow - S01E14 - Your Lie, Your Wish.mkv
+Nov 28, 2023 01:26:43.911 [547888349240] DEBUG - [MI] Opening input file: "/media/tv/The Eminence in Shadow/Season 1/The Eminence In Shadow - S01E14 - Your Lie, Your Wish.mkv"
+Nov 28, 2023 01:26:43.912 [547888349240] DEBUG - [FFMPEG] - Opening '/media/tv/The Eminence in Shadow/Season 1/The Eminence In Shadow - S01E14 - Your Lie, Your Wish.mkv' for reading
+Nov 28, 2023 01:26:43.912 [547888349240] DEBUG - [FFMPEG] - Setting default whitelist 'file,crypto,data'
+Nov 28, 2023 01:26:43.912 [547888349240] DEBUG - [FFMPEG] - Format matroska,webm probed with size=2048 and score=100
+Nov 28, 2023 01:26:43.913 [547888349240] DEBUG - [FFMPEG] - Unknown entry 0x22B59D at pos. 2811
+Nov 28, 2023 01:26:43.913 [547888349240] DEBUG - [FFMPEG] - Unknown entry 0x22B59D at pos. 2938
+Nov 28, 2023 01:26:43.913 [547888349240] DEBUG - [FFMPEG] - Unknown entry 0x22B59D at pos. 3037
+Nov 28, 2023 01:26:43.913 [547888349240] DEBUG - [FFMPEG] - Unknown entry 0x22B59D at pos. 6110
+Nov 28, 2023 01:26:43.913 [547888349240] DEBUG - [FFMPEG] - Unknown entry 0x22B59D at pos. 9179
+Nov 28, 2023 01:26:43.927 [547888349240] DEBUG - [FFMPEG] - Unknown entry 0x437D at pos. 662922
+Nov 28, 2023 01:26:43.927 [547888349240] DEBUG - [FFMPEG] - Unknown entry 0x437D at pos. 662961
+Nov 28, 2023 01:26:43.927 [547888349240] DEBUG - [FFMPEG] - Unknown entry 0x437D at pos. 663004
+Nov 28, 2023 01:26:43.927 [547888349240] DEBUG - [FFMPEG] - Unknown entry 0x437D at pos. 663047
+Nov 28, 2023 01:26:43.927 [547888349240] DEBUG - [FFMPEG] - Unknown entry 0x437D at pos. 663087
+Nov 28, 2023 01:26:43.927 [547888349240] DEBUG - [FFMPEG] - st:0 removing common factor 1000000 from timebase
+Nov 28, 2023 01:26:43.927 [547888349240] DEBUG - [FFMPEG] - st:1 removing common factor 1000000 from timebase
+Nov 28, 2023 01:26:43.927 [547888349240] DEBUG - [FFMPEG] - st:2 removing common factor 1000000 from timebase
+Nov 28, 2023 01:26:43.927 [547888349240] DEBUG - [FFMPEG] - st:3 removing common factor 1000000 from timebase
+Nov 28, 2023 01:26:43.927 [547888349240] DEBUG - [FFMPEG] - st:4 removing common factor 1000000 from timebase
+Nov 28, 2023 01:26:43.930 [547888349240] DEBUG - [FFMPEG] - Before avformat_find_stream_info() pos: 663199 bytes read:629936 seeks:3 nb_streams:10
+Nov 28, 2023 01:26:43.931 [547888349240] DEBUG - [FFMPEG] - nal_unit_type: 32(VPS), nuh_layer_id: 0, temporal_id: 0
+Nov 28, 2023 01:26:43.931 [547888349240] DEBUG - [FFMPEG] - Decoding VPS
+Nov 28, 2023 01:26:43.931 [547888349240] DEBUG - [FFMPEG] - Main 10 profile bitstream
+Nov 28, 2023 01:26:43.931 [547888349240] DEBUG - [FFMPEG] - nal_unit_type: 33(SPS), nuh_layer_id: 0, temporal_id: 0
+Nov 28, 2023 01:26:43.931 [547888349240] DEBUG - [FFMPEG] - Decoding SPS
+Nov 28, 2023 01:26:43.931 [547888349240] DEBUG - [FFMPEG] - Main 10 profile bitstream
+Nov 28, 2023 01:26:43.931 [547888349240] DEBUG - [FFMPEG] - Decoding VUI
+Nov 28, 2023 01:26:43.931 [547888349240] DEBUG - [FFMPEG] - nal_unit_type: 34(PPS), nuh_layer_id: 0, temporal_id: 0
+Nov 28, 2023 01:26:43.931 [547888349240] DEBUG - [FFMPEG] - Decoding PPS
+Nov 28, 2023 01:26:43.932 [547888349240] DEBUG - [FFMPEG] - nal_unit_type: 39(SEI_PREFIX), nuh_layer_id: 0, temporal_id: 0
+Nov 28, 2023 01:26:43.932 [547888349240] DEBUG - [FFMPEG] - Decoding SEI
+Nov 28, 2023 01:26:43.935 [547888349240] DEBUG - [FFMPEG] - skip 312/960 samples
+Nov 28, 2023 01:26:43.942 [547888349240] DEBUG - [FFMPEG] - All info found
+Nov 28, 2023 01:26:43.945 [547888349240] DEBUG - [FFMPEG] - After avformat_find_stream_info() pos: 860874 bytes read:847983 seeks:3 frames:51
+Nov 28, 2023 01:26:43.946 [547888349240] DEBUG - [MI]  * e10979b5cfedd1b7c2efbb23754241d9e35e98aa [mkv hevc/aac] Duration: 1421101ms, 1920x1080 (1.777778) 23.976fps, bitrate=2837kbps, audio channels=2, optimizedForStreaming=0 ("/media/tv/The Eminence in Shadow/Season 1/The Eminence In Shadow - S01E14 - Your Lie, Your Wish.mkv")
+Nov 28, 2023 01:26:43.946 [547888349240] DEBUG - [MI] Importing 5 media chapters.
+Nov 28, 2023 01:26:43.947 [547888349240] DEBUG - [MI] Closing input file: "/media/tv/The Eminence in Shadow/Season 1/The Eminence In Shadow - S01E14 - Your Lie, Your Wish.mkv"
+Nov 28, 2023 01:26:43.949 [547888349240] DEBUG - Committing media stream changes for part 25
+Nov 28, 2023 01:26:43.952 [547888349240] DEBUG - Updating media item 25, size=503982429, metadata_item_id=25
+Nov 28, 2023 01:26:43.952 [547888349240] DEBUG - Updating part with ID=25 [/media/tv/The Eminence in Shadow/Season 1/The Eminence In Shadow - S01E14 - Your Lie, Your Wish.mkv]
+Nov 28, 2023 01:26:43.953 [547810492472] DEBUG - [HCl#6b] HTTP requesting GET http://127.0.0.1:32400/:/metadata/notify/changeItemState?librarySectionID=2&metadataItemID=25&metadataType=4&state=-1&parentID=-1&rootID=-1&mediaState=analyzing
+Nov 28, 2023 01:26:43.954 [547811348536] DEBUG - [HttpClient/HCl#6b] HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/:/metadata/notify/changeItemState?librarySectionID=2&metadataItemID=25&metadataType=4&state=-1&parentID=-1&rootID=-1&mediaState=analyzing (reused)
+Nov 28, 2023 01:26:43.954 [547810492472] DEBUG - [HCl#6c] HTTP requesting GET http://127.0.0.1:32400/:/metadata/notify/changeItemState?librarySectionID=2&metadataItemID=25&metadataType=4&state=-1&parentID=-1&rootID=-1&mediaState=idle
+Nov 28, 2023 01:26:43.955 [547811348536] DEBUG - [HttpClient/HCl#6c] HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/:/metadata/notify/changeItemState?librarySectionID=2&metadataItemID=25&metadataType=4&state=-1&parentID=-1&rootID=-1&mediaState=idle (reused)
+Nov 28, 2023 01:26:43.962 [547888349240] DEBUG - Downloading document http://127.0.0.1:32400/library/changestamp
+Nov 28, 2023 01:26:43.962 [547888349240] DEBUG - [HCl#6d] HTTP requesting GET http://127.0.0.1:32400/library/changestamp
+Nov 28, 2023 01:26:43.964 [547811348536] DEBUG - [HttpClient/HCl#6d] HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/library/changestamp (reused)
+Nov 28, 2023 01:26:43.964 [547888349240] DEBUG - Updating metadata item (save) (Your Lie, Your Wish) with ID 25
+Nov 28, 2023 01:26:43.966 [547810492472] DEBUG - [HCl#6e] HTTP requesting GET http://127.0.0.1:32400/:/metadata/flushMetadataCounterCache?metadataItemID=10
+Nov 28, 2023 01:26:43.968 [547811348536] DEBUG - [HttpClient/HCl#6e] HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/:/metadata/flushMetadataCounterCache?metadataItemID=10 (reused)
+Nov 28, 2023 01:26:43.968 [547888349240] DEBUG - Doing expensive tags write for 'Your Lie, Your Wish' because something changed.
+Nov 28, 2023 01:26:43.971 [547888349240] DEBUG - Downloading document http://127.0.0.1:32400/library/changestamp
+Nov 28, 2023 01:26:43.971 [547888349240] DEBUG - [HCl#6f] HTTP requesting GET http://127.0.0.1:32400/library/changestamp
+Nov 28, 2023 01:26:43.973 [547811348536] DEBUG - [HttpClient/HCl#6f] HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/library/changestamp (reused)
+Nov 28, 2023 01:26:43.973 [547888349240] DEBUG - Updating metadata item (save) (Your Lie, Your Wish) with ID 25
+Nov 28, 2023 01:26:43.977 [547810492472] DEBUG - [HCl#70] HTTP requesting GET http://127.0.0.1:32400/:/metadata/flushMetadataCounterCache?metadataItemID=10
+Nov 28, 2023 01:26:43.979 [547811348536] DEBUG - [HttpClient/HCl#70] HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/:/metadata/flushMetadataCounterCache?metadataItemID=10 (reused)
+Nov 28, 2023 01:26:43.983 [547888349240] DEBUG - Analyzing media parts for item 26 (The Strongest Weakest Man): 26
+Nov 28, 2023 01:26:43.984 [547888349240] DEBUG - Downloading document http://127.0.0.1:32400/library/changestamp
+Nov 28, 2023 01:26:43.984 [547888349240] DEBUG - [HCl#71] HTTP requesting GET http://127.0.0.1:32400/library/changestamp
+Nov 28, 2023 01:26:43.986 [547811348536] DEBUG - [HttpClient/HCl#71] HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/library/changestamp (reused)
+Nov 28, 2023 01:26:43.986 [547888349240] DEBUG - Updating metadata item (save) (The Strongest Weakest Man) with ID 26
+Nov 28, 2023 01:26:43.989 [547810492472] DEBUG - [HCl#72] HTTP requesting GET http://127.0.0.1:32400/:/metadata/flushMetadataCounterCache?metadataItemID=10
+Nov 28, 2023 01:26:43.990 [547811348536] DEBUG - [HttpClient/HCl#72] HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/:/metadata/flushMetadataCounterCache?metadataItemID=10 (reused)
+Nov 28, 2023 01:26:43.990 [547888349240] DEBUG - [ID 26] Media part analysis: /media/tv/The Eminence in Shadow/Season 1/The Eminence In Shadow - S01E15 - The Strongest Weakest Man.mkv
+Nov 28, 2023 01:26:43.991 [547888349240] DEBUG - [MI] Opening input file: "/media/tv/The Eminence in Shadow/Season 1/The Eminence In Shadow - S01E15 - The Strongest Weakest Man.mkv"
+Nov 28, 2023 01:26:43.991 [547888349240] DEBUG - [FFMPEG] - Opening '/media/tv/The Eminence in Shadow/Season 1/The Eminence In Shadow - S01E15 - The Strongest Weakest Man.mkv' for reading
+Nov 28, 2023 01:26:43.991 [547888349240] DEBUG - [FFMPEG] - Setting default whitelist 'file,crypto,data'
+Nov 28, 2023 01:26:43.992 [547888349240] DEBUG - [FFMPEG] - Format matroska,webm probed with size=2048 and score=100
+Nov 28, 2023 01:26:43.992 [547888349240] DEBUG - [FFMPEG] - Unknown entry 0x22B59D at pos. 2811
+Nov 28, 2023 01:26:43.992 [547888349240] DEBUG - [FFMPEG] - Unknown entry 0x22B59D at pos. 2938
+Nov 28, 2023 01:26:43.992 [547888349240] DEBUG - [FFMPEG] - Unknown entry 0x22B59D at pos. 3037
+Nov 28, 2023 01:26:43.992 [547888349240] DEBUG - [FFMPEG] - Unknown entry 0x22B59D at pos. 5894
+Nov 28, 2023 01:26:43.992 [547888349240] DEBUG - [FFMPEG] - Unknown entry 0x22B59D at pos. 8757
+Nov 28, 2023 01:26:44.004 [547888349240] DEBUG - [FFMPEG] - Unknown entry 0x437D at pos. 571044
+Nov 28, 2023 01:26:44.004 [547888349240] DEBUG - [FFMPEG] - Unknown entry 0x437D at pos. 571083
+Nov 28, 2023 01:26:44.004 [547888349240] DEBUG - [FFMPEG] - Unknown entry 0x437D at pos. 571126
+Nov 28, 2023 01:26:44.004 [547888349240] DEBUG - [FFMPEG] - Unknown entry 0x437D at pos. 571169
+Nov 28, 2023 01:26:44.004 [547888349240] DEBUG - [FFMPEG] - Unknown entry 0x437D at pos. 571209
+Nov 28, 2023 01:26:44.004 [547888349240] DEBUG - [FFMPEG] - st:0 removing common factor 1000000 from timebase
+Nov 28, 2023 01:26:44.004 [547888349240] DEBUG - [FFMPEG] - st:1 removing common factor 1000000 from timebase
+Nov 28, 2023 01:26:44.004 [547888349240] DEBUG - [FFMPEG] - st:2 removing common factor 1000000 from timebase
+Nov 28, 2023 01:26:44.004 [547888349240] DEBUG - [FFMPEG] - st:3 removing common factor 1000000 from timebase
+Nov 28, 2023 01:26:44.004 [547888349240] DEBUG - [FFMPEG] - st:4 removing common factor 1000000 from timebase
+Nov 28, 2023 01:26:44.007 [547888349240] DEBUG - [FFMPEG] - Before avformat_find_stream_info() pos: 571321 bytes read:538058 seeks:3 nb_streams:10
+Nov 28, 2023 01:26:44.009 [547888349240] DEBUG - [FFMPEG] - nal_unit_type: 32(VPS), nuh_layer_id: 0, temporal_id: 0
+Nov 28, 2023 01:26:44.009 [547888349240] DEBUG - [FFMPEG] - Decoding VPS
+Nov 28, 2023 01:26:44.009 [547888349240] DEBUG - [FFMPEG] - Main 10 profile bitstream
+Nov 28, 2023 01:26:44.009 [547888349240] DEBUG - [FFMPEG] - nal_unit_type: 33(SPS), nuh_layer_id: 0, temporal_id: 0
+Nov 28, 2023 01:26:44.009 [547888349240] DEBUG - [FFMPEG] - Decoding SPS
+Nov 28, 2023 01:26:44.009 [547888349240] DEBUG - [FFMPEG] - Main 10 profile bitstream
+Nov 28, 2023 01:26:44.009 [547888349240] DEBUG - [FFMPEG] - Decoding VUI
+Nov 28, 2023 01:26:44.009 [547888349240] DEBUG - [FFMPEG] - nal_unit_type: 34(PPS), nuh_layer_id: 0, temporal_id: 0
+Nov 28, 2023 01:26:44.009 [547888349240] DEBUG - [FFMPEG] - Decoding PPS
+Nov 28, 2023 01:26:44.009 [547888349240] DEBUG - [FFMPEG] - nal_unit_type: 39(SEI_PREFIX), nuh_layer_id: 0, temporal_id: 0
+Nov 28, 2023 01:26:44.009 [547888349240] DEBUG - [FFMPEG] - Decoding SEI
+Nov 28, 2023 01:26:44.012 [547888349240] DEBUG - [FFMPEG] - skip 312/960 samples
+Nov 28, 2023 01:26:44.018 [547888349240] DEBUG - [FFMPEG] - All info found
+Nov 28, 2023 01:26:44.020 [547888349240] DEBUG - [FFMPEG] - After avformat_find_stream_info() pos: 854611 bytes read:828755 seeks:3 frames:27
+Nov 28, 2023 01:26:44.020 [547888349240] DEBUG - [MI]  * c1ae8744ac98ec4756131e9d8a5ba8efd9b7a89b [mkv hevc/aac] Duration: 1421101ms, 1920x1080 (1.777778) 23.976fps, bitrate=2215kbps, audio channels=2, optimizedForStreaming=0 ("/media/tv/The Eminence in Shadow/Season 1/The Eminence In Shadow - S01E15 - The Strongest Weakest Man.mkv")
+Nov 28, 2023 01:26:44.020 [547888349240] DEBUG - [MI] Importing 5 media chapters.
+Nov 28, 2023 01:26:44.021 [547888349240] DEBUG - [MI] Closing input file: "/media/tv/The Eminence in Shadow/Season 1/The Eminence In Shadow - S01E15 - The Strongest Weakest Man.mkv"
+Nov 28, 2023 01:26:44.023 [547888349240] DEBUG - Committing media stream changes for part 26
+Nov 28, 2023 01:26:44.025 [547888349240] DEBUG - Updating media item 26, size=393481719, metadata_item_id=26
+Nov 28, 2023 01:26:44.025 [547888349240] DEBUG - Updating part with ID=26 [/media/tv/The Eminence in Shadow/Season 1/The Eminence In Shadow - S01E15 - The Strongest Weakest Man.mkv]
+Nov 28, 2023 01:26:44.026 [547810492472] DEBUG - [HCl#73] HTTP requesting GET http://127.0.0.1:32400/:/metadata/notify/changeItemState?librarySectionID=2&metadataItemID=26&metadataType=4&state=-1&parentID=-1&rootID=-1&mediaState=analyzing
+Nov 28, 2023 01:26:44.027 [547811348536] DEBUG - [HttpClient/HCl#73] HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/:/metadata/notify/changeItemState?librarySectionID=2&metadataItemID=26&metadataType=4&state=-1&parentID=-1&rootID=-1&mediaState=analyzing (reused)
+Nov 28, 2023 01:26:44.027 [547810492472] DEBUG - [HCl#74] HTTP requesting GET http://127.0.0.1:32400/:/metadata/notify/changeItemState?librarySectionID=2&metadataItemID=26&metadataType=4&state=-1&parentID=-1&rootID=-1&mediaState=idle
+Nov 28, 2023 01:26:44.029 [547811348536] DEBUG - [HttpClient/HCl#74] HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/:/metadata/notify/changeItemState?librarySectionID=2&metadataItemID=26&metadataType=4&state=-1&parentID=-1&rootID=-1&mediaState=idle (reused)
+Nov 28, 2023 01:26:44.035 [547888349240] DEBUG - Downloading document http://127.0.0.1:32400/library/changestamp
+Nov 28, 2023 01:26:44.035 [547888349240] DEBUG - [HCl#75] HTTP requesting GET http://127.0.0.1:32400/library/changestamp
+Nov 28, 2023 01:26:44.037 [547811348536] DEBUG - [HttpClient/HCl#75] HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/library/changestamp (reused)
+Nov 28, 2023 01:26:44.037 [547888349240] DEBUG - Updating metadata item (save) (The Strongest Weakest Man) with ID 26
+Nov 28, 2023 01:26:44.040 [547810492472] DEBUG - [HCl#76] HTTP requesting GET http://127.0.0.1:32400/:/metadata/flushMetadataCounterCache?metadataItemID=10
+Nov 28, 2023 01:26:44.042 [547888349240] DEBUG - Doing expensive tags write for 'The Strongest Weakest Man' because something changed.
+Nov 28, 2023 01:26:44.042 [547811348536] DEBUG - [HttpClient/HCl#76] HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/:/metadata/flushMetadataCounterCache?metadataItemID=10 (reused)
+Nov 28, 2023 01:26:44.045 [547888349240] DEBUG - Downloading document http://127.0.0.1:32400/library/changestamp
+Nov 28, 2023 01:26:44.045 [547888349240] DEBUG - [HCl#77] HTTP requesting GET http://127.0.0.1:32400/library/changestamp
+Nov 28, 2023 01:26:44.047 [547811348536] DEBUG - [HttpClient/HCl#77] HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/library/changestamp (reused)
+Nov 28, 2023 01:26:44.047 [547888349240] DEBUG - Updating metadata item (save) (The Strongest Weakest Man) with ID 26
+Nov 28, 2023 01:26:44.050 [547810492472] DEBUG - [HCl#78] HTTP requesting GET http://127.0.0.1:32400/:/metadata/flushMetadataCounterCache?metadataItemID=10
+Nov 28, 2023 01:26:44.051 [547811348536] DEBUG - [HttpClient/HCl#78] HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/:/metadata/flushMetadataCounterCache?metadataItemID=10 (reused)
+Nov 28, 2023 01:26:44.055 [547888349240] DEBUG - Analyzing media parts for item 27 (Unseen Intentions): 27
+Nov 28, 2023 01:26:44.056 [547888349240] DEBUG - Downloading document http://127.0.0.1:32400/library/changestamp
+Nov 28, 2023 01:26:44.056 [547888349240] DEBUG - [HCl#79] HTTP requesting GET http://127.0.0.1:32400/library/changestamp
+Nov 28, 2023 01:26:44.058 [547811348536] DEBUG - [HttpClient/HCl#79] HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/library/changestamp (reused)
+Nov 28, 2023 01:26:44.058 [547888349240] DEBUG - Updating metadata item (save) (Unseen Intentions) with ID 27
+Nov 28, 2023 01:26:44.060 [547810492472] DEBUG - [HCl#7a] HTTP requesting GET http://127.0.0.1:32400/:/metadata/flushMetadataCounterCache?metadataItemID=10
+Nov 28, 2023 01:26:44.061 [547811348536] DEBUG - [HttpClient/HCl#7a] HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/:/metadata/flushMetadataCounterCache?metadataItemID=10 (reused)
+Nov 28, 2023 01:26:44.066 [547888349240] DEBUG - [ID 27] Media part analysis: /media/tv/The Eminence in Shadow/Season 1/The Eminence In Shadow - S01E16 - Unseen Intentions.mkv
+Nov 28, 2023 01:26:44.067 [547888349240] DEBUG - [MI] Opening input file: "/media/tv/The Eminence in Shadow/Season 1/The Eminence In Shadow - S01E16 - Unseen Intentions.mkv"
+Nov 28, 2023 01:26:44.067 [547888349240] DEBUG - [FFMPEG] - Opening '/media/tv/The Eminence in Shadow/Season 1/The Eminence In Shadow - S01E16 - Unseen Intentions.mkv' for reading
+Nov 28, 2023 01:26:44.067 [547888349240] DEBUG - [FFMPEG] - Setting default whitelist 'file,crypto,data'
+Nov 28, 2023 01:26:44.067 [547888349240] DEBUG - [FFMPEG] - Format matroska,webm probed with size=2048 and score=100
+Nov 28, 2023 01:26:44.068 [547888349240] DEBUG - [FFMPEG] - Unknown entry 0x22B59D at pos. 2811
+Nov 28, 2023 01:26:44.068 [547888349240] DEBUG - [FFMPEG] - Unknown entry 0x22B59D at pos. 2938
+Nov 28, 2023 01:26:44.068 [547888349240] DEBUG - [FFMPEG] - Unknown entry 0x22B59D at pos. 3037
+Nov 28, 2023 01:26:44.068 [547888349240] DEBUG - [FFMPEG] - Unknown entry 0x22B59D at pos. 6065
+Nov 28, 2023 01:26:44.068 [547888349240] DEBUG - [FFMPEG] - Unknown entry 0x22B59D at pos. 9089
+Nov 28, 2023 01:26:44.109 [547888349240] DEBUG - [FFMPEG] - Unknown entry 0x437D at pos. 571376
+Nov 28, 2023 01:26:44.109 [547888349240] DEBUG - [FFMPEG] - Unknown entry 0x437D at pos. 571415
+Nov 28, 2023 01:26:44.109 [547888349240] DEBUG - [FFMPEG] - Unknown entry 0x437D at pos. 571458
+Nov 28, 2023 01:26:44.109 [547888349240] DEBUG - [FFMPEG] - Unknown entry 0x437D at pos. 571501
+Nov 28, 2023 01:26:44.109 [547888349240] DEBUG - [FFMPEG] - Unknown entry 0x437D at pos. 571541
+Nov 28, 2023 01:26:44.109 [547888349240] DEBUG - [FFMPEG] - st:0 removing common factor 1000000 from timebase
+Nov 28, 2023 01:26:44.109 [547888349240] DEBUG - [FFMPEG] - st:1 removing common factor 1000000 from timebase
+Nov 28, 2023 01:26:44.109 [547888349240] DEBUG - [FFMPEG] - st:2 removing common factor 1000000 from timebase
+Nov 28, 2023 01:26:44.109 [547888349240] DEBUG - [FFMPEG] - st:3 removing common factor 1000000 from timebase
+Nov 28, 2023 01:26:44.109 [547888349240] DEBUG - [FFMPEG] - st:4 removing common factor 1000000 from timebase
+Nov 28, 2023 01:26:44.111 [547888349240] DEBUG - [FFMPEG] - Before avformat_find_stream_info() pos: 571653 bytes read:538390 seeks:3 nb_streams:10
+Nov 28, 2023 01:26:44.113 [547888349240] DEBUG - [FFMPEG] - nal_unit_type: 32(VPS), nuh_layer_id: 0, temporal_id: 0
+Nov 28, 2023 01:26:44.113 [547888349240] DEBUG - [FFMPEG] - Decoding VPS
+Nov 28, 2023 01:26:44.113 [547888349240] DEBUG - [FFMPEG] - Main 10 profile bitstream
+Nov 28, 2023 01:26:44.113 [547888349240] DEBUG - [FFMPEG] - nal_unit_type: 33(SPS), nuh_layer_id: 0, temporal_id: 0
+Nov 28, 2023 01:26:44.113 [547888349240] DEBUG - [FFMPEG] - Decoding SPS
+Nov 28, 2023 01:26:44.113 [547888349240] DEBUG - [FFMPEG] - Main 10 profile bitstream
+Nov 28, 2023 01:26:44.113 [547888349240] DEBUG - [FFMPEG] - Decoding VUI
+Nov 28, 2023 01:26:44.113 [547888349240] DEBUG - [FFMPEG] - nal_unit_type: 34(PPS), nuh_layer_id: 0, temporal_id: 0
+Nov 28, 2023 01:26:44.113 [547888349240] DEBUG - [FFMPEG] - Decoding PPS
+Nov 28, 2023 01:26:44.113 [547888349240] DEBUG - [FFMPEG] - nal_unit_type: 39(SEI_PREFIX), nuh_layer_id: 0, temporal_id: 0
+Nov 28, 2023 01:26:44.113 [547888349240] DEBUG - [FFMPEG] - Decoding SEI
+Nov 28, 2023 01:26:44.116 [547888349240] DEBUG - [FFMPEG] - skip 312/960 samples
+Nov 28, 2023 01:26:44.122 [547888349240] DEBUG - [FFMPEG] - All info found
+Nov 28, 2023 01:26:44.124 [547888349240] DEBUG - [FFMPEG] - After avformat_find_stream_info() pos: 852401 bytes read:850403 seeks:3 frames:27
+Nov 28, 2023 01:26:44.124 [547888349240] DEBUG - [MI]  * 526c443caddd35933ec974f00cc1525321c0174c [mkv hevc/aac] Duration: 1421101ms, 1920x1080 (1.777778) 23.976fps, bitrate=2522kbps, audio channels=2, optimizedForStreaming=0 ("/media/tv/The Eminence in Shadow/Season 1/The Eminence In Shadow - S01E16 - Unseen Intentions.mkv")
+Nov 28, 2023 01:26:44.124 [547888349240] DEBUG - [MI] Importing 5 media chapters.
+Nov 28, 2023 01:26:44.126 [547888349240] DEBUG - [MI] Closing input file: "/media/tv/The Eminence in Shadow/Season 1/The Eminence In Shadow - S01E16 - Unseen Intentions.mkv"
+Nov 28, 2023 01:26:44.128 [547888349240] DEBUG - Committing media stream changes for part 27
+Nov 28, 2023 01:26:44.130 [547888349240] DEBUG - Updating media item 27, size=448076250, metadata_item_id=27
+Nov 28, 2023 01:26:44.130 [547888349240] DEBUG - Updating part with ID=27 [/media/tv/The Eminence in Shadow/Season 1/The Eminence In Shadow - S01E16 - Unseen Intentions.mkv]
+Nov 28, 2023 01:26:44.130 [547810492472] DEBUG - [HCl#7b] HTTP requesting GET http://127.0.0.1:32400/:/metadata/notify/changeItemState?librarySectionID=2&metadataItemID=27&metadataType=4&state=-1&parentID=-1&rootID=-1&mediaState=analyzing
+Nov 28, 2023 01:26:44.132 [547811348536] DEBUG - [HttpClient/HCl#7b] HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/:/metadata/notify/changeItemState?librarySectionID=2&metadataItemID=27&metadataType=4&state=-1&parentID=-1&rootID=-1&mediaState=analyzing (reused)
+Nov 28, 2023 01:26:44.132 [547810492472] DEBUG - [HCl#7c] HTTP requesting GET http://127.0.0.1:32400/:/metadata/notify/changeItemState?librarySectionID=2&metadataItemID=27&metadataType=4&state=-1&parentID=-1&rootID=-1&mediaState=idle
+Nov 28, 2023 01:26:44.133 [547811348536] DEBUG - [HttpClient/HCl#7c] HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/:/metadata/notify/changeItemState?librarySectionID=2&metadataItemID=27&metadataType=4&state=-1&parentID=-1&rootID=-1&mediaState=idle (reused)
+Nov 28, 2023 01:26:44.139 [547888349240] DEBUG - Downloading document http://127.0.0.1:32400/library/changestamp
+Nov 28, 2023 01:26:44.139 [547888349240] DEBUG - [HCl#7d] HTTP requesting GET http://127.0.0.1:32400/library/changestamp
+Nov 28, 2023 01:26:44.140 [547811348536] DEBUG - [HttpClient/HCl#7d] HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/library/changestamp (reused)
+Nov 28, 2023 01:26:44.140 [547888349240] DEBUG - Updating metadata item (save) (Unseen Intentions) with ID 27
+Nov 28, 2023 01:26:44.143 [547810492472] DEBUG - [HCl#7e] HTTP requesting GET http://127.0.0.1:32400/:/metadata/flushMetadataCounterCache?metadataItemID=10
+Nov 28, 2023 01:26:44.144 [547811348536] DEBUG - [HttpClient/HCl#7e] HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/:/metadata/flushMetadataCounterCache?metadataItemID=10 (reused)
+Nov 28, 2023 01:26:44.144 [547888349240] DEBUG - Doing expensive tags write for 'Unseen Intentions' because something changed.
+Nov 28, 2023 01:26:44.154 [547888349240] DEBUG - Downloading document http://127.0.0.1:32400/library/changestamp
+Nov 28, 2023 01:26:44.154 [547888349240] DEBUG - [HCl#7f] HTTP requesting GET http://127.0.0.1:32400/library/changestamp
+Nov 28, 2023 01:26:44.156 [547811348536] DEBUG - [HttpClient/HCl#7f] HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/library/changestamp (reused)
+Nov 28, 2023 01:26:44.156 [547888349240] DEBUG - Updating metadata item (save) (Unseen Intentions) with ID 27
+Nov 28, 2023 01:26:44.166 [547810492472] DEBUG - [HCl#80] HTTP requesting GET http://127.0.0.1:32400/:/metadata/flushMetadataCounterCache?metadataItemID=10
+Nov 28, 2023 01:26:44.167 [547811348536] DEBUG - [HttpClient/HCl#80] HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/:/metadata/flushMetadataCounterCache?metadataItemID=10 (reused)
+Nov 28, 2023 01:26:44.171 [547888349240] DEBUG - Analyzing media parts for item 28 (Moonlight That Pierces the Darkness): 28
+Nov 28, 2023 01:26:44.172 [547888349240] DEBUG - Downloading document http://127.0.0.1:32400/library/changestamp
+Nov 28, 2023 01:26:44.172 [547888349240] DEBUG - [HCl#81] HTTP requesting GET http://127.0.0.1:32400/library/changestamp
+Nov 28, 2023 01:26:44.173 [547811348536] DEBUG - [HttpClient/HCl#81] HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/library/changestamp (reused)
+Nov 28, 2023 01:26:44.173 [547888349240] DEBUG - Updating metadata item (save) (Moonlight That Pierces the Darkness) with ID 28
+Nov 28, 2023 01:26:44.198 [547810492472] DEBUG - [HCl#82] HTTP requesting GET http://127.0.0.1:32400/:/metadata/flushMetadataCounterCache?metadataItemID=10
+Nov 28, 2023 01:26:44.199 [547811348536] DEBUG - [HttpClient/HCl#82] HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/:/metadata/flushMetadataCounterCache?metadataItemID=10 (reused)
+Nov 28, 2023 01:26:44.200 [547888349240] DEBUG - [ID 28] Media part analysis: /media/tv/The Eminence in Shadow/Season 1/The Eminence In Shadow - S01E17 - Moonlight That Pierces The Darkness.mkv
+Nov 28, 2023 01:26:44.200 [547888349240] DEBUG - [MI] Opening input file: "/media/tv/The Eminence in Shadow/Season 1/The Eminence In Shadow - S01E17 - Moonlight That Pierces The Darkness.mkv"
+Nov 28, 2023 01:26:44.200 [547888349240] DEBUG - [FFMPEG] - Opening '/media/tv/The Eminence in Shadow/Season 1/The Eminence In Shadow - S01E17 - Moonlight That Pierces The Darkness.mkv' for reading
+Nov 28, 2023 01:26:44.200 [547888349240] DEBUG - [FFMPEG] - Setting default whitelist 'file,crypto,data'
+Nov 28, 2023 01:26:44.201 [547888349240] DEBUG - [FFMPEG] - Format matroska,webm probed with size=2048 and score=100
+Nov 28, 2023 01:26:44.201 [547888349240] DEBUG - [FFMPEG] - Unknown entry 0x22B59D at pos. 2811
+Nov 28, 2023 01:26:44.201 [547888349240] DEBUG - [FFMPEG] - Unknown entry 0x22B59D at pos. 2938
+Nov 28, 2023 01:26:44.201 [547888349240] DEBUG - [FFMPEG] - Unknown entry 0x22B59D at pos. 3037
+Nov 28, 2023 01:26:44.201 [547888349240] DEBUG - [FFMPEG] - Unknown entry 0x22B59D at pos. 5915
+Nov 28, 2023 01:26:44.201 [547888349240] DEBUG - [FFMPEG] - Unknown entry 0x22B59D at pos. 8789
+Nov 28, 2023 01:26:44.213 [547888349240] DEBUG - [FFMPEG] - Unknown entry 0x437D at pos. 571061
+Nov 28, 2023 01:26:44.213 [547888349240] DEBUG - [FFMPEG] - Unknown entry 0x437D at pos. 571093
+Nov 28, 2023 01:26:44.213 [547888349240] DEBUG - [FFMPEG] - Unknown entry 0x437D at pos. 571129
+Nov 28, 2023 01:26:44.213 [547888349240] DEBUG - [FFMPEG] - Unknown entry 0x437D at pos. 571165
+Nov 28, 2023 01:26:44.213 [547888349240] DEBUG - [FFMPEG] - Unknown entry 0x437D at pos. 571198
+Nov 28, 2023 01:26:44.213 [547888349240] DEBUG - [FFMPEG] - st:0 removing common factor 1000000 from timebase
+Nov 28, 2023 01:26:44.213 [547888349240] DEBUG - [FFMPEG] - st:1 removing common factor 1000000 from timebase
+Nov 28, 2023 01:26:44.213 [547888349240] DEBUG - [FFMPEG] - st:2 removing common factor 1000000 from timebase
+Nov 28, 2023 01:26:44.213 [547888349240] DEBUG - [FFMPEG] - st:3 removing common factor 1000000 from timebase
+Nov 28, 2023 01:26:44.213 [547888349240] DEBUG - [FFMPEG] - st:4 removing common factor 1000000 from timebase
+Nov 28, 2023 01:26:44.215 [547888349240] DEBUG - [FFMPEG] - Before avformat_find_stream_info() pos: 571310 bytes read:538090 seeks:3 nb_streams:10
+Nov 28, 2023 01:26:44.217 [547888349240] DEBUG - [FFMPEG] - nal_unit_type: 32(VPS), nuh_layer_id: 0, temporal_id: 0
+Nov 28, 2023 01:26:44.217 [547888349240] DEBUG - [FFMPEG] - Decoding VPS
+Nov 28, 2023 01:26:44.217 [547888349240] DEBUG - [FFMPEG] - Main 10 profile bitstream
+Nov 28, 2023 01:26:44.217 [547888349240] DEBUG - [FFMPEG] - nal_unit_type: 33(SPS), nuh_layer_id: 0, temporal_id: 0
+Nov 28, 2023 01:26:44.217 [547888349240] DEBUG - [FFMPEG] - Decoding SPS
+Nov 28, 2023 01:26:44.217 [547888349240] DEBUG - [FFMPEG] - Main 10 profile bitstream
+Nov 28, 2023 01:26:44.217 [547888349240] DEBUG - [FFMPEG] - Decoding VUI
+Nov 28, 2023 01:26:44.217 [547888349240] DEBUG - [FFMPEG] - nal_unit_type: 34(PPS), nuh_layer_id: 0, temporal_id: 0
+Nov 28, 2023 01:26:44.217 [547888349240] DEBUG - [FFMPEG] - Decoding PPS
+Nov 28, 2023 01:26:44.217 [547888349240] DEBUG - [FFMPEG] - nal_unit_type: 39(SEI_PREFIX), nuh_layer_id: 0, temporal_id: 0
+Nov 28, 2023 01:26:44.217 [547888349240] DEBUG - [FFMPEG] - Decoding SEI
+Nov 28, 2023 01:26:44.220 [547888349240] DEBUG - [FFMPEG] - skip 312/960 samples
+Nov 28, 2023 01:26:44.232 [547888349240] DEBUG - [FFMPEG] - All info found
+Nov 28, 2023 01:26:44.236 [547888349240] DEBUG - [FFMPEG] - After avformat_find_stream_info() pos: 1075132 bytes read:1074029 seeks:3 frames:27
+Nov 28, 2023 01:26:44.237 [547888349240] DEBUG - [MI]  * 9e805fac26ed09197e5f305ce88d2422b5628721 [mkv hevc/aac] Duration: 1421101ms, 1920x1080 (1.777778) 23.976fps, bitrate=2409kbps, audio channels=2, optimizedForStreaming=0 ("/media/tv/The Eminence in Shadow/Season 1/The Eminence In Shadow - S01E17 - Moonlight That Pierces The Darkness.mkv")
+Nov 28, 2023 01:26:44.237 [547888349240] DEBUG - [MI] Importing 5 media chapters.
+Nov 28, 2023 01:26:44.238 [547888349240] DEBUG - [MI] Closing input file: "/media/tv/The Eminence in Shadow/Season 1/The Eminence In Shadow - S01E17 - Moonlight That Pierces The Darkness.mkv"
+Nov 28, 2023 01:26:44.240 [547888349240] DEBUG - Committing media stream changes for part 28
+Nov 28, 2023 01:26:44.249 [547888349240] DEBUG - Updating media item 28, size=427975036, metadata_item_id=28
+Nov 28, 2023 01:26:44.249 [547888349240] DEBUG - Updating part with ID=28 [/media/tv/The Eminence in Shadow/Season 1/The Eminence In Shadow - S01E17 - Moonlight That Pierces The Darkness.mkv]
+Nov 28, 2023 01:26:44.250 [547810492472] DEBUG - [HCl#83] HTTP requesting GET http://127.0.0.1:32400/:/metadata/notify/changeItemState?librarySectionID=2&metadataItemID=28&metadataType=4&state=-1&parentID=-1&rootID=-1&mediaState=analyzing
+Nov 28, 2023 01:26:44.251 [547811348536] DEBUG - [HttpClient/HCl#83] HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/:/metadata/notify/changeItemState?librarySectionID=2&metadataItemID=28&metadataType=4&state=-1&parentID=-1&rootID=-1&mediaState=analyzing (reused)
+Nov 28, 2023 01:26:44.252 [547810492472] DEBUG - [HCl#84] HTTP requesting GET http://127.0.0.1:32400/:/metadata/notify/changeItemState?librarySectionID=2&metadataItemID=28&metadataType=4&state=-1&parentID=-1&rootID=-1&mediaState=idle
+Nov 28, 2023 01:26:44.254 [547811348536] DEBUG - [HttpClient/HCl#84] HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/:/metadata/notify/changeItemState?librarySectionID=2&metadataItemID=28&metadataType=4&state=-1&parentID=-1&rootID=-1&mediaState=idle (reused)
+Nov 28, 2023 01:26:44.259 [547888349240] DEBUG - Downloading document http://127.0.0.1:32400/library/changestamp
+Nov 28, 2023 01:26:44.259 [547888349240] DEBUG - [HCl#85] HTTP requesting GET http://127.0.0.1:32400/library/changestamp
+Nov 28, 2023 01:26:44.260 [547811348536] DEBUG - [HttpClient/HCl#85] HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/library/changestamp (reused)
+Nov 28, 2023 01:26:44.261 [547888349240] DEBUG - Updating metadata item (save) (Moonlight That Pierces the Darkness) with ID 28
+Nov 28, 2023 01:26:44.263 [547810492472] DEBUG - [HCl#86] HTTP requesting GET http://127.0.0.1:32400/:/metadata/flushMetadataCounterCache?metadataItemID=10
+Nov 28, 2023 01:26:44.264 [547811348536] DEBUG - [HttpClient/HCl#86] HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/:/metadata/flushMetadataCounterCache?metadataItemID=10 (reused)
+Nov 28, 2023 01:26:44.265 [547888349240] DEBUG - Doing expensive tags write for 'Moonlight That Pierces the Darkness' because something changed.
+Nov 28, 2023 01:26:44.268 [547888349240] DEBUG - Downloading document http://127.0.0.1:32400/library/changestamp
+Nov 28, 2023 01:26:44.268 [547888349240] DEBUG - [HCl#87] HTTP requesting GET http://127.0.0.1:32400/library/changestamp
+Nov 28, 2023 01:26:44.270 [547811348536] DEBUG - [HttpClient/HCl#87] HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/library/changestamp (reused)
+Nov 28, 2023 01:26:44.271 [547888349240] DEBUG - Updating metadata item (save) (Moonlight That Pierces the Darkness) with ID 28
+Nov 28, 2023 01:26:44.273 [547810492472] DEBUG - [HCl#88] HTTP requesting GET http://127.0.0.1:32400/:/metadata/flushMetadataCounterCache?metadataItemID=10
+Nov 28, 2023 01:26:44.274 [547811348536] DEBUG - [HttpClient/HCl#88] HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/:/metadata/flushMetadataCounterCache?metadataItemID=10 (reused)
+Nov 28, 2023 01:26:44.277 [547888349240] DEBUG - Analyzing media parts for item 29 (Betting on a Moment): 29
+Nov 28, 2023 01:26:44.278 [547888349240] DEBUG - Downloading document http://127.0.0.1:32400/library/changestamp
+Nov 28, 2023 01:26:44.278 [547888349240] DEBUG - [HCl#89] HTTP requesting GET http://127.0.0.1:32400/library/changestamp
+Nov 28, 2023 01:26:44.280 [547811348536] DEBUG - [HttpClient/HCl#89] HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/library/changestamp (reused)
+Nov 28, 2023 01:26:44.280 [547888349240] DEBUG - Updating metadata item (save) (Betting on a Moment) with ID 29
+Nov 28, 2023 01:26:44.283 [547810492472] DEBUG - [HCl#8a] HTTP requesting GET http://127.0.0.1:32400/:/metadata/flushMetadataCounterCache?metadataItemID=10
+Nov 28, 2023 01:26:44.284 [547811348536] DEBUG - [HttpClient/HCl#8a] HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/:/metadata/flushMetadataCounterCache?metadataItemID=10 (reused)
+Nov 28, 2023 01:26:44.286 [547888349240] DEBUG - [ID 29] Media part analysis: /media/tv/The Eminence in Shadow/Season 1/The Eminence In Shadow - S01E18 - Betting On A Moment.mkv
+Nov 28, 2023 01:26:44.287 [547888349240] DEBUG - [MI] Opening input file: "/media/tv/The Eminence in Shadow/Season 1/The Eminence In Shadow - S01E18 - Betting On A Moment.mkv"
+Nov 28, 2023 01:26:44.287 [547888349240] DEBUG - [FFMPEG] - Opening '/media/tv/The Eminence in Shadow/Season 1/The Eminence In Shadow - S01E18 - Betting On A Moment.mkv' for reading
+Nov 28, 2023 01:26:44.287 [547888349240] DEBUG - [FFMPEG] - Setting default whitelist 'file,crypto,data'
+Nov 28, 2023 01:26:44.287 [547888349240] DEBUG - [FFMPEG] - Format matroska,webm probed with size=2048 and score=100
+Nov 28, 2023 01:26:44.288 [547888349240] DEBUG - [FFMPEG] - Unknown entry 0x22B59D at pos. 2811
+Nov 28, 2023 01:26:44.288 [547888349240] DEBUG - [FFMPEG] - Unknown entry 0x22B59D at pos. 2938
+Nov 28, 2023 01:26:44.288 [547888349240] DEBUG - [FFMPEG] - Unknown entry 0x22B59D at pos. 3037
+Nov 28, 2023 01:26:44.288 [547888349240] DEBUG - [FFMPEG] - Unknown entry 0x22B59D at pos. 6226
+Nov 28, 2023 01:26:44.288 [547888349240] DEBUG - [FFMPEG] - Unknown entry 0x22B59D at pos. 9411
+Nov 28, 2023 01:26:44.299 [547888349240] DEBUG - [FFMPEG] - Unknown entry 0x437D at pos. 571683
+Nov 28, 2023 01:26:44.299 [547888349240] DEBUG - [FFMPEG] - Unknown entry 0x437D at pos. 571715
+Nov 28, 2023 01:26:44.299 [547888349240] DEBUG - [FFMPEG] - Unknown entry 0x437D at pos. 571751
+Nov 28, 2023 01:26:44.299 [547888349240] DEBUG - [FFMPEG] - Unknown entry 0x437D at pos. 571787
+Nov 28, 2023 01:26:44.300 [547888349240] DEBUG - [FFMPEG] - Unknown entry 0x437D at pos. 571820
+Nov 28, 2023 01:26:44.300 [547888349240] DEBUG - [FFMPEG] - st:0 removing common factor 1000000 from timebase
+Nov 28, 2023 01:26:44.300 [547888349240] DEBUG - [FFMPEG] - st:1 removing common factor 1000000 from timebase
+Nov 28, 2023 01:26:44.300 [547888349240] DEBUG - [FFMPEG] - st:2 removing common factor 1000000 from timebase
+Nov 28, 2023 01:26:44.300 [547888349240] DEBUG - [FFMPEG] - st:3 removing common factor 1000000 from timebase
+Nov 28, 2023 01:26:44.300 [547888349240] DEBUG - [FFMPEG] - st:4 removing common factor 1000000 from timebase
+Nov 28, 2023 01:26:44.302 [547888349240] DEBUG - [FFMPEG] - Before avformat_find_stream_info() pos: 571932 bytes read:538712 seeks:3 nb_streams:10
+Nov 28, 2023 01:26:44.304 [547888349240] DEBUG - [FFMPEG] - nal_unit_type: 32(VPS), nuh_layer_id: 0, temporal_id: 0
+Nov 28, 2023 01:26:44.304 [547888349240] DEBUG - [FFMPEG] - Decoding VPS
+Nov 28, 2023 01:26:44.304 [547888349240] DEBUG - [FFMPEG] - Main 10 profile bitstream
+Nov 28, 2023 01:26:44.304 [547888349240] DEBUG - [FFMPEG] - nal_unit_type: 33(SPS), nuh_layer_id: 0, temporal_id: 0
+Nov 28, 2023 01:26:44.304 [547888349240] DEBUG - [FFMPEG] - Decoding SPS
+Nov 28, 2023 01:26:44.304 [547888349240] DEBUG - [FFMPEG] - Main 10 profile bitstream
+Nov 28, 2023 01:26:44.304 [547888349240] DEBUG - [FFMPEG] - Decoding VUI
+Nov 28, 2023 01:26:44.304 [547888349240] DEBUG - [FFMPEG] - nal_unit_type: 34(PPS), nuh_layer_id: 0, temporal_id: 0
+Nov 28, 2023 01:26:44.304 [547888349240] DEBUG - [FFMPEG] - Decoding PPS
+Nov 28, 2023 01:26:44.305 [547888349240] DEBUG - [FFMPEG] - nal_unit_type: 39(SEI_PREFIX), nuh_layer_id: 0, temporal_id: 0
+Nov 28, 2023 01:26:44.305 [547888349240] DEBUG - [FFMPEG] - Decoding SEI
+Nov 28, 2023 01:26:44.307 [547888349240] DEBUG - [FFMPEG] - skip 312/960 samples
+Nov 28, 2023 01:26:44.313 [547888349240] DEBUG - [FFMPEG] - All info found
+Nov 28, 2023 01:26:44.315 [547888349240] DEBUG - [FFMPEG] - After avformat_find_stream_info() pos: 821114 bytes read:818405 seeks:3 frames:35
+Nov 28, 2023 01:26:44.315 [547888349240] DEBUG - [MI]  * b9a22f98491b7a03eba9263c7cf7f4b527a32458 [mkv hevc/aac] Duration: 1421101ms, 1920x1080 (1.777778) 23.976fps, bitrate=2319kbps, audio channels=2, optimizedForStreaming=0 ("/media/tv/The Eminence in Shadow/Season 1/The Eminence In Shadow - S01E18 - Betting On A Moment.mkv")
+Nov 28, 2023 01:26:44.315 [547888349240] DEBUG - [MI] Importing 5 media chapters.
+Nov 28, 2023 01:26:44.318 [547888349240] DEBUG - [MI] Closing input file: "/media/tv/The Eminence in Shadow/Season 1/The Eminence In Shadow - S01E18 - Betting On A Moment.mkv"
+Nov 28, 2023 01:26:44.320 [547888349240] DEBUG - Committing media stream changes for part 29
+Nov 28, 2023 01:26:44.323 [547888349240] DEBUG - Updating media item 29, size=411998517, metadata_item_id=29
+Nov 28, 2023 01:26:44.323 [547888349240] DEBUG - Updating part with ID=29 [/media/tv/The Eminence in Shadow/Season 1/The Eminence In Shadow - S01E18 - Betting On A Moment.mkv]
+Nov 28, 2023 01:26:44.323 [547810492472] DEBUG - [HCl#8b] HTTP requesting GET http://127.0.0.1:32400/:/metadata/notify/changeItemState?librarySectionID=2&metadataItemID=29&metadataType=4&state=-1&parentID=-1&rootID=-1&mediaState=analyzing
+Nov 28, 2023 01:26:44.325 [547811348536] DEBUG - [HttpClient/HCl#8b] HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/:/metadata/notify/changeItemState?librarySectionID=2&metadataItemID=29&metadataType=4&state=-1&parentID=-1&rootID=-1&mediaState=analyzing (reused)
+Nov 28, 2023 01:26:44.325 [547810492472] DEBUG - [HCl#8c] HTTP requesting GET http://127.0.0.1:32400/:/metadata/notify/changeItemState?librarySectionID=2&metadataItemID=29&metadataType=4&state=-1&parentID=-1&rootID=-1&mediaState=idle
+Nov 28, 2023 01:26:44.326 [547811348536] DEBUG - [HttpClient/HCl#8c] HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/:/metadata/notify/changeItemState?librarySectionID=2&metadataItemID=29&metadataType=4&state=-1&parentID=-1&rootID=-1&mediaState=idle (reused)
+Nov 28, 2023 01:26:44.332 [547888349240] DEBUG - Downloading document http://127.0.0.1:32400/library/changestamp
+Nov 28, 2023 01:26:44.332 [547888349240] DEBUG - [HCl#8d] HTTP requesting GET http://127.0.0.1:32400/library/changestamp
+Nov 28, 2023 01:26:44.333 [547811348536] DEBUG - [HttpClient/HCl#8d] HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/library/changestamp (reused)
+Nov 28, 2023 01:26:44.334 [547888349240] DEBUG - Updating metadata item (save) (Betting on a Moment) with ID 29
+Nov 28, 2023 01:26:44.336 [547810492472] DEBUG - [HCl#8e] HTTP requesting GET http://127.0.0.1:32400/:/metadata/flushMetadataCounterCache?metadataItemID=10
+Nov 28, 2023 01:26:44.337 [547811348536] DEBUG - [HttpClient/HCl#8e] HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/:/metadata/flushMetadataCounterCache?metadataItemID=10 (reused)
+Nov 28, 2023 01:26:44.338 [547888349240] DEBUG - Doing expensive tags write for 'Betting on a Moment' because something changed.
+Nov 28, 2023 01:26:44.340 [547888349240] DEBUG - Downloading document http://127.0.0.1:32400/library/changestamp
+Nov 28, 2023 01:26:44.340 [547888349240] DEBUG - [HCl#8f] HTTP requesting GET http://127.0.0.1:32400/library/changestamp
+Nov 28, 2023 01:26:44.342 [547811348536] DEBUG - [HttpClient/HCl#8f] HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/library/changestamp (reused)
+Nov 28, 2023 01:26:44.342 [547888349240] DEBUG - Updating metadata item (save) (Betting on a Moment) with ID 29
+Nov 28, 2023 01:26:44.344 [547810492472] DEBUG - [HCl#90] HTTP requesting GET http://127.0.0.1:32400/:/metadata/flushMetadataCounterCache?metadataItemID=10
+Nov 28, 2023 01:26:44.345 [547811348536] DEBUG - [HttpClient/HCl#90] HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/:/metadata/flushMetadataCounterCache?metadataItemID=10 (reused)
+Nov 28, 2023 01:26:44.349 [547888349240] DEBUG - Analyzing media parts for item 30 (Dancing Puppet): 30
+Nov 28, 2023 01:26:44.350 [547888349240] DEBUG - Downloading document http://127.0.0.1:32400/library/changestamp
+Nov 28, 2023 01:26:44.350 [547888349240] DEBUG - [HCl#91] HTTP requesting GET http://127.0.0.1:32400/library/changestamp
+Nov 28, 2023 01:26:44.351 [547811348536] DEBUG - [HttpClient/HCl#91] HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/library/changestamp (reused)
+Nov 28, 2023 01:26:44.351 [547888349240] DEBUG - Updating metadata item (save) (Dancing Puppet) with ID 30
+Nov 28, 2023 01:26:44.353 [547810492472] DEBUG - [HCl#92] HTTP requesting GET http://127.0.0.1:32400/:/metadata/flushMetadataCounterCache?metadataItemID=10
+Nov 28, 2023 01:26:44.354 [547811348536] DEBUG - [HttpClient/HCl#92] HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/:/metadata/flushMetadataCounterCache?metadataItemID=10 (reused)
+Nov 28, 2023 01:26:44.355 [547888349240] DEBUG - [ID 30] Media part analysis: /media/tv/The Eminence in Shadow/Season 1/The Eminence In Shadow - S01E19 - Dancing Puppet.mkv
+Nov 28, 2023 01:26:44.355 [547888349240] DEBUG - [MI] Opening input file: "/media/tv/The Eminence in Shadow/Season 1/The Eminence In Shadow - S01E19 - Dancing Puppet.mkv"
+Nov 28, 2023 01:26:44.355 [547888349240] DEBUG - [FFMPEG] - Opening '/media/tv/The Eminence in Shadow/Season 1/The Eminence In Shadow - S01E19 - Dancing Puppet.mkv' for reading
+Nov 28, 2023 01:26:44.355 [547888349240] DEBUG - [FFMPEG] - Setting default whitelist 'file,crypto,data'
+Nov 28, 2023 01:26:44.356 [547888349240] DEBUG - [FFMPEG] - Format matroska,webm probed with size=2048 and score=100
+Nov 28, 2023 01:26:44.356 [547888349240] DEBUG - [FFMPEG] - Unknown entry 0x22B59D at pos. 2811
+Nov 28, 2023 01:26:44.356 [547888349240] DEBUG - [FFMPEG] - Unknown entry 0x22B59D at pos. 2938
+Nov 28, 2023 01:26:44.356 [547888349240] DEBUG - [FFMPEG] - Unknown entry 0x22B59D at pos. 3037
+Nov 28, 2023 01:26:44.356 [547888349240] DEBUG - [FFMPEG] - Unknown entry 0x22B59D at pos. 7090
+Nov 28, 2023 01:26:44.356 [547888349240] DEBUG - [FFMPEG] - Unknown entry 0x22B59D at pos. 11688
+Nov 28, 2023 01:26:44.368 [547888349240] DEBUG - [FFMPEG] - Unknown entry 0x437D at pos. 573960
+Nov 28, 2023 01:26:44.368 [547888349240] DEBUG - [FFMPEG] - Unknown entry 0x437D at pos. 573992
+Nov 28, 2023 01:26:44.368 [547888349240] DEBUG - [FFMPEG] - Unknown entry 0x437D at pos. 574028
+Nov 28, 2023 01:26:44.368 [547888349240] DEBUG - [FFMPEG] - Unknown entry 0x437D at pos. 574064
+Nov 28, 2023 01:26:44.368 [547888349240] DEBUG - [FFMPEG] - Unknown entry 0x437D at pos. 574097
+Nov 28, 2023 01:26:44.368 [547888349240] DEBUG - [FFMPEG] - st:0 removing common factor 1000000 from timebase
+Nov 28, 2023 01:26:44.368 [547888349240] DEBUG - [FFMPEG] - st:1 removing common factor 1000000 from timebase
+Nov 28, 2023 01:26:44.368 [547888349240] DEBUG - [FFMPEG] - st:2 removing common factor 1000000 from timebase
+Nov 28, 2023 01:26:44.368 [547888349240] DEBUG - [FFMPEG] - st:3 removing common factor 1000000 from timebase
+Nov 28, 2023 01:26:44.368 [547888349240] DEBUG - [FFMPEG] - st:4 removing common factor 1000000 from timebase
+Nov 28, 2023 01:26:44.372 [547888349240] DEBUG - [FFMPEG] - Before avformat_find_stream_info() pos: 574209 bytes read:540989 seeks:3 nb_streams:10
+Nov 28, 2023 01:26:44.373 [547888349240] DEBUG - [FFMPEG] - nal_unit_type: 32(VPS), nuh_layer_id: 0, temporal_id: 0
+Nov 28, 2023 01:26:44.373 [547888349240] DEBUG - [FFMPEG] - Decoding VPS
+Nov 28, 2023 01:26:44.373 [547888349240] DEBUG - [FFMPEG] - Main 10 profile bitstream
+Nov 28, 2023 01:26:44.373 [547888349240] DEBUG - [FFMPEG] - nal_unit_type: 33(SPS), nuh_layer_id: 0, temporal_id: 0
+Nov 28, 2023 01:26:44.373 [547888349240] DEBUG - [FFMPEG] - Decoding SPS
+Nov 28, 2023 01:26:44.373 [547888349240] DEBUG - [FFMPEG] - Main 10 profile bitstream
+Nov 28, 2023 01:26:44.373 [547888349240] DEBUG - [FFMPEG] - Decoding VUI
+Nov 28, 2023 01:26:44.373 [547888349240] DEBUG - [FFMPEG] - nal_unit_type: 34(PPS), nuh_layer_id: 0, temporal_id: 0
+Nov 28, 2023 01:26:44.373 [547888349240] DEBUG - [FFMPEG] - Decoding PPS
+Nov 28, 2023 01:26:44.373 [547888349240] DEBUG - [FFMPEG] - nal_unit_type: 39(SEI_PREFIX), nuh_layer_id: 0, temporal_id: 0
+Nov 28, 2023 01:26:44.373 [547888349240] DEBUG - [FFMPEG] - Decoding SEI
+Nov 28, 2023 01:26:44.376 [547888349240] DEBUG - [FFMPEG] - skip 312/960 samples
+Nov 28, 2023 01:26:44.381 [547888349240] DEBUG - [FFMPEG] - All info found
+Nov 28, 2023 01:26:44.383 [547888349240] DEBUG - [FFMPEG] - After avformat_find_stream_info() pos: 882969 bytes read:849775 seeks:3 frames:35
+Nov 28, 2023 01:26:44.384 [547888349240] DEBUG - [MI]  * eca8021af772d22aeb4b90bfc323682f4cc6caa6 [mkv hevc/aac] Duration: 1421101ms, 1920x1080 (1.777778) 23.976fps, bitrate=2356kbps, audio channels=2, optimizedForStreaming=0 ("/media/tv/The Eminence in Shadow/Season 1/The Eminence In Shadow - S01E19 - Dancing Puppet.mkv")
+Nov 28, 2023 01:26:44.384 [547888349240] DEBUG - [MI] Importing 5 media chapters.
+Nov 28, 2023 01:26:44.385 [547888349240] DEBUG - [MI] Closing input file: "/media/tv/The Eminence in Shadow/Season 1/The Eminence In Shadow - S01E19 - Dancing Puppet.mkv"
+Nov 28, 2023 01:26:44.387 [547888349240] DEBUG - Committing media stream changes for part 30
+Nov 28, 2023 01:26:44.390 [547888349240] DEBUG - Updating media item 30, size=418594238, metadata_item_id=30
+Nov 28, 2023 01:26:44.390 [547888349240] DEBUG - Updating part with ID=30 [/media/tv/The Eminence in Shadow/Season 1/The Eminence In Shadow - S01E19 - Dancing Puppet.mkv]
+Nov 28, 2023 01:26:44.390 [547810492472] DEBUG - [HCl#93] HTTP requesting GET http://127.0.0.1:32400/:/metadata/notify/changeItemState?librarySectionID=2&metadataItemID=30&metadataType=4&state=-1&parentID=-1&rootID=-1&mediaState=analyzing
+Nov 28, 2023 01:26:44.391 [547811348536] DEBUG - [HttpClient/HCl#93] HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/:/metadata/notify/changeItemState?librarySectionID=2&metadataItemID=30&metadataType=4&state=-1&parentID=-1&rootID=-1&mediaState=analyzing (reused)
+Nov 28, 2023 01:26:44.392 [547810492472] DEBUG - [HCl#94] HTTP requesting GET http://127.0.0.1:32400/:/metadata/notify/changeItemState?librarySectionID=2&metadataItemID=30&metadataType=4&state=-1&parentID=-1&rootID=-1&mediaState=idle
+Nov 28, 2023 01:26:44.393 [547811348536] DEBUG - [HttpClient/HCl#94] HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/:/metadata/notify/changeItemState?librarySectionID=2&metadataItemID=30&metadataType=4&state=-1&parentID=-1&rootID=-1&mediaState=idle (reused)
+Nov 28, 2023 01:26:44.401 [547888349240] DEBUG - Downloading document http://127.0.0.1:32400/library/changestamp
+Nov 28, 2023 01:26:44.401 [547888349240] DEBUG - [HCl#95] HTTP requesting GET http://127.0.0.1:32400/library/changestamp
+Nov 28, 2023 01:26:44.403 [547811348536] DEBUG - [HttpClient/HCl#95] HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/library/changestamp (reused)
+Nov 28, 2023 01:26:44.403 [547888349240] DEBUG - Updating metadata item (save) (Dancing Puppet) with ID 30
+Nov 28, 2023 01:26:44.406 [547810492472] DEBUG - [HCl#96] HTTP requesting GET http://127.0.0.1:32400/:/metadata/flushMetadataCounterCache?metadataItemID=10
+Nov 28, 2023 01:26:44.407 [547888349240] DEBUG - Doing expensive tags write for 'Dancing Puppet' because something changed.
+Nov 28, 2023 01:26:44.407 [547811348536] DEBUG - [HttpClient/HCl#96] HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/:/metadata/flushMetadataCounterCache?metadataItemID=10 (reused)
+Nov 28, 2023 01:26:44.409 [547888349240] DEBUG - Downloading document http://127.0.0.1:32400/library/changestamp
+Nov 28, 2023 01:26:44.409 [547888349240] DEBUG - [HCl#97] HTTP requesting GET http://127.0.0.1:32400/library/changestamp
+Nov 28, 2023 01:26:44.411 [547811348536] DEBUG - [HttpClient/HCl#97] HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/library/changestamp (reused)
+Nov 28, 2023 01:26:44.411 [547888349240] DEBUG - Updating metadata item (save) (Dancing Puppet) with ID 30
+Nov 28, 2023 01:26:44.413 [547810492472] DEBUG - [HCl#98] HTTP requesting GET http://127.0.0.1:32400/:/metadata/flushMetadataCounterCache?metadataItemID=10
+Nov 28, 2023 01:26:44.414 [547811348536] DEBUG - [HttpClient/HCl#98] HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/:/metadata/flushMetadataCounterCache?metadataItemID=10 (reused)
+Nov 28, 2023 01:26:44.419 [547888349240] DEBUG - Analyzing media parts for item 31 (Advent of the Demon): 31
+Nov 28, 2023 01:26:44.420 [547888349240] DEBUG - Downloading document http://127.0.0.1:32400/library/changestamp
+Nov 28, 2023 01:26:44.420 [547888349240] DEBUG - [HCl#99] HTTP requesting GET http://127.0.0.1:32400/library/changestamp
+Nov 28, 2023 01:26:44.421 [547811348536] DEBUG - [HttpClient/HCl#99] HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/library/changestamp (reused)
+Nov 28, 2023 01:26:44.422 [547888349240] DEBUG - Updating metadata item (save) (Advent of the Demon) with ID 31
+Nov 28, 2023 01:26:44.424 [547810492472] DEBUG - [HCl#9a] HTTP requesting GET http://127.0.0.1:32400/:/metadata/flushMetadataCounterCache?metadataItemID=10
+Nov 28, 2023 01:26:44.425 [547811348536] DEBUG - [HttpClient/HCl#9a] HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/:/metadata/flushMetadataCounterCache?metadataItemID=10 (reused)
+Nov 28, 2023 01:26:44.426 [547888349240] DEBUG - [ID 31] Media part analysis: /media/tv/The Eminence in Shadow/Season 1/The Eminence In Shadow - S01E20 - Advent Of The Demon.mkv
+Nov 28, 2023 01:26:44.426 [547888349240] DEBUG - [MI] Opening input file: "/media/tv/The Eminence in Shadow/Season 1/The Eminence In Shadow - S01E20 - Advent Of The Demon.mkv"
+Nov 28, 2023 01:26:44.426 [547888349240] DEBUG - [FFMPEG] - Opening '/media/tv/The Eminence in Shadow/Season 1/The Eminence In Shadow - S01E20 - Advent Of The Demon.mkv' for reading
+Nov 28, 2023 01:26:44.426 [547888349240] DEBUG - [FFMPEG] - Setting default whitelist 'file,crypto,data'
+Nov 28, 2023 01:26:44.427 [547888349240] DEBUG - [FFMPEG] - Format matroska,webm probed with size=2048 and score=100
+Nov 28, 2023 01:26:44.427 [547888349240] DEBUG - [FFMPEG] - Unknown entry 0x22B59D at pos. 2811
+Nov 28, 2023 01:26:44.427 [547888349240] DEBUG - [FFMPEG] - Unknown entry 0x22B59D at pos. 2938
+Nov 28, 2023 01:26:44.427 [547888349240] DEBUG - [FFMPEG] - Unknown entry 0x22B59D at pos. 3037
+Nov 28, 2023 01:26:44.427 [547888349240] DEBUG - [FFMPEG] - Unknown entry 0x22B59D at pos. 4314
+Nov 28, 2023 01:26:44.427 [547888349240] DEBUG - [FFMPEG] - Unknown entry 0x22B59D at pos. 5725
+Nov 28, 2023 01:26:44.431 [547888349240] DEBUG - [FFMPEG] - Unknown entry 0x437D at pos. 164175
+Nov 28, 2023 01:26:44.431 [547888349240] DEBUG - [FFMPEG] - Unknown entry 0x437D at pos. 164211
+Nov 28, 2023 01:26:44.431 [547888349240] DEBUG - [FFMPEG] - Unknown entry 0x437D at pos. 164247
+Nov 28, 2023 01:26:44.431 [547888349240] DEBUG - [FFMPEG] - st:0 removing common factor 1000000 from timebase
+Nov 28, 2023 01:26:44.431 [547888349240] DEBUG - [FFMPEG] - st:1 removing common factor 1000000 from timebase
+Nov 28, 2023 01:26:44.431 [547888349240] DEBUG - [FFMPEG] - st:2 removing common factor 1000000 from timebase
+Nov 28, 2023 01:26:44.431 [547888349240] DEBUG - [FFMPEG] - st:3 removing common factor 1000000 from timebase
+Nov 28, 2023 01:26:44.431 [547888349240] DEBUG - [FFMPEG] - st:4 removing common factor 1000000 from timebase
+Nov 28, 2023 01:26:44.432 [547888349240] DEBUG - [FFMPEG] - Before avformat_find_stream_info() pos: 164359 bytes read:132763 seeks:3 nb_streams:7
+Nov 28, 2023 01:26:44.433 [547888349240] DEBUG - [FFMPEG] - nal_unit_type: 32(VPS), nuh_layer_id: 0, temporal_id: 0
+Nov 28, 2023 01:26:44.433 [547888349240] DEBUG - [FFMPEG] - Decoding VPS
+Nov 28, 2023 01:26:44.433 [547888349240] DEBUG - [FFMPEG] - Main 10 profile bitstream
+Nov 28, 2023 01:26:44.433 [547888349240] DEBUG - [FFMPEG] - nal_unit_type: 33(SPS), nuh_layer_id: 0, temporal_id: 0
+Nov 28, 2023 01:26:44.433 [547888349240] DEBUG - [FFMPEG] - Decoding SPS
+Nov 28, 2023 01:26:44.433 [547888349240] DEBUG - [FFMPEG] - Main 10 profile bitstream
+Nov 28, 2023 01:26:44.433 [547888349240] DEBUG - [FFMPEG] - Decoding VUI
+Nov 28, 2023 01:26:44.433 [547888349240] DEBUG - [FFMPEG] - nal_unit_type: 34(PPS), nuh_layer_id: 0, temporal_id: 0
+Nov 28, 2023 01:26:44.433 [547888349240] DEBUG - [FFMPEG] - Decoding PPS
+Nov 28, 2023 01:26:44.433 [547888349240] DEBUG - [FFMPEG] - nal_unit_type: 39(SEI_PREFIX), nuh_layer_id: 0, temporal_id: 0
+Nov 28, 2023 01:26:44.433 [547888349240] DEBUG - [FFMPEG] - Decoding SEI
+Nov 28, 2023 01:26:44.435 [547888349240] DEBUG - [FFMPEG] - skip 312/960 samples
+Nov 28, 2023 01:26:44.439 [547888349240] DEBUG - [FFMPEG] - All info found
+Nov 28, 2023 01:26:44.440 [547888349240] DEBUG - [FFMPEG] - After avformat_find_stream_info() pos: 255178 bytes read:231067 seeks:3 frames:51
+Nov 28, 2023 01:26:44.440 [547888349240] DEBUG - [MI]  * 224fd29937ff844c0ef4055b337f5b7b6727008e [mkv hevc/aac] Duration: 1465658ms, 1920x1080 (1.777778) 23.976fps, bitrate=2771kbps, audio channels=2, optimizedForStreaming=0 ("/media/tv/The Eminence in Shadow/Season 1/The Eminence In Shadow - S01E20 - Advent Of The Demon.mkv")
+Nov 28, 2023 01:26:44.440 [547888349240] DEBUG - [MI] Importing 3 media chapters.
+Nov 28, 2023 01:26:44.441 [547888349240] DEBUG - [MI] Closing input file: "/media/tv/The Eminence in Shadow/Season 1/The Eminence In Shadow - S01E20 - Advent Of The Demon.mkv"
+Nov 28, 2023 01:26:44.443 [547888349240] DEBUG - Committing media stream changes for part 31
+Nov 28, 2023 01:26:44.445 [547888349240] DEBUG - Updating media item 31, size=507745725, metadata_item_id=31
+Nov 28, 2023 01:26:44.445 [547888349240] DEBUG - Updating part with ID=31 [/media/tv/The Eminence in Shadow/Season 1/The Eminence In Shadow - S01E20 - Advent Of The Demon.mkv]
+Nov 28, 2023 01:26:44.446 [547810492472] DEBUG - [HCl#9b] HTTP requesting GET http://127.0.0.1:32400/:/metadata/notify/changeItemState?librarySectionID=2&metadataItemID=31&metadataType=4&state=-1&parentID=-1&rootID=-1&mediaState=analyzing
+Nov 28, 2023 01:26:44.447 [547811348536] DEBUG - [HttpClient/HCl#9b] HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/:/metadata/notify/changeItemState?librarySectionID=2&metadataItemID=31&metadataType=4&state=-1&parentID=-1&rootID=-1&mediaState=analyzing (reused)
+Nov 28, 2023 01:26:44.448 [547810492472] DEBUG - [HCl#9c] HTTP requesting GET http://127.0.0.1:32400/:/metadata/notify/changeItemState?librarySectionID=2&metadataItemID=31&metadataType=4&state=-1&parentID=-1&rootID=-1&mediaState=idle
+Nov 28, 2023 01:26:44.449 [547811348536] DEBUG - [HttpClient/HCl#9c] HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/:/metadata/notify/changeItemState?librarySectionID=2&metadataItemID=31&metadataType=4&state=-1&parentID=-1&rootID=-1&mediaState=idle (reused)
+Nov 28, 2023 01:26:44.454 [547888349240] DEBUG - Downloading document http://127.0.0.1:32400/library/changestamp
+Nov 28, 2023 01:26:44.454 [547888349240] DEBUG - [HCl#9d] HTTP requesting GET http://127.0.0.1:32400/library/changestamp
+Nov 28, 2023 01:26:44.456 [547811348536] DEBUG - [HttpClient/HCl#9d] HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/library/changestamp (reused)
+Nov 28, 2023 01:26:44.457 [547888349240] DEBUG - Updating metadata item (save) (Advent of the Demon) with ID 31
+Nov 28, 2023 01:26:44.461 [547810492472] DEBUG - [HCl#9e] HTTP requesting GET http://127.0.0.1:32400/:/metadata/flushMetadataCounterCache?metadataItemID=10
+Nov 28, 2023 01:26:44.462 [547811348536] DEBUG - [HttpClient/HCl#9e] HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/:/metadata/flushMetadataCounterCache?metadataItemID=10 (reused)
+Nov 28, 2023 01:26:44.463 [547888349240] DEBUG - Doing expensive tags write for 'Advent of the Demon' because something changed.
+Nov 28, 2023 01:26:44.465 [547888349240] DEBUG - Downloading document http://127.0.0.1:32400/library/changestamp
+Nov 28, 2023 01:26:44.465 [547888349240] DEBUG - [HCl#9f] HTTP requesting GET http://127.0.0.1:32400/library/changestamp
+Nov 28, 2023 01:26:44.467 [547811348536] DEBUG - [HttpClient/HCl#9f] HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/library/changestamp (reused)
+Nov 28, 2023 01:26:44.467 [547888349240] DEBUG - Updating metadata item (save) (Advent of the Demon) with ID 31
+Nov 28, 2023 01:26:44.474 [547810492472] DEBUG - [HCl#a0] HTTP requesting GET http://127.0.0.1:32400/:/metadata/flushMetadataCounterCache?metadataItemID=10
+Nov 28, 2023 01:26:44.475 [547811348536] DEBUG - [HttpClient/HCl#a0] HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/:/metadata/flushMetadataCounterCache?metadataItemID=10 (reused)

@@ -1,0 +1,549 @@
+Nov 28, 2023 01:26:44.551 [548397838392] INFO - Plex Media Scanner v1.32.7.7621-871adbd44 - Docker Docker Container (LinuxServer.io) aarch64 - build: linux-aarch64 - GMT 00:00
+Nov 28, 2023 01:26:44.551 [548397838392] INFO - Linux version: 6.1.0-rpi6-rpi-v8, language: en-US
+Nov 28, 2023 01:26:44.551 [548397838392] INFO - Processor: 4-core AArch64
+Nov 28, 2023 01:26:44.551 [548397838392] INFO - /usr/lib/plexmediaserver/Plex Media Scanner --analyze --log-file-suffix  Analysis --no-thumbs --item 33,34,35,36,37,38,39
+Nov 28, 2023 01:26:44.552 [548464939064] DEBUG - Opening 20 database sessions to library (com.plexapp.plugins.library), SQLite 3.39.4, threadsafe=1
+Nov 28, 2023 01:26:44.932 [548464939064] DEBUG - Analyzing media parts for item 33 (The Haven): 32
+Nov 28, 2023 01:26:44.935 [548464939064] DEBUG - Downloading document http://127.0.0.1:32400/library/changestamp
+Nov 28, 2023 01:26:44.935 [548464939064] DEBUG - [HCl#1] HTTP requesting GET http://127.0.0.1:32400/library/changestamp
+Nov 28, 2023 01:26:44.939 [548388200504] DEBUG - [HttpClient/HCl#1] HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/library/changestamp
+Nov 28, 2023 01:26:44.940 [548464939064] DEBUG - Updating metadata item (save) (The Haven) with ID 33
+Nov 28, 2023 01:26:44.975 [548387274808] DEBUG - [HCl#2] HTTP requesting GET http://127.0.0.1:32400/:/metadata/flushMetadataCounterCache?metadataItemID=10
+Nov 28, 2023 01:26:44.976 [548388200504] DEBUG - [HttpClient/HCl#2] HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/:/metadata/flushMetadataCounterCache?metadataItemID=10 (reused)
+Nov 28, 2023 01:26:44.988 [548464939064] DEBUG - [ID 32] Media part analysis: /media/tv/The Eminence in Shadow/Season 2/[SubsPlease] Kage no Jitsuryokusha ni Naritakute! S2 - 02 (1080p) [B11EAA51].mkv
+Nov 28, 2023 01:26:44.989 [548464939064] DEBUG - [MI] Opening input file: "/media/tv/The Eminence in Shadow/Season 2/[SubsPlease] Kage no Jitsuryokusha ni Naritakute! S2 - 02 (1080p) [B11EAA51].mkv"
+Nov 28, 2023 01:26:44.989 [548464939064] DEBUG - [FFMPEG] - Opening '/media/tv/The Eminence in Shadow/Season 2/[SubsPlease] Kage no Jitsuryokusha ni Naritakute! S2 - 02 (1080p) [B11EAA51].mkv' for reading
+Nov 28, 2023 01:26:44.989 [548464939064] DEBUG - [FFMPEG] - Setting default whitelist 'file,crypto,data'
+Nov 28, 2023 01:26:44.990 [548464939064] DEBUG - [FFMPEG] - Format matroska,webm probed with size=2048 and score=100
+Nov 28, 2023 01:26:44.990 [548464939064] DEBUG - [FFMPEG] - Unknown entry 0x22B59D at pos. 4283
+Nov 28, 2023 01:26:44.990 [548464939064] DEBUG - [FFMPEG] - Unknown entry 0x22B59D at pos. 4398
+Nov 28, 2023 01:26:44.990 [548464939064] DEBUG - [FFMPEG] - Unknown entry 0x22B59D at pos. 6012
+Nov 28, 2023 01:26:44.998 [548464939064] DEBUG - [FFMPEG] - Unknown entry 0x447B at pos. 395659834
+Nov 28, 2023 01:26:44.998 [548464939064] DEBUG - [FFMPEG] - Unknown entry 0x447B at pos. 395659880
+Nov 28, 2023 01:26:44.998 [548464939064] DEBUG - [FFMPEG] - Unknown entry 0x447B at pos. 395659921
+Nov 28, 2023 01:26:44.998 [548464939064] DEBUG - [FFMPEG] - Unknown entry 0x447B at pos. 395659965
+Nov 28, 2023 01:26:44.998 [548464939064] DEBUG - [FFMPEG] - Unknown entry 0x447B at pos. 395660024
+Nov 28, 2023 01:26:44.998 [548464939064] DEBUG - [FFMPEG] - Unknown entry 0x447B at pos. 395660091
+Nov 28, 2023 01:26:44.998 [548464939064] DEBUG - [FFMPEG] - Unknown entry 0x447B at pos. 395660172
+Nov 28, 2023 01:26:44.998 [548464939064] DEBUG - [FFMPEG] - Unknown entry 0x447B at pos. 395660224
+Nov 28, 2023 01:26:44.998 [548464939064] DEBUG - [FFMPEG] - Unknown entry 0x447B at pos. 395660270
+Nov 28, 2023 01:26:44.998 [548464939064] DEBUG - [FFMPEG] - Unknown entry 0x447B at pos. 395660311
+Nov 28, 2023 01:26:44.998 [548464939064] DEBUG - [FFMPEG] - Unknown entry 0x447B at pos. 395660354
+Nov 28, 2023 01:26:44.998 [548464939064] DEBUG - [FFMPEG] - Unknown entry 0x447B at pos. 395660413
+Nov 28, 2023 01:26:44.998 [548464939064] DEBUG - [FFMPEG] - Unknown entry 0x447B at pos. 395660480
+Nov 28, 2023 01:26:44.998 [548464939064] DEBUG - [FFMPEG] - Unknown entry 0x447B at pos. 395660561
+Nov 28, 2023 01:26:44.998 [548464939064] DEBUG - [FFMPEG] - Unknown entry 0x447B at pos. 395660610
+Nov 28, 2023 01:26:44.998 [548464939064] DEBUG - [FFMPEG] - Unknown entry 0x447B at pos. 395660656
+Nov 28, 2023 01:26:44.998 [548464939064] DEBUG - [FFMPEG] - Unknown entry 0x447B at pos. 395660695
+Nov 28, 2023 01:26:44.998 [548464939064] DEBUG - [FFMPEG] - Unknown entry 0x447B at pos. 395660735
+Nov 28, 2023 01:26:44.998 [548464939064] DEBUG - [FFMPEG] - Unknown entry 0x447B at pos. 395660794
+Nov 28, 2023 01:26:44.998 [548464939064] DEBUG - [FFMPEG] - Unknown entry 0x447B at pos. 395660861
+Nov 28, 2023 01:26:44.998 [548464939064] DEBUG - [FFMPEG] - Unknown entry 0x447B at pos. 395660942
+Nov 28, 2023 01:26:44.998 [548464939064] DEBUG - [FFMPEG] - st:0 removing common factor 1000000 from timebase
+Nov 28, 2023 01:26:44.998 [548464939064] DEBUG - [FFMPEG] - st:1 removing common factor 1000000 from timebase
+Nov 28, 2023 01:26:44.998 [548464939064] DEBUG - [FFMPEG] - st:2 removing common factor 1000000 from timebase
+Nov 28, 2023 01:26:45.000 [548464939064] INFO - CodecManager: obtaining decoder 'h264'
+Nov 28, 2023 01:26:45.000 [548464939064] DEBUG - [HCl#3] HTTP requesting GET https://plex.tv/api/codecs/h264_decoder?build=linux-aarch64-standard&deviceId=16fd088c-cead-41f3-93d5-ff537b941bb1&oldestPreviousVersion=1%2E32%2E7%2E7621-871adbd44&version=a31c019-4614
+Nov 28, 2023 01:26:45.624 [548388200504] DEBUG - [HttpClient/HCl#3] HTTP/2.0 (0.6s) 200 response from GET https://plex.tv/api/codecs/h264_decoder?build=linux-aarch64-standard&deviceId=16fd088c-cead-41f3-93d5-ff537b941bb1&oldestPreviousVersion=1%2E32%2E7%2E7621-871adbd44&version=a31c019-4614
+Nov 28, 2023 01:26:45.625 [548387520568] DEBUG - [GetFile/HCl#4] HTTP requesting GET https://downloads.plex.tv/codecs/a31c019-4614/linux-aarch64-standard/libh264_decoder.so
+Nov 28, 2023 01:26:46.012 [548388200504] DEBUG - [HttpClient/HCl#4] HTTP/2.0 (0.4s) 200 response from GET https://downloads.plex.tv/codecs/a31c019-4614/linux-aarch64-standard/libh264_decoder.so
+Nov 28, 2023 01:26:46.063 [548464939064] DEBUG - [FFMPEG] - Before avformat_find_stream_info() pos: 358945 bytes read:392872 seeks:2 nb_streams:4
+Nov 28, 2023 01:26:46.069 [548464939064] DEBUG - [FFMPEG] - nal_unit_type: 7(SPS), nal_ref_idc: 3
+Nov 28, 2023 01:26:46.069 [548464939064] DEBUG - [FFMPEG] - nal_unit_type: 8(PPS), nal_ref_idc: 3
+Nov 28, 2023 01:26:46.071 [548464939064] DEBUG - [FFMPEG] - nal_unit_type: 7(SPS), nal_ref_idc: 3
+Nov 28, 2023 01:26:46.071 [548464939064] DEBUG - [FFMPEG] - nal_unit_type: 8(PPS), nal_ref_idc: 3
+Nov 28, 2023 01:26:46.072 [548464939064] DEBUG - [FFMPEG] - nal_unit_type: 7(SPS), nal_ref_idc: 3
+Nov 28, 2023 01:26:46.072 [548464939064] DEBUG - [FFMPEG] - nal_unit_type: 8(PPS), nal_ref_idc: 3
+Nov 28, 2023 01:26:46.072 [548464939064] DEBUG - [FFMPEG] - nal_unit_type: 6(SEI), nal_ref_idc: 0
+Nov 28, 2023 01:26:46.072 [548464939064] DEBUG - [FFMPEG] - nal_unit_type: 5(IDR), nal_ref_idc: 3
+Nov 28, 2023 01:26:46.073 [548464939064] DEBUG - [FFMPEG] - Format yuv420p chosen by get_format().
+Nov 28, 2023 01:26:46.081 [548464939064] DEBUG - [FFMPEG] - no picture 
+Nov 28, 2023 01:26:46.088 [548464939064] DEBUG - [FFMPEG] - nal_unit_type: 1(Coded slice of a non-IDR picture), nal_ref_idc: 2
+Nov 28, 2023 01:26:46.095 [548464939064] DEBUG - [FFMPEG] - no picture 
+Nov 28, 2023 01:26:46.102 [548464939064] DEBUG - [FFMPEG] - nal_unit_type: 1(Coded slice of a non-IDR picture), nal_ref_idc: 2
+Nov 28, 2023 01:26:46.120 [548464939064] DEBUG - [FFMPEG] - nal_unit_type: 1(Coded slice of a non-IDR picture), nal_ref_idc: 0
+Nov 28, 2023 01:26:46.138 [548464939064] DEBUG - [FFMPEG] - nal_unit_type: 1(Coded slice of a non-IDR picture), nal_ref_idc: 0
+Nov 28, 2023 01:26:46.155 [548464939064] DEBUG - [FFMPEG] - nal_unit_type: 1(Coded slice of a non-IDR picture), nal_ref_idc: 2
+Nov 28, 2023 01:26:46.162 [548464939064] DEBUG - [FFMPEG] - nal_unit_type: 1(Coded slice of a non-IDR picture), nal_ref_idc: 2
+Nov 28, 2023 01:26:46.173 [548464939064] DEBUG - [FFMPEG] - nal_unit_type: 1(Coded slice of a non-IDR picture), nal_ref_idc: 0
+Nov 28, 2023 01:26:46.184 [548464939064] DEBUG - [FFMPEG] - nal_unit_type: 1(Coded slice of a non-IDR picture), nal_ref_idc: 0
+Nov 28, 2023 01:26:46.194 [548464939064] DEBUG - [FFMPEG] - All info found
+Nov 28, 2023 01:26:46.200 [548464939064] DEBUG - [FFMPEG] - After avformat_find_stream_info() pos: 374493 bytes read:425640 seeks:2 frames:42
+Nov 28, 2023 01:26:46.214 [548464939064] DEBUG - [MI]  * 91af2b9289d9f95b985a2d8c6f2cab54ed4650a9 [mkv h264/aac] Duration: 1422506ms, 1920x1080 (1.777778) 23.976fps, bitrate=2225kbps, audio channels=2, optimizedForStreaming=0 ("/media/tv/The Eminence in Shadow/Season 2/[SubsPlease] Kage no Jitsuryokusha ni Naritakute! S2 - 02 (1080p) [B11EAA51].mkv")
+Nov 28, 2023 01:26:46.214 [548464939064] DEBUG - [MI] Chapters had generic titles, clearing.
+Nov 28, 2023 01:26:46.215 [548464939064] DEBUG - [MI] Closing input file: "/media/tv/The Eminence in Shadow/Season 2/[SubsPlease] Kage no Jitsuryokusha ni Naritakute! S2 - 02 (1080p) [B11EAA51].mkv"
+Nov 28, 2023 01:26:46.217 [548464939064] DEBUG - Committing media stream changes for part 32
+Nov 28, 2023 01:26:46.219 [548464939064] DEBUG - Updating media item 32, size=395660947, metadata_item_id=33
+Nov 28, 2023 01:26:46.219 [548464939064] DEBUG - Updating part with ID=32 [/media/tv/The Eminence in Shadow/Season 2/[SubsPlease] Kage no Jitsuryokusha ni Naritakute! S2 - 02 (1080p) [B11EAA51].mkv]
+Nov 28, 2023 01:26:46.220 [548387274808] DEBUG - [HCl#5] HTTP requesting GET http://127.0.0.1:32400/:/metadata/notify/changeItemState?librarySectionID=2&metadataItemID=33&metadataType=4&state=-1&parentID=-1&rootID=-1&mediaState=analyzing
+Nov 28, 2023 01:26:46.225 [548388200504] DEBUG - [HttpClient/HCl#5] HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/:/metadata/notify/changeItemState?librarySectionID=2&metadataItemID=33&metadataType=4&state=-1&parentID=-1&rootID=-1&mediaState=analyzing (reused)
+Nov 28, 2023 01:26:46.225 [548387274808] DEBUG - [HCl#6] HTTP requesting GET http://127.0.0.1:32400/:/metadata/notify/changeItemState?librarySectionID=2&metadataItemID=33&metadataType=4&state=-1&parentID=-1&rootID=-1&mediaState=idle
+Nov 28, 2023 01:26:46.226 [548464939064] DEBUG - Downloading document http://127.0.0.1:32400/library/changestamp
+Nov 28, 2023 01:26:46.227 [548464939064] DEBUG - [HCl#7] HTTP requesting GET http://127.0.0.1:32400/library/changestamp
+Nov 28, 2023 01:26:46.229 [548388200504] DEBUG - [HttpClient/HCl#6] HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/:/metadata/notify/changeItemState?librarySectionID=2&metadataItemID=33&metadataType=4&state=-1&parentID=-1&rootID=-1&mediaState=idle (reused)
+Nov 28, 2023 01:26:46.230 [548388200504] DEBUG - [HttpClient/HCl#7] HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/library/changestamp (reused)
+Nov 28, 2023 01:26:46.231 [548464939064] DEBUG - Updating metadata item (save) (The Haven) with ID 33
+Nov 28, 2023 01:26:46.233 [548387274808] DEBUG - [HCl#8] HTTP requesting GET http://127.0.0.1:32400/:/metadata/flushMetadataCounterCache?metadataItemID=10
+Nov 28, 2023 01:26:46.235 [548388200504] DEBUG - [HttpClient/HCl#8] HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/:/metadata/flushMetadataCounterCache?metadataItemID=10 (reused)
+Nov 28, 2023 01:26:46.239 [548464939064] DEBUG - Analyzing media parts for item 34 (The Hour of Awakening): 33
+Nov 28, 2023 01:26:46.240 [548464939064] DEBUG - Downloading document http://127.0.0.1:32400/library/changestamp
+Nov 28, 2023 01:26:46.240 [548464939064] DEBUG - [HCl#9] HTTP requesting GET http://127.0.0.1:32400/library/changestamp
+Nov 28, 2023 01:26:46.243 [548388200504] DEBUG - [HttpClient/HCl#9] HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/library/changestamp (reused)
+Nov 28, 2023 01:26:46.243 [548464939064] DEBUG - Updating metadata item (save) (The Hour of Awakening) with ID 34
+Nov 28, 2023 01:26:46.247 [548464939064] DEBUG - [ID 33] Media part analysis: /media/tv/The Eminence in Shadow/Season 2/[SubsPlease] Kage no Jitsuryokusha ni Naritakute! S2 - 03 (1080p) [35E9387D].mkv
+Nov 28, 2023 01:26:46.247 [548464939064] DEBUG - [MI] Opening input file: "/media/tv/The Eminence in Shadow/Season 2/[SubsPlease] Kage no Jitsuryokusha ni Naritakute! S2 - 03 (1080p) [35E9387D].mkv"
+Nov 28, 2023 01:26:46.248 [548464939064] DEBUG - [FFMPEG] - Opening '/media/tv/The Eminence in Shadow/Season 2/[SubsPlease] Kage no Jitsuryokusha ni Naritakute! S2 - 03 (1080p) [35E9387D].mkv' for reading
+Nov 28, 2023 01:26:46.248 [548464939064] DEBUG - [FFMPEG] - Setting default whitelist 'file,crypto,data'
+Nov 28, 2023 01:26:46.248 [548464939064] DEBUG - [FFMPEG] - Format matroska,webm probed with size=2048 and score=100
+Nov 28, 2023 01:26:46.249 [548464939064] DEBUG - [FFMPEG] - Unknown entry 0x22B59D at pos. 4283
+Nov 28, 2023 01:26:46.249 [548464939064] DEBUG - [FFMPEG] - Unknown entry 0x22B59D at pos. 4398
+Nov 28, 2023 01:26:46.249 [548464939064] DEBUG - [FFMPEG] - Unknown entry 0x22B59D at pos. 6244
+Nov 28, 2023 01:26:46.251 [548387274808] DEBUG - [HCl#a] HTTP requesting GET http://127.0.0.1:32400/:/metadata/flushMetadataCounterCache?metadataItemID=10
+Nov 28, 2023 01:26:46.253 [548388200504] DEBUG - [HttpClient/HCl#a] HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/:/metadata/flushMetadataCounterCache?metadataItemID=10 (reused)
+Nov 28, 2023 01:26:46.259 [548464939064] DEBUG - [FFMPEG] - Unknown entry 0x447B at pos. 448447806
+Nov 28, 2023 01:26:46.259 [548464939064] DEBUG - [FFMPEG] - Unknown entry 0x447B at pos. 448447852
+Nov 28, 2023 01:26:46.259 [548464939064] DEBUG - [FFMPEG] - Unknown entry 0x447B at pos. 448447893
+Nov 28, 2023 01:26:46.259 [548464939064] DEBUG - [FFMPEG] - Unknown entry 0x447B at pos. 448447937
+Nov 28, 2023 01:26:46.259 [548464939064] DEBUG - [FFMPEG] - Unknown entry 0x447B at pos. 448447996
+Nov 28, 2023 01:26:46.259 [548464939064] DEBUG - [FFMPEG] - Unknown entry 0x447B at pos. 448448063
+Nov 28, 2023 01:26:46.259 [548464939064] DEBUG - [FFMPEG] - Unknown entry 0x447B at pos. 448448144
+Nov 28, 2023 01:26:46.259 [548464939064] DEBUG - [FFMPEG] - Unknown entry 0x447B at pos. 448448196
+Nov 28, 2023 01:26:46.259 [548464939064] DEBUG - [FFMPEG] - Unknown entry 0x447B at pos. 448448242
+Nov 28, 2023 01:26:46.259 [548464939064] DEBUG - [FFMPEG] - Unknown entry 0x447B at pos. 448448283
+Nov 28, 2023 01:26:46.259 [548464939064] DEBUG - [FFMPEG] - Unknown entry 0x447B at pos. 448448326
+Nov 28, 2023 01:26:46.259 [548464939064] DEBUG - [FFMPEG] - Unknown entry 0x447B at pos. 448448385
+Nov 28, 2023 01:26:46.259 [548464939064] DEBUG - [FFMPEG] - Unknown entry 0x447B at pos. 448448452
+Nov 28, 2023 01:26:46.259 [548464939064] DEBUG - [FFMPEG] - Unknown entry 0x447B at pos. 448448533
+Nov 28, 2023 01:26:46.259 [548464939064] DEBUG - [FFMPEG] - Unknown entry 0x447B at pos. 448448582
+Nov 28, 2023 01:26:46.259 [548464939064] DEBUG - [FFMPEG] - Unknown entry 0x447B at pos. 448448628
+Nov 28, 2023 01:26:46.259 [548464939064] DEBUG - [FFMPEG] - Unknown entry 0x447B at pos. 448448667
+Nov 28, 2023 01:26:46.259 [548464939064] DEBUG - [FFMPEG] - Unknown entry 0x447B at pos. 448448707
+Nov 28, 2023 01:26:46.259 [548464939064] DEBUG - [FFMPEG] - Unknown entry 0x447B at pos. 448448766
+Nov 28, 2023 01:26:46.259 [548464939064] DEBUG - [FFMPEG] - Unknown entry 0x447B at pos. 448448833
+Nov 28, 2023 01:26:46.259 [548464939064] DEBUG - [FFMPEG] - Unknown entry 0x447B at pos. 448448914
+Nov 28, 2023 01:26:46.259 [548464939064] DEBUG - [FFMPEG] - st:0 removing common factor 1000000 from timebase
+Nov 28, 2023 01:26:46.259 [548464939064] DEBUG - [FFMPEG] - st:1 removing common factor 1000000 from timebase
+Nov 28, 2023 01:26:46.259 [548464939064] DEBUG - [FFMPEG] - st:2 removing common factor 1000000 from timebase
+Nov 28, 2023 01:26:46.261 [548464939064] DEBUG - [FFMPEG] - Before avformat_find_stream_info() pos: 359177 bytes read:393104 seeks:2 nb_streams:4
+Nov 28, 2023 01:26:46.262 [548464939064] DEBUG - [FFMPEG] - nal_unit_type: 7(SPS), nal_ref_idc: 3
+Nov 28, 2023 01:26:46.262 [548464939064] DEBUG - [FFMPEG] - nal_unit_type: 8(PPS), nal_ref_idc: 3
+Nov 28, 2023 01:26:46.264 [548464939064] DEBUG - [FFMPEG] - nal_unit_type: 7(SPS), nal_ref_idc: 3
+Nov 28, 2023 01:26:46.264 [548464939064] DEBUG - [FFMPEG] - nal_unit_type: 8(PPS), nal_ref_idc: 3
+Nov 28, 2023 01:26:46.265 [548464939064] DEBUG - [FFMPEG] - nal_unit_type: 7(SPS), nal_ref_idc: 3
+Nov 28, 2023 01:26:46.265 [548464939064] DEBUG - [FFMPEG] - nal_unit_type: 8(PPS), nal_ref_idc: 3
+Nov 28, 2023 01:26:46.265 [548464939064] DEBUG - [FFMPEG] - nal_unit_type: 6(SEI), nal_ref_idc: 0
+Nov 28, 2023 01:26:46.265 [548464939064] DEBUG - [FFMPEG] - nal_unit_type: 5(IDR), nal_ref_idc: 3
+Nov 28, 2023 01:26:46.266 [548464939064] DEBUG - [FFMPEG] - Format yuv420p chosen by get_format().
+Nov 28, 2023 01:26:46.273 [548464939064] DEBUG - [FFMPEG] - no picture 
+Nov 28, 2023 01:26:46.280 [548464939064] DEBUG - [FFMPEG] - nal_unit_type: 1(Coded slice of a non-IDR picture), nal_ref_idc: 2
+Nov 28, 2023 01:26:46.286 [548464939064] DEBUG - [FFMPEG] - no picture 
+Nov 28, 2023 01:26:46.293 [548464939064] DEBUG - [FFMPEG] - nal_unit_type: 1(Coded slice of a non-IDR picture), nal_ref_idc: 2
+Nov 28, 2023 01:26:46.310 [548464939064] DEBUG - [FFMPEG] - nal_unit_type: 1(Coded slice of a non-IDR picture), nal_ref_idc: 0
+Nov 28, 2023 01:26:46.327 [548464939064] DEBUG - [FFMPEG] - nal_unit_type: 1(Coded slice of a non-IDR picture), nal_ref_idc: 0
+Nov 28, 2023 01:26:46.351 [548464939064] DEBUG - [FFMPEG] - nal_unit_type: 1(Coded slice of a non-IDR picture), nal_ref_idc: 2
+Nov 28, 2023 01:26:46.357 [548464939064] DEBUG - [FFMPEG] - nal_unit_type: 1(Coded slice of a non-IDR picture), nal_ref_idc: 2
+Nov 28, 2023 01:26:46.368 [548464939064] DEBUG - [FFMPEG] - nal_unit_type: 1(Coded slice of a non-IDR picture), nal_ref_idc: 0
+Nov 28, 2023 01:26:46.378 [548464939064] DEBUG - [FFMPEG] - nal_unit_type: 1(Coded slice of a non-IDR picture), nal_ref_idc: 0
+Nov 28, 2023 01:26:46.389 [548464939064] DEBUG - [FFMPEG] - All info found
+Nov 28, 2023 01:26:46.394 [548464939064] DEBUG - [FFMPEG] - After avformat_find_stream_info() pos: 374725 bytes read:425872 seeks:2 frames:42
+Nov 28, 2023 01:26:46.395 [548464939064] DEBUG - [MI]  * 386830952733ce76f473fce72bbeeb75014d436a [mkv h264/aac] Duration: 1422506ms, 1920x1080 (1.777778) 23.976fps, bitrate=2522kbps, audio channels=2, optimizedForStreaming=0 ("/media/tv/The Eminence in Shadow/Season 2/[SubsPlease] Kage no Jitsuryokusha ni Naritakute! S2 - 03 (1080p) [35E9387D].mkv")
+Nov 28, 2023 01:26:46.395 [548464939064] DEBUG - [MI] Chapters had generic titles, clearing.
+Nov 28, 2023 01:26:46.396 [548464939064] DEBUG - [MI] Closing input file: "/media/tv/The Eminence in Shadow/Season 2/[SubsPlease] Kage no Jitsuryokusha ni Naritakute! S2 - 03 (1080p) [35E9387D].mkv"
+Nov 28, 2023 01:26:46.404 [548464939064] DEBUG - Committing media stream changes for part 33
+Nov 28, 2023 01:26:46.406 [548464939064] DEBUG - Updating media item 33, size=448448919, metadata_item_id=34
+Nov 28, 2023 01:26:46.407 [548464939064] DEBUG - Updating part with ID=33 [/media/tv/The Eminence in Shadow/Season 2/[SubsPlease] Kage no Jitsuryokusha ni Naritakute! S2 - 03 (1080p) [35E9387D].mkv]
+Nov 28, 2023 01:26:46.407 [548387274808] DEBUG - [HCl#b] HTTP requesting GET http://127.0.0.1:32400/:/metadata/notify/changeItemState?librarySectionID=2&metadataItemID=34&metadataType=4&state=-1&parentID=-1&rootID=-1&mediaState=analyzing
+Nov 28, 2023 01:26:46.409 [548388200504] DEBUG - [HttpClient/HCl#b] HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/:/metadata/notify/changeItemState?librarySectionID=2&metadataItemID=34&metadataType=4&state=-1&parentID=-1&rootID=-1&mediaState=analyzing (reused)
+Nov 28, 2023 01:26:46.410 [548387274808] DEBUG - [HCl#c] HTTP requesting GET http://127.0.0.1:32400/:/metadata/notify/changeItemState?librarySectionID=2&metadataItemID=34&metadataType=4&state=-1&parentID=-1&rootID=-1&mediaState=idle
+Nov 28, 2023 01:26:46.412 [548388200504] DEBUG - [HttpClient/HCl#c] HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/:/metadata/notify/changeItemState?librarySectionID=2&metadataItemID=34&metadataType=4&state=-1&parentID=-1&rootID=-1&mediaState=idle (reused)
+Nov 28, 2023 01:26:46.415 [548464939064] DEBUG - Downloading document http://127.0.0.1:32400/library/changestamp
+Nov 28, 2023 01:26:46.415 [548464939064] DEBUG - [HCl#d] HTTP requesting GET http://127.0.0.1:32400/library/changestamp
+Nov 28, 2023 01:26:46.418 [548388200504] DEBUG - [HttpClient/HCl#d] HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/library/changestamp (reused)
+Nov 28, 2023 01:26:46.418 [548464939064] DEBUG - Updating metadata item (save) (The Hour of Awakening) with ID 34
+Nov 28, 2023 01:26:46.466 [548387274808] DEBUG - [HCl#e] HTTP requesting GET http://127.0.0.1:32400/:/metadata/flushMetadataCounterCache?metadataItemID=10
+Nov 28, 2023 01:26:46.467 [548388200504] DEBUG - [HttpClient/HCl#e] HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/:/metadata/flushMetadataCounterCache?metadataItemID=10 (reused)
+Nov 28, 2023 01:26:46.473 [548464939064] DEBUG - Analyzing media parts for item 35 (Mask of Falsehood): 34
+Nov 28, 2023 01:26:46.475 [548464939064] DEBUG - Downloading document http://127.0.0.1:32400/library/changestamp
+Nov 28, 2023 01:26:46.475 [548464939064] DEBUG - [HCl#f] HTTP requesting GET http://127.0.0.1:32400/library/changestamp
+Nov 28, 2023 01:26:46.477 [548388200504] DEBUG - [HttpClient/HCl#f] HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/library/changestamp (reused)
+Nov 28, 2023 01:26:46.477 [548464939064] DEBUG - Updating metadata item (save) (Mask of Falsehood) with ID 35
+Nov 28, 2023 01:26:46.520 [548387274808] DEBUG - [HCl#10] HTTP requesting GET http://127.0.0.1:32400/:/metadata/flushMetadataCounterCache?metadataItemID=10
+Nov 28, 2023 01:26:46.522 [548388200504] DEBUG - [HttpClient/HCl#10] HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/:/metadata/flushMetadataCounterCache?metadataItemID=10 (reused)
+Nov 28, 2023 01:26:46.526 [548464939064] DEBUG - [ID 34] Media part analysis: /media/tv/The Eminence in Shadow/Season 2/[SubsPlease] Kage no Jitsuryokusha ni Naritakute! S2 - 04 (1080p) [DE5C1FAB].mkv
+Nov 28, 2023 01:26:46.527 [548464939064] DEBUG - [MI] Opening input file: "/media/tv/The Eminence in Shadow/Season 2/[SubsPlease] Kage no Jitsuryokusha ni Naritakute! S2 - 04 (1080p) [DE5C1FAB].mkv"
+Nov 28, 2023 01:26:46.527 [548464939064] DEBUG - [FFMPEG] - Opening '/media/tv/The Eminence in Shadow/Season 2/[SubsPlease] Kage no Jitsuryokusha ni Naritakute! S2 - 04 (1080p) [DE5C1FAB].mkv' for reading
+Nov 28, 2023 01:26:46.527 [548464939064] DEBUG - [FFMPEG] - Setting default whitelist 'file,crypto,data'
+Nov 28, 2023 01:26:46.527 [548464939064] DEBUG - [FFMPEG] - Format matroska,webm probed with size=2048 and score=100
+Nov 28, 2023 01:26:46.528 [548464939064] DEBUG - [FFMPEG] - Unknown entry 0x22B59D at pos. 4283
+Nov 28, 2023 01:26:46.528 [548464939064] DEBUG - [FFMPEG] - Unknown entry 0x22B59D at pos. 4398
+Nov 28, 2023 01:26:46.528 [548464939064] DEBUG - [FFMPEG] - Unknown entry 0x22B59D at pos. 6133
+Nov 28, 2023 01:26:46.548 [548464939064] DEBUG - [FFMPEG] - Unknown entry 0x447B at pos. 373784711
+Nov 28, 2023 01:26:46.548 [548464939064] DEBUG - [FFMPEG] - Unknown entry 0x447B at pos. 373784757
+Nov 28, 2023 01:26:46.548 [548464939064] DEBUG - [FFMPEG] - Unknown entry 0x447B at pos. 373784798
+Nov 28, 2023 01:26:46.548 [548464939064] DEBUG - [FFMPEG] - Unknown entry 0x447B at pos. 373784842
+Nov 28, 2023 01:26:46.548 [548464939064] DEBUG - [FFMPEG] - Unknown entry 0x447B at pos. 373784901
+Nov 28, 2023 01:26:46.548 [548464939064] DEBUG - [FFMPEG] - Unknown entry 0x447B at pos. 373784968
+Nov 28, 2023 01:26:46.548 [548464939064] DEBUG - [FFMPEG] - Unknown entry 0x447B at pos. 373785049
+Nov 28, 2023 01:26:46.548 [548464939064] DEBUG - [FFMPEG] - Unknown entry 0x447B at pos. 373785101
+Nov 28, 2023 01:26:46.548 [548464939064] DEBUG - [FFMPEG] - Unknown entry 0x447B at pos. 373785147
+Nov 28, 2023 01:26:46.548 [548464939064] DEBUG - [FFMPEG] - Unknown entry 0x447B at pos. 373785188
+Nov 28, 2023 01:26:46.548 [548464939064] DEBUG - [FFMPEG] - Unknown entry 0x447B at pos. 373785231
+Nov 28, 2023 01:26:46.548 [548464939064] DEBUG - [FFMPEG] - Unknown entry 0x447B at pos. 373785290
+Nov 28, 2023 01:26:46.548 [548464939064] DEBUG - [FFMPEG] - Unknown entry 0x447B at pos. 373785357
+Nov 28, 2023 01:26:46.548 [548464939064] DEBUG - [FFMPEG] - Unknown entry 0x447B at pos. 373785438
+Nov 28, 2023 01:26:46.548 [548464939064] DEBUG - [FFMPEG] - Unknown entry 0x447B at pos. 373785487
+Nov 28, 2023 01:26:46.548 [548464939064] DEBUG - [FFMPEG] - Unknown entry 0x447B at pos. 373785533
+Nov 28, 2023 01:26:46.548 [548464939064] DEBUG - [FFMPEG] - Unknown entry 0x447B at pos. 373785572
+Nov 28, 2023 01:26:46.548 [548464939064] DEBUG - [FFMPEG] - Unknown entry 0x447B at pos. 373785612
+Nov 28, 2023 01:26:46.548 [548464939064] DEBUG - [FFMPEG] - Unknown entry 0x447B at pos. 373785671
+Nov 28, 2023 01:26:46.548 [548464939064] DEBUG - [FFMPEG] - Unknown entry 0x447B at pos. 373785738
+Nov 28, 2023 01:26:46.548 [548464939064] DEBUG - [FFMPEG] - Unknown entry 0x447B at pos. 373785819
+Nov 28, 2023 01:26:46.548 [548464939064] DEBUG - [FFMPEG] - st:0 removing common factor 1000000 from timebase
+Nov 28, 2023 01:26:46.548 [548464939064] DEBUG - [FFMPEG] - st:1 removing common factor 1000000 from timebase
+Nov 28, 2023 01:26:46.548 [548464939064] DEBUG - [FFMPEG] - st:2 removing common factor 1000000 from timebase
+Nov 28, 2023 01:26:46.550 [548464939064] DEBUG - [FFMPEG] - Before avformat_find_stream_info() pos: 359066 bytes read:392993 seeks:2 nb_streams:4
+Nov 28, 2023 01:26:46.551 [548464939064] DEBUG - [FFMPEG] - nal_unit_type: 7(SPS), nal_ref_idc: 3
+Nov 28, 2023 01:26:46.551 [548464939064] DEBUG - [FFMPEG] - nal_unit_type: 8(PPS), nal_ref_idc: 3
+Nov 28, 2023 01:26:46.553 [548464939064] DEBUG - [FFMPEG] - nal_unit_type: 7(SPS), nal_ref_idc: 3
+Nov 28, 2023 01:26:46.553 [548464939064] DEBUG - [FFMPEG] - nal_unit_type: 8(PPS), nal_ref_idc: 3
+Nov 28, 2023 01:26:46.554 [548464939064] DEBUG - [FFMPEG] - nal_unit_type: 7(SPS), nal_ref_idc: 3
+Nov 28, 2023 01:26:46.554 [548464939064] DEBUG - [FFMPEG] - nal_unit_type: 8(PPS), nal_ref_idc: 3
+Nov 28, 2023 01:26:46.554 [548464939064] DEBUG - [FFMPEG] - nal_unit_type: 6(SEI), nal_ref_idc: 0
+Nov 28, 2023 01:26:46.554 [548464939064] DEBUG - [FFMPEG] - nal_unit_type: 5(IDR), nal_ref_idc: 3
+Nov 28, 2023 01:26:46.554 [548464939064] DEBUG - [FFMPEG] - Format yuv420p chosen by get_format().
+Nov 28, 2023 01:26:46.562 [548464939064] DEBUG - [FFMPEG] - no picture 
+Nov 28, 2023 01:26:46.569 [548464939064] DEBUG - [FFMPEG] - nal_unit_type: 1(Coded slice of a non-IDR picture), nal_ref_idc: 2
+Nov 28, 2023 01:26:46.576 [548464939064] DEBUG - [FFMPEG] - no picture 
+Nov 28, 2023 01:26:46.583 [548464939064] DEBUG - [FFMPEG] - nal_unit_type: 1(Coded slice of a non-IDR picture), nal_ref_idc: 2
+Nov 28, 2023 01:26:46.602 [548464939064] DEBUG - [FFMPEG] - nal_unit_type: 1(Coded slice of a non-IDR picture), nal_ref_idc: 0
+Nov 28, 2023 01:26:46.618 [548464939064] DEBUG - [FFMPEG] - nal_unit_type: 1(Coded slice of a non-IDR picture), nal_ref_idc: 0
+Nov 28, 2023 01:26:46.635 [548464939064] DEBUG - [FFMPEG] - nal_unit_type: 1(Coded slice of a non-IDR picture), nal_ref_idc: 2
+Nov 28, 2023 01:26:46.643 [548464939064] DEBUG - [FFMPEG] - nal_unit_type: 1(Coded slice of a non-IDR picture), nal_ref_idc: 2
+Nov 28, 2023 01:26:46.653 [548464939064] DEBUG - [FFMPEG] - nal_unit_type: 1(Coded slice of a non-IDR picture), nal_ref_idc: 0
+Nov 28, 2023 01:26:46.663 [548464939064] DEBUG - [FFMPEG] - nal_unit_type: 1(Coded slice of a non-IDR picture), nal_ref_idc: 0
+Nov 28, 2023 01:26:46.674 [548464939064] DEBUG - [FFMPEG] - All info found
+Nov 28, 2023 01:26:46.680 [548464939064] DEBUG - [FFMPEG] - After avformat_find_stream_info() pos: 374614 bytes read:425761 seeks:2 frames:42
+Nov 28, 2023 01:26:46.680 [548464939064] DEBUG - [MI]  * a1c2f75487d15119694c8fbfeea4cbe298ff8426 [mkv h264/aac] Duration: 1422506ms, 1920x1080 (1.777778) 23.976fps, bitrate=2102kbps, audio channels=2, optimizedForStreaming=0 ("/media/tv/The Eminence in Shadow/Season 2/[SubsPlease] Kage no Jitsuryokusha ni Naritakute! S2 - 04 (1080p) [DE5C1FAB].mkv")
+Nov 28, 2023 01:26:46.680 [548464939064] DEBUG - [MI] Chapters had generic titles, clearing.
+Nov 28, 2023 01:26:46.681 [548464939064] DEBUG - [MI] Closing input file: "/media/tv/The Eminence in Shadow/Season 2/[SubsPlease] Kage no Jitsuryokusha ni Naritakute! S2 - 04 (1080p) [DE5C1FAB].mkv"
+Nov 28, 2023 01:26:46.684 [548464939064] DEBUG - Committing media stream changes for part 34
+Nov 28, 2023 01:26:46.688 [548464939064] DEBUG - Updating media item 34, size=373785824, metadata_item_id=35
+Nov 28, 2023 01:26:46.688 [548464939064] DEBUG - Updating part with ID=34 [/media/tv/The Eminence in Shadow/Season 2/[SubsPlease] Kage no Jitsuryokusha ni Naritakute! S2 - 04 (1080p) [DE5C1FAB].mkv]
+Nov 28, 2023 01:26:46.689 [548387274808] DEBUG - [HCl#11] HTTP requesting GET http://127.0.0.1:32400/:/metadata/notify/changeItemState?librarySectionID=2&metadataItemID=35&metadataType=4&state=-1&parentID=-1&rootID=-1&mediaState=analyzing
+Nov 28, 2023 01:26:46.690 [548388200504] DEBUG - [HttpClient/HCl#11] HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/:/metadata/notify/changeItemState?librarySectionID=2&metadataItemID=35&metadataType=4&state=-1&parentID=-1&rootID=-1&mediaState=analyzing (reused)
+Nov 28, 2023 01:26:46.690 [548387274808] DEBUG - [HCl#12] HTTP requesting GET http://127.0.0.1:32400/:/metadata/notify/changeItemState?librarySectionID=2&metadataItemID=35&metadataType=4&state=-1&parentID=-1&rootID=-1&mediaState=idle
+Nov 28, 2023 01:26:46.692 [548388200504] DEBUG - [HttpClient/HCl#12] HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/:/metadata/notify/changeItemState?librarySectionID=2&metadataItemID=35&metadataType=4&state=-1&parentID=-1&rootID=-1&mediaState=idle (reused)
+Nov 28, 2023 01:26:46.697 [548464939064] DEBUG - Downloading document http://127.0.0.1:32400/library/changestamp
+Nov 28, 2023 01:26:46.697 [548464939064] DEBUG - [HCl#13] HTTP requesting GET http://127.0.0.1:32400/library/changestamp
+Nov 28, 2023 01:26:46.699 [548388200504] DEBUG - [HttpClient/HCl#13] HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/library/changestamp (reused)
+Nov 28, 2023 01:26:46.699 [548464939064] DEBUG - Updating metadata item (save) (Mask of Falsehood) with ID 35
+Nov 28, 2023 01:26:46.704 [548387274808] DEBUG - [HCl#14] HTTP requesting GET http://127.0.0.1:32400/:/metadata/flushMetadataCounterCache?metadataItemID=10
+Nov 28, 2023 01:26:46.705 [548388200504] DEBUG - [HttpClient/HCl#14] HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/:/metadata/flushMetadataCounterCache?metadataItemID=10 (reused)
+Nov 28, 2023 01:26:46.712 [548464939064] DEBUG - Analyzing media parts for item 36 (He Who Pulls the Strings): 35
+Nov 28, 2023 01:26:46.713 [548464939064] DEBUG - Downloading document http://127.0.0.1:32400/library/changestamp
+Nov 28, 2023 01:26:46.713 [548464939064] DEBUG - [HCl#15] HTTP requesting GET http://127.0.0.1:32400/library/changestamp
+Nov 28, 2023 01:26:46.714 [548388200504] DEBUG - [HttpClient/HCl#15] HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/library/changestamp (reused)
+Nov 28, 2023 01:26:46.715 [548464939064] DEBUG - Updating metadata item (save) (He Who Pulls the Strings) with ID 36
+Nov 28, 2023 01:26:46.717 [548387274808] DEBUG - [HCl#16] HTTP requesting GET http://127.0.0.1:32400/:/metadata/flushMetadataCounterCache?metadataItemID=10
+Nov 28, 2023 01:26:46.718 [548388200504] DEBUG - [HttpClient/HCl#16] HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/:/metadata/flushMetadataCounterCache?metadataItemID=10 (reused)
+Nov 28, 2023 01:26:46.719 [548464939064] DEBUG - [ID 35] Media part analysis: /media/tv/The Eminence in Shadow/Season 2/[SubsPlease] Kage no Jitsuryokusha ni Naritakute! S2 - 05 (1080p) [A29B06F0].mkv
+Nov 28, 2023 01:26:46.719 [548464939064] DEBUG - [MI] Opening input file: "/media/tv/The Eminence in Shadow/Season 2/[SubsPlease] Kage no Jitsuryokusha ni Naritakute! S2 - 05 (1080p) [A29B06F0].mkv"
+Nov 28, 2023 01:26:46.719 [548464939064] DEBUG - [FFMPEG] - Opening '/media/tv/The Eminence in Shadow/Season 2/[SubsPlease] Kage no Jitsuryokusha ni Naritakute! S2 - 05 (1080p) [A29B06F0].mkv' for reading
+Nov 28, 2023 01:26:46.719 [548464939064] DEBUG - [FFMPEG] - Setting default whitelist 'file,crypto,data'
+Nov 28, 2023 01:26:46.720 [548464939064] DEBUG - [FFMPEG] - Format matroska,webm probed with size=2048 and score=100
+Nov 28, 2023 01:26:46.720 [548464939064] DEBUG - [FFMPEG] - Unknown entry 0x22B59D at pos. 4283
+Nov 28, 2023 01:26:46.720 [548464939064] DEBUG - [FFMPEG] - Unknown entry 0x22B59D at pos. 4398
+Nov 28, 2023 01:26:46.720 [548464939064] DEBUG - [FFMPEG] - Unknown entry 0x22B59D at pos. 6133
+Nov 28, 2023 01:26:46.728 [548464939064] DEBUG - [FFMPEG] - Unknown entry 0x447B at pos. 342747906
+Nov 28, 2023 01:26:46.728 [548464939064] DEBUG - [FFMPEG] - Unknown entry 0x447B at pos. 342747952
+Nov 28, 2023 01:26:46.728 [548464939064] DEBUG - [FFMPEG] - Unknown entry 0x447B at pos. 342747993
+Nov 28, 2023 01:26:46.728 [548464939064] DEBUG - [FFMPEG] - Unknown entry 0x447B at pos. 342748037
+Nov 28, 2023 01:26:46.728 [548464939064] DEBUG - [FFMPEG] - Unknown entry 0x447B at pos. 342748096
+Nov 28, 2023 01:26:46.728 [548464939064] DEBUG - [FFMPEG] - Unknown entry 0x447B at pos. 342748163
+Nov 28, 2023 01:26:46.728 [548464939064] DEBUG - [FFMPEG] - Unknown entry 0x447B at pos. 342748244
+Nov 28, 2023 01:26:46.728 [548464939064] DEBUG - [FFMPEG] - Unknown entry 0x447B at pos. 342748296
+Nov 28, 2023 01:26:46.728 [548464939064] DEBUG - [FFMPEG] - Unknown entry 0x447B at pos. 342748342
+Nov 28, 2023 01:26:46.728 [548464939064] DEBUG - [FFMPEG] - Unknown entry 0x447B at pos. 342748383
+Nov 28, 2023 01:26:46.728 [548464939064] DEBUG - [FFMPEG] - Unknown entry 0x447B at pos. 342748426
+Nov 28, 2023 01:26:46.728 [548464939064] DEBUG - [FFMPEG] - Unknown entry 0x447B at pos. 342748485
+Nov 28, 2023 01:26:46.728 [548464939064] DEBUG - [FFMPEG] - Unknown entry 0x447B at pos. 342748552
+Nov 28, 2023 01:26:46.728 [548464939064] DEBUG - [FFMPEG] - Unknown entry 0x447B at pos. 342748633
+Nov 28, 2023 01:26:46.728 [548464939064] DEBUG - [FFMPEG] - Unknown entry 0x447B at pos. 342748682
+Nov 28, 2023 01:26:46.728 [548464939064] DEBUG - [FFMPEG] - Unknown entry 0x447B at pos. 342748728
+Nov 28, 2023 01:26:46.728 [548464939064] DEBUG - [FFMPEG] - Unknown entry 0x447B at pos. 342748767
+Nov 28, 2023 01:26:46.728 [548464939064] DEBUG - [FFMPEG] - Unknown entry 0x447B at pos. 342748807
+Nov 28, 2023 01:26:46.728 [548464939064] DEBUG - [FFMPEG] - Unknown entry 0x447B at pos. 342748866
+Nov 28, 2023 01:26:46.728 [548464939064] DEBUG - [FFMPEG] - Unknown entry 0x447B at pos. 342748933
+Nov 28, 2023 01:26:46.728 [548464939064] DEBUG - [FFMPEG] - Unknown entry 0x447B at pos. 342749014
+Nov 28, 2023 01:26:46.728 [548464939064] DEBUG - [FFMPEG] - st:0 removing common factor 1000000 from timebase
+Nov 28, 2023 01:26:46.728 [548464939064] DEBUG - [FFMPEG] - st:1 removing common factor 1000000 from timebase
+Nov 28, 2023 01:26:46.728 [548464939064] DEBUG - [FFMPEG] - st:2 removing common factor 1000000 from timebase
+Nov 28, 2023 01:26:46.730 [548464939064] DEBUG - [FFMPEG] - Before avformat_find_stream_info() pos: 359066 bytes read:392993 seeks:2 nb_streams:4
+Nov 28, 2023 01:26:46.731 [548464939064] DEBUG - [FFMPEG] - nal_unit_type: 7(SPS), nal_ref_idc: 3
+Nov 28, 2023 01:26:46.731 [548464939064] DEBUG - [FFMPEG] - nal_unit_type: 8(PPS), nal_ref_idc: 3
+Nov 28, 2023 01:26:46.733 [548464939064] DEBUG - [FFMPEG] - nal_unit_type: 7(SPS), nal_ref_idc: 3
+Nov 28, 2023 01:26:46.733 [548464939064] DEBUG - [FFMPEG] - nal_unit_type: 8(PPS), nal_ref_idc: 3
+Nov 28, 2023 01:26:46.734 [548464939064] DEBUG - [FFMPEG] - nal_unit_type: 7(SPS), nal_ref_idc: 3
+Nov 28, 2023 01:26:46.734 [548464939064] DEBUG - [FFMPEG] - nal_unit_type: 8(PPS), nal_ref_idc: 3
+Nov 28, 2023 01:26:46.734 [548464939064] DEBUG - [FFMPEG] - nal_unit_type: 6(SEI), nal_ref_idc: 0
+Nov 28, 2023 01:26:46.734 [548464939064] DEBUG - [FFMPEG] - nal_unit_type: 5(IDR), nal_ref_idc: 3
+Nov 28, 2023 01:26:46.735 [548464939064] DEBUG - [FFMPEG] - Format yuv420p chosen by get_format().
+Nov 28, 2023 01:26:46.742 [548464939064] DEBUG - [FFMPEG] - no picture 
+Nov 28, 2023 01:26:46.749 [548464939064] DEBUG - [FFMPEG] - nal_unit_type: 1(Coded slice of a non-IDR picture), nal_ref_idc: 2
+Nov 28, 2023 01:26:46.756 [548464939064] DEBUG - [FFMPEG] - no picture 
+Nov 28, 2023 01:26:46.762 [548464939064] DEBUG - [FFMPEG] - nal_unit_type: 1(Coded slice of a non-IDR picture), nal_ref_idc: 2
+Nov 28, 2023 01:26:46.779 [548464939064] DEBUG - [FFMPEG] - nal_unit_type: 1(Coded slice of a non-IDR picture), nal_ref_idc: 0
+Nov 28, 2023 01:26:46.797 [548464939064] DEBUG - [FFMPEG] - nal_unit_type: 1(Coded slice of a non-IDR picture), nal_ref_idc: 0
+Nov 28, 2023 01:26:46.815 [548464939064] DEBUG - [FFMPEG] - nal_unit_type: 1(Coded slice of a non-IDR picture), nal_ref_idc: 2
+Nov 28, 2023 01:26:46.822 [548464939064] DEBUG - [FFMPEG] - nal_unit_type: 1(Coded slice of a non-IDR picture), nal_ref_idc: 2
+Nov 28, 2023 01:26:46.832 [548464939064] DEBUG - [FFMPEG] - nal_unit_type: 1(Coded slice of a non-IDR picture), nal_ref_idc: 0
+Nov 28, 2023 01:26:46.842 [548464939064] DEBUG - [FFMPEG] - nal_unit_type: 1(Coded slice of a non-IDR picture), nal_ref_idc: 0
+Nov 28, 2023 01:26:46.853 [548464939064] DEBUG - [FFMPEG] - All info found
+Nov 28, 2023 01:26:46.859 [548464939064] DEBUG - [FFMPEG] - After avformat_find_stream_info() pos: 374614 bytes read:425761 seeks:2 frames:42
+Nov 28, 2023 01:26:46.859 [548464939064] DEBUG - [MI]  * 34b9657a446814234f1ff0cb05b5654b644f5808 [mkv h264/aac] Duration: 1422506ms, 1920x1080 (1.777778) 23.976fps, bitrate=1927kbps, audio channels=2, optimizedForStreaming=0 ("/media/tv/The Eminence in Shadow/Season 2/[SubsPlease] Kage no Jitsuryokusha ni Naritakute! S2 - 05 (1080p) [A29B06F0].mkv")
+Nov 28, 2023 01:26:46.859 [548464939064] DEBUG - [MI] Chapters had generic titles, clearing.
+Nov 28, 2023 01:26:46.861 [548464939064] DEBUG - [MI] Closing input file: "/media/tv/The Eminence in Shadow/Season 2/[SubsPlease] Kage no Jitsuryokusha ni Naritakute! S2 - 05 (1080p) [A29B06F0].mkv"
+Nov 28, 2023 01:26:46.872 [548464939064] DEBUG - Committing media stream changes for part 35
+Nov 28, 2023 01:26:46.874 [548464939064] DEBUG - Updating media item 35, size=342749019, metadata_item_id=36
+Nov 28, 2023 01:26:46.874 [548464939064] DEBUG - Updating part with ID=35 [/media/tv/The Eminence in Shadow/Season 2/[SubsPlease] Kage no Jitsuryokusha ni Naritakute! S2 - 05 (1080p) [A29B06F0].mkv]
+Nov 28, 2023 01:26:46.875 [548387274808] DEBUG - [HCl#17] HTTP requesting GET http://127.0.0.1:32400/:/metadata/notify/changeItemState?librarySectionID=2&metadataItemID=36&metadataType=4&state=-1&parentID=-1&rootID=-1&mediaState=analyzing
+Nov 28, 2023 01:26:46.876 [548388200504] DEBUG - [HttpClient/HCl#17] HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/:/metadata/notify/changeItemState?librarySectionID=2&metadataItemID=36&metadataType=4&state=-1&parentID=-1&rootID=-1&mediaState=analyzing (reused)
+Nov 28, 2023 01:26:46.876 [548387274808] DEBUG - [HCl#18] HTTP requesting GET http://127.0.0.1:32400/:/metadata/notify/changeItemState?librarySectionID=2&metadataItemID=36&metadataType=4&state=-1&parentID=-1&rootID=-1&mediaState=idle
+Nov 28, 2023 01:26:46.877 [548388200504] DEBUG - [HttpClient/HCl#18] HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/:/metadata/notify/changeItemState?librarySectionID=2&metadataItemID=36&metadataType=4&state=-1&parentID=-1&rootID=-1&mediaState=idle (reused)
+Nov 28, 2023 01:26:46.883 [548464939064] DEBUG - Downloading document http://127.0.0.1:32400/library/changestamp
+Nov 28, 2023 01:26:46.884 [548464939064] DEBUG - [HCl#19] HTTP requesting GET http://127.0.0.1:32400/library/changestamp
+Nov 28, 2023 01:26:46.886 [548388200504] DEBUG - [HttpClient/HCl#19] HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/library/changestamp (reused)
+Nov 28, 2023 01:26:46.886 [548464939064] DEBUG - Updating metadata item (save) (He Who Pulls the Strings) with ID 36
+Nov 28, 2023 01:26:46.889 [548387274808] DEBUG - [HCl#1a] HTTP requesting GET http://127.0.0.1:32400/:/metadata/flushMetadataCounterCache?metadataItemID=10
+Nov 28, 2023 01:26:46.890 [548388200504] DEBUG - [HttpClient/HCl#1a] HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/:/metadata/flushMetadataCounterCache?metadataItemID=10 (reused)
+Nov 28, 2023 01:26:46.895 [548464939064] DEBUG - Analyzing media parts for item 37 (John Smith): 36
+Nov 28, 2023 01:26:46.897 [548464939064] DEBUG - Downloading document http://127.0.0.1:32400/library/changestamp
+Nov 28, 2023 01:26:46.897 [548464939064] DEBUG - [HCl#1b] HTTP requesting GET http://127.0.0.1:32400/library/changestamp
+Nov 28, 2023 01:26:46.899 [548388200504] DEBUG - [HttpClient/HCl#1b] HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/library/changestamp (reused)
+Nov 28, 2023 01:26:46.899 [548464939064] DEBUG - Updating metadata item (save) (John Smith) with ID 37
+Nov 28, 2023 01:26:46.904 [548387274808] DEBUG - [HCl#1c] HTTP requesting GET http://127.0.0.1:32400/:/metadata/flushMetadataCounterCache?metadataItemID=10
+Nov 28, 2023 01:26:46.905 [548388200504] DEBUG - [HttpClient/HCl#1c] HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/:/metadata/flushMetadataCounterCache?metadataItemID=10 (reused)
+Nov 28, 2023 01:26:46.906 [548464939064] DEBUG - [ID 36] Media part analysis: /media/tv/The Eminence in Shadow/Season 2/[SubsPlease] Kage no Jitsuryokusha ni Naritakute! S2 - 06 (1080p) [986249AA].mkv
+Nov 28, 2023 01:26:46.907 [548464939064] DEBUG - [MI] Opening input file: "/media/tv/The Eminence in Shadow/Season 2/[SubsPlease] Kage no Jitsuryokusha ni Naritakute! S2 - 06 (1080p) [986249AA].mkv"
+Nov 28, 2023 01:26:46.907 [548464939064] DEBUG - [FFMPEG] - Opening '/media/tv/The Eminence in Shadow/Season 2/[SubsPlease] Kage no Jitsuryokusha ni Naritakute! S2 - 06 (1080p) [986249AA].mkv' for reading
+Nov 28, 2023 01:26:46.907 [548464939064] DEBUG - [FFMPEG] - Setting default whitelist 'file,crypto,data'
+Nov 28, 2023 01:26:46.908 [548464939064] DEBUG - [FFMPEG] - Format matroska,webm probed with size=2048 and score=100
+Nov 28, 2023 01:26:46.908 [548464939064] DEBUG - [FFMPEG] - Unknown entry 0x22B59D at pos. 4283
+Nov 28, 2023 01:26:46.908 [548464939064] DEBUG - [FFMPEG] - Unknown entry 0x22B59D at pos. 4398
+Nov 28, 2023 01:26:46.909 [548464939064] DEBUG - [FFMPEG] - Unknown entry 0x22B59D at pos. 5891
+Nov 28, 2023 01:26:46.916 [548464939064] DEBUG - [FFMPEG] - Unknown entry 0x447B at pos. 491716644
+Nov 28, 2023 01:26:46.916 [548464939064] DEBUG - [FFMPEG] - Unknown entry 0x447B at pos. 491716690
+Nov 28, 2023 01:26:46.917 [548464939064] DEBUG - [FFMPEG] - Unknown entry 0x447B at pos. 491716731
+Nov 28, 2023 01:26:46.917 [548464939064] DEBUG - [FFMPEG] - Unknown entry 0x447B at pos. 491716775
+Nov 28, 2023 01:26:46.917 [548464939064] DEBUG - [FFMPEG] - Unknown entry 0x447B at pos. 491716834
+Nov 28, 2023 01:26:46.917 [548464939064] DEBUG - [FFMPEG] - Unknown entry 0x447B at pos. 491716901
+Nov 28, 2023 01:26:46.917 [548464939064] DEBUG - [FFMPEG] - Unknown entry 0x447B at pos. 491716982
+Nov 28, 2023 01:26:46.917 [548464939064] DEBUG - [FFMPEG] - Unknown entry 0x447B at pos. 491717034
+Nov 28, 2023 01:26:46.917 [548464939064] DEBUG - [FFMPEG] - Unknown entry 0x447B at pos. 491717080
+Nov 28, 2023 01:26:46.917 [548464939064] DEBUG - [FFMPEG] - Unknown entry 0x447B at pos. 491717121
+Nov 28, 2023 01:26:46.917 [548464939064] DEBUG - [FFMPEG] - Unknown entry 0x447B at pos. 491717164
+Nov 28, 2023 01:26:46.917 [548464939064] DEBUG - [FFMPEG] - Unknown entry 0x447B at pos. 491717223
+Nov 28, 2023 01:26:46.917 [548464939064] DEBUG - [FFMPEG] - Unknown entry 0x447B at pos. 491717290
+Nov 28, 2023 01:26:46.918 [548464939064] DEBUG - [FFMPEG] - Unknown entry 0x447B at pos. 491717371
+Nov 28, 2023 01:26:46.918 [548464939064] DEBUG - [FFMPEG] - Unknown entry 0x447B at pos. 491717420
+Nov 28, 2023 01:26:46.918 [548464939064] DEBUG - [FFMPEG] - Unknown entry 0x447B at pos. 491717466
+Nov 28, 2023 01:26:46.918 [548464939064] DEBUG - [FFMPEG] - Unknown entry 0x447B at pos. 491717505
+Nov 28, 2023 01:26:46.918 [548464939064] DEBUG - [FFMPEG] - Unknown entry 0x447B at pos. 491717545
+Nov 28, 2023 01:26:46.918 [548464939064] DEBUG - [FFMPEG] - Unknown entry 0x447B at pos. 491717604
+Nov 28, 2023 01:26:46.918 [548464939064] DEBUG - [FFMPEG] - Unknown entry 0x447B at pos. 491717671
+Nov 28, 2023 01:26:46.918 [548464939064] DEBUG - [FFMPEG] - Unknown entry 0x447B at pos. 491717752
+Nov 28, 2023 01:26:46.918 [548464939064] DEBUG - [FFMPEG] - st:0 removing common factor 1000000 from timebase
+Nov 28, 2023 01:26:46.918 [548464939064] DEBUG - [FFMPEG] - st:1 removing common factor 1000000 from timebase
+Nov 28, 2023 01:26:46.918 [548464939064] DEBUG - [FFMPEG] - st:2 removing common factor 1000000 from timebase
+Nov 28, 2023 01:26:46.921 [548464939064] DEBUG - [FFMPEG] - Before avformat_find_stream_info() pos: 358824 bytes read:392751 seeks:2 nb_streams:4
+Nov 28, 2023 01:26:46.922 [548464939064] DEBUG - [FFMPEG] - nal_unit_type: 7(SPS), nal_ref_idc: 3
+Nov 28, 2023 01:26:46.922 [548464939064] DEBUG - [FFMPEG] - nal_unit_type: 8(PPS), nal_ref_idc: 3
+Nov 28, 2023 01:26:46.924 [548464939064] DEBUG - [FFMPEG] - nal_unit_type: 7(SPS), nal_ref_idc: 3
+Nov 28, 2023 01:26:46.924 [548464939064] DEBUG - [FFMPEG] - nal_unit_type: 8(PPS), nal_ref_idc: 3
+Nov 28, 2023 01:26:46.926 [548464939064] DEBUG - [FFMPEG] - nal_unit_type: 7(SPS), nal_ref_idc: 3
+Nov 28, 2023 01:26:46.926 [548464939064] DEBUG - [FFMPEG] - nal_unit_type: 8(PPS), nal_ref_idc: 3
+Nov 28, 2023 01:26:46.926 [548464939064] DEBUG - [FFMPEG] - nal_unit_type: 6(SEI), nal_ref_idc: 0
+Nov 28, 2023 01:26:46.926 [548464939064] DEBUG - [FFMPEG] - nal_unit_type: 5(IDR), nal_ref_idc: 3
+Nov 28, 2023 01:26:46.928 [548464939064] DEBUG - [FFMPEG] - Format yuv420p chosen by get_format().
+Nov 28, 2023 01:26:46.936 [548464939064] DEBUG - [FFMPEG] - no picture 
+Nov 28, 2023 01:26:46.944 [548464939064] DEBUG - [FFMPEG] - nal_unit_type: 1(Coded slice of a non-IDR picture), nal_ref_idc: 2
+Nov 28, 2023 01:26:46.950 [548464939064] DEBUG - [FFMPEG] - no picture 
+Nov 28, 2023 01:26:46.959 [548464939064] DEBUG - [FFMPEG] - nal_unit_type: 1(Coded slice of a non-IDR picture), nal_ref_idc: 2
+Nov 28, 2023 01:26:46.980 [548464939064] DEBUG - [FFMPEG] - nal_unit_type: 1(Coded slice of a non-IDR picture), nal_ref_idc: 0
+Nov 28, 2023 01:26:47.000 [548464939064] DEBUG - [FFMPEG] - nal_unit_type: 1(Coded slice of a non-IDR picture), nal_ref_idc: 0
+Nov 28, 2023 01:26:47.018 [548464939064] DEBUG - [FFMPEG] - nal_unit_type: 1(Coded slice of a non-IDR picture), nal_ref_idc: 2
+Nov 28, 2023 01:26:47.026 [548464939064] DEBUG - [FFMPEG] - nal_unit_type: 1(Coded slice of a non-IDR picture), nal_ref_idc: 2
+Nov 28, 2023 01:26:47.038 [548464939064] DEBUG - [FFMPEG] - nal_unit_type: 1(Coded slice of a non-IDR picture), nal_ref_idc: 0
+Nov 28, 2023 01:26:47.048 [548464939064] DEBUG - [FFMPEG] - nal_unit_type: 1(Coded slice of a non-IDR picture), nal_ref_idc: 0
+Nov 28, 2023 01:26:47.059 [548464939064] DEBUG - [FFMPEG] - All info found
+Nov 28, 2023 01:26:47.065 [548464939064] DEBUG - [FFMPEG] - After avformat_find_stream_info() pos: 374372 bytes read:425519 seeks:2 frames:42
+Nov 28, 2023 01:26:47.066 [548464939064] DEBUG - [MI]  * 93911c6f9730b456fdb2a740486b9116ce44a180 [mkv h264/aac] Duration: 1422506ms, 1920x1080 (1.777778) 23.976fps, bitrate=2765kbps, audio channels=2, optimizedForStreaming=0 ("/media/tv/The Eminence in Shadow/Season 2/[SubsPlease] Kage no Jitsuryokusha ni Naritakute! S2 - 06 (1080p) [986249AA].mkv")
+Nov 28, 2023 01:26:47.066 [548464939064] DEBUG - [MI] Chapters had generic titles, clearing.
+Nov 28, 2023 01:26:47.067 [548464939064] DEBUG - [MI] Closing input file: "/media/tv/The Eminence in Shadow/Season 2/[SubsPlease] Kage no Jitsuryokusha ni Naritakute! S2 - 06 (1080p) [986249AA].mkv"
+Nov 28, 2023 01:26:47.069 [548464939064] DEBUG - Committing media stream changes for part 36
+Nov 28, 2023 01:26:47.071 [548464939064] DEBUG - Updating media item 36, size=491717757, metadata_item_id=37
+Nov 28, 2023 01:26:47.072 [548464939064] DEBUG - Updating part with ID=36 [/media/tv/The Eminence in Shadow/Season 2/[SubsPlease] Kage no Jitsuryokusha ni Naritakute! S2 - 06 (1080p) [986249AA].mkv]
+Nov 28, 2023 01:26:47.072 [548387274808] DEBUG - [HCl#1d] HTTP requesting GET http://127.0.0.1:32400/:/metadata/notify/changeItemState?librarySectionID=2&metadataItemID=37&metadataType=4&state=-1&parentID=-1&rootID=-1&mediaState=analyzing
+Nov 28, 2023 01:26:47.074 [548388200504] DEBUG - [HttpClient/HCl#1d] HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/:/metadata/notify/changeItemState?librarySectionID=2&metadataItemID=37&metadataType=4&state=-1&parentID=-1&rootID=-1&mediaState=analyzing (reused)
+Nov 28, 2023 01:26:47.074 [548387274808] DEBUG - [HCl#1e] HTTP requesting GET http://127.0.0.1:32400/:/metadata/notify/changeItemState?librarySectionID=2&metadataItemID=37&metadataType=4&state=-1&parentID=-1&rootID=-1&mediaState=idle
+Nov 28, 2023 01:26:47.076 [548388200504] DEBUG - [HttpClient/HCl#1e] HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/:/metadata/notify/changeItemState?librarySectionID=2&metadataItemID=37&metadataType=4&state=-1&parentID=-1&rootID=-1&mediaState=idle (reused)
+Nov 28, 2023 01:26:47.081 [548464939064] DEBUG - Downloading document http://127.0.0.1:32400/library/changestamp
+Nov 28, 2023 01:26:47.081 [548464939064] DEBUG - [HCl#1f] HTTP requesting GET http://127.0.0.1:32400/library/changestamp
+Nov 28, 2023 01:26:47.083 [548388200504] DEBUG - [HttpClient/HCl#1f] HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/library/changestamp (reused)
+Nov 28, 2023 01:26:47.083 [548464939064] DEBUG - Updating metadata item (save) (John Smith) with ID 37
+Nov 28, 2023 01:26:47.095 [548387274808] DEBUG - [HCl#20] HTTP requesting GET http://127.0.0.1:32400/:/metadata/flushMetadataCounterCache?metadataItemID=10
+Nov 28, 2023 01:26:47.096 [548388200504] DEBUG - [HttpClient/HCl#20] HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/:/metadata/flushMetadataCounterCache?metadataItemID=10 (reused)
+Nov 28, 2023 01:26:47.102 [548464939064] DEBUG - Analyzing media parts for item 38 (Something Precious): 37
+Nov 28, 2023 01:26:47.103 [548464939064] DEBUG - Downloading document http://127.0.0.1:32400/library/changestamp
+Nov 28, 2023 01:26:47.103 [548464939064] DEBUG - [HCl#21] HTTP requesting GET http://127.0.0.1:32400/library/changestamp
+Nov 28, 2023 01:26:47.105 [548388200504] DEBUG - [HttpClient/HCl#21] HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/library/changestamp (reused)
+Nov 28, 2023 01:26:47.105 [548464939064] DEBUG - Updating metadata item (save) (Something Precious) with ID 38
+Nov 28, 2023 01:26:47.109 [548387274808] DEBUG - [HCl#22] HTTP requesting GET http://127.0.0.1:32400/:/metadata/flushMetadataCounterCache?metadataItemID=10
+Nov 28, 2023 01:26:47.110 [548388200504] DEBUG - [HttpClient/HCl#22] HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/:/metadata/flushMetadataCounterCache?metadataItemID=10 (reused)
+Nov 28, 2023 01:26:47.119 [548464939064] DEBUG - [ID 37] Media part analysis: /media/tv/The Eminence in Shadow/Season 2/[SubsPlease] Kage no Jitsuryokusha ni Naritakute! S2 - 07 (1080p) [649381F7].mkv
+Nov 28, 2023 01:26:47.120 [548464939064] DEBUG - [MI] Opening input file: "/media/tv/The Eminence in Shadow/Season 2/[SubsPlease] Kage no Jitsuryokusha ni Naritakute! S2 - 07 (1080p) [649381F7].mkv"
+Nov 28, 2023 01:26:47.121 [548464939064] DEBUG - [FFMPEG] - Opening '/media/tv/The Eminence in Shadow/Season 2/[SubsPlease] Kage no Jitsuryokusha ni Naritakute! S2 - 07 (1080p) [649381F7].mkv' for reading
+Nov 28, 2023 01:26:47.121 [548464939064] DEBUG - [FFMPEG] - Setting default whitelist 'file,crypto,data'
+Nov 28, 2023 01:26:47.121 [548464939064] DEBUG - [FFMPEG] - Format matroska,webm probed with size=2048 and score=100
+Nov 28, 2023 01:26:47.122 [548464939064] DEBUG - [FFMPEG] - Unknown entry 0x22B59D at pos. 4283
+Nov 28, 2023 01:26:47.122 [548464939064] DEBUG - [FFMPEG] - Unknown entry 0x22B59D at pos. 4398
+Nov 28, 2023 01:26:47.122 [548464939064] DEBUG - [FFMPEG] - Unknown entry 0x22B59D at pos. 6133
+Nov 28, 2023 01:26:47.130 [548464939064] DEBUG - [FFMPEG] - Unknown entry 0x447B at pos. 349786268
+Nov 28, 2023 01:26:47.130 [548464939064] DEBUG - [FFMPEG] - Unknown entry 0x447B at pos. 349786314
+Nov 28, 2023 01:26:47.130 [548464939064] DEBUG - [FFMPEG] - Unknown entry 0x447B at pos. 349786355
+Nov 28, 2023 01:26:47.130 [548464939064] DEBUG - [FFMPEG] - Unknown entry 0x447B at pos. 349786399
+Nov 28, 2023 01:26:47.130 [548464939064] DEBUG - [FFMPEG] - Unknown entry 0x447B at pos. 349786458
+Nov 28, 2023 01:26:47.130 [548464939064] DEBUG - [FFMPEG] - Unknown entry 0x447B at pos. 349786525
+Nov 28, 2023 01:26:47.130 [548464939064] DEBUG - [FFMPEG] - Unknown entry 0x447B at pos. 349786606
+Nov 28, 2023 01:26:47.130 [548464939064] DEBUG - [FFMPEG] - Unknown entry 0x447B at pos. 349786658
+Nov 28, 2023 01:26:47.130 [548464939064] DEBUG - [FFMPEG] - Unknown entry 0x447B at pos. 349786704
+Nov 28, 2023 01:26:47.130 [548464939064] DEBUG - [FFMPEG] - Unknown entry 0x447B at pos. 349786745
+Nov 28, 2023 01:26:47.130 [548464939064] DEBUG - [FFMPEG] - Unknown entry 0x447B at pos. 349786788
+Nov 28, 2023 01:26:47.130 [548464939064] DEBUG - [FFMPEG] - Unknown entry 0x447B at pos. 349786847
+Nov 28, 2023 01:26:47.130 [548464939064] DEBUG - [FFMPEG] - Unknown entry 0x447B at pos. 349786914
+Nov 28, 2023 01:26:47.130 [548464939064] DEBUG - [FFMPEG] - Unknown entry 0x447B at pos. 349786995
+Nov 28, 2023 01:26:47.130 [548464939064] DEBUG - [FFMPEG] - Unknown entry 0x447B at pos. 349787044
+Nov 28, 2023 01:26:47.130 [548464939064] DEBUG - [FFMPEG] - Unknown entry 0x447B at pos. 349787090
+Nov 28, 2023 01:26:47.130 [548464939064] DEBUG - [FFMPEG] - Unknown entry 0x447B at pos. 349787129
+Nov 28, 2023 01:26:47.130 [548464939064] DEBUG - [FFMPEG] - Unknown entry 0x447B at pos. 349787169
+Nov 28, 2023 01:26:47.130 [548464939064] DEBUG - [FFMPEG] - Unknown entry 0x447B at pos. 349787228
+Nov 28, 2023 01:26:47.130 [548464939064] DEBUG - [FFMPEG] - Unknown entry 0x447B at pos. 349787295
+Nov 28, 2023 01:26:47.130 [548464939064] DEBUG - [FFMPEG] - Unknown entry 0x447B at pos. 349787376
+Nov 28, 2023 01:26:47.131 [548464939064] DEBUG - [FFMPEG] - st:0 removing common factor 1000000 from timebase
+Nov 28, 2023 01:26:47.131 [548464939064] DEBUG - [FFMPEG] - st:1 removing common factor 1000000 from timebase
+Nov 28, 2023 01:26:47.131 [548464939064] DEBUG - [FFMPEG] - st:2 removing common factor 1000000 from timebase
+Nov 28, 2023 01:26:47.132 [548464939064] DEBUG - [FFMPEG] - Before avformat_find_stream_info() pos: 359066 bytes read:392993 seeks:2 nb_streams:4
+Nov 28, 2023 01:26:47.134 [548464939064] DEBUG - [FFMPEG] - nal_unit_type: 7(SPS), nal_ref_idc: 3
+Nov 28, 2023 01:26:47.134 [548464939064] DEBUG - [FFMPEG] - nal_unit_type: 8(PPS), nal_ref_idc: 3
+Nov 28, 2023 01:26:47.136 [548464939064] DEBUG - [FFMPEG] - nal_unit_type: 7(SPS), nal_ref_idc: 3
+Nov 28, 2023 01:26:47.136 [548464939064] DEBUG - [FFMPEG] - nal_unit_type: 8(PPS), nal_ref_idc: 3
+Nov 28, 2023 01:26:47.137 [548464939064] DEBUG - [FFMPEG] - nal_unit_type: 7(SPS), nal_ref_idc: 3
+Nov 28, 2023 01:26:47.137 [548464939064] DEBUG - [FFMPEG] - nal_unit_type: 8(PPS), nal_ref_idc: 3
+Nov 28, 2023 01:26:47.137 [548464939064] DEBUG - [FFMPEG] - nal_unit_type: 6(SEI), nal_ref_idc: 0
+Nov 28, 2023 01:26:47.137 [548464939064] DEBUG - [FFMPEG] - nal_unit_type: 5(IDR), nal_ref_idc: 3
+Nov 28, 2023 01:26:47.138 [548464939064] DEBUG - [FFMPEG] - Format yuv420p chosen by get_format().
+Nov 28, 2023 01:26:47.145 [548464939064] DEBUG - [FFMPEG] - no picture 
+Nov 28, 2023 01:26:47.152 [548464939064] DEBUG - [FFMPEG] - nal_unit_type: 1(Coded slice of a non-IDR picture), nal_ref_idc: 2
+Nov 28, 2023 01:26:47.158 [548464939064] DEBUG - [FFMPEG] - no picture 
+Nov 28, 2023 01:26:47.165 [548464939064] DEBUG - [FFMPEG] - nal_unit_type: 1(Coded slice of a non-IDR picture), nal_ref_idc: 2
+Nov 28, 2023 01:26:47.182 [548464939064] DEBUG - [FFMPEG] - nal_unit_type: 1(Coded slice of a non-IDR picture), nal_ref_idc: 0
+Nov 28, 2023 01:26:47.198 [548464939064] DEBUG - [FFMPEG] - nal_unit_type: 1(Coded slice of a non-IDR picture), nal_ref_idc: 0
+Nov 28, 2023 01:26:47.217 [548464939064] DEBUG - [FFMPEG] - nal_unit_type: 1(Coded slice of a non-IDR picture), nal_ref_idc: 2
+Nov 28, 2023 01:26:47.226 [548464939064] DEBUG - [FFMPEG] - nal_unit_type: 1(Coded slice of a non-IDR picture), nal_ref_idc: 2
+Nov 28, 2023 01:26:47.236 [548464939064] DEBUG - [FFMPEG] - nal_unit_type: 1(Coded slice of a non-IDR picture), nal_ref_idc: 0
+Nov 28, 2023 01:26:47.245 [548464939064] DEBUG - [FFMPEG] - nal_unit_type: 1(Coded slice of a non-IDR picture), nal_ref_idc: 0
+Nov 28, 2023 01:26:47.255 [548464939064] DEBUG - [FFMPEG] - All info found
+Nov 28, 2023 01:26:47.262 [548464939064] DEBUG - [FFMPEG] - After avformat_find_stream_info() pos: 374606 bytes read:425761 seeks:2 frames:42
+Nov 28, 2023 01:26:47.262 [548464939064] DEBUG - [MI]  * 76f32c0a053cfdc6f80b0dfb6a41acc281bc23ef [mkv h264/aac] Duration: 1422506ms, 1920x1080 (1.777778) 23.976fps, bitrate=1967kbps, audio channels=2, optimizedForStreaming=0 ("/media/tv/The Eminence in Shadow/Season 2/[SubsPlease] Kage no Jitsuryokusha ni Naritakute! S2 - 07 (1080p) [649381F7].mkv")
+Nov 28, 2023 01:26:47.262 [548464939064] DEBUG - [MI] Chapters had generic titles, clearing.
+Nov 28, 2023 01:26:47.263 [548464939064] DEBUG - [MI] Closing input file: "/media/tv/The Eminence in Shadow/Season 2/[SubsPlease] Kage no Jitsuryokusha ni Naritakute! S2 - 07 (1080p) [649381F7].mkv"
+Nov 28, 2023 01:26:47.274 [548464939064] DEBUG - Committing media stream changes for part 37
+Nov 28, 2023 01:26:47.277 [548464939064] DEBUG - Updating media item 37, size=349787381, metadata_item_id=38
+Nov 28, 2023 01:26:47.277 [548464939064] DEBUG - Updating part with ID=37 [/media/tv/The Eminence in Shadow/Season 2/[SubsPlease] Kage no Jitsuryokusha ni Naritakute! S2 - 07 (1080p) [649381F7].mkv]
+Nov 28, 2023 01:26:47.278 [548387274808] DEBUG - [HCl#23] HTTP requesting GET http://127.0.0.1:32400/:/metadata/notify/changeItemState?librarySectionID=2&metadataItemID=38&metadataType=4&state=-1&parentID=-1&rootID=-1&mediaState=analyzing
+Nov 28, 2023 01:26:47.279 [548388200504] DEBUG - [HttpClient/HCl#23] HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/:/metadata/notify/changeItemState?librarySectionID=2&metadataItemID=38&metadataType=4&state=-1&parentID=-1&rootID=-1&mediaState=analyzing (reused)
+Nov 28, 2023 01:26:47.279 [548387274808] DEBUG - [HCl#24] HTTP requesting GET http://127.0.0.1:32400/:/metadata/notify/changeItemState?librarySectionID=2&metadataItemID=38&metadataType=4&state=-1&parentID=-1&rootID=-1&mediaState=idle
+Nov 28, 2023 01:26:47.281 [548388200504] DEBUG - [HttpClient/HCl#24] HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/:/metadata/notify/changeItemState?librarySectionID=2&metadataItemID=38&metadataType=4&state=-1&parentID=-1&rootID=-1&mediaState=idle (reused)
+Nov 28, 2023 01:26:47.286 [548464939064] DEBUG - Downloading document http://127.0.0.1:32400/library/changestamp
+Nov 28, 2023 01:26:47.286 [548464939064] DEBUG - [HCl#25] HTTP requesting GET http://127.0.0.1:32400/library/changestamp
+Nov 28, 2023 01:26:47.288 [548388200504] DEBUG - [HttpClient/HCl#25] HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/library/changestamp (reused)
+Nov 28, 2023 01:26:47.289 [548464939064] DEBUG - Updating metadata item (save) (Something Precious) with ID 38
+Nov 28, 2023 01:26:47.294 [548387274808] DEBUG - [HCl#26] HTTP requesting GET http://127.0.0.1:32400/:/metadata/flushMetadataCounterCache?metadataItemID=10
+Nov 28, 2023 01:26:47.295 [548388200504] DEBUG - [HttpClient/HCl#26] HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/:/metadata/flushMetadataCounterCache?metadataItemID=10 (reused)
+Nov 28, 2023 01:26:47.302 [548464939064] DEBUG - Analyzing media parts for item 39 (The Dragon’s Tears): 38
+Nov 28, 2023 01:26:47.304 [548464939064] DEBUG - Downloading document http://127.0.0.1:32400/library/changestamp
+Nov 28, 2023 01:26:47.304 [548464939064] DEBUG - [HCl#27] HTTP requesting GET http://127.0.0.1:32400/library/changestamp
+Nov 28, 2023 01:26:47.306 [548388200504] DEBUG - [HttpClient/HCl#27] HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/library/changestamp (reused)
+Nov 28, 2023 01:26:47.306 [548464939064] DEBUG - Updating metadata item (save) (The Dragon’s Tears) with ID 39
+Nov 28, 2023 01:26:47.310 [548387274808] DEBUG - [HCl#28] HTTP requesting GET http://127.0.0.1:32400/:/metadata/flushMetadataCounterCache?metadataItemID=10
+Nov 28, 2023 01:26:47.311 [548388200504] DEBUG - [HttpClient/HCl#28] HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/:/metadata/flushMetadataCounterCache?metadataItemID=10 (reused)
+Nov 28, 2023 01:26:47.379 [548464939064] DEBUG - [ID 38] Media part analysis: /media/tv/The Eminence in Shadow/Season 2/[SubsPlease] Kage no Jitsuryokusha ni Naritakute! S2 - 08 (1080p) [9B7E7DA7].mkv
+Nov 28, 2023 01:26:47.379 [548464939064] DEBUG - [MI] Opening input file: "/media/tv/The Eminence in Shadow/Season 2/[SubsPlease] Kage no Jitsuryokusha ni Naritakute! S2 - 08 (1080p) [9B7E7DA7].mkv"
+Nov 28, 2023 01:26:47.379 [548464939064] DEBUG - [FFMPEG] - Opening '/media/tv/The Eminence in Shadow/Season 2/[SubsPlease] Kage no Jitsuryokusha ni Naritakute! S2 - 08 (1080p) [9B7E7DA7].mkv' for reading
+Nov 28, 2023 01:26:47.379 [548464939064] DEBUG - [FFMPEG] - Setting default whitelist 'file,crypto,data'
+Nov 28, 2023 01:26:47.380 [548464939064] DEBUG - [FFMPEG] - Format matroska,webm probed with size=2048 and score=100
+Nov 28, 2023 01:26:47.380 [548464939064] DEBUG - [FFMPEG] - Unknown entry 0x22B59D at pos. 4283
+Nov 28, 2023 01:26:47.380 [548464939064] DEBUG - [FFMPEG] - Unknown entry 0x22B59D at pos. 4398
+Nov 28, 2023 01:26:47.380 [548464939064] DEBUG - [FFMPEG] - Unknown entry 0x22B59D at pos. 6016
+Nov 28, 2023 01:26:47.388 [548464939064] DEBUG - [FFMPEG] - Unknown entry 0x447B at pos. 461082891
+Nov 28, 2023 01:26:47.388 [548464939064] DEBUG - [FFMPEG] - Unknown entry 0x447B at pos. 461082937
+Nov 28, 2023 01:26:47.388 [548464939064] DEBUG - [FFMPEG] - Unknown entry 0x447B at pos. 461082978
+Nov 28, 2023 01:26:47.388 [548464939064] DEBUG - [FFMPEG] - Unknown entry 0x447B at pos. 461083022
+Nov 28, 2023 01:26:47.388 [548464939064] DEBUG - [FFMPEG] - Unknown entry 0x447B at pos. 461083081
+Nov 28, 2023 01:26:47.388 [548464939064] DEBUG - [FFMPEG] - Unknown entry 0x447B at pos. 461083148
+Nov 28, 2023 01:26:47.388 [548464939064] DEBUG - [FFMPEG] - Unknown entry 0x447B at pos. 461083229
+Nov 28, 2023 01:26:47.388 [548464939064] DEBUG - [FFMPEG] - Unknown entry 0x447B at pos. 461083281
+Nov 28, 2023 01:26:47.388 [548464939064] DEBUG - [FFMPEG] - Unknown entry 0x447B at pos. 461083327
+Nov 28, 2023 01:26:47.388 [548464939064] DEBUG - [FFMPEG] - Unknown entry 0x447B at pos. 461083368
+Nov 28, 2023 01:26:47.388 [548464939064] DEBUG - [FFMPEG] - Unknown entry 0x447B at pos. 461083411
+Nov 28, 2023 01:26:47.388 [548464939064] DEBUG - [FFMPEG] - Unknown entry 0x447B at pos. 461083470
+Nov 28, 2023 01:26:47.388 [548464939064] DEBUG - [FFMPEG] - Unknown entry 0x447B at pos. 461083537
+Nov 28, 2023 01:26:47.388 [548464939064] DEBUG - [FFMPEG] - Unknown entry 0x447B at pos. 461083618
+Nov 28, 2023 01:26:47.388 [548464939064] DEBUG - [FFMPEG] - Unknown entry 0x447B at pos. 461083667
+Nov 28, 2023 01:26:47.388 [548464939064] DEBUG - [FFMPEG] - Unknown entry 0x447B at pos. 461083713
+Nov 28, 2023 01:26:47.388 [548464939064] DEBUG - [FFMPEG] - Unknown entry 0x447B at pos. 461083752
+Nov 28, 2023 01:26:47.388 [548464939064] DEBUG - [FFMPEG] - Unknown entry 0x447B at pos. 461083792
+Nov 28, 2023 01:26:47.388 [548464939064] DEBUG - [FFMPEG] - Unknown entry 0x447B at pos. 461083851
+Nov 28, 2023 01:26:47.388 [548464939064] DEBUG - [FFMPEG] - Unknown entry 0x447B at pos. 461083918
+Nov 28, 2023 01:26:47.388 [548464939064] DEBUG - [FFMPEG] - Unknown entry 0x447B at pos. 461083999
+Nov 28, 2023 01:26:47.388 [548464939064] DEBUG - [FFMPEG] - st:0 removing common factor 1000000 from timebase
+Nov 28, 2023 01:26:47.388 [548464939064] DEBUG - [FFMPEG] - st:1 removing common factor 1000000 from timebase
+Nov 28, 2023 01:26:47.388 [548464939064] DEBUG - [FFMPEG] - st:2 removing common factor 1000000 from timebase
+Nov 28, 2023 01:26:47.390 [548464939064] DEBUG - [FFMPEG] - Before avformat_find_stream_info() pos: 358949 bytes read:392876 seeks:2 nb_streams:4
+Nov 28, 2023 01:26:47.391 [548464939064] DEBUG - [FFMPEG] - nal_unit_type: 7(SPS), nal_ref_idc: 3
+Nov 28, 2023 01:26:47.391 [548464939064] DEBUG - [FFMPEG] - nal_unit_type: 8(PPS), nal_ref_idc: 3
+Nov 28, 2023 01:26:47.393 [548464939064] DEBUG - [FFMPEG] - nal_unit_type: 7(SPS), nal_ref_idc: 3
+Nov 28, 2023 01:26:47.393 [548464939064] DEBUG - [FFMPEG] - nal_unit_type: 8(PPS), nal_ref_idc: 3
+Nov 28, 2023 01:26:47.394 [548464939064] DEBUG - [FFMPEG] - nal_unit_type: 7(SPS), nal_ref_idc: 3
+Nov 28, 2023 01:26:47.394 [548464939064] DEBUG - [FFMPEG] - nal_unit_type: 8(PPS), nal_ref_idc: 3
+Nov 28, 2023 01:26:47.394 [548464939064] DEBUG - [FFMPEG] - nal_unit_type: 6(SEI), nal_ref_idc: 0
+Nov 28, 2023 01:26:47.394 [548464939064] DEBUG - [FFMPEG] - nal_unit_type: 5(IDR), nal_ref_idc: 3
+Nov 28, 2023 01:26:47.394 [548464939064] DEBUG - [FFMPEG] - Format yuv420p chosen by get_format().
+Nov 28, 2023 01:26:47.402 [548464939064] DEBUG - [FFMPEG] - no picture 
+Nov 28, 2023 01:26:47.409 [548464939064] DEBUG - [FFMPEG] - nal_unit_type: 1(Coded slice of a non-IDR picture), nal_ref_idc: 2
+Nov 28, 2023 01:26:47.415 [548464939064] DEBUG - [FFMPEG] - no picture 
+Nov 28, 2023 01:26:47.422 [548464939064] DEBUG - [FFMPEG] - nal_unit_type: 1(Coded slice of a non-IDR picture), nal_ref_idc: 2
+Nov 28, 2023 01:26:47.438 [548464939064] DEBUG - [FFMPEG] - nal_unit_type: 1(Coded slice of a non-IDR picture), nal_ref_idc: 0
+Nov 28, 2023 01:26:47.454 [548464939064] DEBUG - [FFMPEG] - nal_unit_type: 1(Coded slice of a non-IDR picture), nal_ref_idc: 0
+Nov 28, 2023 01:26:47.474 [548464939064] DEBUG - [FFMPEG] - nal_unit_type: 1(Coded slice of a non-IDR picture), nal_ref_idc: 2
+Nov 28, 2023 01:26:47.482 [548464939064] DEBUG - [FFMPEG] - nal_unit_type: 1(Coded slice of a non-IDR picture), nal_ref_idc: 2
+Nov 28, 2023 01:26:47.492 [548464939064] DEBUG - [FFMPEG] - nal_unit_type: 1(Coded slice of a non-IDR picture), nal_ref_idc: 0
+Nov 28, 2023 01:26:47.502 [548464939064] DEBUG - [FFMPEG] - nal_unit_type: 1(Coded slice of a non-IDR picture), nal_ref_idc: 0
+Nov 28, 2023 01:26:47.511 [548464939064] DEBUG - [FFMPEG] - All info found
+Nov 28, 2023 01:26:47.517 [548464939064] DEBUG - [FFMPEG] - After avformat_find_stream_info() pos: 374496 bytes read:425644 seeks:2 frames:42
+Nov 28, 2023 01:26:47.518 [548464939064] DEBUG - [MI]  * 2fcabde9605b0f61c793de4dc85b80a54c15d85e [mkv h264/aac] Duration: 1422506ms, 1920x1080 (1.777778) 23.976fps, bitrate=2593kbps, audio channels=2, optimizedForStreaming=0 ("/media/tv/The Eminence in Shadow/Season 2/[SubsPlease] Kage no Jitsuryokusha ni Naritakute! S2 - 08 (1080p) [9B7E7DA7].mkv")
+Nov 28, 2023 01:26:47.518 [548464939064] DEBUG - [MI] Chapters had generic titles, clearing.
+Nov 28, 2023 01:26:47.519 [548464939064] DEBUG - [MI] Closing input file: "/media/tv/The Eminence in Shadow/Season 2/[SubsPlease] Kage no Jitsuryokusha ni Naritakute! S2 - 08 (1080p) [9B7E7DA7].mkv"
+Nov 28, 2023 01:26:47.521 [548464939064] DEBUG - Committing media stream changes for part 38
+Nov 28, 2023 01:26:47.523 [548464939064] DEBUG - Updating media item 38, size=461084004, metadata_item_id=39
+Nov 28, 2023 01:26:47.524 [548464939064] DEBUG - Updating part with ID=38 [/media/tv/The Eminence in Shadow/Season 2/[SubsPlease] Kage no Jitsuryokusha ni Naritakute! S2 - 08 (1080p) [9B7E7DA7].mkv]
+Nov 28, 2023 01:26:47.526 [548387274808] DEBUG - [HCl#29] HTTP requesting GET http://127.0.0.1:32400/:/metadata/notify/changeItemState?librarySectionID=2&metadataItemID=39&metadataType=4&state=-1&parentID=-1&rootID=-1&mediaState=analyzing
+Nov 28, 2023 01:26:47.527 [548388200504] DEBUG - [HttpClient/HCl#29] HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/:/metadata/notify/changeItemState?librarySectionID=2&metadataItemID=39&metadataType=4&state=-1&parentID=-1&rootID=-1&mediaState=analyzing (reused)
+Nov 28, 2023 01:26:47.527 [548387274808] DEBUG - [HCl#2a] HTTP requesting GET http://127.0.0.1:32400/:/metadata/notify/changeItemState?librarySectionID=2&metadataItemID=39&metadataType=4&state=-1&parentID=-1&rootID=-1&mediaState=idle
+Nov 28, 2023 01:26:47.528 [548388200504] DEBUG - [HttpClient/HCl#2a] HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/:/metadata/notify/changeItemState?librarySectionID=2&metadataItemID=39&metadataType=4&state=-1&parentID=-1&rootID=-1&mediaState=idle (reused)
+Nov 28, 2023 01:26:47.534 [548464939064] DEBUG - Downloading document http://127.0.0.1:32400/library/changestamp
+Nov 28, 2023 01:26:47.534 [548464939064] DEBUG - [HCl#2b] HTTP requesting GET http://127.0.0.1:32400/library/changestamp
+Nov 28, 2023 01:26:47.535 [548388200504] DEBUG - [HttpClient/HCl#2b] HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/library/changestamp (reused)
+Nov 28, 2023 01:26:47.536 [548464939064] DEBUG - Updating metadata item (save) (The Dragon’s Tears) with ID 39
+Nov 28, 2023 01:26:47.547 [548387274808] DEBUG - [HCl#2c] HTTP requesting GET http://127.0.0.1:32400/:/metadata/flushMetadataCounterCache?metadataItemID=10
+Nov 28, 2023 01:26:47.548 [548388200504] DEBUG - [HttpClient/HCl#2c] HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/:/metadata/flushMetadataCounterCache?metadataItemID=10 (reused)

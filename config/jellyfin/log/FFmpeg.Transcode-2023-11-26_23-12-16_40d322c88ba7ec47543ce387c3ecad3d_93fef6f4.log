@@ -1,0 +1,281 @@
+/videos/40d322c8-8ba7-ec47-543c-e387c3ecad3d/hls1/main/0.ts
+
+{"Protocol":0,"Id":"40d322c88ba7ec47543ce387c3ecad3d","Path":"/data/media/movies/Your Name. (2016)/Your Name. (2016) Bluray-2160p.mkv","EncoderPath":null,"EncoderProtocol":null,"Type":0,"Container":"mkv,webm","Size":5211882496,"Name":"Your Name. (2016) Bluray-2160p","IsRemote":false,"ETag":"d856ddce4c308e19fa28b87149128635","RunTimeTicks":63956828160,"ReadAtNativeFramerate":false,"IgnoreDts":false,"IgnoreIndex":false,"GenPtsInput":false,"SupportsTranscoding":true,"SupportsDirectStream":true,"SupportsDirectPlay":true,"IsInfiniteStream":false,"RequiresOpening":false,"OpenToken":null,"RequiresClosing":false,"LiveStreamId":null,"BufferMs":null,"RequiresLooping":false,"SupportsProbing":true,"VideoType":0,"IsoType":null,"Video3DFormat":null,"MediaStreams":[{"Codec":"hevc","CodecTag":null,"Language":null,"ColorRange":null,"ColorSpace":"bt709","ColorTransfer":"bt709","ColorPrimaries":"bt709","DvVersionMajor":null,"DvVersionMinor":null,"DvProfile":null,"DvLevel":null,"RpuPresentFlag":null,"ElPresentFlag":null,"BlPresentFlag":null,"DvBlSignalCompatibilityId":null,"Comment":null,"TimeBase":"1/1000","CodecTimeBase":null,"Title":null,"VideoRange":"SDR","VideoRangeType":"SDR","VideoDoViTitle":null,"LocalizedUndefined":null,"LocalizedDefault":null,"LocalizedForced":null,"LocalizedExternal":null,"DisplayTitle":"4K HEVC SDR","NalLengthSize":null,"IsInterlaced":false,"IsAVC":null,"ChannelLayout":null,"BitRate":6519250,"BitDepth":10,"RefFrames":1,"PacketLength":null,"Channels":null,"SampleRate":null,"IsDefault":true,"IsForced":false,"Height":2160,"Width":3840,"AverageFrameRate":23.976025,"RealFrameRate":23.976025,"Profile":"Main 10","Type":1,"AspectRatio":"16:9","Index":0,"Score":null,"IsExternal":false,"DeliveryMethod":null,"DeliveryUrl":null,"IsExternalUrl":null,"IsTextSubtitleStream":false,"SupportsExternalStream":false,"Path":null,"PixelFormat":"yuv420p10le","Level":150,"IsAnamorphic":null},{"Codec":"aac","CodecTag":null,"Language":null,"ColorRange":null,"ColorSpace":null,"ColorTransfer":null,"ColorPrimaries":null,"DvVersionMajor":null,"DvVersionMinor":null,"DvProfile":null,"DvLevel":null,"RpuPresentFlag":null,"ElPresentFlag":null,"BlPresentFlag":null,"DvBlSignalCompatibilityId":null,"Comment":null,"TimeBase":"1/1000","CodecTimeBase":null,"Title":null,"VideoRange":null,"VideoRangeType":null,"VideoDoViTitle":null,"LocalizedUndefined":null,"LocalizedDefault":null,"LocalizedForced":null,"LocalizedExternal":null,"DisplayTitle":"AAC - 5.1 - Default","NalLengthSize":null,"IsInterlaced":false,"IsAVC":null,"ChannelLayout":"5.1","BitRate":320000,"BitDepth":null,"RefFrames":null,"PacketLength":null,"Channels":6,"SampleRate":48000,"IsDefault":true,"IsForced":false,"Height":null,"Width":null,"AverageFrameRate":null,"RealFrameRate":null,"Profile":"LC","Type":0,"AspectRatio":null,"Index":1,"Score":null,"IsExternal":false,"DeliveryMethod":null,"DeliveryUrl":null,"IsExternalUrl":null,"IsTextSubtitleStream":false,"SupportsExternalStream":false,"Path":null,"PixelFormat":null,"Level":0,"IsAnamorphic":null},{"Codec":"subrip","CodecTag":null,"Language":"eng","ColorRange":null,"ColorSpace":null,"ColorTransfer":null,"ColorPrimaries":null,"DvVersionMajor":null,"DvVersionMinor":null,"DvProfile":null,"DvLevel":null,"RpuPresentFlag":null,"ElPresentFlag":null,"BlPresentFlag":null,"DvBlSignalCompatibilityId":null,"Comment":null,"TimeBase":"1/1000","CodecTimeBase":null,"Title":"English-SRT","VideoRange":null,"VideoRangeType":null,"VideoDoViTitle":null,"LocalizedUndefined":"Undefined","LocalizedDefault":"Default","LocalizedForced":"Forced","LocalizedExternal":"External","DisplayTitle":"English-SRT - Default - Forced - SUBRIP","NalLengthSize":null,"IsInterlaced":false,"IsAVC":null,"ChannelLayout":null,"BitRate":null,"BitDepth":null,"RefFrames":null,"PacketLength":null,"Channels":null,"SampleRate":null,"IsDefault":true,"IsForced":true,"Height":null,"Width":null,"AverageFrameRate":null,"RealFrameRate":null,"Profile":null,"Type":2,"AspectRatio":null,"Index":2,"Score":null,"IsExternal":false,"DeliveryMethod":null,"DeliveryUrl":null,"IsExternalUrl":null,"IsTextSubtitleStream":true,"SupportsExternalStream":true,"Path":null,"PixelFormat":null,"Level":0,"IsAnamorphic":null},{"Codec":"PGSSUB","CodecTag":null,"Language":null,"ColorRange":null,"ColorSpace":null,"ColorTransfer":null,"ColorPrimaries":null,"DvVersionMajor":null,"DvVersionMinor":null,"DvProfile":null,"DvLevel":null,"RpuPresentFlag":null,"ElPresentFlag":null,"BlPresentFlag":null,"DvBlSignalCompatibilityId":null,"Comment":null,"TimeBase":"1/1000","CodecTimeBase":null,"Title":null,"VideoRange":null,"VideoRangeType":null,"VideoDoViTitle":null,"LocalizedUndefined":"Undefined","LocalizedDefault":"Default","LocalizedForced":"Forced","LocalizedExternal":"External","DisplayTitle":"Undefined - Forced - PGSSUB","NalLengthSize":null,"IsInterlaced":false,"IsAVC":null,"ChannelLayout":null,"BitRate":null,"BitDepth":null,"RefFrames":null,"PacketLength":null,"Channels":null,"SampleRate":null,"IsDefault":false,"IsForced":true,"Height":null,"Width":null,"AverageFrameRate":null,"RealFrameRate":null,"Profile":null,"Type":2,"AspectRatio":null,"Index":3,"Score":null,"IsExternal":false,"DeliveryMethod":null,"DeliveryUrl":null,"IsExternalUrl":null,"IsTextSubtitleStream":false,"SupportsExternalStream":false,"Path":null,"PixelFormat":null,"Level":0,"IsAnamorphic":null},{"Codec":"PGSSUB","CodecTag":null,"Language":null,"ColorRange":null,"ColorSpace":null,"ColorTransfer":null,"ColorPrimaries":null,"DvVersionMajor":null,"DvVersionMinor":null,"DvProfile":null,"DvLevel":null,"RpuPresentFlag":null,"ElPresentFlag":null,"BlPresentFlag":null,"DvBlSignalCompatibilityId":null,"Comment":null,"TimeBase":"1/1000","CodecTimeBase":null,"Title":null,"VideoRange":null,"VideoRangeType":null,"VideoDoViTitle":null,"LocalizedUndefined":"Undefined","LocalizedDefault":"Default","LocalizedForced":"Forced","LocalizedExternal":"External","DisplayTitle":"Undefined - PGSSUB","NalLengthSize":null,"IsInterlaced":false,"IsAVC":null,"ChannelLayout":null,"BitRate":null,"BitDepth":null,"RefFrames":null,"PacketLength":null,"Channels":null,"SampleRate":null,"IsDefault":false,"IsForced":false,"Height":null,"Width":null,"AverageFrameRate":null,"RealFrameRate":null,"Profile":null,"Type":2,"AspectRatio":null,"Index":4,"Score":null,"IsExternal":false,"DeliveryMethod":null,"DeliveryUrl":null,"IsExternalUrl":null,"IsTextSubtitleStream":false,"SupportsExternalStream":false,"Path":null,"PixelFormat":null,"Level":0,"IsAnamorphic":null},{"Codec":"PGSSUB","CodecTag":null,"Language":null,"ColorRange":null,"ColorSpace":null,"ColorTransfer":null,"ColorPrimaries":null,"DvVersionMajor":null,"DvVersionMinor":null,"DvProfile":null,"DvLevel":null,"RpuPresentFlag":null,"ElPresentFlag":null,"BlPresentFlag":null,"DvBlSignalCompatibilityId":null,"Comment":null,"TimeBase":"1/1000","CodecTimeBase":null,"Title":null,"VideoRange":null,"VideoRangeType":null,"VideoDoViTitle":null,"LocalizedUndefined":"Undefined","LocalizedDefault":"Default","LocalizedForced":"Forced","LocalizedExternal":"External","DisplayTitle":"Undefined - PGSSUB","NalLengthSize":null,"IsInterlaced":false,"IsAVC":null,"ChannelLayout":null,"BitRate":null,"BitDepth":null,"RefFrames":null,"PacketLength":null,"Channels":null,"SampleRate":null,"IsDefault":false,"IsForced":false,"Height":null,"Width":null,"AverageFrameRate":null,"RealFrameRate":null,"Profile":null,"Type":2,"AspectRatio":null,"Index":5,"Score":null,"IsExternal":false,"DeliveryMethod":null,"DeliveryUrl":null,"IsExternalUrl":null,"IsTextSubtitleStream":false,"SupportsExternalStream":false,"Path":null,"PixelFormat":null,"Level":0,"IsAnamorphic":null},{"Codec":"PGSSUB","CodecTag":null,"Language":null,"ColorRange":null,"ColorSpace":null,"ColorTransfer":null,"ColorPrimaries":null,"DvVersionMajor":null,"DvVersionMinor":null,"DvProfile":null,"DvLevel":null,"RpuPresentFlag":null,"ElPresentFlag":null,"BlPresentFlag":null,"DvBlSignalCompatibilityId":null,"Comment":null,"TimeBase":"1/1000","CodecTimeBase":null,"Title":null,"VideoRange":null,"VideoRangeType":null,"VideoDoViTitle":null,"LocalizedUndefined":"Undefined","LocalizedDefault":"Default","LocalizedForced":"Forced","LocalizedExternal":"External","DisplayTitle":"Undefined - PGSSUB","NalLengthSize":null,"IsInterlaced":false,"IsAVC":null,"ChannelLayout":null,"BitRate":null,"BitDepth":null,"RefFrames":null,"PacketLength":null,"Channels":null,"SampleRate":null,"IsDefault":false,"IsForced":false,"Height":null,"Width":null,"AverageFrameRate":null,"RealFrameRate":null,"Profile":null,"Type":2,"AspectRatio":null,"Index":6,"Score":null,"IsExternal":false,"DeliveryMethod":null,"DeliveryUrl":null,"IsExternalUrl":null,"IsTextSubtitleStream":false,"SupportsExternalStream":false,"Path":null,"PixelFormat":null,"Level":0,"IsAnamorphic":null}],"MediaAttachments":[],"Formats":[],"Bitrate":6839250,"Timestamp":null,"RequiredHttpHeaders":{},"TranscodingUrl":null,"TranscodingSubProtocol":null,"TranscodingContainer":null,"AnalyzeDurationMs":null,"DefaultAudioStreamIndex":null,"DefaultSubtitleStreamIndex":null}
+
+/usr/lib/jellyfin-ffmpeg/ffmpeg -analyzeduration 200M -f matroska,webm -autorotate 0 -i file:"/data/media/movies/Your Name. (2016)/Your Name. (2016) Bluray-2160p.mkv" -map_metadata -1 -map_chapters -1 -threads 0 -map 0:0 -map 0:1 -map -0:s -codec:v:0 libx264 -preset veryfast -crf 23 -maxrate 10865417 -bufsize 21730834 -x264opts:0 subme=0:me_range=4:rc_lookahead=10:me=dia:no_chroma_me:8x8dct=0:partitions=none -force_key_frames:0 "expr:gte(t,0+n_forced*3)" -sc_threshold:v:0 0 -vf "setparams=color_primaries=bt709:color_trc=bt709:colorspace=bt709,scale=trunc(min(max(iw\,ih*a)\,min(3840\,2160*a))/2)*2:trunc(min(max(iw/a\,ih)\,min(3840/a\,2160))/2)*2,format=yuv420p" -codec:a:0 libfdk_aac -ac 2 -ab 384000 -ar 48000 -af "volume=2" -copyts -avoid_negative_ts disabled -max_muxing_queue_size 2048 -f hls -max_delay 5000000 -hls_time 3 -hls_segment_type mpegts -start_number 0 -hls_segment_filename "/config/data/transcodes/04d9aec39d77356e9ed4357b2e0c425c%d.ts" -hls_playlist_type vod -hls_list_size 0 -y "/config/data/transcodes/04d9aec39d77356e9ed4357b2e0c425c.m3u8"
+
+
+ffmpeg version 5.1.3-Jellyfin Copyright (c) 2000-2022 the FFmpeg developers
+  built with gcc 11 (Ubuntu 11.4.0-1ubuntu1~22.04)
+  configuration: --prefix=/usr/lib/jellyfin-ffmpeg --target-os=linux --extra-libs=-lfftw3f --extra-version=Jellyfin --disable-doc --disable-ffplay --disable-ptx-compression --disable-static --disable-libxcb --disable-sdl2 --disable-xlib --enable-lto --enable-gpl --enable-version3 --enable-shared --enable-gmp --enable-gnutls --enable-chromaprint --enable-libdrm --enable-libass --enable-libfreetype --enable-libfribidi --enable-libfontconfig --enable-libbluray --enable-libmp3lame --enable-libopus --enable-libtheora --enable-libvorbis --enable-libopenmpt --enable-libdav1d --enable-libwebp --enable-libvpx --enable-libx264 --enable-libx265 --enable-libzvbi --enable-libzimg --enable-libfdk-aac --toolchain=hardened --enable-cross-compile --arch=arm64 --cross-prefix=/usr/bin/aarch64-linux-gnu-
+  libavutil      57. 28.100 / 57. 28.100
+  libavcodec     59. 37.100 / 59. 37.100
+  libavformat    59. 27.100 / 59. 27.100
+  libavdevice    59.  7.100 / 59.  7.100
+  libavfilter     8. 44.100 /  8. 44.100
+  libswscale      6.  7.100 /  6.  7.100
+  libswresample   4.  7.100 /  4.  7.100
+  libpostproc    56.  6.100 / 56.  6.100
+[matroska,webm @ 0x55b4a65570] Could not find codec parameters for stream 3 (Subtitle: hdmv_pgs_subtitle (pgssub)): unspecified size
+Consider increasing the value for the 'analyzeduration' (200000000) and 'probesize' (5000000) options
+[matroska,webm @ 0x55b4a65570] Could not find codec parameters for stream 4 (Subtitle: hdmv_pgs_subtitle (pgssub)): unspecified size
+Consider increasing the value for the 'analyzeduration' (200000000) and 'probesize' (5000000) options
+[matroska,webm @ 0x55b4a65570] Could not find codec parameters for stream 5 (Subtitle: hdmv_pgs_subtitle (pgssub)): unspecified size
+Consider increasing the value for the 'analyzeduration' (200000000) and 'probesize' (5000000) options
+[matroska,webm @ 0x55b4a65570] Could not find codec parameters for stream 6 (Subtitle: hdmv_pgs_subtitle (pgssub)): unspecified size
+Consider increasing the value for the 'analyzeduration' (200000000) and 'probesize' (5000000) options
+Input #0, matroska,webm, from 'file:/data/media/movies/Your Name. (2016)/Your Name. (2016) Bluray-2160p.mkv':
+  Metadata:
+    ENCODER         : Lavf58.68.100
+  Duration: 01:46:35.68, start: 0.000000, bitrate: 6519 kb/s
+  Stream #0:0: Video: hevc (Main 10), yuv420p10le(tv, bt709, progressive), 3840x2160 [SAR 1:1 DAR 16:9], 23.98 fps, 23.98 tbr, 1k tbn (default)
+    Metadata:
+      ENCODER         : Lavc58.125.101 libx265
+      DURATION        : 01:46:35.683000000
+  Stream #0:1: Audio: aac (LC), 48000 Hz, 5.1, fltp (default)
+    Metadata:
+      ENCODER         : Lavc58.125.101 libfdk_aac
+      DURATION        : 01:46:35.680000000
+  Stream #0:2(eng): Subtitle: subrip (default) (forced)
+    Metadata:
+      title           : English-SRT
+      BPS-eng         : 47
+      DURATION-eng    : 01:45:31.659000000
+      NUMBER_OF_FRAMES-eng: 1154
+      NUMBER_OF_BYTES-eng: 37410
+      _STATISTICS_TAGS-eng: BPS DURATION NUMBER_OF_FRAMES NUMBER_OF_BYTES
+      DURATION        : 01:46:25.130000000
+  Stream #0:3: Subtitle: hdmv_pgs_subtitle (forced)
+    Metadata:
+      DURATION        : 01:46:25.130000000
+  Stream #0:4: Subtitle: hdmv_pgs_subtitle
+    Metadata:
+      DURATION        : 01:46:16.455000000
+  Stream #0:5: Subtitle: hdmv_pgs_subtitle
+    Metadata:
+      DURATION        : 01:46:16.038000000
+  Stream #0:6: Subtitle: hdmv_pgs_subtitle
+    Metadata:
+      DURATION        : 01:46:24.963000000
+Stream mapping:
+  Stream #0:0 -> #0:0 (hevc (native) -> h264 (libx264))
+  Stream #0:1 -> #0:1 (aac (native) -> aac (libfdk_aac))
+Press [q] to stop, [?] for help
+[libx264 @ 0x55b4a8c290] using SAR=1/1
+[libx264 @ 0x55b4a8c290] using cpu capabilities: ARMv8 NEON
+[libx264 @ 0x55b4a8c290] profile Main, level 5.1, 4:2:0, 8-bit
+[libx264 @ 0x55b4a8c290] 264 - core 163 r3060 5db6aa6 - H.264/MPEG-4 AVC codec - Copyleft 2003-2021 - http://www.videolan.org/x264.html - options: cabac=1 ref=1 deblock=1:0:0 analyse=0x1:0 me=dia subme=0 psy=1 psy_rd=1.00:0.00 mixed_ref=0 me_range=4 chroma_me=0 trellis=0 8x8dct=0 cqm=0 deadzone=21,11 fast_pskip=1 chroma_qp_offset=0 threads=6 lookahead_threads=1 sliced_threads=0 nr=0 decimate=1 interlaced=0 bluray_compat=0 constrained_intra=0 bframes=3 b_pyramid=2 b_adapt=1 b_bias=0 direct=1 weightb=1 open_gop=0 weightp=1 keyint=250 keyint_min=23 scenecut=0 intra_refresh=0 rc_lookahead=10 rc=crf mbtree=1 crf=23.0 qcomp=0.60 qpmin=0 qpmax=69 qpstep=4 vbv_maxrate=10865 vbv_bufsize=21730 crf_max=0.0 nal_hrd=none filler=0 ip_ratio=1.40 aq=1:1.00
+Output #0, hls, to '/config/data/transcodes/04d9aec39d77356e9ed4357b2e0c425c.m3u8':
+  Metadata:
+    encoder         : Lavf59.27.100
+  Stream #0:0: Video: h264, yuv420p(tv, bt709, progressive), 3840x2160 [SAR 1:1 DAR 16:9], q=2-31, 23.98 fps, 90k tbn (default)
+    Metadata:
+      encoder         : Lavc59.37.100 libx264
+    Side data:
+      cpb: bitrate max/min/avg: 10865000/0/0 buffer size: 21730000 vbv_delay: N/A
+  Stream #0:1: Audio: aac, 48000 Hz, stereo, s16, 384 kb/s (default)
+    Metadata:
+      encoder         : Lavc59.37.100 libfdk_aac
+frame=    1 fps=0.0 q=0.0 size=N/A time=00:00:00.00 bitrate=N/A speed=   0x    
+frame=    1 fps=0.6 q=0.0 size=N/A time=00:00:00.02 bitrate=N/A speed=0.0123x    
+frame=    3 fps=1.3 q=0.0 size=N/A time=00:00:00.06 bitrate=N/A dup=1 drop=0 speed=0.028x    
+frame=    5 fps=1.7 q=0.0 size=N/A time=00:00:00.14 bitrate=N/A dup=1 drop=0 speed=0.0516x    
+frame=    7 fps=2.0 q=0.0 size=N/A time=00:00:00.23 bitrate=N/A dup=1 drop=0 speed=0.0682x    
+frame=    9 fps=2.2 q=0.0 size=N/A time=00:00:00.32 bitrate=N/A dup=1 drop=0 speed=0.0794x    
+frame=   11 fps=2.4 q=0.0 size=N/A time=00:00:00.40 bitrate=N/A dup=1 drop=0 speed=0.0874x    
+frame=   13 fps=2.4 q=0.0 size=N/A time=00:00:00.49 bitrate=N/A dup=1 drop=0 speed=0.0895x    
+frame=   14 fps=2.3 q=0.0 size=N/A time=00:00:00.55 bitrate=N/A dup=1 drop=0 speed=0.0925x    
+frame=   16 fps=2.3 q=0.0 size=N/A time=00:00:00.61 bitrate=N/A dup=1 drop=0 speed=0.0902x    
+frame=   18 fps=2.4 q=0.0 size=N/A time=00:00:00.70 bitrate=N/A dup=1 drop=0 speed=0.093x    
+frame=   20 fps=2.4 q=0.0 size=N/A time=00:00:00.76 bitrate=N/A dup=1 drop=0 speed=0.0931x    
+frame=   21 fps=2.0 q=28.0 size=N/A time=00:00:00.81 bitrate=N/A dup=1 drop=0 speed=0.0768x    
+frame=   23 fps=2.0 q=28.0 size=N/A time=00:00:00.89 bitrate=N/A dup=1 drop=0 speed=0.0768x    
+frame=   25 fps=2.0 q=28.0 size=N/A time=00:00:00.98 bitrate=N/A dup=1 drop=0 speed=0.0782x    
+frame=   28 fps=1.7 q=28.0 size=N/A time=00:00:01.11 bitrate=N/A dup=1 drop=0 speed=0.0692x    
+frame=   29 fps=1.7 q=28.0 size=N/A time=00:00:01.15 bitrate=N/A dup=1 drop=0 speed=0.0691x    
+frame=   32 fps=1.9 q=28.0 size=N/A time=00:00:01.28 bitrate=N/A dup=1 drop=0 speed=0.0743x    
+frame=   33 fps=1.7 q=28.0 size=N/A time=00:00:01.32 bitrate=N/A dup=1 drop=0 speed=0.0674x    
+frame=   34 fps=1.7 q=28.0 size=N/A time=00:00:01.36 bitrate=N/A dup=1 drop=0 speed=0.0668x    
+frame=   36 fps=1.7 q=28.0 size=N/A time=00:00:01.45 bitrate=N/A dup=1 drop=0 speed=0.0692x    
+frame=   37 fps=1.6 q=28.0 size=N/A time=00:00:01.49 bitrate=N/A dup=1 drop=0 speed=0.0648x    
+frame=   40 fps=1.6 q=28.0 size=N/A time=00:00:01.62 bitrate=N/A dup=1 drop=0 speed=0.064x    
+frame=   41 fps=1.5 q=28.0 size=N/A time=00:00:01.66 bitrate=N/A dup=1 drop=0 speed=0.0611x    
+frame=   44 fps=1.6 q=28.0 size=N/A time=00:00:01.77 bitrate=N/A dup=1 drop=0 speed=0.0633x    
+frame=   45 fps=1.5 q=28.0 size=N/A time=00:00:01.81 bitrate=N/A dup=1 drop=0 speed=0.0592x    
+frame=   46 fps=1.5 q=28.0 size=N/A time=00:00:01.85 bitrate=N/A dup=1 drop=0 speed=0.0589x    
+frame=   48 fps=1.5 q=28.0 size=N/A time=00:00:01.94 bitrate=N/A dup=1 drop=0 speed=0.0598x    
+frame=   49 fps=1.5 q=28.0 size=N/A time=00:00:01.98 bitrate=N/A dup=1 drop=0 speed=0.0592x    
+frame=   50 fps=1.3 q=28.0 size=N/A time=00:00:02.02 bitrate=N/A dup=1 drop=0 speed=0.0547x    
+frame=   54 fps=1.4 q=28.0 size=N/A time=00:00:02.19 bitrate=N/A dup=1 drop=0 speed=0.0577x    
+frame=   55 fps=1.4 q=28.0 size=N/A time=00:00:02.24 bitrate=N/A dup=1 drop=0 speed=0.0566x    
+frame=   57 fps=1.4 q=28.0 size=N/A time=00:00:02.32 bitrate=N/A dup=1 drop=0 speed=0.0571x    
+frame=   58 fps=1.3 q=28.0 size=N/A time=00:00:02.36 bitrate=N/A dup=1 drop=0 speed=0.0546x    
+frame=   59 fps=1.3 q=28.0 size=N/A time=00:00:02.41 bitrate=N/A dup=1 drop=0 speed=0.0545x    
+frame=   60 fps=1.3 q=28.0 size=N/A time=00:00:02.45 bitrate=N/A dup=1 drop=0 speed=0.053x    
+frame=   62 fps=1.3 q=28.0 size=N/A time=00:00:02.53 bitrate=N/A dup=1 drop=0 speed=0.0537x    
+frame=   66 fps=1.3 q=28.0 size=N/A time=00:00:02.68 bitrate=N/A dup=1 drop=0 speed=0.0527x    
+frame=   67 fps=1.2 q=28.0 size=N/A time=00:00:02.73 bitrate=N/A dup=1 drop=0 speed=0.0507x    
+frame=   68 fps=1.2 q=28.0 size=N/A time=00:00:02.77 bitrate=N/A dup=1 drop=0 speed=0.0509x    
+frame=   70 fps=1.3 q=28.0 size=N/A time=00:00:02.85 bitrate=N/A dup=1 drop=0 speed=0.0515x    
+frame=   73 fps=1.3 q=28.0 size=N/A time=00:00:02.98 bitrate=N/A dup=1 drop=0 speed=0.0517x    
+frame=   74 fps=1.2 q=28.0 size=N/A time=00:00:03.02 bitrate=N/A dup=1 drop=0 speed=0.0498x    
+frame=   75 fps=1.2 q=28.0 size=N/A time=00:00:03.07 bitrate=N/A dup=1 drop=0 speed=0.05x    
+frame=   78 fps=1.2 q=28.0 size=N/A time=00:00:03.20 bitrate=N/A dup=1 drop=0 speed=0.0509x    
+frame=   80 fps=1.2 q=28.0 size=N/A time=00:00:03.28 bitrate=N/A dup=1 drop=0 speed=0.0504x    
+frame=   81 fps=1.2 q=28.0 size=N/A time=00:00:03.32 bitrate=N/A dup=1 drop=0 speed=0.0504x    
+frame=   82 fps=1.2 q=28.0 size=N/A time=00:00:03.37 bitrate=N/A dup=1 drop=0 speed=0.0498x    
+frame=   85 fps=1.2 q=28.0 size=N/A time=00:00:03.50 bitrate=N/A dup=1 drop=0 speed=0.0512x    
+frame=   86 fps=1.2 q=28.0 size=N/A time=00:00:03.54 bitrate=N/A dup=1 drop=0 speed=0.0508x    
+frame=   87 fps=1.2 q=28.0 size=N/A time=00:00:03.56 bitrate=N/A dup=1 drop=0 speed=0.0507x    
+frame=   88 fps=1.2 q=25.0 size=N/A time=00:00:03.60 bitrate=N/A dup=1 drop=0 speed=0.0506x    
+frame=   90 fps=1.2 q=28.0 size=N/A time=00:00:03.69 bitrate=N/A dup=1 drop=0 speed=0.0501x    
+frame=   92 fps=1.2 q=28.0 size=N/A time=00:00:03.77 bitrate=N/A dup=1 drop=0 speed=0.0508x    
+[hls @ 0x55b4a8bca0] Opening '/config/data/transcodes/04d9aec39d77356e9ed4357b2e0c425c0.ts' for writing
+frame=   94 fps=1.2 q=28.0 size=N/A time=00:00:03.86 bitrate=N/A dup=1 drop=0 speed=0.0511x    
+frame=   95 fps=1.2 q=28.0 size=N/A time=00:00:03.90 bitrate=N/A dup=1 drop=0 speed=0.0511x    
+frame=   96 fps=1.2 q=28.0 size=N/A time=00:00:03.94 bitrate=N/A dup=1 drop=0 speed=0.0512x    
+frame=   98 fps=1.2 q=28.0 size=N/A time=00:00:04.03 bitrate=N/A dup=1 drop=0 speed=0.0509x    
+frame=   99 fps=1.2 q=28.0 size=N/A time=00:00:04.07 bitrate=N/A dup=1 drop=0 speed=0.051x    
+frame=  101 fps=1.3 q=28.0 size=N/A time=00:00:04.16 bitrate=N/A dup=1 drop=0 speed=0.0517x    
+frame=  103 fps=1.3 q=28.0 size=N/A time=00:00:04.24 bitrate=N/A dup=1 drop=0 speed=0.0523x    
+frame=  104 fps=1.3 q=28.0 size=N/A time=00:00:04.28 bitrate=N/A dup=1 drop=0 speed=0.0524x    
+frame=  105 fps=1.3 q=28.0 size=N/A time=00:00:04.33 bitrate=N/A dup=1 drop=0 speed=0.0519x    
+frame=  106 fps=1.2 q=28.0 size=N/A time=00:00:04.37 bitrate=N/A dup=1 drop=0 speed=0.0507x    
+frame=  107 fps=1.2 q=28.0 size=N/A time=00:00:04.41 bitrate=N/A dup=1 drop=0 speed=0.0508x    
+frame=  111 fps=1.2 q=28.0 size=N/A time=00:00:04.56 bitrate=N/A dup=1 drop=0 speed=0.0513x    
+frame=  113 fps=1.3 q=28.0 size=N/A time=00:00:04.65 bitrate=N/A dup=1 drop=0 speed=0.0516x    
+frame=  114 fps=1.3 q=28.0 size=N/A time=00:00:04.69 bitrate=N/A dup=1 drop=0 speed=0.0515x    
+frame=  115 fps=1.3 q=28.0 size=N/A time=00:00:04.73 bitrate=N/A dup=1 drop=0 speed=0.0516x    
+frame=  119 fps=1.3 q=28.0 size=N/A time=00:00:04.90 bitrate=N/A dup=1 drop=0 speed=0.0531x    
+frame=  121 fps=1.3 q=28.0 size=N/A time=00:00:04.99 bitrate=N/A dup=1 drop=0 speed=0.0535x    
+frame=  123 fps=1.3 q=28.0 size=N/A time=00:00:05.07 bitrate=N/A dup=1 drop=0 speed=0.0537x    
+frame=  128 fps=1.3 q=28.0 size=N/A time=00:00:05.29 bitrate=N/A dup=1 drop=0 speed=0.0555x    
+frame=  129 fps=1.3 q=28.0 size=N/A time=00:00:05.33 bitrate=N/A dup=1 drop=0 speed=0.0555x    
+frame=  131 fps=1.4 q=28.0 size=N/A time=00:00:05.41 bitrate=N/A dup=1 drop=0 speed=0.056x    
+frame=  136 fps=1.4 q=28.0 size=N/A time=00:00:05.61 bitrate=N/A dup=1 drop=0 speed=0.0576x    
+frame=  137 fps=1.4 q=28.0 size=N/A time=00:00:05.65 bitrate=N/A dup=1 drop=0 speed=0.0576x    
+frame=  139 fps=1.4 q=28.0 size=N/A time=00:00:05.73 bitrate=N/A dup=1 drop=0 speed=0.0582x    
+frame=  143 fps=1.4 q=28.0 size=N/A time=00:00:05.90 bitrate=N/A dup=1 drop=0 speed=0.0592x    
+frame=  147 fps=1.5 q=28.0 size=N/A time=00:00:06.08 bitrate=N/A dup=1 drop=0 speed=0.0605x    
+frame=  149 fps=1.5 q=28.0 size=N/A time=00:00:06.16 bitrate=N/A dup=1 drop=0 speed=0.061x    
+frame=  152 fps=1.5 q=28.0 size=N/A time=00:00:06.29 bitrate=N/A dup=1 drop=0 speed=0.0619x    
+frame=  155 fps=1.5 q=28.0 size=N/A time=00:00:06.40 bitrate=N/A dup=1 drop=0 speed=0.0623x    
+frame=  159 fps=1.5 q=28.0 size=N/A time=00:00:06.57 bitrate=N/A dup=1 drop=0 speed=0.0637x    
+frame=  161 fps=1.6 q=28.0 size=N/A time=00:00:06.65 bitrate=N/A dup=1 drop=0 speed=0.0641x    
+frame=  163 fps=1.6 q=28.0 size=N/A time=00:00:06.74 bitrate=N/A dup=1 drop=0 speed=0.0646x    
+[hls @ 0x55b4a8bca0] Opening '/config/data/transcodes/04d9aec39d77356e9ed4357b2e0c425c1.ts' for writing
+frame=  166 fps=1.6 q=28.0 size=N/A time=00:00:06.86 bitrate=N/A dup=1 drop=0 speed=0.0654x    
+frame=  168 fps=1.6 q=28.0 size=N/A time=00:00:06.95 bitrate=N/A dup=1 drop=0 speed=0.0658x    
+frame=  171 fps=1.6 q=28.0 size=N/A time=00:00:07.08 bitrate=N/A dup=1 drop=0 speed=0.0665x    
+frame=  175 fps=1.6 q=28.0 size=N/A time=00:00:07.25 bitrate=N/A dup=1 drop=0 speed=0.0676x    
+frame=  178 fps=1.7 q=28.0 size=N/A time=00:00:07.36 bitrate=N/A dup=1 drop=0 speed=0.0682x    
+frame=  180 fps=1.7 q=28.0 size=N/A time=00:00:07.44 bitrate=N/A dup=1 drop=0 speed=0.0687x    
+frame=  182 fps=1.7 q=28.0 size=N/A time=00:00:07.53 bitrate=N/A dup=1 drop=0 speed=0.0691x    
+frame=  186 fps=1.7 q=28.0 size=N/A time=00:00:07.70 bitrate=N/A dup=1 drop=0 speed=0.0703x    
+frame=  187 fps=1.7 q=28.0 size=N/A time=00:00:07.74 bitrate=N/A dup=1 drop=0 speed=0.0703x    
+frame=  190 fps=1.7 q=28.0 size=N/A time=00:00:07.87 bitrate=N/A dup=1 drop=0 speed=0.0711x    
+frame=  193 fps=1.7 q=28.0 size=N/A time=00:00:08.00 bitrate=N/A dup=1 drop=0 speed=0.0719x    
+frame=  195 fps=1.7 q=28.0 size=N/A time=00:00:08.08 bitrate=N/A dup=1 drop=0 speed=0.0722x    
+frame=  198 fps=1.8 q=28.0 size=N/A time=00:00:08.21 bitrate=N/A dup=1 drop=0 speed=0.0729x    
+frame=  203 fps=1.8 q=28.0 size=N/A time=00:00:08.40 bitrate=N/A dup=1 drop=0 speed=0.074x    
+frame=  206 fps=1.8 q=28.0 size=N/A time=00:00:08.53 bitrate=N/A dup=1 drop=0 speed=0.0746x    
+frame=  208 fps=1.8 q=28.0 size=N/A time=00:00:08.61 bitrate=N/A dup=1 drop=0 speed=0.0749x    
+frame=  212 fps=1.8 q=28.0 size=N/A time=00:00:08.78 bitrate=N/A dup=1 drop=0 speed=0.076x    
+frame=  214 fps=1.8 q=28.0 size=N/A time=00:00:08.87 bitrate=N/A dup=1 drop=0 speed=0.0761x    
+frame=  219 fps=1.9 q=28.0 size=N/A time=00:00:09.08 bitrate=N/A dup=1 drop=0 speed=0.0775x    
+frame=  222 fps=1.9 q=28.0 size=N/A time=00:00:09.19 bitrate=N/A dup=1 drop=0 speed=0.0776x    
+frame=  227 fps=1.9 q=28.0 size=N/A time=00:00:09.40 bitrate=N/A dup=1 drop=0 speed=0.079x    
+frame=  230 fps=1.9 q=28.0 size=N/A time=00:00:09.53 bitrate=N/A dup=1 drop=0 speed=0.0793x    
+frame=  235 fps=1.9 q=28.0 size=N/A time=00:00:09.74 bitrate=N/A dup=1 drop=0 speed=0.0806x    
+[hls @ 0x55b4a8bca0] Opening '/config/data/transcodes/04d9aec39d77356e9ed4357b2e0c425c2.ts' for writing
+frame=  237 fps=1.9 q=28.0 size=N/A time=00:00:09.83 bitrate=N/A dup=1 drop=0 speed=0.0805x    
+frame=  242 fps=2.0 q=28.0 size=N/A time=00:00:10.04 bitrate=N/A dup=1 drop=0 speed=0.0816x    
+frame=  244 fps=2.0 q=28.0 size=N/A time=00:00:10.11 bitrate=N/A dup=1 drop=0 speed=0.0818x    
+frame=  247 fps=2.0 q=28.0 size=N/A time=00:00:10.24 bitrate=N/A dup=1 drop=0 speed=0.0823x    
+frame=  252 fps=2.0 q=28.0 size=N/A time=00:00:10.45 bitrate=N/A dup=1 drop=0 speed=0.0835x    
+frame=  255 fps=2.0 q=29.0 size=N/A time=00:00:10.58 bitrate=N/A dup=1 drop=0 speed=0.0841x    
+frame=  257 fps=2.0 q=29.0 size=N/A time=00:00:10.66 bitrate=N/A dup=1 drop=0 speed=0.0844x    
+frame=  261 fps=2.0 q=28.0 size=N/A time=00:00:10.83 bitrate=N/A dup=1 drop=0 speed=0.0851x    
+frame=  265 fps=2.1 q=28.0 size=N/A time=00:00:10.98 bitrate=N/A dup=1 drop=0 speed=0.0857x    
+frame=  269 fps=2.1 q=28.0 size=N/A time=00:00:11.15 bitrate=N/A dup=1 drop=0 speed=0.0866x    
+frame=  272 fps=2.1 q=28.0 size=N/A time=00:00:11.28 bitrate=N/A dup=1 drop=0 speed=0.0872x    
+frame=  276 fps=2.1 q=28.0 size=N/A time=00:00:11.45 bitrate=N/A dup=1 drop=0 speed=0.0881x    
+frame=  279 fps=2.1 q=28.0 size=N/A time=00:00:11.58 bitrate=N/A dup=1 drop=0 speed=0.0887x    
+frame=  285 fps=2.2 q=28.0 size=N/A time=00:00:11.84 bitrate=N/A dup=1 drop=0 speed=0.0902x    
+frame=  290 fps=2.2 q=28.0 size=N/A time=00:00:12.03 bitrate=N/A dup=1 drop=0 speed=0.0913x    
+frame=  294 fps=2.2 q=28.0 size=N/A time=00:00:12.20 bitrate=N/A dup=1 drop=0 speed=0.0922x    
+frame=  300 fps=2.3 q=28.0 size=N/A time=00:00:12.45 bitrate=N/A dup=1 drop=0 speed=0.0937x    
+frame=  304 fps=2.3 q=25.0 size=N/A time=00:00:12.62 bitrate=N/A dup=1 drop=0 speed=0.0946x    
+[hls @ 0x55b4a8bca0] Opening '/config/data/transcodes/04d9aec39d77356e9ed4357b2e0c425c3.ts' for writing
+frame=  309 fps=2.3 q=28.0 size=N/A time=00:00:12.84 bitrate=N/A dup=1 drop=0 speed=0.0958x    
+frame=  314 fps=2.3 q=28.0 size=N/A time=00:00:13.03 bitrate=N/A dup=1 drop=0 speed=0.0968x    
+frame=  319 fps=2.4 q=28.0 size=N/A time=00:00:13.24 bitrate=N/A dup=1 drop=0 speed=0.098x    
+frame=  323 fps=2.4 q=28.0 size=N/A time=00:00:13.41 bitrate=N/A dup=1 drop=0 speed=0.0988x    
+frame=  328 fps=2.4 q=28.0 size=N/A time=00:00:13.63 bitrate=N/A dup=1 drop=0 speed= 0.1x    
+frame=  332 fps=2.4 q=28.0 size=N/A time=00:00:13.78 bitrate=N/A dup=1 drop=0 speed=0.101x    
+frame=  338 fps=2.5 q=28.0 size=N/A time=00:00:14.03 bitrate=N/A dup=1 drop=0 speed=0.102x    
+frame=  341 fps=2.5 q=28.0 size=N/A time=00:00:14.16 bitrate=N/A dup=1 drop=0 speed=0.103x    
+frame=  346 fps=2.5 q=28.0 size=N/A time=00:00:14.37 bitrate=N/A dup=1 drop=0 speed=0.104x    
+frame=  351 fps=2.5 q=28.0 size=N/A time=00:00:14.59 bitrate=N/A dup=1 drop=0 speed=0.105x    
+frame=  355 fps=2.5 q=28.0 size=N/A time=00:00:14.74 bitrate=N/A dup=1 drop=0 speed=0.105x    
+frame=  360 fps=2.6 q=28.0 size=N/A time=00:00:14.95 bitrate=N/A dup=1 drop=0 speed=0.107x    
+frame=  365 fps=2.6 q=28.0 size=N/A time=00:00:15.16 bitrate=N/A dup=1 drop=0 speed=0.107x    
+frame=  371 fps=2.6 q=28.0 size=N/A time=00:00:15.42 bitrate=N/A dup=1 drop=0 speed=0.109x    
+frame=  378 fps=2.7 q=28.0 size=N/A time=00:00:15.70 bitrate=N/A dup=1 drop=0 speed=0.11x    
+[hls @ 0x55b4a8bca0] Opening '/config/data/transcodes/04d9aec39d77356e9ed4357b2e0c425c4.ts' for writing
+frame=  384 fps=2.7 q=28.0 size=N/A time=00:00:15.95 bitrate=N/A dup=1 drop=0 speed=0.111x    
+frame=  388 fps=2.7 q=28.0 size=N/A time=00:00:16.12 bitrate=N/A dup=1 drop=0 speed=0.112x    
+frame=  394 fps=2.7 q=28.0 size=N/A time=00:00:16.38 bitrate=N/A dup=1 drop=0 speed=0.113x    
+frame=  399 fps=2.8 q=28.0 size=N/A time=00:00:16.57 bitrate=N/A dup=1 drop=0 speed=0.114x    
+frame=  404 fps=2.8 q=28.0 size=N/A time=00:00:16.79 bitrate=N/A dup=1 drop=0 speed=0.115x    
+frame=  409 fps=2.8 q=28.0 size=N/A time=00:00:17.00 bitrate=N/A dup=1 drop=0 speed=0.116x    
+frame=  413 fps=2.8 q=28.0 size=N/A time=00:00:17.17 bitrate=N/A dup=1 drop=0 speed=0.117x    
+frame=  418 fps=2.8 q=28.0 size=N/A time=00:00:17.38 bitrate=N/A dup=1 drop=0 speed=0.118x    
+frame=  423 fps=2.9 q=28.0 size=N/A time=00:00:17.57 bitrate=N/A dup=1 drop=0 speed=0.119x    
+frame=  429 fps=2.9 q=28.0 size=N/A time=00:00:17.83 bitrate=N/A dup=1 drop=0 speed=0.12x    
+frame=  432 fps=2.9 q=28.0 size=N/A time=00:00:17.96 bitrate=N/A dup=1 drop=0 speed=0.121x    
+frame=  437 fps=2.9 q=28.0 size=N/A time=00:00:18.17 bitrate=N/A dup=1 drop=0 speed=0.122x    
+frame=  442 fps=2.9 q=28.0 size=N/A time=00:00:18.38 bitrate=N/A dup=1 drop=0 speed=0.123x    
+frame=  446 fps=3.0 q=28.0 size=N/A time=00:00:18.53 bitrate=N/A dup=1 drop=0 speed=0.123x    
+frame=  450 fps=3.0 q=28.0 size=N/A time=00:00:18.71 bitrate=N/A dup=1 drop=0 speed=0.124x    
+[hls @ 0x55b4a8bca0] Opening '/config/data/transcodes/04d9aec39d77356e9ed4357b2e0c425c5.ts' for writing
+frame=  454 fps=3.0 q=28.0 size=N/A time=00:00:18.88 bitrate=N/A dup=1 drop=0 speed=0.125x    
+frame=  459 fps=3.0 q=28.0 size=N/A time=00:00:19.09 bitrate=N/A dup=1 drop=0 speed=0.125x    
+frame=  463 fps=3.0 q=28.0 size=N/A time=00:00:19.26 bitrate=N/A dup=1 drop=0 speed=0.126x    
+frame=  467 fps=3.0 q=28.0 size=N/A time=00:00:19.41 bitrate=N/A dup=1 drop=0 speed=0.127x    
+frame=  472 fps=3.1 q=28.0 size=N/A time=00:00:19.62 bitrate=N/A dup=1 drop=0 speed=0.128x    
+frame=  478 fps=3.1 q=28.0 size=N/A time=00:00:19.88 bitrate=N/A dup=1 drop=0 speed=0.129x    
+frame=  482 fps=3.1 q=28.0 size=N/A time=00:00:20.05 bitrate=N/A dup=1 drop=0 speed=0.129x    
+frame=  487 fps=3.1 q=28.0 size=N/A time=00:00:20.24 bitrate=N/A dup=1 drop=0 speed=0.13x    
+frame=  488 fps=3.1 q=28.0 size=N/A time=00:00:20.28 bitrate=N/A dup=1 drop=0 speed=0.13x    
+frame=  493 fps=3.1 q=28.0 size=N/A time=00:00:20.50 bitrate=N/A dup=1 drop=0 speed=0.13x    
+frame=  497 fps=3.1 q=28.0 size=N/A time=00:00:20.67 bitrate=N/A dup=1 drop=0 speed=0.131x    
+frame=  500 fps=3.2 q=28.0 size=N/A time=00:00:20.80 bitrate=N/A dup=1 drop=0 speed=0.131x    
+frame=  503 fps=3.2 q=28.0 size=N/A time=00:00:20.92 bitrate=N/A dup=1 drop=0 speed=0.131x    
+frame=  507 fps=3.2 q=28.0 size=N/A time=00:00:21.09 bitrate=N/A dup=1 drop=0 speed=0.132x    
+frame=  509 fps=3.2 q=28.0 size=N/A time=00:00:21.18 bitrate=N/A dup=1 drop=0 speed=0.132x    
+frame=  511 fps=3.2 q=28.0 size=N/A time=00:00:21.24 bitrate=N/A dup=1 drop=0 speed=0.132x    
+frame=  515 fps=3.2 q=28.0 size=N/A time=00:00:21.41 bitrate=N/A dup=1 drop=0 speed=0.132x    
+frame=  517 fps=3.2 q=28.0 size=N/A time=00:00:21.50 bitrate=N/A dup=1 drop=0 speed=0.132x    
+frame=  518 fps=3.2 q=28.0 size=N/A time=00:00:21.54 bitrate=N/A dup=1 drop=0 speed=0.132x    
+frame=  521 fps=3.2 q=28.0 size=N/A time=00:00:21.67 bitrate=N/A dup=1 drop=0 speed=0.132x    
+
+[q] command received. Exiting.
+
+[hls @ 0x55b4a8bca0] Opening '/config/data/transcodes/04d9aec39d77356e9ed4357b2e0c425c6.ts' for writing
+[hls @ 0x55b4a8bca0] Opening '/config/data/transcodes/04d9aec39d77356e9ed4357b2e0c425c7.ts' for writing
+frame=  524 fps=3.2 q=-1.0 Lsize=N/A time=00:00:21.82 bitrate=N/A dup=1 drop=0 speed=0.131x    
+video:14736kB audio:1033kB subtitle:0kB other streams:0kB global headers:0kB muxing overhead: unknown
+[libx264 @ 0x55b4a8c290] frame I:8     Avg QP:12.99  size:119502
+[libx264 @ 0x55b4a8c290] frame P:135   Avg QP:17.73  size: 57482
+[libx264 @ 0x55b4a8c290] frame B:381   Avg QP:19.31  size: 16726
+[libx264 @ 0x55b4a8c290] consecutive B-frames:  1.9%  1.5%  5.7% 90.8%
+[libx264 @ 0x55b4a8c290] mb I  I16..4: 81.0%  0.0% 19.0%
+[libx264 @ 0x55b4a8c290] mb P  I16..4: 30.5%  0.0%  0.0%  P16..4: 18.9%  0.0%  0.0%  0.0%  0.0%    skip:50.6%
+[libx264 @ 0x55b4a8c290] mb B  I16..4:  3.0%  0.0%  0.0%  B16..8: 11.2%  0.0%  0.0%  direct: 6.8%  skip:78.9%  L0:43.7% L1:45.3% BI:11.0%
+[libx264 @ 0x55b4a8c290] coded y,uvDC,uvAC intra: 5.6% 48.5% 13.7% inter: 1.9% 14.7% 0.2%
+[libx264 @ 0x55b4a8c290] i16 v,h,dc,p: 45% 25% 12% 18%
+[libx264 @ 0x55b4a8c290] i4 v,h,dc,ddl,ddr,vr,hd,vl,hu: 20% 24% 22%  4%  9%  4%  7%  3%  7%
+[libx264 @ 0x55b4a8c290] i8c dc,h,v,p: 50% 24% 16% 10%
+[libx264 @ 0x55b4a8c290] Weighted P-Frames: Y:25.9% UV:19.3%
+[libx264 @ 0x55b4a8c290] kb/s:5523.12

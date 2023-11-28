@@ -1,0 +1,680 @@
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2023-11-27T06:00:00.047Z"}
+{"label":"Jobs","level":"info","message":"Starting scheduled job: Jellyfin Recently Added Sync","timestamp":"2023-11-27T06:00:00.111Z"}
+{"label":"Jellyfin Sync","level":"info","message":"Jellyfin Sync Starting","sessionId":"758ca74d-6f03-4ed3-86ed-6461873aea6b","timestamp":"2023-11-27T06:00:00.112Z"}
+{"label":"Jellyfin Sync","level":"info","message":"Beginning to process recently added for library: Movies","timestamp":"2023-11-27T06:00:00.146Z"}
+{"label":"Jellyfin Sync","level":"debug","message":"Title already exists and no new media types found Your Name.","timestamp":"2023-11-27T06:00:00.503Z"}
+{"label":"Jellyfin Sync","level":"info","message":"Beginning to process recently added for library: Shows","timestamp":"2023-11-27T06:00:04.507Z"}
+{"label":"Jellyfin Sync","level":"debug","message":"Updating existing title: Soundtrack #1","timestamp":"2023-11-27T06:00:04.778Z"}
+{"label":"Jellyfin Sync","level":"debug","message":"Updating existing title: The Eminence in Shadow","timestamp":"2023-11-27T06:00:04.849Z"}
+{"label":"Jellyfin Sync","level":"info","message":"Recently Added Scan Complete","timestamp":"2023-11-27T06:00:08.852Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2023-11-27T06:01:00.059Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2023-11-27T06:02:00.027Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2023-11-27T06:03:00.055Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2023-11-27T06:04:00.051Z"}
+{"label":"Jobs","level":"info","message":"Starting scheduled job: Plex Watchlist Sync","timestamp":"2023-11-27T06:04:40.205Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2023-11-27T06:05:00.037Z"}
+{"label":"Jobs","level":"info","message":"Starting scheduled job: Jellyfin Recently Added Sync","timestamp":"2023-11-27T06:05:00.053Z"}
+{"label":"Jellyfin Sync","level":"info","message":"Jellyfin Sync Starting","sessionId":"50e003ae-1e6d-4316-8442-a0fda6804dd3","timestamp":"2023-11-27T06:05:00.055Z"}
+{"label":"Jellyfin Sync","level":"info","message":"Beginning to process recently added for library: Movies","timestamp":"2023-11-27T06:05:00.119Z"}
+{"label":"Jellyfin Sync","level":"debug","message":"Title already exists and no new media types found Your Name.","timestamp":"2023-11-27T06:05:00.220Z"}
+{"label":"Jellyfin Sync","level":"info","message":"Beginning to process recently added for library: Shows","timestamp":"2023-11-27T06:05:04.228Z"}
+{"label":"Jellyfin Sync","level":"debug","message":"Updating existing title: Soundtrack #1","timestamp":"2023-11-27T06:05:04.357Z"}
+{"label":"Jellyfin Sync","level":"debug","message":"Updating existing title: The Eminence in Shadow","timestamp":"2023-11-27T06:05:04.437Z"}
+{"label":"Jellyfin Sync","level":"info","message":"Recently Added Scan Complete","timestamp":"2023-11-27T06:05:08.442Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2023-11-27T06:06:00.055Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2023-11-27T06:07:00.026Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2023-11-27T06:08:00.045Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2023-11-27T06:09:00.049Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2023-11-27T06:10:00.056Z"}
+{"label":"Jobs","level":"info","message":"Starting scheduled job: Jellyfin Recently Added Sync","timestamp":"2023-11-27T06:10:00.076Z"}
+{"label":"Jellyfin Sync","level":"info","message":"Jellyfin Sync Starting","sessionId":"0893e2bb-cde4-4ac0-a979-24c832a4511f","timestamp":"2023-11-27T06:10:00.080Z"}
+{"label":"Jellyfin Sync","level":"info","message":"Beginning to process recently added for library: Movies","timestamp":"2023-11-27T06:10:00.098Z"}
+{"label":"Jellyfin Sync","level":"debug","message":"Title already exists and no new media types found Your Name.","timestamp":"2023-11-27T06:10:01.572Z"}
+{"label":"Jellyfin Sync","level":"info","message":"Beginning to process recently added for library: Shows","timestamp":"2023-11-27T06:10:05.580Z"}
+{"label":"Jellyfin Sync","level":"debug","message":"Updating existing title: Soundtrack #1","timestamp":"2023-11-27T06:10:05.879Z"}
+{"label":"Jellyfin Sync","level":"debug","message":"Updating existing title: The Eminence in Shadow","timestamp":"2023-11-27T06:10:06.244Z"}
+{"label":"Jellyfin Sync","level":"info","message":"Recently Added Scan Complete","timestamp":"2023-11-27T06:10:10.249Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2023-11-27T06:11:00.021Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2023-11-27T06:12:00.051Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2023-11-27T06:13:00.055Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2023-11-27T06:14:00.025Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2023-11-27T06:15:00.056Z"}
+{"label":"Jobs","level":"info","message":"Starting scheduled job: Jellyfin Recently Added Sync","timestamp":"2023-11-27T06:15:00.074Z"}
+{"label":"Jellyfin Sync","level":"info","message":"Jellyfin Sync Starting","sessionId":"41d371c8-c5eb-4567-8a8b-b09274d9f3d8","timestamp":"2023-11-27T06:15:00.076Z"}
+{"label":"Jellyfin Sync","level":"info","message":"Beginning to process recently added for library: Movies","timestamp":"2023-11-27T06:15:00.105Z"}
+{"label":"Jellyfin Sync","level":"debug","message":"Title already exists and no new media types found Your Name.","timestamp":"2023-11-27T06:15:00.194Z"}
+{"label":"Jellyfin Sync","level":"info","message":"Beginning to process recently added for library: Shows","timestamp":"2023-11-27T06:15:04.199Z"}
+{"label":"Jellyfin Sync","level":"debug","message":"Updating existing title: Soundtrack #1","timestamp":"2023-11-27T06:15:04.316Z"}
+{"label":"Jellyfin Sync","level":"debug","message":"Updating existing title: The Eminence in Shadow","timestamp":"2023-11-27T06:15:04.394Z"}
+{"label":"Jellyfin Sync","level":"info","message":"Recently Added Scan Complete","timestamp":"2023-11-27T06:15:08.400Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2023-11-27T06:16:00.053Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2023-11-27T06:17:00.024Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2023-11-27T06:18:00.056Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2023-11-27T06:19:00.047Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2023-11-27T06:20:00.051Z"}
+{"label":"Jobs","level":"info","message":"Starting scheduled job: Jellyfin Recently Added Sync","timestamp":"2023-11-27T06:20:00.068Z"}
+{"label":"Jellyfin Sync","level":"info","message":"Jellyfin Sync Starting","sessionId":"e5cc4d70-3762-4198-bfdb-1757e0250bbe","timestamp":"2023-11-27T06:20:00.070Z"}
+{"label":"Jellyfin Sync","level":"info","message":"Beginning to process recently added for library: Movies","timestamp":"2023-11-27T06:20:00.089Z"}
+{"label":"Jellyfin Sync","level":"debug","message":"Title already exists and no new media types found Your Name.","timestamp":"2023-11-27T06:20:01.299Z"}
+{"label":"Jellyfin Sync","level":"info","message":"Beginning to process recently added for library: Shows","timestamp":"2023-11-27T06:20:05.305Z"}
+{"label":"Jellyfin Sync","level":"debug","message":"Updating existing title: Soundtrack #1","timestamp":"2023-11-27T06:20:05.664Z"}
+{"label":"Jellyfin Sync","level":"debug","message":"Updating existing title: The Eminence in Shadow","timestamp":"2023-11-27T06:20:05.814Z"}
+{"label":"Jellyfin Sync","level":"info","message":"Recently Added Scan Complete","timestamp":"2023-11-27T06:20:09.819Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2023-11-27T06:21:00.052Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2023-11-27T06:22:00.047Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2023-11-27T06:23:00.050Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2023-11-27T06:24:00.047Z"}
+{"label":"Jobs","level":"info","message":"Starting scheduled job: Plex Watchlist Sync","timestamp":"2023-11-27T06:24:10.967Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2023-11-27T06:25:00.050Z"}
+{"label":"Jobs","level":"info","message":"Starting scheduled job: Jellyfin Recently Added Sync","timestamp":"2023-11-27T06:25:00.067Z"}
+{"label":"Jellyfin Sync","level":"info","message":"Jellyfin Sync Starting","sessionId":"b301d0be-bb31-4538-b5d7-2b259f1106ce","timestamp":"2023-11-27T06:25:00.069Z"}
+{"label":"Jellyfin Sync","level":"info","message":"Beginning to process recently added for library: Movies","timestamp":"2023-11-27T06:25:00.087Z"}
+{"label":"Jellyfin Sync","level":"debug","message":"Title already exists and no new media types found Your Name.","timestamp":"2023-11-27T06:25:00.199Z"}
+{"label":"Jellyfin Sync","level":"info","message":"Beginning to process recently added for library: Shows","timestamp":"2023-11-27T06:25:04.207Z"}
+{"label":"Jellyfin Sync","level":"debug","message":"Updating existing title: Soundtrack #1","timestamp":"2023-11-27T06:25:04.350Z"}
+{"label":"Jellyfin Sync","level":"debug","message":"Updating existing title: The Eminence in Shadow","timestamp":"2023-11-27T06:25:04.450Z"}
+{"label":"Jellyfin Sync","level":"info","message":"Recently Added Scan Complete","timestamp":"2023-11-27T06:25:08.455Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2023-11-27T06:26:00.057Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2023-11-27T06:27:00.044Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2023-11-27T06:28:00.029Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2023-11-27T06:29:00.048Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2023-11-27T06:30:00.054Z"}
+{"label":"Jobs","level":"info","message":"Starting scheduled job: Jellyfin Recently Added Sync","timestamp":"2023-11-27T06:30:00.074Z"}
+{"label":"Jellyfin Sync","level":"info","message":"Jellyfin Sync Starting","sessionId":"aeee973a-12d2-4c15-9a36-9ef47024d7ba","timestamp":"2023-11-27T06:30:00.079Z"}
+{"label":"Jellyfin Sync","level":"info","message":"Beginning to process recently added for library: Movies","timestamp":"2023-11-27T06:30:00.099Z"}
+{"label":"Jellyfin Sync","level":"debug","message":"Title already exists and no new media types found Your Name.","timestamp":"2023-11-27T06:30:00.328Z"}
+{"label":"Jellyfin Sync","level":"info","message":"Beginning to process recently added for library: Shows","timestamp":"2023-11-27T06:30:04.331Z"}
+{"label":"Jellyfin Sync","level":"debug","message":"Updating existing title: Soundtrack #1","timestamp":"2023-11-27T06:30:04.621Z"}
+{"label":"Jellyfin Sync","level":"debug","message":"Updating existing title: The Eminence in Shadow","timestamp":"2023-11-27T06:30:04.671Z"}
+{"label":"Jellyfin Sync","level":"info","message":"Recently Added Scan Complete","timestamp":"2023-11-27T06:30:08.675Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2023-11-27T06:31:00.056Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2023-11-27T06:32:00.014Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2023-11-27T06:33:00.053Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2023-11-27T06:34:00.015Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2023-11-27T06:35:00.053Z"}
+{"label":"Jobs","level":"info","message":"Starting scheduled job: Jellyfin Recently Added Sync","timestamp":"2023-11-27T06:35:00.070Z"}
+{"label":"Jellyfin Sync","level":"info","message":"Jellyfin Sync Starting","sessionId":"4d81bc5e-e267-4a2e-830c-d1c44cbf75b5","timestamp":"2023-11-27T06:35:00.072Z"}
+{"label":"Jellyfin Sync","level":"info","message":"Beginning to process recently added for library: Movies","timestamp":"2023-11-27T06:35:00.092Z"}
+{"label":"Jellyfin Sync","level":"debug","message":"Title already exists and no new media types found Your Name.","timestamp":"2023-11-27T06:35:00.169Z"}
+{"label":"Jellyfin Sync","level":"info","message":"Beginning to process recently added for library: Shows","timestamp":"2023-11-27T06:35:04.175Z"}
+{"label":"Jellyfin Sync","level":"debug","message":"Updating existing title: Soundtrack #1","timestamp":"2023-11-27T06:35:04.297Z"}
+{"label":"Jellyfin Sync","level":"debug","message":"Updating existing title: The Eminence in Shadow","timestamp":"2023-11-27T06:35:04.380Z"}
+{"label":"Jellyfin Sync","level":"info","message":"Recently Added Scan Complete","timestamp":"2023-11-27T06:35:08.386Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2023-11-27T06:36:00.060Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2023-11-27T06:37:00.052Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2023-11-27T06:38:00.045Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2023-11-27T06:39:00.026Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2023-11-27T06:40:00.036Z"}
+{"label":"Jobs","level":"info","message":"Starting scheduled job: Jellyfin Recently Added Sync","timestamp":"2023-11-27T06:40:00.044Z"}
+{"label":"Jellyfin Sync","level":"info","message":"Jellyfin Sync Starting","sessionId":"6b9b55d3-80e0-4dc0-8c7a-4d2c15d19a75","timestamp":"2023-11-27T06:40:00.045Z"}
+{"label":"Jellyfin Sync","level":"info","message":"Beginning to process recently added for library: Movies","timestamp":"2023-11-27T06:40:00.052Z"}
+{"label":"Jellyfin Sync","level":"debug","message":"Title already exists and no new media types found Your Name.","timestamp":"2023-11-27T06:40:00.267Z"}
+{"label":"Jellyfin Sync","level":"info","message":"Beginning to process recently added for library: Shows","timestamp":"2023-11-27T06:40:04.271Z"}
+{"label":"Jellyfin Sync","level":"debug","message":"Updating existing title: Soundtrack #1","timestamp":"2023-11-27T06:40:04.553Z"}
+{"label":"Jellyfin Sync","level":"debug","message":"Updating existing title: The Eminence in Shadow","timestamp":"2023-11-27T06:40:04.698Z"}
+{"label":"Jellyfin Sync","level":"info","message":"Recently Added Scan Complete","timestamp":"2023-11-27T06:40:08.702Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2023-11-27T06:41:00.045Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2023-11-27T06:42:00.012Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2023-11-27T06:43:00.024Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2023-11-27T06:44:00.042Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2023-11-27T06:45:00.044Z"}
+{"label":"Jobs","level":"info","message":"Starting scheduled job: Jellyfin Recently Added Sync","timestamp":"2023-11-27T06:45:00.061Z"}
+{"label":"Jellyfin Sync","level":"info","message":"Jellyfin Sync Starting","sessionId":"83347d06-9ae4-48fb-be55-97e4d21c69ee","timestamp":"2023-11-27T06:45:00.063Z"}
+{"label":"Jellyfin Sync","level":"info","message":"Beginning to process recently added for library: Movies","timestamp":"2023-11-27T06:45:00.080Z"}
+{"label":"Jellyfin Sync","level":"debug","message":"Title already exists and no new media types found Your Name.","timestamp":"2023-11-27T06:45:00.179Z"}
+{"label":"Jobs","level":"info","message":"Starting scheduled job: Plex Watchlist Sync","timestamp":"2023-11-27T06:45:02.625Z"}
+{"label":"Jellyfin Sync","level":"info","message":"Beginning to process recently added for library: Shows","timestamp":"2023-11-27T06:45:04.182Z"}
+{"label":"Jellyfin Sync","level":"debug","message":"Updating existing title: Soundtrack #1","timestamp":"2023-11-27T06:45:04.301Z"}
+{"label":"Jellyfin Sync","level":"debug","message":"Updating existing title: The Eminence in Shadow","timestamp":"2023-11-27T06:45:04.384Z"}
+{"label":"Jellyfin Sync","level":"info","message":"Recently Added Scan Complete","timestamp":"2023-11-27T06:45:08.389Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2023-11-27T06:46:00.053Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2023-11-27T06:47:00.026Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2023-11-27T06:48:00.055Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2023-11-27T06:49:00.051Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2023-11-27T06:50:00.043Z"}
+{"label":"Jobs","level":"info","message":"Starting scheduled job: Jellyfin Recently Added Sync","timestamp":"2023-11-27T06:50:00.050Z"}
+{"label":"Jellyfin Sync","level":"info","message":"Jellyfin Sync Starting","sessionId":"b28cb17e-8377-47db-8485-c90f6093c7be","timestamp":"2023-11-27T06:50:00.051Z"}
+{"label":"Jellyfin Sync","level":"info","message":"Beginning to process recently added for library: Movies","timestamp":"2023-11-27T06:50:00.060Z"}
+{"label":"Jellyfin Sync","level":"debug","message":"Title already exists and no new media types found Your Name.","timestamp":"2023-11-27T06:50:00.251Z"}
+{"label":"Jellyfin Sync","level":"info","message":"Beginning to process recently added for library: Shows","timestamp":"2023-11-27T06:50:04.256Z"}
+{"label":"Jellyfin Sync","level":"debug","message":"Updating existing title: Soundtrack #1","timestamp":"2023-11-27T06:50:04.556Z"}
+{"label":"Jellyfin Sync","level":"debug","message":"Updating existing title: The Eminence in Shadow","timestamp":"2023-11-27T06:50:04.661Z"}
+{"label":"Jellyfin Sync","level":"info","message":"Recently Added Scan Complete","timestamp":"2023-11-27T06:50:08.666Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2023-11-27T06:51:00.049Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2023-11-27T06:52:00.044Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2023-11-27T06:53:00.049Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2023-11-27T06:54:00.030Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2023-11-27T06:55:00.053Z"}
+{"label":"Jobs","level":"info","message":"Starting scheduled job: Jellyfin Recently Added Sync","timestamp":"2023-11-27T06:55:00.071Z"}
+{"label":"Jellyfin Sync","level":"info","message":"Jellyfin Sync Starting","sessionId":"2811846d-9863-4e56-8583-015e3a0dea8d","timestamp":"2023-11-27T06:55:00.078Z"}
+{"label":"Jellyfin Sync","level":"info","message":"Beginning to process recently added for library: Movies","timestamp":"2023-11-27T06:55:00.094Z"}
+{"label":"Jellyfin Sync","level":"debug","message":"Title already exists and no new media types found Your Name.","timestamp":"2023-11-27T06:55:00.193Z"}
+{"label":"Jellyfin Sync","level":"info","message":"Beginning to process recently added for library: Shows","timestamp":"2023-11-27T06:55:04.198Z"}
+{"label":"Jellyfin Sync","level":"debug","message":"Updating existing title: Soundtrack #1","timestamp":"2023-11-27T06:55:04.322Z"}
+{"label":"Jellyfin Sync","level":"debug","message":"Updating existing title: The Eminence in Shadow","timestamp":"2023-11-27T06:55:04.398Z"}
+{"label":"Jellyfin Sync","level":"info","message":"Recently Added Scan Complete","timestamp":"2023-11-27T06:55:08.402Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2023-11-27T06:56:00.045Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2023-11-27T06:57:00.052Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2023-11-27T06:58:00.017Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2023-11-27T06:59:00.048Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2023-11-27T07:00:00.027Z"}
+{"label":"Jobs","level":"info","message":"Starting scheduled job: Jellyfin Recently Added Sync","timestamp":"2023-11-27T07:00:00.033Z"}
+{"label":"Jellyfin Sync","level":"info","message":"Jellyfin Sync Starting","sessionId":"745de2e5-08da-46b1-a88d-5eb866b90170","timestamp":"2023-11-27T07:00:00.034Z"}
+{"label":"Jobs","level":"info","message":"Starting scheduled job: Download Sync Reset","timestamp":"2023-11-27T07:00:00.055Z"}
+{"label":"Jellyfin Sync","level":"info","message":"Beginning to process recently added for library: Movies","timestamp":"2023-11-27T07:00:00.061Z"}
+{"label":"Jellyfin Sync","level":"debug","message":"Title already exists and no new media types found Your Name.","timestamp":"2023-11-27T07:00:00.270Z"}
+{"label":"Jellyfin Sync","level":"info","message":"Beginning to process recently added for library: Shows","timestamp":"2023-11-27T07:00:04.274Z"}
+{"label":"Jellyfin Sync","level":"debug","message":"Updating existing title: Soundtrack #1","timestamp":"2023-11-27T07:00:04.535Z"}
+{"label":"Jellyfin Sync","level":"debug","message":"Updating existing title: The Eminence in Shadow","timestamp":"2023-11-27T07:00:04.616Z"}
+{"label":"Jellyfin Sync","level":"info","message":"Recently Added Scan Complete","timestamp":"2023-11-27T07:00:08.621Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2023-11-27T07:01:00.064Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2023-11-27T07:02:00.059Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2023-11-27T07:03:00.054Z"}
+{"label":"Jobs","level":"info","message":"Starting scheduled job: Plex Watchlist Sync","timestamp":"2023-11-27T07:03:42.996Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2023-11-27T07:04:00.014Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2023-11-27T07:05:00.031Z"}
+{"label":"Jobs","level":"info","message":"Starting scheduled job: Jellyfin Recently Added Sync","timestamp":"2023-11-27T07:05:00.055Z"}
+{"label":"Jellyfin Sync","level":"info","message":"Jellyfin Sync Starting","sessionId":"43631136-647f-4211-8a6e-bd822e5eb256","timestamp":"2023-11-27T07:05:00.058Z"}
+{"label":"Jellyfin Sync","level":"info","message":"Beginning to process recently added for library: Movies","timestamp":"2023-11-27T07:05:00.079Z"}
+{"label":"Jellyfin Sync","level":"debug","message":"Title already exists and no new media types found Your Name.","timestamp":"2023-11-27T07:05:00.168Z"}
+{"label":"Jellyfin Sync","level":"info","message":"Beginning to process recently added for library: Shows","timestamp":"2023-11-27T07:05:04.175Z"}
+{"label":"Jellyfin Sync","level":"debug","message":"Updating existing title: Soundtrack #1","timestamp":"2023-11-27T07:05:04.290Z"}
+{"label":"Jellyfin Sync","level":"debug","message":"Updating existing title: The Eminence in Shadow","timestamp":"2023-11-27T07:05:04.371Z"}
+{"label":"Jellyfin Sync","level":"info","message":"Recently Added Scan Complete","timestamp":"2023-11-27T07:05:08.378Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2023-11-27T07:06:00.038Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2023-11-27T07:07:00.054Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2023-11-27T07:08:00.058Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2023-11-27T07:09:00.058Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2023-11-27T07:10:00.057Z"}
+{"label":"Jobs","level":"info","message":"Starting scheduled job: Jellyfin Recently Added Sync","timestamp":"2023-11-27T07:10:00.082Z"}
+{"label":"Jellyfin Sync","level":"info","message":"Jellyfin Sync Starting","sessionId":"88855a4e-7fbc-41a0-8c47-fe2c8249014e","timestamp":"2023-11-27T07:10:00.084Z"}
+{"label":"Jellyfin Sync","level":"info","message":"Beginning to process recently added for library: Movies","timestamp":"2023-11-27T07:10:00.097Z"}
+{"label":"Jellyfin Sync","level":"debug","message":"Title already exists and no new media types found Your Name.","timestamp":"2023-11-27T07:10:00.336Z"}
+{"label":"Jellyfin Sync","level":"info","message":"Beginning to process recently added for library: Shows","timestamp":"2023-11-27T07:10:04.340Z"}
+{"label":"Jellyfin Sync","level":"debug","message":"Updating existing title: The Eminence in Shadow","timestamp":"2023-11-27T07:10:04.736Z"}
+{"label":"Jellyfin Sync","level":"debug","message":"Updating existing title: Soundtrack #1","timestamp":"2023-11-27T07:10:08.174Z"}
+{"label":"Jellyfin Sync","level":"info","message":"Recently Added Scan Complete","timestamp":"2023-11-27T07:10:12.179Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2023-11-27T07:11:00.061Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2023-11-27T07:12:00.043Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2023-11-27T07:13:00.022Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2023-11-27T07:14:00.038Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2023-11-27T07:15:00.049Z"}
+{"label":"Jobs","level":"info","message":"Starting scheduled job: Jellyfin Recently Added Sync","timestamp":"2023-11-27T07:15:00.096Z"}
+{"label":"Jellyfin Sync","level":"info","message":"Jellyfin Sync Starting","sessionId":"481b9351-05e0-4665-8ce9-23f1c3adb891","timestamp":"2023-11-27T07:15:00.098Z"}
+{"label":"Jellyfin Sync","level":"info","message":"Beginning to process recently added for library: Movies","timestamp":"2023-11-27T07:15:00.125Z"}
+{"label":"Jellyfin Sync","level":"debug","message":"Title already exists and no new media types found Your Name.","timestamp":"2023-11-27T07:15:00.216Z"}
+{"label":"Jellyfin Sync","level":"info","message":"Beginning to process recently added for library: Shows","timestamp":"2023-11-27T07:15:04.221Z"}
+{"label":"Jellyfin Sync","level":"debug","message":"Updating existing title: Soundtrack #1","timestamp":"2023-11-27T07:15:04.345Z"}
+{"label":"Jellyfin Sync","level":"debug","message":"Updating existing title: The Eminence in Shadow","timestamp":"2023-11-27T07:15:04.439Z"}
+{"label":"Jellyfin Sync","level":"info","message":"Recently Added Scan Complete","timestamp":"2023-11-27T07:15:08.445Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2023-11-27T07:16:00.057Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2023-11-27T07:17:00.051Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2023-11-27T07:18:00.050Z"}
+{"label":"Jobs","level":"info","message":"Starting scheduled job: Plex Watchlist Sync","timestamp":"2023-11-27T07:18:54.396Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2023-11-27T07:19:00.023Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2023-11-27T07:20:00.050Z"}
+{"label":"Jobs","level":"info","message":"Starting scheduled job: Jellyfin Recently Added Sync","timestamp":"2023-11-27T07:20:00.091Z"}
+{"label":"Jellyfin Sync","level":"info","message":"Jellyfin Sync Starting","sessionId":"b170ed9c-056a-4ead-b240-0f3b254b827b","timestamp":"2023-11-27T07:20:00.094Z"}
+{"label":"Jellyfin Sync","level":"info","message":"Beginning to process recently added for library: Movies","timestamp":"2023-11-27T07:20:00.109Z"}
+{"label":"Jellyfin Sync","level":"debug","message":"Title already exists and no new media types found Your Name.","timestamp":"2023-11-27T07:20:00.306Z"}
+{"label":"Jellyfin Sync","level":"info","message":"Beginning to process recently added for library: Shows","timestamp":"2023-11-27T07:20:04.311Z"}
+{"label":"Jellyfin Sync","level":"debug","message":"Updating existing title: Soundtrack #1","timestamp":"2023-11-27T07:20:04.565Z"}
+{"label":"Jellyfin Sync","level":"debug","message":"Updating existing title: The Eminence in Shadow","timestamp":"2023-11-27T07:20:04.640Z"}
+{"label":"Jellyfin Sync","level":"info","message":"Recently Added Scan Complete","timestamp":"2023-11-27T07:20:08.643Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2023-11-27T07:21:00.056Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2023-11-27T07:22:00.046Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2023-11-27T07:23:00.054Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2023-11-27T07:24:00.051Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2023-11-27T07:25:00.027Z"}
+{"label":"Jobs","level":"info","message":"Starting scheduled job: Jellyfin Recently Added Sync","timestamp":"2023-11-27T07:25:00.044Z"}
+{"label":"Jellyfin Sync","level":"info","message":"Jellyfin Sync Starting","sessionId":"b5450b7e-2bba-4e36-a191-5bea5cf93b29","timestamp":"2023-11-27T07:25:00.046Z"}
+{"label":"Jellyfin Sync","level":"info","message":"Beginning to process recently added for library: Movies","timestamp":"2023-11-27T07:25:00.063Z"}
+{"label":"Jellyfin Sync","level":"debug","message":"Title already exists and no new media types found Your Name.","timestamp":"2023-11-27T07:25:00.134Z"}
+{"label":"Jellyfin Sync","level":"info","message":"Beginning to process recently added for library: Shows","timestamp":"2023-11-27T07:25:04.139Z"}
+{"label":"Jellyfin Sync","level":"debug","message":"Updating existing title: Soundtrack #1","timestamp":"2023-11-27T07:25:04.251Z"}
+{"label":"Jellyfin Sync","level":"debug","message":"Updating existing title: The Eminence in Shadow","timestamp":"2023-11-27T07:25:04.331Z"}
+{"label":"Jellyfin Sync","level":"info","message":"Recently Added Scan Complete","timestamp":"2023-11-27T07:25:08.336Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2023-11-27T07:26:00.030Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2023-11-27T07:27:00.023Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2023-11-27T07:28:00.054Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2023-11-27T07:29:00.027Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2023-11-27T07:30:00.039Z"}
+{"label":"Jobs","level":"info","message":"Starting scheduled job: Jellyfin Recently Added Sync","timestamp":"2023-11-27T07:30:00.060Z"}
+{"label":"Jellyfin Sync","level":"info","message":"Jellyfin Sync Starting","sessionId":"123d8555-da67-4709-aa8d-7c7dcb469f37","timestamp":"2023-11-27T07:30:00.062Z"}
+{"label":"Jellyfin Sync","level":"info","message":"Beginning to process recently added for library: Movies","timestamp":"2023-11-27T07:30:00.078Z"}
+{"label":"Jellyfin Sync","level":"debug","message":"Title already exists and no new media types found Your Name.","timestamp":"2023-11-27T07:30:00.502Z"}
+{"label":"Jellyfin Sync","level":"info","message":"Beginning to process recently added for library: Shows","timestamp":"2023-11-27T07:30:04.507Z"}
+{"label":"Jellyfin Sync","level":"debug","message":"Updating existing title: Soundtrack #1","timestamp":"2023-11-27T07:30:04.805Z"}
+{"label":"Jellyfin Sync","level":"debug","message":"Updating existing title: The Eminence in Shadow","timestamp":"2023-11-27T07:30:04.874Z"}
+{"label":"Jellyfin Sync","level":"info","message":"Recently Added Scan Complete","timestamp":"2023-11-27T07:30:08.878Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2023-11-27T07:31:00.051Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2023-11-27T07:32:00.030Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2023-11-27T07:33:00.044Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2023-11-27T07:34:00.051Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2023-11-27T07:35:00.054Z"}
+{"label":"Jobs","level":"info","message":"Starting scheduled job: Jellyfin Recently Added Sync","timestamp":"2023-11-27T07:35:00.071Z"}
+{"label":"Jellyfin Sync","level":"info","message":"Jellyfin Sync Starting","sessionId":"459f4a1e-758e-4ff7-8188-75c44acae5b8","timestamp":"2023-11-27T07:35:00.073Z"}
+{"label":"Jellyfin Sync","level":"info","message":"Beginning to process recently added for library: Movies","timestamp":"2023-11-27T07:35:00.089Z"}
+{"label":"Jellyfin Sync","level":"debug","message":"Title already exists and no new media types found Your Name.","timestamp":"2023-11-27T07:35:00.165Z"}
+{"label":"Jellyfin Sync","level":"info","message":"Beginning to process recently added for library: Shows","timestamp":"2023-11-27T07:35:04.171Z"}
+{"label":"Jellyfin Sync","level":"debug","message":"Updating existing title: Soundtrack #1","timestamp":"2023-11-27T07:35:04.309Z"}
+{"label":"Jellyfin Sync","level":"debug","message":"Updating existing title: The Eminence in Shadow","timestamp":"2023-11-27T07:35:04.376Z"}
+{"label":"Jellyfin Sync","level":"info","message":"Recently Added Scan Complete","timestamp":"2023-11-27T07:35:08.382Z"}
+{"label":"Jobs","level":"info","message":"Starting scheduled job: Plex Watchlist Sync","timestamp":"2023-11-27T07:35:39.716Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2023-11-27T07:36:00.042Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2023-11-27T07:37:00.024Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2023-11-27T07:38:00.055Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2023-11-27T07:39:00.025Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2023-11-27T07:40:00.055Z"}
+{"label":"Jobs","level":"info","message":"Starting scheduled job: Jellyfin Recently Added Sync","timestamp":"2023-11-27T07:40:00.071Z"}
+{"label":"Jellyfin Sync","level":"info","message":"Jellyfin Sync Starting","sessionId":"26c6edff-fa9a-4a2c-aea7-09d96eb5f984","timestamp":"2023-11-27T07:40:00.073Z"}
+{"label":"Jellyfin Sync","level":"info","message":"Beginning to process recently added for library: Movies","timestamp":"2023-11-27T07:40:00.088Z"}
+{"label":"Jellyfin Sync","level":"debug","message":"Title already exists and no new media types found Your Name.","timestamp":"2023-11-27T07:40:00.769Z"}
+{"label":"Jellyfin Sync","level":"info","message":"Beginning to process recently added for library: Shows","timestamp":"2023-11-27T07:40:04.773Z"}
+{"label":"Jellyfin Sync","level":"debug","message":"Updating existing title: Soundtrack #1","timestamp":"2023-11-27T07:40:05.039Z"}
+{"label":"Jellyfin Sync","level":"debug","message":"Updating existing title: The Eminence in Shadow","timestamp":"2023-11-27T07:40:05.136Z"}
+{"label":"Jellyfin Sync","level":"info","message":"Recently Added Scan Complete","timestamp":"2023-11-27T07:40:09.141Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2023-11-27T07:41:00.025Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2023-11-27T07:42:00.036Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2023-11-27T07:43:00.042Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2023-11-27T07:44:00.054Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2023-11-27T07:45:00.038Z"}
+{"label":"Jobs","level":"info","message":"Starting scheduled job: Jellyfin Recently Added Sync","timestamp":"2023-11-27T07:45:00.059Z"}
+{"label":"Jellyfin Sync","level":"info","message":"Jellyfin Sync Starting","sessionId":"257042cf-ae6b-4c40-9993-1d8ad61da938","timestamp":"2023-11-27T07:45:00.061Z"}
+{"label":"Jellyfin Sync","level":"info","message":"Beginning to process recently added for library: Movies","timestamp":"2023-11-27T07:45:00.122Z"}
+{"label":"Jellyfin Sync","level":"debug","message":"Title already exists and no new media types found Your Name.","timestamp":"2023-11-27T07:45:00.302Z"}
+{"label":"Jellyfin Sync","level":"info","message":"Beginning to process recently added for library: Shows","timestamp":"2023-11-27T07:45:04.308Z"}
+{"label":"Jellyfin Sync","level":"debug","message":"Updating existing title: Soundtrack #1","timestamp":"2023-11-27T07:45:04.419Z"}
+{"label":"Jellyfin Sync","level":"debug","message":"Updating existing title: The Eminence in Shadow","timestamp":"2023-11-27T07:45:04.499Z"}
+{"label":"Jellyfin Sync","level":"info","message":"Recently Added Scan Complete","timestamp":"2023-11-27T07:45:08.505Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2023-11-27T07:46:00.056Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2023-11-27T07:47:00.026Z"}
+{"level":"info","message":"Commit Tag: $GIT_SHA","timestamp":"2023-11-27T23:18:54.485Z"}
+{"level":"info","message":"Starting Overseerr version 1.7.0","timestamp":"2023-11-27T23:18:58.205Z"}
+{"label":"Notifications","level":"info","message":"Registered notification agents","timestamp":"2023-11-27T23:19:09.492Z"}
+{"label":"Jobs","level":"info","message":"Scheduled jobs loaded","timestamp":"2023-11-27T23:19:09.756Z"}
+{"label":"Server","level":"info","message":"Server ready on port 5055","timestamp":"2023-11-27T23:19:11.653Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2023-11-27T23:20:00.063Z"}
+{"label":"Jobs","level":"info","message":"Starting scheduled job: Jellyfin Recently Added Sync","timestamp":"2023-11-27T23:20:00.087Z"}
+{"label":"Jellyfin Sync","level":"info","message":"Jellyfin Sync Starting","sessionId":"fe387c4c-b7d2-49dd-bbd0-ae324077a07d","timestamp":"2023-11-27T23:20:00.091Z"}
+{"label":"Jellyfin Sync","level":"info","message":"Beginning to process recently added for library: Movies","timestamp":"2023-11-27T23:20:00.125Z"}
+{"label":"Jellyfin Sync","level":"debug","message":"Title already exists and no new media types found Your Name.","timestamp":"2023-11-27T23:20:02.852Z"}
+{"label":"Jellyfin Sync","level":"info","message":"Beginning to process recently added for library: Shows","timestamp":"2023-11-27T23:20:06.859Z"}
+{"label":"Jellyfin Sync","level":"debug","message":"Updating existing title: Soundtrack #1","timestamp":"2023-11-27T23:20:07.709Z"}
+{"label":"Jellyfin Sync","level":"debug","message":"Updating existing title: The Eminence in Shadow","timestamp":"2023-11-27T23:20:07.811Z"}
+{"label":"Jellyfin Sync","level":"info","message":"Recently Added Scan Complete","timestamp":"2023-11-27T23:20:11.816Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2023-11-27T23:21:00.018Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2023-11-27T23:22:00.024Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2023-11-27T23:23:00.040Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2023-11-27T23:24:00.055Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2023-11-27T23:25:00.024Z"}
+{"label":"Jobs","level":"info","message":"Starting scheduled job: Jellyfin Recently Added Sync","timestamp":"2023-11-27T23:25:00.057Z"}
+{"label":"Jellyfin Sync","level":"info","message":"Jellyfin Sync Starting","sessionId":"bc0d17c1-e4bd-43d5-8216-4b87d35758e6","timestamp":"2023-11-27T23:25:00.067Z"}
+{"label":"Jellyfin Sync","level":"info","message":"Beginning to process recently added for library: Movies","timestamp":"2023-11-27T23:25:00.101Z"}
+{"label":"Jellyfin Sync","level":"debug","message":"Title already exists and no new media types found Your Name.","timestamp":"2023-11-27T23:25:00.464Z"}
+{"label":"Jellyfin Sync","level":"info","message":"Beginning to process recently added for library: Shows","timestamp":"2023-11-27T23:25:04.473Z"}
+{"label":"Jellyfin Sync","level":"debug","message":"Updating existing title: Soundtrack #1","timestamp":"2023-11-27T23:25:04.830Z"}
+{"label":"Jellyfin Sync","level":"debug","message":"Updating existing title: The Eminence in Shadow","timestamp":"2023-11-27T23:25:05.117Z"}
+{"label":"Jellyfin Sync","level":"info","message":"Recently Added Scan Complete","timestamp":"2023-11-27T23:25:09.124Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2023-11-27T23:26:00.077Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2023-11-27T23:27:00.030Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2023-11-27T23:28:00.034Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2023-11-27T23:29:00.040Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2023-11-27T23:30:00.046Z"}
+{"label":"Jobs","level":"info","message":"Starting scheduled job: Jellyfin Recently Added Sync","timestamp":"2023-11-27T23:30:00.079Z"}
+{"label":"Jellyfin Sync","level":"info","message":"Jellyfin Sync Starting","sessionId":"6462c5fe-b6d1-42bc-b455-557ee55d44dc","timestamp":"2023-11-27T23:30:00.081Z"}
+{"label":"Jellyfin Sync","level":"info","message":"Beginning to process recently added for library: Movies","timestamp":"2023-11-27T23:30:00.095Z"}
+{"label":"Jellyfin Sync","level":"debug","message":"Title already exists and no new media types found Your Name.","timestamp":"2023-11-27T23:30:00.371Z"}
+{"label":"Jellyfin Sync","level":"info","message":"Beginning to process recently added for library: Shows","timestamp":"2023-11-27T23:30:04.375Z"}
+{"label":"Jellyfin Sync","level":"debug","message":"Updating existing title: Soundtrack #1","timestamp":"2023-11-27T23:30:04.630Z"}
+{"label":"Jellyfin Sync","level":"debug","message":"Updating existing title: The Eminence in Shadow","timestamp":"2023-11-27T23:30:04.736Z"}
+{"label":"Jellyfin Sync","level":"info","message":"Recently Added Scan Complete","timestamp":"2023-11-27T23:30:08.741Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2023-11-27T23:31:00.026Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2023-11-27T23:32:00.020Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2023-11-27T23:33:00.037Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2023-11-27T23:34:00.018Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2023-11-27T23:35:00.250Z"}
+{"label":"Jobs","level":"info","message":"Starting scheduled job: Jellyfin Recently Added Sync","timestamp":"2023-11-27T23:35:00.328Z"}
+{"label":"Jellyfin Sync","level":"info","message":"Jellyfin Sync Starting","sessionId":"cce690ac-9c54-4687-afc8-bf1065e86d6f","timestamp":"2023-11-27T23:35:00.331Z"}
+{"label":"Jellyfin Sync","level":"info","message":"Beginning to process recently added for library: Movies","timestamp":"2023-11-27T23:35:00.379Z"}
+{"label":"Jellyfin Sync","level":"debug","message":"Title already exists and no new media types found Your Name.","timestamp":"2023-11-27T23:35:08.314Z"}
+{"label":"Jellyfin Sync","level":"info","message":"Beginning to process recently added for library: Shows","timestamp":"2023-11-27T23:35:12.324Z"}
+{"label":"Jellyfin Sync","level":"debug","message":"Updating existing title: Soundtrack #1","timestamp":"2023-11-27T23:35:12.973Z"}
+{"label":"Jellyfin Sync","level":"debug","message":"Updating existing title: The Eminence in Shadow","timestamp":"2023-11-27T23:35:13.298Z"}
+{"label":"Jellyfin Sync","level":"info","message":"Recently Added Scan Complete","timestamp":"2023-11-27T23:35:17.304Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2023-11-27T23:36:00.019Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2023-11-27T23:37:00.042Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2023-11-27T23:38:00.016Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2023-11-27T23:39:00.023Z"}
+{"label":"Jobs","level":"info","message":"Starting scheduled job: Plex Watchlist Sync","timestamp":"2023-11-27T23:39:09.672Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2023-11-27T23:40:00.015Z"}
+{"label":"Jobs","level":"info","message":"Starting scheduled job: Jellyfin Recently Added Sync","timestamp":"2023-11-27T23:40:00.034Z"}
+{"label":"Jellyfin Sync","level":"info","message":"Jellyfin Sync Starting","sessionId":"d37dcb78-bdd9-42ec-b6b2-6e44325b5c9d","timestamp":"2023-11-27T23:40:00.041Z"}
+{"label":"Jellyfin Sync","level":"info","message":"Beginning to process recently added for library: Movies","timestamp":"2023-11-27T23:40:00.062Z"}
+{"label":"Jellyfin Sync","level":"debug","message":"Title already exists and no new media types found Your Name.","timestamp":"2023-11-27T23:40:00.288Z"}
+{"label":"Jellyfin Sync","level":"info","message":"Beginning to process recently added for library: Shows","timestamp":"2023-11-27T23:40:04.297Z"}
+{"label":"Jellyfin Sync","level":"debug","message":"Updating existing title: Soundtrack #1","timestamp":"2023-11-27T23:40:04.617Z"}
+{"label":"Jellyfin Sync","level":"debug","message":"Updating existing title: The Eminence in Shadow","timestamp":"2023-11-27T23:40:04.910Z"}
+{"label":"Jellyfin Sync","level":"info","message":"Recently Added Scan Complete","timestamp":"2023-11-27T23:40:08.916Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2023-11-27T23:41:00.014Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2023-11-27T23:42:00.022Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2023-11-27T23:43:00.028Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2023-11-27T23:44:00.013Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2023-11-27T23:45:00.035Z"}
+{"label":"Jobs","level":"info","message":"Starting scheduled job: Jellyfin Recently Added Sync","timestamp":"2023-11-27T23:45:00.096Z"}
+{"label":"Jellyfin Sync","level":"info","message":"Jellyfin Sync Starting","sessionId":"ad432c40-ca0e-467b-8db6-380baa62205b","timestamp":"2023-11-27T23:45:00.104Z"}
+{"label":"Jellyfin Sync","level":"info","message":"Beginning to process recently added for library: Movies","timestamp":"2023-11-27T23:45:00.134Z"}
+{"label":"Jellyfin Sync","level":"debug","message":"Title already exists and no new media types found Your Name.","timestamp":"2023-11-27T23:45:00.534Z"}
+{"label":"Jellyfin Sync","level":"info","message":"Beginning to process recently added for library: Shows","timestamp":"2023-11-27T23:45:04.539Z"}
+{"label":"Jellyfin Sync","level":"debug","message":"Updating existing title: Soundtrack #1","timestamp":"2023-11-27T23:45:04.920Z"}
+{"label":"Jellyfin Sync","level":"debug","message":"Updating existing title: The Eminence in Shadow","timestamp":"2023-11-27T23:45:05.229Z"}
+{"label":"Jellyfin Sync","level":"info","message":"Recently Added Scan Complete","timestamp":"2023-11-27T23:45:09.232Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2023-11-27T23:46:00.014Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2023-11-27T23:47:00.018Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2023-11-27T23:48:00.021Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2023-11-27T23:49:00.014Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2023-11-27T23:50:00.015Z"}
+{"label":"Jobs","level":"info","message":"Starting scheduled job: Jellyfin Recently Added Sync","timestamp":"2023-11-27T23:50:00.029Z"}
+{"label":"Jellyfin Sync","level":"info","message":"Jellyfin Sync Starting","sessionId":"2195ca12-eeaf-407e-ae77-81f69787a66d","timestamp":"2023-11-27T23:50:00.031Z"}
+{"label":"Jellyfin Sync","level":"info","message":"Beginning to process recently added for library: Movies","timestamp":"2023-11-27T23:50:00.082Z"}
+{"label":"Jellyfin Sync","level":"debug","message":"Title already exists and no new media types found Your Name.","timestamp":"2023-11-27T23:50:00.323Z"}
+{"label":"Jellyfin Sync","level":"info","message":"Beginning to process recently added for library: Shows","timestamp":"2023-11-27T23:50:04.328Z"}
+{"label":"Jellyfin Sync","level":"debug","message":"Updating existing title: Soundtrack #1","timestamp":"2023-11-27T23:50:04.829Z"}
+{"label":"Jellyfin Sync","level":"debug","message":"Updating existing title: The Eminence in Shadow","timestamp":"2023-11-27T23:50:05.050Z"}
+{"label":"Jellyfin Sync","level":"info","message":"Recently Added Scan Complete","timestamp":"2023-11-27T23:50:09.061Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2023-11-27T23:51:00.026Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2023-11-27T23:52:00.016Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2023-11-27T23:53:00.014Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2023-11-27T23:54:00.023Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2023-11-27T23:55:00.013Z"}
+{"label":"Jobs","level":"info","message":"Starting scheduled job: Jellyfin Recently Added Sync","timestamp":"2023-11-27T23:55:00.042Z"}
+{"label":"Jellyfin Sync","level":"info","message":"Jellyfin Sync Starting","sessionId":"71852302-160c-4907-a9a6-5abbde42512f","timestamp":"2023-11-27T23:55:00.049Z"}
+{"label":"Jellyfin Sync","level":"info","message":"Beginning to process recently added for library: Movies","timestamp":"2023-11-27T23:55:00.073Z"}
+{"label":"Jellyfin Sync","level":"debug","message":"Title already exists and no new media types found Your Name.","timestamp":"2023-11-27T23:55:00.348Z"}
+{"label":"Jellyfin Sync","level":"info","message":"Beginning to process recently added for library: Shows","timestamp":"2023-11-27T23:55:04.352Z"}
+{"label":"Jellyfin Sync","level":"debug","message":"Updating existing title: Soundtrack #1","timestamp":"2023-11-27T23:55:04.786Z"}
+{"label":"Jellyfin Sync","level":"debug","message":"Updating existing title: The Eminence in Shadow","timestamp":"2023-11-27T23:55:04.933Z"}
+{"label":"Jellyfin Sync","level":"info","message":"Recently Added Scan Complete","timestamp":"2023-11-27T23:55:08.936Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2023-11-27T23:56:00.015Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2023-11-27T23:57:00.014Z"}
+{"level":"info","message":"Commit Tag: $GIT_SHA","timestamp":"2023-11-27T23:58:38.274Z"}
+{"level":"info","message":"Starting Overseerr version 1.7.0","timestamp":"2023-11-27T23:58:42.352Z"}
+{"label":"Notifications","level":"info","message":"Registered notification agents","timestamp":"2023-11-27T23:58:53.856Z"}
+{"label":"Jobs","level":"info","message":"Scheduled jobs loaded","timestamp":"2023-11-27T23:58:54.321Z"}
+{"label":"Server","level":"info","message":"Server ready on port 5055","timestamp":"2023-11-27T23:58:56.353Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2023-11-27T23:59:00.228Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2023-11-28T00:00:00.066Z"}
+{"label":"Jobs","level":"info","message":"Starting scheduled job: Jellyfin Recently Added Sync","timestamp":"2023-11-28T00:00:00.082Z"}
+{"label":"Jellyfin Sync","level":"info","message":"Jellyfin Sync Starting","sessionId":"8e64e8eb-7eb3-460d-898e-4a9e7b93ef0c","timestamp":"2023-11-28T00:00:00.086Z"}
+{"label":"Jellyfin Sync","level":"info","message":"Beginning to process recently added for library: Movies","timestamp":"2023-11-28T00:00:00.120Z"}
+{"label":"Jellyfin Sync","level":"debug","message":"Title already exists and no new media types found Your Name.","timestamp":"2023-11-28T00:00:01.711Z"}
+{"label":"Jellyfin Sync","level":"info","message":"Beginning to process recently added for library: Shows","timestamp":"2023-11-28T00:00:05.719Z"}
+{"label":"Jellyfin Sync","level":"debug","message":"Updating existing title: Soundtrack #1","timestamp":"2023-11-28T00:00:06.489Z"}
+{"label":"Jellyfin Sync","level":"debug","message":"Updating existing title: The Eminence in Shadow","timestamp":"2023-11-28T00:00:06.587Z"}
+{"label":"Jellyfin Sync","level":"info","message":"Recently Added Scan Complete","timestamp":"2023-11-28T00:00:10.593Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2023-11-28T00:01:00.030Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2023-11-28T00:02:00.045Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2023-11-28T00:03:00.078Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2023-11-28T00:04:00.049Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2023-11-28T00:05:00.044Z"}
+{"label":"Jobs","level":"info","message":"Starting scheduled job: Jellyfin Recently Added Sync","timestamp":"2023-11-28T00:05:00.111Z"}
+{"label":"Jellyfin Sync","level":"info","message":"Jellyfin Sync Starting","sessionId":"6734ab6b-5b80-4187-aef6-7fd95c365533","timestamp":"2023-11-28T00:05:00.114Z"}
+{"label":"Jellyfin Sync","level":"info","message":"Beginning to process recently added for library: Movies","timestamp":"2023-11-28T00:05:00.136Z"}
+{"label":"Jellyfin Sync","level":"debug","message":"Title already exists and no new media types found Your Name.","timestamp":"2023-11-28T00:05:00.255Z"}
+{"label":"Jellyfin Sync","level":"info","message":"Beginning to process recently added for library: Shows","timestamp":"2023-11-28T00:05:04.262Z"}
+{"label":"Jellyfin Sync","level":"debug","message":"Updating existing title: Soundtrack #1","timestamp":"2023-11-28T00:05:04.434Z"}
+{"label":"Jellyfin Sync","level":"debug","message":"Updating existing title: The Eminence in Shadow","timestamp":"2023-11-28T00:05:04.529Z"}
+{"label":"Jellyfin Sync","level":"info","message":"Recently Added Scan Complete","timestamp":"2023-11-28T00:05:08.535Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2023-11-28T00:06:00.036Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2023-11-28T00:07:00.053Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2023-11-28T00:08:00.049Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2023-11-28T00:09:00.048Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2023-11-28T00:10:00.070Z"}
+{"label":"Jobs","level":"info","message":"Starting scheduled job: Jellyfin Recently Added Sync","timestamp":"2023-11-28T00:10:00.095Z"}
+{"label":"Jellyfin Sync","level":"info","message":"Jellyfin Sync Starting","sessionId":"2be3b7ec-12c1-4045-af1a-6a4c8feb7836","timestamp":"2023-11-28T00:10:00.097Z"}
+{"label":"Jellyfin Sync","level":"info","message":"Beginning to process recently added for library: Movies","timestamp":"2023-11-28T00:10:00.110Z"}
+{"label":"Jellyfin Sync","level":"debug","message":"Title already exists and no new media types found Your Name.","timestamp":"2023-11-28T00:10:00.380Z"}
+{"label":"Jellyfin Sync","level":"info","message":"Beginning to process recently added for library: Shows","timestamp":"2023-11-28T00:10:04.385Z"}
+{"label":"Jellyfin Sync","level":"debug","message":"Updating existing title: The Eminence in Shadow","timestamp":"2023-11-28T00:10:04.755Z"}
+{"label":"Jellyfin Sync","level":"debug","message":"Updating existing title: Soundtrack #1","timestamp":"2023-11-28T00:10:05.793Z"}
+{"label":"Jellyfin Sync","level":"info","message":"Recently Added Scan Complete","timestamp":"2023-11-28T00:10:09.798Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2023-11-28T00:11:00.043Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2023-11-28T00:12:00.054Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2023-11-28T00:13:00.045Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2023-11-28T00:14:00.032Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2023-11-28T00:15:00.078Z"}
+{"label":"Jobs","level":"info","message":"Starting scheduled job: Jellyfin Recently Added Sync","timestamp":"2023-11-28T00:15:00.107Z"}
+{"label":"Jellyfin Sync","level":"info","message":"Jellyfin Sync Starting","sessionId":"ccdd35b9-82d2-4d2b-8769-2e8544973e4b","timestamp":"2023-11-28T00:15:00.110Z"}
+{"label":"Jellyfin Sync","level":"info","message":"Beginning to process recently added for library: Movies","timestamp":"2023-11-28T00:15:00.135Z"}
+{"label":"Jellyfin Sync","level":"debug","message":"Title already exists and no new media types found Your Name.","timestamp":"2023-11-28T00:15:00.250Z"}
+{"label":"Jellyfin Sync","level":"info","message":"Beginning to process recently added for library: Shows","timestamp":"2023-11-28T00:15:04.257Z"}
+{"label":"Jellyfin Sync","level":"debug","message":"Updating existing title: Soundtrack #1","timestamp":"2023-11-28T00:15:04.398Z"}
+{"label":"Jellyfin Sync","level":"debug","message":"Updating existing title: The Eminence in Shadow","timestamp":"2023-11-28T00:15:04.495Z"}
+{"label":"Jellyfin Sync","level":"info","message":"Recently Added Scan Complete","timestamp":"2023-11-28T00:15:08.503Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2023-11-28T00:16:00.042Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2023-11-28T00:17:00.046Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2023-11-28T00:18:00.047Z"}
+{"label":"Jobs","level":"info","message":"Starting scheduled job: Plex Watchlist Sync","timestamp":"2023-11-28T00:18:54.281Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2023-11-28T00:19:00.028Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2023-11-28T00:20:00.040Z"}
+{"label":"Jobs","level":"info","message":"Starting scheduled job: Jellyfin Recently Added Sync","timestamp":"2023-11-28T00:20:00.061Z"}
+{"label":"Jellyfin Sync","level":"info","message":"Jellyfin Sync Starting","sessionId":"0d087cf3-f13e-4bbe-a610-62cc35e18825","timestamp":"2023-11-28T00:20:00.063Z"}
+{"label":"Jellyfin Sync","level":"info","message":"Beginning to process recently added for library: Movies","timestamp":"2023-11-28T00:20:00.087Z"}
+{"label":"Jellyfin Sync","level":"debug","message":"Title already exists and no new media types found Your Name.","timestamp":"2023-11-28T00:20:00.318Z"}
+{"label":"Jellyfin Sync","level":"info","message":"Beginning to process recently added for library: Shows","timestamp":"2023-11-28T00:20:04.322Z"}
+{"label":"Jellyfin Sync","level":"debug","message":"Updating existing title: Soundtrack #1","timestamp":"2023-11-28T00:20:04.592Z"}
+{"label":"Jellyfin Sync","level":"debug","message":"Updating existing title: The Eminence in Shadow","timestamp":"2023-11-28T00:20:04.673Z"}
+{"label":"Jellyfin Sync","level":"info","message":"Recently Added Scan Complete","timestamp":"2023-11-28T00:20:08.678Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2023-11-28T00:21:00.046Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2023-11-28T00:22:00.027Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2023-11-28T00:23:00.045Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2023-11-28T00:24:00.043Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2023-11-28T00:25:00.052Z"}
+{"label":"Jobs","level":"info","message":"Starting scheduled job: Jellyfin Recently Added Sync","timestamp":"2023-11-28T00:25:00.073Z"}
+{"label":"Jellyfin Sync","level":"info","message":"Jellyfin Sync Starting","sessionId":"4d807ad9-92e3-452b-a26d-103ad691b0bf","timestamp":"2023-11-28T00:25:00.075Z"}
+{"label":"Jellyfin Sync","level":"info","message":"Beginning to process recently added for library: Movies","timestamp":"2023-11-28T00:25:00.102Z"}
+{"label":"Jellyfin Sync","level":"debug","message":"Title already exists and no new media types found Your Name.","timestamp":"2023-11-28T00:25:00.195Z"}
+{"label":"Jellyfin Sync","level":"info","message":"Beginning to process recently added for library: Shows","timestamp":"2023-11-28T00:25:04.201Z"}
+{"label":"Jellyfin Sync","level":"debug","message":"Updating existing title: Soundtrack #1","timestamp":"2023-11-28T00:25:04.323Z"}
+{"label":"Jellyfin Sync","level":"debug","message":"Updating existing title: The Eminence in Shadow","timestamp":"2023-11-28T00:25:04.407Z"}
+{"label":"Jellyfin Sync","level":"info","message":"Recently Added Scan Complete","timestamp":"2023-11-28T00:25:08.412Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2023-11-28T00:26:00.025Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2023-11-28T00:27:00.033Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2023-11-28T00:28:00.041Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2023-11-28T00:29:00.030Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2023-11-28T00:30:00.028Z"}
+{"label":"Jobs","level":"info","message":"Starting scheduled job: Jellyfin Recently Added Sync","timestamp":"2023-11-28T00:30:00.037Z"}
+{"label":"Jellyfin Sync","level":"info","message":"Jellyfin Sync Starting","sessionId":"4b487791-013f-4bfa-92bd-8ddb6ca840c3","timestamp":"2023-11-28T00:30:00.038Z"}
+{"label":"Jellyfin Sync","level":"info","message":"Beginning to process recently added for library: Movies","timestamp":"2023-11-28T00:30:00.054Z"}
+{"label":"Jellyfin Sync","level":"debug","message":"Title already exists and no new media types found Your Name.","timestamp":"2023-11-28T00:30:00.730Z"}
+{"label":"Jellyfin Sync","level":"info","message":"Beginning to process recently added for library: Shows","timestamp":"2023-11-28T00:30:04.735Z"}
+{"label":"Jellyfin Sync","level":"debug","message":"Updating existing title: Soundtrack #1","timestamp":"2023-11-28T00:30:05.067Z"}
+{"label":"Jellyfin Sync","level":"debug","message":"Updating existing title: The Eminence in Shadow","timestamp":"2023-11-28T00:30:05.163Z"}
+{"label":"Jellyfin Sync","level":"info","message":"Recently Added Scan Complete","timestamp":"2023-11-28T00:30:09.167Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2023-11-28T00:31:00.015Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2023-11-28T00:32:00.032Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2023-11-28T00:33:00.039Z"}
+{"label":"Jobs","level":"info","message":"Starting scheduled job: Plex Watchlist Sync","timestamp":"2023-11-28T00:33:17.332Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2023-11-28T00:34:00.027Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2023-11-28T00:35:00.029Z"}
+{"label":"Jobs","level":"info","message":"Starting scheduled job: Jellyfin Recently Added Sync","timestamp":"2023-11-28T00:35:00.042Z"}
+{"label":"Jellyfin Sync","level":"info","message":"Jellyfin Sync Starting","sessionId":"cf2efab4-6eb0-4f62-9988-16814f15bfc0","timestamp":"2023-11-28T00:35:00.043Z"}
+{"label":"Jellyfin Sync","level":"info","message":"Beginning to process recently added for library: Movies","timestamp":"2023-11-28T00:35:00.055Z"}
+{"label":"Jellyfin Sync","level":"debug","message":"Title already exists and no new media types found Your Name.","timestamp":"2023-11-28T00:35:00.126Z"}
+{"label":"Jellyfin Sync","level":"info","message":"Beginning to process recently added for library: Shows","timestamp":"2023-11-28T00:35:04.132Z"}
+{"label":"Jellyfin Sync","level":"debug","message":"Updating existing title: Soundtrack #1","timestamp":"2023-11-28T00:35:04.319Z"}
+{"label":"Jellyfin Sync","level":"debug","message":"Updating existing title: The Eminence in Shadow","timestamp":"2023-11-28T00:35:04.515Z"}
+{"label":"Jellyfin Sync","level":"info","message":"Recently Added Scan Complete","timestamp":"2023-11-28T00:35:08.521Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2023-11-28T00:36:00.037Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2023-11-28T00:37:00.029Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2023-11-28T00:38:00.028Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2023-11-28T00:39:00.041Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2023-11-28T00:40:00.015Z"}
+{"label":"Jobs","level":"info","message":"Starting scheduled job: Jellyfin Recently Added Sync","timestamp":"2023-11-28T00:40:00.024Z"}
+{"label":"Jellyfin Sync","level":"info","message":"Jellyfin Sync Starting","sessionId":"6e19810b-aae8-40ff-9158-9e7c37ef966d","timestamp":"2023-11-28T00:40:00.025Z"}
+{"label":"Jellyfin Sync","level":"info","message":"Beginning to process recently added for library: Movies","timestamp":"2023-11-28T00:40:00.038Z"}
+{"label":"Jellyfin Sync","level":"debug","message":"Title already exists and no new media types found Your Name.","timestamp":"2023-11-28T00:40:00.252Z"}
+{"label":"Jellyfin Sync","level":"info","message":"Beginning to process recently added for library: Shows","timestamp":"2023-11-28T00:40:04.257Z"}
+{"label":"Jellyfin Sync","level":"debug","message":"Updating existing title: The Eminence in Shadow","timestamp":"2023-11-28T00:40:04.640Z"}
+{"label":"Jellyfin Sync","level":"debug","message":"Updating existing title: Soundtrack #1","timestamp":"2023-11-28T00:40:07.069Z"}
+{"label":"Jellyfin Sync","level":"info","message":"Recently Added Scan Complete","timestamp":"2023-11-28T00:40:11.081Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2023-11-28T00:41:00.038Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2023-11-28T00:42:00.036Z"}
+{"level":"info","message":"Commit Tag: $GIT_SHA","timestamp":"2023-11-28T00:45:19.698Z"}
+{"level":"info","message":"Starting Overseerr version 1.7.0","timestamp":"2023-11-28T00:45:23.476Z"}
+{"label":"Notifications","level":"info","message":"Registered notification agents","timestamp":"2023-11-28T00:45:33.249Z"}
+{"label":"Jobs","level":"info","message":"Scheduled jobs loaded","timestamp":"2023-11-28T00:45:33.701Z"}
+{"label":"Server","level":"info","message":"Server ready on port 5055","timestamp":"2023-11-28T00:45:36.200Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2023-11-28T00:46:00.051Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2023-11-28T00:47:00.031Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2023-11-28T00:48:00.036Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2023-11-28T00:49:00.074Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2023-11-28T00:50:00.083Z"}
+{"label":"Jobs","level":"info","message":"Starting scheduled job: Jellyfin Recently Added Sync","timestamp":"2023-11-28T00:50:00.167Z"}
+{"label":"Jellyfin Sync","level":"info","message":"Jellyfin Sync Starting","sessionId":"0f3c4242-13ca-44a7-a689-45dd3bb09cb9","timestamp":"2023-11-28T00:50:00.178Z"}
+{"label":"Jellyfin Sync","level":"info","message":"Beginning to process recently added for library: Movies","timestamp":"2023-11-28T00:50:00.298Z"}
+{"label":"Jellyfin Sync","level":"debug","message":"Title already exists and no new media types found Your Name.","timestamp":"2023-11-28T00:50:01.216Z"}
+{"label":"Jellyfin Sync","level":"info","message":"Beginning to process recently added for library: Shows","timestamp":"2023-11-28T00:50:05.225Z"}
+{"label":"Jellyfin Sync","level":"debug","message":"Updating existing title: The Eminence in Shadow","timestamp":"2023-11-28T00:50:06.180Z"}
+{"label":"Jellyfin Sync","level":"debug","message":"Updating existing title: Soundtrack #1","timestamp":"2023-11-28T00:50:08.329Z"}
+{"label":"Jellyfin Sync","level":"info","message":"Recently Added Scan Complete","timestamp":"2023-11-28T00:50:12.332Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2023-11-28T00:51:00.068Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2023-11-28T00:52:00.063Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2023-11-28T00:53:00.029Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2023-11-28T00:54:00.084Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2023-11-28T00:55:00.128Z"}
+{"label":"Jobs","level":"info","message":"Starting scheduled job: Jellyfin Recently Added Sync","timestamp":"2023-11-28T00:55:00.152Z"}
+{"label":"Jellyfin Sync","level":"info","message":"Jellyfin Sync Starting","sessionId":"02d2114a-4e50-4dab-87a3-978d79facd9d","timestamp":"2023-11-28T00:55:00.155Z"}
+{"label":"Jellyfin Sync","level":"info","message":"Beginning to process recently added for library: Movies","timestamp":"2023-11-28T00:55:00.181Z"}
+{"label":"Jellyfin Sync","level":"debug","message":"Title already exists and no new media types found Your Name.","timestamp":"2023-11-28T00:55:00.371Z"}
+{"label":"Jellyfin Sync","level":"info","message":"Beginning to process recently added for library: Shows","timestamp":"2023-11-28T00:55:04.377Z"}
+{"label":"Jellyfin Sync","level":"debug","message":"Updating existing title: Soundtrack #1","timestamp":"2023-11-28T00:55:04.797Z"}
+{"label":"Jellyfin Sync","level":"debug","message":"Updating existing title: The Eminence in Shadow","timestamp":"2023-11-28T00:55:04.964Z"}
+{"label":"Jellyfin Sync","level":"info","message":"Recently Added Scan Complete","timestamp":"2023-11-28T00:55:08.968Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2023-11-28T00:56:00.088Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2023-11-28T00:57:00.053Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2023-11-28T00:58:00.034Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2023-11-28T00:59:00.018Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2023-11-28T01:00:00.042Z"}
+{"label":"Jobs","level":"info","message":"Starting scheduled job: Jellyfin Recently Added Sync","timestamp":"2023-11-28T01:00:00.063Z"}
+{"label":"Jellyfin Sync","level":"info","message":"Jellyfin Sync Starting","sessionId":"d4abd8b7-334d-47e8-a004-d56b60679bba","timestamp":"2023-11-28T01:00:00.066Z"}
+{"label":"Jellyfin Sync","level":"info","message":"Beginning to process recently added for library: Movies","timestamp":"2023-11-28T01:00:00.090Z"}
+{"label":"Jellyfin Sync","level":"debug","message":"Title already exists and no new media types found Your Name.","timestamp":"2023-11-28T01:00:00.315Z"}
+{"label":"Jellyfin Sync","level":"info","message":"Beginning to process recently added for library: Shows","timestamp":"2023-11-28T01:00:04.320Z"}
+{"label":"Jellyfin Sync","level":"debug","message":"Updating existing title: Soundtrack #1","timestamp":"2023-11-28T01:00:04.641Z"}
+{"label":"Jellyfin Sync","level":"debug","message":"Updating existing title: The Eminence in Shadow","timestamp":"2023-11-28T01:00:04.727Z"}
+{"label":"Jellyfin Sync","level":"info","message":"Recently Added Scan Complete","timestamp":"2023-11-28T01:00:08.733Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2023-11-28T01:01:00.094Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2023-11-28T01:02:00.018Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2023-11-28T01:03:00.051Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2023-11-28T01:04:00.058Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2023-11-28T01:05:00.008Z"}
+{"label":"Jobs","level":"info","message":"Starting scheduled job: Jellyfin Recently Added Sync","timestamp":"2023-11-28T01:05:00.017Z"}
+{"label":"Jellyfin Sync","level":"info","message":"Jellyfin Sync Starting","sessionId":"053db8d9-1908-4f75-8d1a-36d983e0977f","timestamp":"2023-11-28T01:05:00.018Z"}
+{"label":"Jellyfin Sync","level":"info","message":"Beginning to process recently added for library: Movies","timestamp":"2023-11-28T01:05:00.028Z"}
+{"label":"Jellyfin Sync","level":"debug","message":"Title already exists and no new media types found Your Name.","timestamp":"2023-11-28T01:05:00.097Z"}
+{"label":"Jellyfin Sync","level":"info","message":"Beginning to process recently added for library: Shows","timestamp":"2023-11-28T01:05:04.104Z"}
+{"label":"Jellyfin Sync","level":"debug","message":"Updating existing title: Soundtrack #1","timestamp":"2023-11-28T01:05:04.292Z"}
+{"label":"Jellyfin Sync","level":"debug","message":"Updating existing title: The Eminence in Shadow","timestamp":"2023-11-28T01:05:04.376Z"}
+{"label":"Jellyfin Sync","level":"info","message":"Recently Added Scan Complete","timestamp":"2023-11-28T01:05:08.381Z"}
+{"label":"Jobs","level":"info","message":"Starting scheduled job: Plex Watchlist Sync","timestamp":"2023-11-28T01:05:33.637Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2023-11-28T01:06:00.049Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2023-11-28T01:07:00.038Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2023-11-28T01:08:00.012Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2023-11-28T01:09:00.059Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2023-11-28T01:10:00.047Z"}
+{"label":"Jobs","level":"info","message":"Starting scheduled job: Jellyfin Recently Added Sync","timestamp":"2023-11-28T01:10:00.058Z"}
+{"label":"Jellyfin Sync","level":"info","message":"Jellyfin Sync Starting","sessionId":"8808d076-2df2-4176-903a-b68d0c40e31f","timestamp":"2023-11-28T01:10:00.060Z"}
+{"label":"Jellyfin Sync","level":"info","message":"Beginning to process recently added for library: Movies","timestamp":"2023-11-28T01:10:00.075Z"}
+{"label":"Jellyfin Sync","level":"debug","message":"Title already exists and no new media types found Your Name.","timestamp":"2023-11-28T01:10:00.573Z"}
+{"label":"Jellyfin Sync","level":"info","message":"Beginning to process recently added for library: Shows","timestamp":"2023-11-28T01:10:04.578Z"}
+{"label":"Jellyfin Sync","level":"debug","message":"Updating existing title: The Eminence in Shadow","timestamp":"2023-11-28T01:10:05.029Z"}
+{"label":"Jellyfin Sync","level":"debug","message":"Updating existing title: Soundtrack #1","timestamp":"2023-11-28T01:10:14.986Z"}
+{"label":"Jellyfin Sync","level":"info","message":"Recently Added Scan Complete","timestamp":"2023-11-28T01:10:18.992Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2023-11-28T01:11:00.013Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2023-11-28T01:12:00.030Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2023-11-28T01:13:00.013Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2023-11-28T01:14:00.042Z"}
+{"errorMessage":"[RT API] Failed to retrieve tv ratings: Cannot read properties of undefined (reading 'criticsScore')","label":"API","level":"debug","message":"Something went wrong retrieving series ratings","timestamp":"2023-11-28T01:14:24.122Z","tvId":"137872"}
+{"errorMessage":"[RT API] Failed to retrieve tv ratings: Cannot read properties of undefined (reading 'criticsScore')","label":"API","level":"debug","message":"Something went wrong retrieving series ratings","timestamp":"2023-11-28T01:14:29.345Z","tvId":"137872"}
+{"errorMessage":"[RT API] Failed to retrieve tv ratings: Cannot read properties of undefined (reading 'criticsScore')","label":"API","level":"debug","message":"Something went wrong retrieving series ratings","timestamp":"2023-11-28T01:14:35.033Z","tvId":"137872"}
+{"errorMessage":"[RT API] Failed to retrieve tv ratings: Cannot read properties of undefined (reading 'criticsScore')","label":"API","level":"debug","message":"Something went wrong retrieving series ratings","timestamp":"2023-11-28T01:14:46.112Z","tvId":"137872"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2023-11-28T01:15:00.015Z"}
+{"label":"Jobs","level":"info","message":"Starting scheduled job: Jellyfin Recently Added Sync","timestamp":"2023-11-28T01:15:00.027Z"}
+{"label":"Jellyfin Sync","level":"info","message":"Jellyfin Sync Starting","sessionId":"f7b87417-e1cb-420f-9a2d-f53ec79cbb3c","timestamp":"2023-11-28T01:15:00.029Z"}
+{"label":"Jellyfin Sync","level":"info","message":"Beginning to process recently added for library: Movies","timestamp":"2023-11-28T01:15:00.036Z"}
+{"label":"Jellyfin Sync","level":"debug","message":"Title already exists and no new media types found Your Name.","timestamp":"2023-11-28T01:15:00.103Z"}
+{"errorMessage":"[RT API] Failed to retrieve tv ratings: Cannot read properties of undefined (reading 'criticsScore')","label":"API","level":"debug","message":"Something went wrong retrieving series ratings","timestamp":"2023-11-28T01:15:00.469Z","tvId":"137872"}
+{"label":"Jellyfin Sync","level":"info","message":"Beginning to process recently added for library: Shows","timestamp":"2023-11-28T01:15:04.108Z"}
+{"label":"Jellyfin Sync","level":"debug","message":"Updating existing title: Soundtrack #1","timestamp":"2023-11-28T01:15:04.266Z"}
+{"label":"Jellyfin Sync","level":"debug","message":"Updating existing title: The Eminence in Shadow","timestamp":"2023-11-28T01:15:04.388Z"}
+{"errorMessage":"[RT API] Failed to retrieve tv ratings: Cannot read properties of undefined (reading 'criticsScore')","label":"API","level":"debug","message":"Something went wrong retrieving series ratings","timestamp":"2023-11-28T01:15:05.581Z","tvId":"137872"}
+{"label":"Jellyfin Sync","level":"info","message":"Recently Added Scan Complete","timestamp":"2023-11-28T01:15:08.425Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2023-11-28T01:16:00.048Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2023-11-28T01:17:00.057Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2023-11-28T01:18:00.090Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2023-11-28T01:19:00.051Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2023-11-28T01:20:00.045Z"}
+{"label":"Jobs","level":"info","message":"Starting scheduled job: Jellyfin Recently Added Sync","timestamp":"2023-11-28T01:20:00.078Z"}
+{"label":"Jellyfin Sync","level":"info","message":"Jellyfin Sync Starting","sessionId":"58ca1819-ae52-408c-82e3-c4953dab5195","timestamp":"2023-11-28T01:20:00.080Z"}
+{"label":"Jellyfin Sync","level":"info","message":"Beginning to process recently added for library: Movies","timestamp":"2023-11-28T01:20:00.118Z"}
+{"label":"Jellyfin Sync","level":"debug","message":"Title already exists and no new media types found Your Name.","timestamp":"2023-11-28T01:20:00.418Z"}
+{"label":"Jellyfin Sync","level":"info","message":"Beginning to process recently added for library: Shows","timestamp":"2023-11-28T01:20:04.420Z"}
+{"label":"Jellyfin Sync","level":"debug","message":"Updating existing title: Soundtrack #1","timestamp":"2023-11-28T01:20:04.756Z"}
+{"label":"Jellyfin Sync","level":"debug","message":"Updating existing title: The Eminence in Shadow","timestamp":"2023-11-28T01:20:04.949Z"}
+{"label":"Jellyfin Sync","level":"info","message":"Recently Added Scan Complete","timestamp":"2023-11-28T01:20:08.952Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2023-11-28T01:21:00.062Z"}
+{"level":"info","message":"Commit Tag: $GIT_SHA","timestamp":"2023-11-28T01:24:25.346Z"}
+{"level":"info","message":"Starting Overseerr version 1.7.0","timestamp":"2023-11-28T01:24:29.696Z"}
+{"label":"Notifications","level":"info","message":"Registered notification agents","timestamp":"2023-11-28T01:24:42.949Z"}
+{"label":"Jobs","level":"info","message":"Scheduled jobs loaded","timestamp":"2023-11-28T01:24:43.233Z"}
+{"label":"Server","level":"info","message":"Server ready on port 5055","timestamp":"2023-11-28T01:24:45.970Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2023-11-28T01:25:00.051Z"}
+{"label":"Jobs","level":"info","message":"Starting scheduled job: Jellyfin Recently Added Sync","timestamp":"2023-11-28T01:25:00.167Z"}
+{"label":"Jellyfin Sync","level":"info","message":"Jellyfin Sync Starting","sessionId":"bd3896b1-09ca-4c88-98f8-f2bfe40d3e73","timestamp":"2023-11-28T01:25:00.185Z"}
+{"label":"Jellyfin Sync","level":"info","message":"Beginning to process recently added for library: Movies","timestamp":"2023-11-28T01:25:00.273Z"}
+{"label":"Jellyfin Sync","level":"debug","message":"Title already exists and no new media types found Your Name.","timestamp":"2023-11-28T01:25:03.666Z"}
+{"label":"Jellyfin Sync","level":"info","message":"Beginning to process recently added for library: Shows","timestamp":"2023-11-28T01:25:07.679Z"}
+{"label":"Jellyfin Sync","level":"debug","message":"Updating existing title: Soundtrack #1","timestamp":"2023-11-28T01:25:08.387Z"}
+{"label":"Jellyfin Sync","level":"debug","message":"Updating existing title: The Eminence in Shadow","timestamp":"2023-11-28T01:25:08.489Z"}
+{"label":"Jellyfin Sync","level":"info","message":"Recently Added Scan Complete","timestamp":"2023-11-28T01:25:12.493Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2023-11-28T01:26:00.016Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2023-11-28T01:27:00.053Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2023-11-28T01:28:00.029Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2023-11-28T01:29:00.066Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2023-11-28T01:30:00.049Z"}
+{"label":"Jobs","level":"info","message":"Starting scheduled job: Jellyfin Recently Added Sync","timestamp":"2023-11-28T01:30:00.063Z"}
+{"label":"Jellyfin Sync","level":"info","message":"Jellyfin Sync Starting","sessionId":"41a250bf-7649-45fd-8d21-6d4c4ba7c15b","timestamp":"2023-11-28T01:30:00.067Z"}
+{"label":"Jellyfin Sync","level":"info","message":"Beginning to process recently added for library: Movies","timestamp":"2023-11-28T01:30:00.080Z"}
+{"label":"Jellyfin Sync","level":"debug","message":"Title already exists and no new media types found Your Name.","timestamp":"2023-11-28T01:30:00.205Z"}
+{"label":"Jellyfin Sync","level":"info","message":"Beginning to process recently added for library: Shows","timestamp":"2023-11-28T01:30:04.217Z"}
+{"label":"Jellyfin Sync","level":"debug","message":"Updating existing title: Soundtrack #1","timestamp":"2023-11-28T01:30:04.416Z"}
+{"label":"Jellyfin Sync","level":"debug","message":"Updating existing title: The Eminence in Shadow","timestamp":"2023-11-28T01:30:04.511Z"}
+{"label":"Jellyfin Sync","level":"info","message":"Recently Added Scan Complete","timestamp":"2023-11-28T01:30:08.516Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2023-11-28T01:31:00.053Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2023-11-28T01:32:00.039Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2023-11-28T01:33:00.070Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2023-11-28T01:34:00.023Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2023-11-28T01:35:00.055Z"}
+{"label":"Jobs","level":"info","message":"Starting scheduled job: Jellyfin Recently Added Sync","timestamp":"2023-11-28T01:35:00.116Z"}
+{"label":"Jellyfin Sync","level":"info","message":"Jellyfin Sync Starting","sessionId":"ac6526f6-9f0d-4b5e-8b08-a562d0ceef4d","timestamp":"2023-11-28T01:35:00.118Z"}
+{"label":"Jellyfin Sync","level":"info","message":"Beginning to process recently added for library: Movies","timestamp":"2023-11-28T01:35:00.177Z"}
+{"label":"Jellyfin Sync","level":"debug","message":"Title already exists and no new media types found Your Name.","timestamp":"2023-11-28T01:35:00.537Z"}
+{"label":"Jellyfin Sync","level":"info","message":"Beginning to process recently added for library: Shows","timestamp":"2023-11-28T01:35:04.541Z"}
+{"label":"Jellyfin Sync","level":"debug","message":"Updating existing title: Soundtrack #1","timestamp":"2023-11-28T01:35:05.003Z"}
+{"label":"Jellyfin Sync","level":"debug","message":"Updating existing title: The Eminence in Shadow","timestamp":"2023-11-28T01:35:05.213Z"}
+{"label":"Jellyfin Sync","level":"info","message":"Recently Added Scan Complete","timestamp":"2023-11-28T01:35:09.216Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2023-11-28T01:36:00.086Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2023-11-28T01:37:00.029Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2023-11-28T01:38:00.065Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2023-11-28T01:39:00.044Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2023-11-28T01:40:00.050Z"}
+{"label":"Jobs","level":"info","message":"Starting scheduled job: Jellyfin Recently Added Sync","timestamp":"2023-11-28T01:40:00.082Z"}
+{"label":"Jellyfin Sync","level":"info","message":"Jellyfin Sync Starting","sessionId":"1e022030-8d96-4d76-b708-8047088c3ad2","timestamp":"2023-11-28T01:40:00.083Z"}
+{"label":"Jellyfin Sync","level":"info","message":"Beginning to process recently added for library: Movies","timestamp":"2023-11-28T01:40:00.095Z"}
+{"label":"Jellyfin Sync","level":"debug","message":"Title already exists and no new media types found Your Name.","timestamp":"2023-11-28T01:40:00.176Z"}
+{"label":"Jellyfin Sync","level":"info","message":"Beginning to process recently added for library: Shows","timestamp":"2023-11-28T01:40:04.183Z"}
+{"label":"Jellyfin Sync","level":"debug","message":"Updating existing title: Soundtrack #1","timestamp":"2023-11-28T01:40:04.388Z"}
+{"label":"Jellyfin Sync","level":"debug","message":"Updating existing title: The Eminence in Shadow","timestamp":"2023-11-28T01:40:04.496Z"}
+{"label":"Jellyfin Sync","level":"info","message":"Recently Added Scan Complete","timestamp":"2023-11-28T01:40:08.504Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2023-11-28T01:41:00.030Z"}

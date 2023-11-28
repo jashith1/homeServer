@@ -1,0 +1,6 @@
+Nov 28, 2023 01:26:42.684 [548381937720] INFO - Plex Media Scanner v1.32.7.7621-871adbd44 - Docker Docker Container (LinuxServer.io) aarch64 - build: linux-aarch64 - GMT 00:00
+Nov 28, 2023 01:26:42.685 [548381937720] INFO - Linux version: 6.1.0-rpi6-rpi-v8, language: en-US
+Nov 28, 2023 01:26:42.685 [548381937720] INFO - Processor: 4-core AArch64
+Nov 28, 2023 01:26:42.685 [548381937720] INFO - /usr/lib/plexmediaserver/Plex Media Scanner --match --type 2 --log-file-suffix  Matcher --item 4
+Nov 28, 2023 01:26:42.685 [548449038392] DEBUG - Opening 20 database sessions to library (com.plexapp.plugins.library), SQLite 3.39.4, threadsafe=1
+Nov 28, 2023 01:26:43.042 [548449038392] DEBUG - Matcher: found 0 auxiliary files for Soundtrack #1

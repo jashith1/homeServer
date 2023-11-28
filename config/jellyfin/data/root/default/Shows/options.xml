@@ -10,7 +10,7 @@
     </MediaPathInfo>
   </PathInfos>
   <SaveLocalMetadata>false</SaveLocalMetadata>
-  <EnableAutomaticSeriesGrouping>false</EnableAutomaticSeriesGrouping>
+  <EnableAutomaticSeriesGrouping>true</EnableAutomaticSeriesGrouping>
   <EnableEmbeddedTitles>true</EnableEmbeddedTitles>
   <EnableEmbeddedEpisodeInfos>true</EnableEmbeddedEpisodeInfos>
   <AutomaticRefreshIntervalDays>0</AutomaticRefreshIntervalDays>

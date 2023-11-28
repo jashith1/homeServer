@@ -1,16 +1,27 @@
 version: "3.0"
 services:
-  jackett:
-    image: linuxserver/jackett
-    container_name: jackett
+  flaresolverr:
+    image: ghcr.io/flaresolverr/flaresolverr:latest
+    container_name: flaresolverr
+    environment:
+      - LOG_LEVEL=info
+      - CAPTCHA_SOLVER=hcaptcha-solver  # If needed
+    ports:
+      - 8191:8191  # Default FlareSolverr port
+    restart: unless-stopped
+
+  prowlarr:
+    image: linuxserver/prowlarr
+    container_name: prowlarr
     environment:
       - PUID=1000
       - PGID=1000
-      - TZ=Americas/Chicago
+      - TZ=America/Chicago
     volumes:
-      - ./config/jackett:/config
+      - ./config/prowlarr:/config
+      - /home/${USER}/mediaServer:/media
     ports:
-      - 9117:9117
+      - 9696:9696
     restart: unless-stopped
 
   transmission:
@@ -19,46 +30,46 @@ services:
     volumes:
       - /home/bloppai/mediaServer:/home/bloppai/mediaServer
     environment:
-        - PUID=1000
-        - PGID=1000
-        - CREATE_TUN_DEVICE=true
-        - OPENVPN_PROVIDER=MULLVAD
-        - OPENVPN_CONFIG=us_nyc
-        - OPENVPN_USERNAME=8706242759828770
-        - OPENVPN_PASSWORD=m
-        - WEBPROXY_ENABLED=false
-        - TRANSMISSION_DOWNLOAD_DIR=/home/bloppai/mediaServer/Downloads
-        - TRANSMISSION_IDLE_SEEDING_LIMIT_ENABLED=true
-        - TRANSMISSION_SEED_QUEUE_ENABLED=true
-        - TRANSMISSION_INCOMPLETE_DIR_ENABLED=false
-        - LOCAL_NETWORK=192.168.0.0/16
+      - PUID=1000
+      - PGID=1000
+      - CREATE_TUN_DEVICE=true
+      - OPENVPN_PROVIDER=MULLVAD
+      - OPENVPN_CONFIG=us_nyc
+      - OPENVPN_USERNAME=8706242759828770
+      - OPENVPN_PASSWORD=m
+      - WEBPROXY_ENABLED=false
+      - TRANSMISSION_DOWNLOAD_DIR=/home/bloppai/mediaServer/downloads
+      - TRANSMISSION_IDLE_SEEDING_LIMIT_ENABLED=true
+      - TRANSMISSION_SEED_QUEUE_ENABLED=true
+      - TRANSMISSION_INCOMPLETE_DIR_ENABLED=false
+      - LOCAL_NETWORK=192.168.0.0/16
     sysctls:
-        - "net.ipv6.conf.all.disable_ipv6=0"
+      - "net.ipv6.conf.all.disable_ipv6=0"
     cap_add:
-        - NET_ADMIN
+      - NET_ADMIN
     logging:
-        driver: json-file
-        options:
-            max-size: 10m
+      driver: json-file
+      options:
+        max-size: 10m
     ports:
-        - "9091:9091"
+      - "9091:9091"
     restart: unless-stopped
 
   sonarr:
     image: linuxserver/sonarr
     container_name: sonarr
     environment:
-        - PUID=1000
-        - PGID=1000
-        - TZ=America/Chicago
+      - PUID=1000
+      - PGID=1000
+      - TZ=America/Chicago
     volumes:
-        - ./config/sonarr:/config
-        - /home/bloppai/mediaServer:/home/bloppai/mediaServer
+      - ./config/sonarr:/config
+      - /home/bloppai/mediaServer:/home/bloppai/mediaServer
     ports:
-        - 8989:8989
+      - 8989:8989
     depends_on:
-        - jackett
-        - transmission
+      - prowlarr
+      - transmission
     restart: unless-stopped
 
   radarr:
@@ -66,17 +77,17 @@ services:
     container_name: radarr
     hostname: radarr
     environment:
-        - PUID=1000
-        - PGID=1000
-        - TZ=America/Chicago
+      - PUID=1000
+      - PGID=1000
+      - TZ=America/Chicago
     volumes:
-        - ./config/radarr:/config
-        - /home/bloppai/mediaServer:/home/bloppai/mediaServer
+      - ./config/radarr:/config
+      - /home/bloppai/mediaServer:/home/bloppai/mediaServer
     ports:
-        - 7878:7878
+      - 7878:7878
     depends_on:
-        - jackett
-        - transmission
+      - prowlarr
+      - transmission
     restart: unless-stopped
 
   jellyfin:
@@ -91,4 +102,16 @@ services:
     volumes:
       - '/home/${USER}/server/config/jellyfin:/config'
       - '/home/${USER}/mediaServer/media:/data/media'
+    restart: unless-stopped
+
+  jellyseerr:
+    image: fallenbagel/jellyseerr:latest
+    container_name: jellyseerr
+    environment:
+      - LOG_LEVEL=debug
+      - TZ=America/Chicago
+    ports:
+      - 5055:5055
+    volumes:
+      - ./config:/app/config
     restart: unless-stopped

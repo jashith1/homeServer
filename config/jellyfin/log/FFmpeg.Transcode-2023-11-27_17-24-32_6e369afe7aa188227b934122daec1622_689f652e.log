@@ -1,0 +1,194 @@
+/videos/6e369afe-7aa1-8822-7b93-4122daec1622/hls1/main/0.ts
+
+{"Protocol":0,"Id":"6e369afe7aa188227b934122daec1622","Path":"/data/media/tv/The Eminence in Shadow/Season 1/The Eminence In Shadow - S01E01 - The Hated Classmate.mkv","EncoderPath":null,"EncoderProtocol":null,"Type":0,"Container":"mkv,webm","Size":448260736,"Name":"The Eminence In Shadow - S01E01 - The Hated Classmate","IsRemote":false,"ETag":"8ee290167ac9c5205cb9685de38fe504","RunTimeTicks":14211009536,"ReadAtNativeFramerate":false,"IgnoreDts":false,"IgnoreIndex":false,"GenPtsInput":false,"SupportsTranscoding":true,"SupportsDirectStream":true,"SupportsDirectPlay":true,"IsInfiniteStream":false,"RequiresOpening":false,"OpenToken":null,"RequiresClosing":false,"LiveStreamId":null,"BufferMs":null,"RequiresLooping":false,"SupportsProbing":true,"VideoType":0,"IsoType":null,"Video3DFormat":null,"MediaStreams":[{"Codec":"hevc","CodecTag":null,"Language":null,"ColorRange":null,"ColorSpace":"bt709","ColorTransfer":"bt709","ColorPrimaries":"bt709","DvVersionMajor":null,"DvVersionMinor":null,"DvProfile":null,"DvLevel":null,"RpuPresentFlag":null,"ElPresentFlag":null,"BlPresentFlag":null,"DvBlSignalCompatibilityId":null,"Comment":null,"TimeBase":"1/1000","CodecTimeBase":null,"Title":"Tenrai-Sensei | 20 CRF VerySlow","VideoRange":"SDR","VideoRangeType":"SDR","VideoDoViTitle":null,"LocalizedUndefined":null,"LocalizedDefault":null,"LocalizedForced":null,"LocalizedExternal":null,"DisplayTitle":"Tenrai-Sensei | 20 CRF VerySlow - 1080p - HEVC - SDR","NalLengthSize":null,"IsInterlaced":false,"IsAVC":null,"ChannelLayout":null,"BitRate":2523456,"BitDepth":10,"RefFrames":1,"PacketLength":null,"Channels":null,"SampleRate":null,"IsDefault":true,"IsForced":false,"Height":1080,"Width":1920,"AverageFrameRate":23.976025,"RealFrameRate":23.976025,"Profile":"Main 10","Type":1,"AspectRatio":"16:9","Index":0,"Score":null,"IsExternal":false,"DeliveryMethod":null,"DeliveryUrl":null,"IsExternalUrl":null,"IsTextSubtitleStream":false,"SupportsExternalStream":false,"Path":null,"PixelFormat":"yuv420p10le","Level":150,"IsAnamorphic":null},{"Codec":"aac","CodecTag":null,"Language":"eng","ColorRange":null,"ColorSpace":null,"ColorTransfer":null,"ColorPrimaries":null,"DvVersionMajor":null,"DvVersionMinor":null,"DvProfile":null,"DvLevel":null,"RpuPresentFlag":null,"ElPresentFlag":null,"BlPresentFlag":null,"DvBlSignalCompatibilityId":null,"Comment":null,"TimeBase":"1/1000","CodecTimeBase":null,"Title":"","VideoRange":null,"VideoRangeType":null,"VideoDoViTitle":null,"LocalizedUndefined":null,"LocalizedDefault":null,"LocalizedForced":null,"LocalizedExternal":null,"DisplayTitle":"English - AAC - Stereo - Default","NalLengthSize":null,"IsInterlaced":false,"IsAVC":null,"ChannelLayout":"stereo","BitRate":159374,"BitDepth":null,"RefFrames":null,"PacketLength":null,"Channels":2,"SampleRate":48000,"IsDefault":true,"IsForced":false,"Height":null,"Width":null,"AverageFrameRate":null,"RealFrameRate":null,"Profile":"LC","Type":0,"AspectRatio":null,"Index":1,"Score":null,"IsExternal":false,"DeliveryMethod":null,"DeliveryUrl":null,"IsExternalUrl":null,"IsTextSubtitleStream":false,"SupportsExternalStream":false,"Path":null,"PixelFormat":null,"Level":0,"IsAnamorphic":null},{"Codec":"opus","CodecTag":null,"Language":"jpn","ColorRange":null,"ColorSpace":null,"ColorTransfer":null,"ColorPrimaries":null,"DvVersionMajor":null,"DvVersionMinor":null,"DvProfile":null,"DvLevel":null,"RpuPresentFlag":null,"ElPresentFlag":null,"BlPresentFlag":null,"DvBlSignalCompatibilityId":null,"Comment":null,"TimeBase":"1/1000","CodecTimeBase":null,"Title":"Stereo","VideoRange":null,"VideoRangeType":null,"VideoDoViTitle":null,"LocalizedUndefined":null,"LocalizedDefault":null,"LocalizedForced":null,"LocalizedExternal":null,"DisplayTitle":"Stereo - Japanese - OPUS","NalLengthSize":null,"IsInterlaced":false,"IsAVC":null,"ChannelLayout":"stereo","BitRate":189779,"BitDepth":null,"RefFrames":null,"PacketLength":null,"Channels":2,"SampleRate":48000,"IsDefault":false,"IsForced":false,"Height":null,"Width":null,"AverageFrameRate":null,"RealFrameRate":null,"Profile":null,"Type":0,"AspectRatio":null,"Index":2,"Score":null,"IsExternal":false,"DeliveryMethod":null,"DeliveryUrl":null,"IsExternalUrl":null,"IsTextSubtitleStream":false,"SupportsExternalStream":false,"Path":null,"PixelFormat":null,"Level":0,"IsAnamorphic":null},{"Codec":"ass","CodecTag":null,"Language":"eng","ColorRange":null,"ColorSpace":null,"ColorTransfer":null,"ColorPrimaries":null,"DvVersionMajor":null,"DvVersionMinor":null,"DvProfile":null,"DvLevel":null,"RpuPresentFlag":null,"ElPresentFlag":null,"BlPresentFlag":null,"DvBlSignalCompatibilityId":null,"Comment":null,"TimeBase":"1/1000","CodecTimeBase":null,"Title":"S\u0026S","VideoRange":null,"VideoRangeType":null,"VideoDoViTitle":null,"LocalizedUndefined":"Undefined","LocalizedDefault":"Default","LocalizedForced":"Forced","LocalizedExternal":"External","DisplayTitle":"S\u0026S - English - Forced - ASS","NalLengthSize":null,"IsInterlaced":false,"IsAVC":null,"ChannelLayout":null,"BitRate":null,"BitDepth":null,"RefFrames":null,"PacketLength":null,"Channels":null,"SampleRate":null,"IsDefault":false,"IsForced":true,"Height":null,"Width":null,"AverageFrameRate":null,"RealFrameRate":null,"Profile":null,"Type":2,"AspectRatio":null,"Index":3,"Score":null,"IsExternal":false,"DeliveryMethod":null,"DeliveryUrl":null,"IsExternalUrl":null,"IsTextSubtitleStream":true,"SupportsExternalStream":true,"Path":null,"PixelFormat":null,"Level":0,"IsAnamorphic":null},{"Codec":"ass","CodecTag":null,"Language":"eng","ColorRange":null,"ColorSpace":null,"ColorTransfer":null,"ColorPrimaries":null,"DvVersionMajor":null,"DvVersionMinor":null,"DvProfile":null,"DvLevel":null,"RpuPresentFlag":null,"ElPresentFlag":null,"BlPresentFlag":null,"DvBlSignalCompatibilityId":null,"Comment":null,"TimeBase":"1/1000","CodecTimeBase":null,"Title":"Dialog - ENG","VideoRange":null,"VideoRangeType":null,"VideoDoViTitle":null,"LocalizedUndefined":"Undefined","LocalizedDefault":"Default","LocalizedForced":"Forced","LocalizedExternal":"External","DisplayTitle":"Dialog - ENG - English - Default - ASS","NalLengthSize":null,"IsInterlaced":false,"IsAVC":null,"ChannelLayout":null,"BitRate":null,"BitDepth":null,"RefFrames":null,"PacketLength":null,"Channels":null,"SampleRate":null,"IsDefault":true,"IsForced":false,"Height":null,"Width":null,"AverageFrameRate":null,"RealFrameRate":null,"Profile":null,"Type":2,"AspectRatio":null,"Index":4,"Score":null,"IsExternal":false,"DeliveryMethod":null,"DeliveryUrl":null,"IsExternalUrl":null,"IsTextSubtitleStream":true,"SupportsExternalStream":true,"Path":null,"PixelFormat":null,"Level":0,"IsAnamorphic":null}],"MediaAttachments":[{"Codec":null,"CodecTag":"[0][0][0][0]","Comment":null,"Index":5,"FileName":"FOT-TsukuMinPr5N-M.otf","MimeType":"font/otf","DeliveryUrl":null},{"Codec":null,"CodecTag":"[0][0][0][0]","Comment":null,"Index":6,"FileName":"arial.ttf","MimeType":"font/ttf","DeliveryUrl":null},{"Codec":null,"CodecTag":"[0][0][0][0]","Comment":null,"Index":7,"FileName":"arialbd.ttf","MimeType":"font/ttf","DeliveryUrl":null},{"Codec":null,"CodecTag":"[0][0][0][0]","Comment":null,"Index":8,"FileName":"ARIALBITMAP50.otf","MimeType":"font/otf","DeliveryUrl":null},{"Codec":null,"CodecTag":"[0][0][0][0]","Comment":null,"Index":9,"FileName":"Asul-Regular.ttf","MimeType":"font/ttf","DeliveryUrl":null},{"Codec":null,"CodecTag":"[0][0][0][0]","Comment":null,"Index":10,"FileName":"Bogart-Medium-trial.ttf","MimeType":"font/ttf","DeliveryUrl":null},{"Codec":null,"CodecTag":"[0][0][0][0]","Comment":null,"Index":11,"FileName":"Cabin-Bold.otf","MimeType":"font/otf","DeliveryUrl":null},{"Codec":null,"CodecTag":"[0][0][0][0]","Comment":null,"Index":12,"FileName":"Cabin-BoldItalic.otf","MimeType":"font/otf","DeliveryUrl":null}],"Formats":[],"Bitrate":2872609,"Timestamp":null,"RequiredHttpHeaders":{},"TranscodingUrl":null,"TranscodingSubProtocol":null,"TranscodingContainer":null,"AnalyzeDurationMs":null,"DefaultAudioStreamIndex":null,"DefaultSubtitleStreamIndex":null}
+
+/usr/lib/jellyfin-ffmpeg/ffmpeg -analyzeduration 200M -f matroska,webm -autorotate 0 -i file:"/data/media/tv/The Eminence in Shadow/Season 1/The Eminence In Shadow - S01E01 - The Hated Classmate.mkv" -map_metadata -1 -map_chapters -1 -threads 0 -map 0:0 -map 0:1 -map -0:s -codec:v:0 libx264 -preset veryfast -crf 23 -maxrate 8411520 -bufsize 16823040 -x264opts:0 subme=0:me_range=4:rc_lookahead=10:me=dia:no_chroma_me:8x8dct=0:partitions=none -force_key_frames:0 "expr:gte(t,0+n_forced*3)" -sc_threshold:v:0 0 -vf "setparams=color_primaries=bt709:color_trc=bt709:colorspace=bt709,scale=trunc(min(max(iw\,ih*a)\,min(1920\,1080*a))/2)*2:trunc(min(max(iw/a\,ih)\,min(1920/a\,1080))/2)*2,format=yuv420p" -codec:a:0 copy -copyts -avoid_negative_ts disabled -max_muxing_queue_size 2048 -f hls -max_delay 5000000 -hls_time 3 -hls_segment_type mpegts -start_number 0 -hls_segment_filename "/config/data/transcodes/29429f7ccf84f05499940f19eeb74d3b%d.ts" -hls_playlist_type vod -hls_list_size 0 -y "/config/data/transcodes/29429f7ccf84f05499940f19eeb74d3b.m3u8"
+
+
+ffmpeg version 5.1.3-Jellyfin Copyright (c) 2000-2022 the FFmpeg developers
+  built with gcc 11 (Ubuntu 11.4.0-1ubuntu1~22.04)
+  configuration: --prefix=/usr/lib/jellyfin-ffmpeg --target-os=linux --extra-libs=-lfftw3f --extra-version=Jellyfin --disable-doc --disable-ffplay --disable-ptx-compression --disable-static --disable-libxcb --disable-sdl2 --disable-xlib --enable-lto --enable-gpl --enable-version3 --enable-shared --enable-gmp --enable-gnutls --enable-chromaprint --enable-libdrm --enable-libass --enable-libfreetype --enable-libfribidi --enable-libfontconfig --enable-libbluray --enable-libmp3lame --enable-libopus --enable-libtheora --enable-libvorbis --enable-libopenmpt --enable-libdav1d --enable-libwebp --enable-libvpx --enable-libx264 --enable-libx265 --enable-libzvbi --enable-libzimg --enable-libfdk-aac --toolchain=hardened --enable-cross-compile --arch=arm64 --cross-prefix=/usr/bin/aarch64-linux-gnu-
+  libavutil      57. 28.100 / 57. 28.100
+  libavcodec     59. 37.100 / 59. 37.100
+  libavformat    59. 27.100 / 59. 27.100
+  libavdevice    59.  7.100 / 59.  7.100
+  libavfilter     8. 44.100 /  8. 44.100
+  libswscale      6.  7.100 /  6.  7.100
+  libswresample   4.  7.100 /  4.  7.100
+  libpostproc    56.  6.100 / 56.  6.100
+[matroska,webm @ 0x5579833510] Could not find codec parameters for stream 5 (Attachment: none): unknown codec
+Consider increasing the value for the 'analyzeduration' (200000000) and 'probesize' (5000000) options
+[matroska,webm @ 0x5579833510] Could not find codec parameters for stream 6 (Attachment: none): unknown codec
+Consider increasing the value for the 'analyzeduration' (200000000) and 'probesize' (5000000) options
+[matroska,webm @ 0x5579833510] Could not find codec parameters for stream 7 (Attachment: none): unknown codec
+Consider increasing the value for the 'analyzeduration' (200000000) and 'probesize' (5000000) options
+[matroska,webm @ 0x5579833510] Could not find codec parameters for stream 8 (Attachment: none): unknown codec
+Consider increasing the value for the 'analyzeduration' (200000000) and 'probesize' (5000000) options
+[matroska,webm @ 0x5579833510] Could not find codec parameters for stream 9 (Attachment: none): unknown codec
+Consider increasing the value for the 'analyzeduration' (200000000) and 'probesize' (5000000) options
+[matroska,webm @ 0x5579833510] Could not find codec parameters for stream 10 (Attachment: none): unknown codec
+Consider increasing the value for the 'analyzeduration' (200000000) and 'probesize' (5000000) options
+[matroska,webm @ 0x5579833510] Could not find codec parameters for stream 11 (Attachment: none): unknown codec
+Consider increasing the value for the 'analyzeduration' (200000000) and 'probesize' (5000000) options
+[matroska,webm @ 0x5579833510] Could not find codec parameters for stream 12 (Attachment: none): unknown codec
+Consider increasing the value for the 'analyzeduration' (200000000) and 'probesize' (5000000) options
+Input #0, matroska,webm, from 'file:/data/media/tv/The Eminence in Shadow/Season 1/The Eminence In Shadow - S01E01 - The Hated Classmate.mkv':
+  Metadata:
+    title           : 
+    creation_time   : 2023-05-09T01:00:39.000000Z
+    ENCODER         : Lavf58.76.100
+  Duration: 00:23:41.10, start: -0.007000, bitrate: 2523 kb/s
+  Chapters:
+    Chapter #0:0: start 0.000000, end 152.010000
+      Metadata:
+        title           : Part A
+    Chapter #0:1: start 152.010000, end 1012.580000
+      Metadata:
+        title           : Part B
+    Chapter #0:2: start 1012.580000, end 1074.100000
+      Metadata:
+        title           : ED
+    Chapter #0:3: start 1074.100000, end 1329.930000
+      Metadata:
+        title           : Outro
+    Chapter #0:4: start 1329.930000, end 1421.094000
+      Metadata:
+        title           : OP
+  Stream #0:0: Video: hevc (Main 10), yuv420p10le(tv, bt709), 1920x1080 [SAR 1:1 DAR 16:9], 23.98 fps, 23.98 tbr, 1k tbn (default)
+    Metadata:
+      title           : Tenrai-Sensei | 20 CRF VerySlow
+      BPS             : 2072944
+      DURATION        : 00:23:41.087000000
+      NUMBER_OF_FRAMES: 34072
+      NUMBER_OF_BYTES : 368229301
+      _STATISTICS_WRITING_APP: mkvmerge v73.0.0 ('25 or 6 to 4') 64-bit
+      _STATISTICS_WRITING_DATE_UTC: 2023-05-09 01:00:39
+      _STATISTICS_TAGS: BPS DURATION NUMBER_OF_FRAMES NUMBER_OF_BYTES
+  Stream #0:1(eng): Audio: aac (LC), 48000 Hz, stereo, fltp (default)
+    Metadata:
+      title           : 
+      BPS             : 159374
+      DURATION        : 00:23:39.947000000
+      NUMBER_OF_FRAMES: 66560
+      NUMBER_OF_BYTES : 28288001
+      _STATISTICS_WRITING_APP: mkvmerge v73.0.0 ('25 or 6 to 4') 64-bit
+      _STATISTICS_WRITING_DATE_UTC: 2023-05-09 01:00:39
+      _STATISTICS_TAGS: BPS DURATION NUMBER_OF_FRAMES NUMBER_OF_BYTES
+  Stream #0:2(jpn): Audio: opus, 48000 Hz, stereo, fltp
+    Metadata:
+      title           : Stereo
+      BPS             : 189779
+      DURATION        : 00:23:41.101000000
+      NUMBER_OF_FRAMES: 71055
+      NUMBER_OF_BYTES : 33711964
+      _STATISTICS_WRITING_APP: mkvmerge v73.0.0 ('25 or 6 to 4') 64-bit
+      _STATISTICS_WRITING_DATE_UTC: 2023-05-09 01:00:39
+      _STATISTICS_TAGS: BPS DURATION NUMBER_OF_FRAMES NUMBER_OF_BYTES
+  Stream #0:3(eng): Subtitle: ass (forced)
+    Metadata:
+      title           : S&S
+      BPS             : 11380
+      DURATION        : 00:23:10.250000000
+      NUMBER_OF_FRAMES: 8777
+      NUMBER_OF_BYTES : 1977700
+      _STATISTICS_WRITING_APP: mkvmerge v73.0.0 ('25 or 6 to 4') 64-bit
+      _STATISTICS_WRITING_DATE_UTC: 2023-05-09 01:00:39
+      _STATISTICS_TAGS: BPS DURATION NUMBER_OF_FRAMES NUMBER_OF_BYTES
+  Stream #0:4(eng): Subtitle: ass (default)
+    Metadata:
+      title           : Dialog - ENG
+      BPS             : 11448
+      DURATION        : 00:23:12.750000000
+      NUMBER_OF_FRAMES: 9040
+      NUMBER_OF_BYTES : 1993064
+      _STATISTICS_WRITING_APP: mkvmerge v73.0.0 ('25 or 6 to 4') 64-bit
+      _STATISTICS_WRITING_DATE_UTC: 2023-05-09 01:00:39
+      _STATISTICS_TAGS: BPS DURATION NUMBER_OF_FRAMES NUMBER_OF_BYTES
+  Stream #0:5: Attachment: none
+    Metadata:
+      filename        : FOT-TsukuMinPr5N-M.otf
+      mimetype        : font/otf
+  Stream #0:6: Attachment: none
+    Metadata:
+      filename        : arial.ttf
+      mimetype        : font/ttf
+  Stream #0:7: Attachment: none
+    Metadata:
+      filename        : arialbd.ttf
+      mimetype        : font/ttf
+  Stream #0:8: Attachment: none
+    Metadata:
+      filename        : ARIALBITMAP50.otf
+      mimetype        : font/otf
+  Stream #0:9: Attachment: none
+    Metadata:
+      filename        : Asul-Regular.ttf
+      mimetype        : font/ttf
+  Stream #0:10: Attachment: none
+    Metadata:
+      filename        : Bogart-Medium-trial.ttf
+      mimetype        : font/ttf
+  Stream #0:11: Attachment: none
+    Metadata:
+      filename        : Cabin-Bold.otf
+      mimetype        : font/otf
+  Stream #0:12: Attachment: none
+    Metadata:
+      filename        : Cabin-BoldItalic.otf
+      mimetype        : font/otf
+Stream mapping:
+  Stream #0:0 -> #0:0 (hevc (native) -> h264 (libx264))
+  Stream #0:1 -> #0:1 (copy)
+Press [q] to stop, [?] for help
+[libx264 @ 0x55798e6810] using SAR=1/1
+[libx264 @ 0x55798e6810] using cpu capabilities: ARMv8 NEON
+[libx264 @ 0x55798e6810] profile Main, level 4.0, 4:2:0, 8-bit
+[libx264 @ 0x55798e6810] 264 - core 163 r3060 5db6aa6 - H.264/MPEG-4 AVC codec - Copyleft 2003-2021 - http://www.videolan.org/x264.html - options: cabac=1 ref=1 deblock=1:0:0 analyse=0x1:0 me=dia subme=0 psy=1 psy_rd=1.00:0.00 mixed_ref=0 me_range=4 chroma_me=0 trellis=0 8x8dct=0 cqm=0 deadzone=21,11 fast_pskip=1 chroma_qp_offset=0 threads=6 lookahead_threads=1 sliced_threads=0 nr=0 decimate=1 interlaced=0 bluray_compat=0 constrained_intra=0 bframes=3 b_pyramid=2 b_adapt=1 b_bias=0 direct=1 weightb=1 open_gop=0 weightp=1 keyint=250 keyint_min=23 scenecut=0 intra_refresh=0 rc_lookahead=10 rc=crf mbtree=1 crf=23.0 qcomp=0.60 qpmin=0 qpmax=69 qpstep=4 vbv_maxrate=8411 vbv_bufsize=16823 crf_max=0.0 nal_hrd=none filler=0 ip_ratio=1.40 aq=1:1.00
+Output #0, hls, to '/config/data/transcodes/29429f7ccf84f05499940f19eeb74d3b.m3u8':
+  Metadata:
+    encoder         : Lavf59.27.100
+  Stream #0:0: Video: h264, yuv420p(tv, bt709, progressive), 1920x1080 [SAR 1:1 DAR 16:9], q=2-31, 23.98 fps, 90k tbn (default)
+    Metadata:
+      encoder         : Lavc59.37.100 libx264
+    Side data:
+      cpb: bitrate max/min/avg: 8411000/0/0 buffer size: 16823000 vbv_delay: N/A
+  Stream #0:1: Audio: aac (LC), 48000 Hz, stereo, fltp (default)
+frame=    1 fps=0.0 q=0.0 size=N/A time=00:00:00.00 bitrate=N/A speed=   0x    
+frame=   14 fps=0.0 q=0.0 size=N/A time=00:00:00.85 bitrate=N/A speed=1.16x    
+frame=   23 fps= 18 q=28.0 size=N/A time=00:00:01.02 bitrate=N/A speed=0.81x    
+frame=   34 fps= 19 q=28.0 size=N/A time=00:00:01.36 bitrate=N/A speed=0.76x    
+frame=   47 fps= 20 q=28.0 size=N/A time=00:00:01.87 bitrate=N/A speed= 0.8x    
+frame=   58 fps= 20 q=28.0 size=N/A time=00:00:02.56 bitrate=N/A speed=0.89x    
+frame=   70 fps= 21 q=28.0 size=N/A time=00:00:02.90 bitrate=N/A speed=0.858x    
+frame=   80 fps= 21 q=28.0 size=N/A time=00:00:03.24 bitrate=N/A speed=0.832x    
+frame=   91 fps= 20 q=28.0 size=N/A time=00:00:03.75 bitrate=N/A speed=0.842x    
+[hls @ 0x5579902500] Opening '/config/data/transcodes/29429f7ccf84f05499940f19eeb74d3b0.ts' for writing
+frame=  102 fps= 20 q=28.0 size=N/A time=00:00:04.20 bitrate=N/A speed=0.823x    
+frame=  110 fps= 20 q=28.0 size=N/A time=00:00:04.54 bitrate=N/A speed=0.81x    
+frame=  119 fps= 19 q=28.0 size=N/A time=00:00:05.05 bitrate=N/A speed=0.811x    
+frame=  128 fps= 19 q=28.0 size=N/A time=00:00:05.39 bitrate=N/A speed=0.789x    
+frame=  137 fps= 19 q=28.0 size=N/A time=00:00:05.73 bitrate=N/A speed=0.777x    
+frame=  146 fps= 18 q=28.0 size=N/A time=00:00:05.99 bitrate=N/A speed=0.754x    
+frame=  155 fps= 18 q=28.0 size=N/A time=00:00:06.50 bitrate=N/A speed=0.752x    
+frame=  164 fps= 18 q=28.0 size=N/A time=00:00:06.97 bitrate=N/A speed=0.757x    
+[hls @ 0x5579902500] Opening '/config/data/transcodes/29429f7ccf84f05499940f19eeb74d3b1.ts' for writing
+
+
+[q] command received. Exiting.
+
+[hls @ 0x5579902500] Opening '/config/data/transcodes/29429f7ccf84f05499940f19eeb74d3b2.ts' for writing
+frame=  171 fps= 16 q=-1.0 Lsize=N/A time=00:00:07.31 bitrate=N/A speed=0.697x    
+video:2203kB audio:149kB subtitle:0kB other streams:0kB global headers:0kB muxing overhead: unknown
+[libx264 @ 0x55798e6810] frame I:3     Avg QP:20.15  size:136452
+[libx264 @ 0x55798e6810] frame P:51    Avg QP:22.43  size: 28720
+[libx264 @ 0x55798e6810] frame B:117   Avg QP:24.11  size:  3260
+[libx264 @ 0x55798e6810] consecutive B-frames:  4.1% 11.7%  7.0% 77.2%
+[libx264 @ 0x55798e6810] mb I  I16..4: 30.6%  0.0% 69.4%
+[libx264 @ 0x55798e6810] mb P  I16..4: 24.3%  0.0%  0.0%  P16..4: 49.6%  0.0%  0.0%  0.0%  0.0%    skip:26.2%
+[libx264 @ 0x55798e6810] mb B  I16..4:  0.9%  0.0%  0.0%  B16..8: 10.7%  0.0%  0.0%  direct: 4.0%  skip:84.4%  L0:36.7% L1:56.0% BI: 7.3%
+[libx264 @ 0x55798e6810] coded y,uvDC,uvAC intra: 27.1% 44.6% 10.6% inter: 7.0% 7.4% 0.1%
+[libx264 @ 0x55798e6810] i16 v,h,dc,p: 15% 43% 11% 30%
+[libx264 @ 0x55798e6810] i4 v,h,dc,ddl,ddr,vr,hd,vl,hu: 18% 31% 15%  4%  7%  4%  6%  4% 10%
+[libx264 @ 0x55798e6810] i8c dc,h,v,p: 34% 33% 14% 19%
+[libx264 @ 0x55798e6810] Weighted P-Frames: Y:0.0% UV:0.0%
+[libx264 @ 0x55798e6810] kb/s:2529.93

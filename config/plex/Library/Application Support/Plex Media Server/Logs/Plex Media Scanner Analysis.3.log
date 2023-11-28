@@ -1,0 +1,253 @@
+Nov 28, 2023 01:26:41.469 [548529590328] INFO - Plex Media Scanner v1.32.7.7621-871adbd44 - Docker Docker Container (LinuxServer.io) aarch64 - build: linux-aarch64 - GMT 00:00
+Nov 28, 2023 01:26:41.470 [548529590328] INFO - Linux version: 6.1.0-rpi6-rpi-v8, language: en-US
+Nov 28, 2023 01:26:41.470 [548529590328] INFO - Processor: 4-core AArch64
+Nov 28, 2023 01:26:41.470 [548529590328] INFO - /usr/lib/plexmediaserver/Plex Media Scanner --analyze --log-file-suffix  Analysis --no-thumbs --item 6,7,8,9
+Nov 28, 2023 01:26:41.470 [548596691000] DEBUG - Opening 20 database sessions to library (com.plexapp.plugins.library), SQLite 3.39.4, threadsafe=1
+Nov 28, 2023 01:26:41.767 [548596691000] DEBUG - Analyzing media parts for item 6 (A Doll's Dream): 8
+Nov 28, 2023 01:26:41.769 [548596691000] DEBUG - Downloading document http://127.0.0.1:32400/library/changestamp
+Nov 28, 2023 01:26:41.769 [548596691000] DEBUG - [HCl#1] HTTP requesting GET http://127.0.0.1:32400/library/changestamp
+Nov 28, 2023 01:26:41.772 [548519755832] DEBUG - [HttpClient/HCl#1] HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/library/changestamp
+Nov 28, 2023 01:26:41.773 [548596691000] DEBUG - Updating metadata item (save) (A Doll's Dream) with ID 6
+Nov 28, 2023 01:26:41.777 [548518932536] DEBUG - [HCl#2] HTTP requesting GET http://127.0.0.1:32400/:/metadata/flushMetadataCounterCache?metadataItemID=4
+Nov 28, 2023 01:26:41.778 [548519755832] DEBUG - [HttpClient/HCl#2] HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/:/metadata/flushMetadataCounterCache?metadataItemID=4 (reused)
+Nov 28, 2023 01:26:41.810 [548596691000] DEBUG - [ID 8] Media part analysis: /media/tv/Soundtrack (2022)/Season 1/Soundtrack.1.S01E01.KOREAN.1080p.WEBRip.x265-RARBG.mp4
+Nov 28, 2023 01:26:41.810 [548596691000] DEBUG - [MI] Opening input file: "/media/tv/Soundtrack (2022)/Season 1/Soundtrack.1.S01E01.KOREAN.1080p.WEBRip.x265-RARBG.mp4"
+Nov 28, 2023 01:26:41.811 [548596691000] DEBUG - [FFMPEG] - Opening '/media/tv/Soundtrack (2022)/Season 1/Soundtrack.1.S01E01.KOREAN.1080p.WEBRip.x265-RARBG.mp4' for reading
+Nov 28, 2023 01:26:41.811 [548596691000] DEBUG - [FFMPEG] - Setting default whitelist 'file,crypto,data'
+Nov 28, 2023 01:26:41.811 [548596691000] DEBUG - [FFMPEG] - Format mov,mp4,m4a,3gp,3g2,mj2 probed with size=2048 and score=100
+Nov 28, 2023 01:26:41.812 [548596691000] DEBUG - [FFMPEG] - ISO: File Type Major Brand: isom
+Nov 28, 2023 01:26:41.812 [548596691000] DEBUG - [FFMPEG] - Unknown dref type 0x206c7275 size 12
+Nov 28, 2023 01:26:41.829 [548596691000] DEBUG - [FFMPEG] - Processing st: 0, edit list 0 - media time: 2002, duration: 62010960
+Nov 28, 2023 01:26:41.838 [548596691000] DEBUG - [FFMPEG] - Offset DTS by 2002 to make first pts zero.
+Nov 28, 2023 01:26:41.840 [548596691000] DEBUG - [FFMPEG] - Unknown dref type 0x206c7275 size 12
+Nov 28, 2023 01:26:41.857 [548596691000] DEBUG - [FFMPEG] - Processing st: 1, edit list 0 - media time: 2048, duration: 124022736
+Nov 28, 2023 01:26:41.857 [548596691000] DEBUG - [FFMPEG] - drop a frame at curr_cts: 0 @ 0
+Nov 28, 2023 01:26:41.857 [548596691000] DEBUG - [FFMPEG] - drop a frame at curr_cts: 1024 @ 1
+Nov 28, 2023 01:26:41.865 [548596691000] DEBUG - [FFMPEG] - Before avformat_find_stream_info() pos: 720085545 bytes read:1808621 seeks:1 nb_streams:2
+Nov 28, 2023 01:26:41.867 [548596691000] DEBUG - [FFMPEG] - nal_unit_type: 32(VPS), nuh_layer_id: 0, temporal_id: 0
+Nov 28, 2023 01:26:41.867 [548596691000] DEBUG - [FFMPEG] - Decoding VPS
+Nov 28, 2023 01:26:41.867 [548596691000] DEBUG - [FFMPEG] - Main 10 profile bitstream
+Nov 28, 2023 01:26:41.867 [548596691000] DEBUG - [FFMPEG] - nal_unit_type: 33(SPS), nuh_layer_id: 0, temporal_id: 0
+Nov 28, 2023 01:26:41.867 [548596691000] DEBUG - [FFMPEG] - Decoding SPS
+Nov 28, 2023 01:26:41.867 [548596691000] DEBUG - [FFMPEG] - Main 10 profile bitstream
+Nov 28, 2023 01:26:41.867 [548596691000] DEBUG - [FFMPEG] - Decoding VUI
+Nov 28, 2023 01:26:41.867 [548596691000] DEBUG - [FFMPEG] - nal_unit_type: 34(PPS), nuh_layer_id: 0, temporal_id: 0
+Nov 28, 2023 01:26:41.867 [548596691000] DEBUG - [FFMPEG] - Decoding PPS
+Nov 28, 2023 01:26:41.868 [548596691000] DEBUG - [FFMPEG] - demuxer injecting skip 2048 / discard 0
+Nov 28, 2023 01:26:41.868 [548596691000] DEBUG - [FFMPEG] - All info found
+Nov 28, 2023 01:26:41.868 [548596691000] DEBUG - [FFMPEG] - After avformat_find_stream_info() pos: 3397 bytes read:1841389 seeks:2 frames:2
+Nov 28, 2023 01:26:41.868 [548596691000] DEBUG - [MI] Opening "/media/tv/Soundtrack (2022)/Season 1/Soundtrack.1.S01E01.KOREAN.1080p.WEBRip.x265-RARBG.mp4" for MP4 atom parsing
+Nov 28, 2023 01:26:41.868 [548596691000] DEBUG - Mp4AtomParser: Skipping ftyp atom of size 28 at offset 0
+Nov 28, 2023 01:26:41.868 [548596691000] DEBUG - Mp4AtomParser: Skipping free atom of size 8 at offset 28
+Nov 28, 2023 01:26:41.868 [548596691000] DEBUG - Mp4AtomParser: Skipping mdat atom of size 718309656 at offset 36
+Nov 28, 2023 01:26:41.868 [548596691000] DEBUG - Mp4AtomParser: Found moov atom of size 1775853 at offset 718309692
+Nov 28, 2023 01:26:41.872 [548596691000] DEBUG - Mp4AtomParser: Found trak atom of size 975889 at offset 718309808
+Nov 28, 2023 01:26:41.872 [548596691000] DEBUG - Mp4AtomParser: Found trak atom of size 799602 at offset 719285697
+Nov 28, 2023 01:26:41.872 [548596691000] DEBUG - Mp4AtomParser: Found mdia atom of size 975753 at offset 718309944
+Nov 28, 2023 01:26:41.872 [548596691000] DEBUG - Mp4AtomParser: Found minf atom of size 975668 at offset 718310029
+Nov 28, 2023 01:26:41.872 [548596691000] DEBUG - Mp4AtomParser: Found stbl atom of size 975604 at offset 718310093
+Nov 28, 2023 01:26:41.872 [548596691000] DEBUG - Mp4AtomParser: Found mdia atom of size 799466 at offset 719285833
+Nov 28, 2023 01:26:41.872 [548596691000] DEBUG - Mp4AtomParser: Found minf atom of size 799381 at offset 719285918
+Nov 28, 2023 01:26:41.872 [548596691000] DEBUG - Mp4AtomParser: Found stbl atom of size 799321 at offset 719285978
+Nov 28, 2023 01:26:41.888 [548596691000] DEBUG - [MI]  * 6e3636e459a1e5139a107fa0404be46ae940fb6d [mp4 hevc/aac] Duration: 2583850ms, 1920x960 (2.000000) 23.976fps, bitrate=2229kbps, audio channels=6, optimizedForStreaming=0 ("/media/tv/Soundtrack (2022)/Season 1/Soundtrack.1.S01E01.KOREAN.1080p.WEBRip.x265-RARBG.mp4")
+Nov 28, 2023 01:26:41.888 [548596691000] DEBUG - [MI] Chapters had generic titles, clearing.
+Nov 28, 2023 01:26:41.889 [548596691000] DEBUG - [MI] Closing input file: "/media/tv/Soundtrack (2022)/Season 1/Soundtrack.1.S01E01.KOREAN.1080p.WEBRip.x265-RARBG.mp4"
+Nov 28, 2023 01:26:41.892 [548596691000] DEBUG - Committing media stream changes for part 8
+Nov 28, 2023 01:26:41.893 [548596691000] DEBUG - Updating media item 8, size=720085545, metadata_item_id=6
+Nov 28, 2023 01:26:41.894 [548596691000] DEBUG - Updating part with ID=8 [/media/tv/Soundtrack (2022)/Season 1/Soundtrack.1.S01E01.KOREAN.1080p.WEBRip.x265-RARBG.mp4]
+Nov 28, 2023 01:26:41.894 [548518932536] DEBUG - [HCl#3] HTTP requesting GET http://127.0.0.1:32400/:/metadata/notify/changeItemState?librarySectionID=2&metadataItemID=6&metadataType=4&state=-1&parentID=-1&rootID=-1&mediaState=analyzing
+Nov 28, 2023 01:26:41.895 [548519755832] DEBUG - [HttpClient/HCl#3] HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/:/metadata/notify/changeItemState?librarySectionID=2&metadataItemID=6&metadataType=4&state=-1&parentID=-1&rootID=-1&mediaState=analyzing (reused)
+Nov 28, 2023 01:26:41.896 [548518932536] DEBUG - [HCl#4] HTTP requesting GET http://127.0.0.1:32400/:/metadata/notify/changeItemState?librarySectionID=2&metadataItemID=6&metadataType=4&state=-1&parentID=-1&rootID=-1&mediaState=idle
+Nov 28, 2023 01:26:41.897 [548519755832] DEBUG - [HttpClient/HCl#4] HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/:/metadata/notify/changeItemState?librarySectionID=2&metadataItemID=6&metadataType=4&state=-1&parentID=-1&rootID=-1&mediaState=idle (reused)
+Nov 28, 2023 01:26:41.901 [548596691000] DEBUG - Downloading document http://127.0.0.1:32400/library/changestamp
+Nov 28, 2023 01:26:41.901 [548596691000] DEBUG - [HCl#5] HTTP requesting GET http://127.0.0.1:32400/library/changestamp
+Nov 28, 2023 01:26:41.903 [548519755832] DEBUG - [HttpClient/HCl#5] HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/library/changestamp (reused)
+Nov 28, 2023 01:26:41.904 [548596691000] DEBUG - Updating metadata item (save) (A Doll's Dream) with ID 6
+Nov 28, 2023 01:26:41.906 [548518932536] DEBUG - [HCl#6] HTTP requesting GET http://127.0.0.1:32400/:/metadata/flushMetadataCounterCache?metadataItemID=4
+Nov 28, 2023 01:26:41.908 [548519755832] DEBUG - [HttpClient/HCl#6] HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/:/metadata/flushMetadataCounterCache?metadataItemID=4 (reused)
+Nov 28, 2023 01:26:41.911 [548596691000] DEBUG - Analyzing media parts for item 7 (Unrequited Love): 9
+Nov 28, 2023 01:26:41.912 [548596691000] DEBUG - Downloading document http://127.0.0.1:32400/library/changestamp
+Nov 28, 2023 01:26:41.912 [548596691000] DEBUG - [HCl#7] HTTP requesting GET http://127.0.0.1:32400/library/changestamp
+Nov 28, 2023 01:26:41.914 [548519755832] DEBUG - [HttpClient/HCl#7] HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/library/changestamp (reused)
+Nov 28, 2023 01:26:41.914 [548596691000] DEBUG - Updating metadata item (save) (Unrequited Love) with ID 7
+Nov 28, 2023 01:26:41.917 [548518932536] DEBUG - [HCl#8] HTTP requesting GET http://127.0.0.1:32400/:/metadata/flushMetadataCounterCache?metadataItemID=4
+Nov 28, 2023 01:26:41.919 [548519755832] DEBUG - [HttpClient/HCl#8] HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/:/metadata/flushMetadataCounterCache?metadataItemID=4 (reused)
+Nov 28, 2023 01:26:41.919 [548596691000] DEBUG - [ID 9] Media part analysis: /media/tv/Soundtrack (2022)/Season 1/Soundtrack.1.S01E02.KOREAN.1080p.WEBRip.x265-RARBG.mp4
+Nov 28, 2023 01:26:41.919 [548596691000] DEBUG - [MI] Opening input file: "/media/tv/Soundtrack (2022)/Season 1/Soundtrack.1.S01E02.KOREAN.1080p.WEBRip.x265-RARBG.mp4"
+Nov 28, 2023 01:26:41.919 [548596691000] DEBUG - [FFMPEG] - Opening '/media/tv/Soundtrack (2022)/Season 1/Soundtrack.1.S01E02.KOREAN.1080p.WEBRip.x265-RARBG.mp4' for reading
+Nov 28, 2023 01:26:41.919 [548596691000] DEBUG - [FFMPEG] - Setting default whitelist 'file,crypto,data'
+Nov 28, 2023 01:26:41.920 [548596691000] DEBUG - [FFMPEG] - Format mov,mp4,m4a,3gp,3g2,mj2 probed with size=2048 and score=100
+Nov 28, 2023 01:26:41.920 [548596691000] DEBUG - [FFMPEG] - ISO: File Type Major Brand: isom
+Nov 28, 2023 01:26:41.921 [548596691000] DEBUG - [FFMPEG] - Unknown dref type 0x206c7275 size 12
+Nov 28, 2023 01:26:41.950 [548596691000] DEBUG - [FFMPEG] - Processing st: 0, edit list 0 - media time: 2002, duration: 55642608
+Nov 28, 2023 01:26:41.957 [548596691000] DEBUG - [FFMPEG] - Offset DTS by 2002 to make first pts zero.
+Nov 28, 2023 01:26:41.959 [548596691000] DEBUG - [FFMPEG] - Unknown dref type 0x206c7275 size 12
+Nov 28, 2023 01:26:41.981 [548596691000] DEBUG - [FFMPEG] - Processing st: 1, edit list 0 - media time: 2048, duration: 111286224
+Nov 28, 2023 01:26:41.982 [548596691000] DEBUG - [FFMPEG] - drop a frame at curr_cts: 0 @ 0
+Nov 28, 2023 01:26:41.982 [548596691000] DEBUG - [FFMPEG] - drop a frame at curr_cts: 1024 @ 1
+Nov 28, 2023 01:26:41.989 [548596691000] DEBUG - [FFMPEG] - Before avformat_find_stream_info() pos: 646139599 bytes read:1627149 seeks:1 nb_streams:2
+Nov 28, 2023 01:26:41.990 [548596691000] DEBUG - [FFMPEG] - nal_unit_type: 32(VPS), nuh_layer_id: 0, temporal_id: 0
+Nov 28, 2023 01:26:41.990 [548596691000] DEBUG - [FFMPEG] - Decoding VPS
+Nov 28, 2023 01:26:41.990 [548596691000] DEBUG - [FFMPEG] - Main 10 profile bitstream
+Nov 28, 2023 01:26:41.990 [548596691000] DEBUG - [FFMPEG] - nal_unit_type: 33(SPS), nuh_layer_id: 0, temporal_id: 0
+Nov 28, 2023 01:26:41.990 [548596691000] DEBUG - [FFMPEG] - Decoding SPS
+Nov 28, 2023 01:26:41.990 [548596691000] DEBUG - [FFMPEG] - Main 10 profile bitstream
+Nov 28, 2023 01:26:41.990 [548596691000] DEBUG - [FFMPEG] - Decoding VUI
+Nov 28, 2023 01:26:41.990 [548596691000] DEBUG - [FFMPEG] - nal_unit_type: 34(PPS), nuh_layer_id: 0, temporal_id: 0
+Nov 28, 2023 01:26:41.990 [548596691000] DEBUG - [FFMPEG] - Decoding PPS
+Nov 28, 2023 01:26:41.991 [548596691000] DEBUG - [FFMPEG] - demuxer injecting skip 2048 / discard 0
+Nov 28, 2023 01:26:41.991 [548596691000] DEBUG - [FFMPEG] - All info found
+Nov 28, 2023 01:26:41.991 [548596691000] DEBUG - [FFMPEG] - After avformat_find_stream_info() pos: 3398 bytes read:1659917 seeks:2 frames:2
+Nov 28, 2023 01:26:41.991 [548596691000] DEBUG - [MI] Opening "/media/tv/Soundtrack (2022)/Season 1/Soundtrack.1.S01E02.KOREAN.1080p.WEBRip.x265-RARBG.mp4" for MP4 atom parsing
+Nov 28, 2023 01:26:41.991 [548596691000] DEBUG - Mp4AtomParser: Skipping ftyp atom of size 28 at offset 0
+Nov 28, 2023 01:26:41.991 [548596691000] DEBUG - Mp4AtomParser: Skipping free atom of size 8 at offset 28
+Nov 28, 2023 01:26:41.991 [548596691000] DEBUG - Mp4AtomParser: Skipping mdat atom of size 644545182 at offset 36
+Nov 28, 2023 01:26:41.991 [548596691000] DEBUG - Mp4AtomParser: Found moov atom of size 1594381 at offset 644545218
+Nov 28, 2023 01:26:41.994 [548596691000] DEBUG - Mp4AtomParser: Found trak atom of size 876481 at offset 644545334
+Nov 28, 2023 01:26:41.994 [548596691000] DEBUG - Mp4AtomParser: Found trak atom of size 717538 at offset 645421815
+Nov 28, 2023 01:26:41.994 [548596691000] DEBUG - Mp4AtomParser: Found mdia atom of size 876345 at offset 644545470
+Nov 28, 2023 01:26:41.994 [548596691000] DEBUG - Mp4AtomParser: Found minf atom of size 876260 at offset 644545555
+Nov 28, 2023 01:26:41.994 [548596691000] DEBUG - Mp4AtomParser: Found stbl atom of size 876196 at offset 644545619
+Nov 28, 2023 01:26:41.994 [548596691000] DEBUG - Mp4AtomParser: Found mdia atom of size 717402 at offset 645421951
+Nov 28, 2023 01:26:41.994 [548596691000] DEBUG - Mp4AtomParser: Found minf atom of size 717317 at offset 645422036
+Nov 28, 2023 01:26:41.994 [548596691000] DEBUG - Mp4AtomParser: Found stbl atom of size 717257 at offset 645422096
+Nov 28, 2023 01:26:41.995 [548596691000] DEBUG - [MI]  * 4447f107de126c22f16c71103294f9b54ed90a5f [mp4 hevc/aac] Duration: 2318506ms, 1920x960 (2.000000) 23.976fps, bitrate=2229kbps, audio channels=6, optimizedForStreaming=0 ("/media/tv/Soundtrack (2022)/Season 1/Soundtrack.1.S01E02.KOREAN.1080p.WEBRip.x265-RARBG.mp4")
+Nov 28, 2023 01:26:41.995 [548596691000] DEBUG - [MI] Chapters had generic titles, clearing.
+Nov 28, 2023 01:26:41.996 [548596691000] DEBUG - [MI] Closing input file: "/media/tv/Soundtrack (2022)/Season 1/Soundtrack.1.S01E02.KOREAN.1080p.WEBRip.x265-RARBG.mp4"
+Nov 28, 2023 01:26:41.997 [548596691000] DEBUG - Committing media stream changes for part 9
+Nov 28, 2023 01:26:42.000 [548596691000] DEBUG - Updating media item 9, size=646139599, metadata_item_id=7
+Nov 28, 2023 01:26:42.000 [548596691000] DEBUG - Updating part with ID=9 [/media/tv/Soundtrack (2022)/Season 1/Soundtrack.1.S01E02.KOREAN.1080p.WEBRip.x265-RARBG.mp4]
+Nov 28, 2023 01:26:42.000 [548518932536] DEBUG - [HCl#9] HTTP requesting GET http://127.0.0.1:32400/:/metadata/notify/changeItemState?librarySectionID=2&metadataItemID=7&metadataType=4&state=-1&parentID=-1&rootID=-1&mediaState=analyzing
+Nov 28, 2023 01:26:42.002 [548519755832] DEBUG - [HttpClient/HCl#9] HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/:/metadata/notify/changeItemState?librarySectionID=2&metadataItemID=7&metadataType=4&state=-1&parentID=-1&rootID=-1&mediaState=analyzing (reused)
+Nov 28, 2023 01:26:42.002 [548518932536] DEBUG - [HCl#a] HTTP requesting GET http://127.0.0.1:32400/:/metadata/notify/changeItemState?librarySectionID=2&metadataItemID=7&metadataType=4&state=-1&parentID=-1&rootID=-1&mediaState=idle
+Nov 28, 2023 01:26:42.007 [548519755832] DEBUG - [HttpClient/HCl#a] HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/:/metadata/notify/changeItemState?librarySectionID=2&metadataItemID=7&metadataType=4&state=-1&parentID=-1&rootID=-1&mediaState=idle (reused)
+Nov 28, 2023 01:26:42.010 [548596691000] DEBUG - Downloading document http://127.0.0.1:32400/library/changestamp
+Nov 28, 2023 01:26:42.010 [548596691000] DEBUG - [HCl#b] HTTP requesting GET http://127.0.0.1:32400/library/changestamp
+Nov 28, 2023 01:26:42.015 [548519755832] DEBUG - [HttpClient/HCl#b] HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/library/changestamp (reused)
+Nov 28, 2023 01:26:42.015 [548596691000] DEBUG - Updating metadata item (save) (Unrequited Love) with ID 7
+Nov 28, 2023 01:26:42.021 [548518932536] DEBUG - [HCl#c] HTTP requesting GET http://127.0.0.1:32400/:/metadata/flushMetadataCounterCache?metadataItemID=4
+Nov 28, 2023 01:26:42.029 [548596691000] DEBUG - Analyzing media parts for item 8 (I Love You): 10
+Nov 28, 2023 01:26:42.030 [548596691000] DEBUG - Downloading document http://127.0.0.1:32400/library/changestamp
+Nov 28, 2023 01:26:42.031 [548596691000] DEBUG - [HCl#d] HTTP requesting GET http://127.0.0.1:32400/library/changestamp
+Nov 28, 2023 01:26:42.033 [548519755832] DEBUG - [HttpClient/HCl#c] HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/:/metadata/flushMetadataCounterCache?metadataItemID=4 (reused)
+Nov 28, 2023 01:26:42.034 [548519755832] DEBUG - [HttpClient/HCl#d] HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/library/changestamp
+Nov 28, 2023 01:26:42.034 [548596691000] DEBUG - Updating metadata item (save) (I Love You) with ID 8
+Nov 28, 2023 01:26:42.038 [548518932536] DEBUG - [HCl#e] HTTP requesting GET http://127.0.0.1:32400/:/metadata/flushMetadataCounterCache?metadataItemID=4
+Nov 28, 2023 01:26:42.040 [548596691000] DEBUG - [ID 10] Media part analysis: /media/tv/Soundtrack (2022)/Season 1/Soundtrack.1.S01E03.KOREAN.1080p.WEBRip.x265-RARBG.mp4
+Nov 28, 2023 01:26:42.041 [548519755832] DEBUG - [HttpClient/HCl#e] HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/:/metadata/flushMetadataCounterCache?metadataItemID=4 (reused)
+Nov 28, 2023 01:26:42.041 [548596691000] DEBUG - [MI] Opening input file: "/media/tv/Soundtrack (2022)/Season 1/Soundtrack.1.S01E03.KOREAN.1080p.WEBRip.x265-RARBG.mp4"
+Nov 28, 2023 01:26:42.041 [548596691000] DEBUG - [FFMPEG] - Opening '/media/tv/Soundtrack (2022)/Season 1/Soundtrack.1.S01E03.KOREAN.1080p.WEBRip.x265-RARBG.mp4' for reading
+Nov 28, 2023 01:26:42.042 [548596691000] DEBUG - [FFMPEG] - Setting default whitelist 'file,crypto,data'
+Nov 28, 2023 01:26:42.042 [548596691000] DEBUG - [FFMPEG] - Format mov,mp4,m4a,3gp,3g2,mj2 probed with size=2048 and score=100
+Nov 28, 2023 01:26:42.043 [548596691000] DEBUG - [FFMPEG] - ISO: File Type Major Brand: isom
+Nov 28, 2023 01:26:42.044 [548596691000] DEBUG - [FFMPEG] - Unknown dref type 0x206c7275 size 12
+Nov 28, 2023 01:26:42.089 [548596691000] DEBUG - [FFMPEG] - Processing st: 0, edit list 0 - media time: 2002, duration: 66348288
+Nov 28, 2023 01:26:42.098 [548596691000] DEBUG - [FFMPEG] - Offset DTS by 2002 to make first pts zero.
+Nov 28, 2023 01:26:42.100 [548596691000] DEBUG - [FFMPEG] - Unknown dref type 0x206c7275 size 12
+Nov 28, 2023 01:26:42.129 [548596691000] DEBUG - [FFMPEG] - Processing st: 1, edit list 0 - media time: 2048, duration: 132696576
+Nov 28, 2023 01:26:42.129 [548596691000] DEBUG - [FFMPEG] - drop a frame at curr_cts: 0 @ 0
+Nov 28, 2023 01:26:42.129 [548596691000] DEBUG - [FFMPEG] - drop a frame at curr_cts: 1024 @ 1
+Nov 28, 2023 01:26:42.139 [548596691000] DEBUG - [FFMPEG] - Before avformat_find_stream_info() pos: 770514430 bytes read:1931429 seeks:1 nb_streams:2
+Nov 28, 2023 01:26:42.141 [548596691000] DEBUG - [FFMPEG] - nal_unit_type: 32(VPS), nuh_layer_id: 0, temporal_id: 0
+Nov 28, 2023 01:26:42.141 [548596691000] DEBUG - [FFMPEG] - Decoding VPS
+Nov 28, 2023 01:26:42.141 [548596691000] DEBUG - [FFMPEG] - Main 10 profile bitstream
+Nov 28, 2023 01:26:42.141 [548596691000] DEBUG - [FFMPEG] - nal_unit_type: 33(SPS), nuh_layer_id: 0, temporal_id: 0
+Nov 28, 2023 01:26:42.141 [548596691000] DEBUG - [FFMPEG] - Decoding SPS
+Nov 28, 2023 01:26:42.141 [548596691000] DEBUG - [FFMPEG] - Main 10 profile bitstream
+Nov 28, 2023 01:26:42.141 [548596691000] DEBUG - [FFMPEG] - Decoding VUI
+Nov 28, 2023 01:26:42.141 [548596691000] DEBUG - [FFMPEG] - nal_unit_type: 34(PPS), nuh_layer_id: 0, temporal_id: 0
+Nov 28, 2023 01:26:42.141 [548596691000] DEBUG - [FFMPEG] - Decoding PPS
+Nov 28, 2023 01:26:42.141 [548596691000] DEBUG - [FFMPEG] - demuxer injecting skip 2048 / discard 0
+Nov 28, 2023 01:26:42.141 [548596691000] DEBUG - [FFMPEG] - All info found
+Nov 28, 2023 01:26:42.141 [548596691000] DEBUG - [FFMPEG] - After avformat_find_stream_info() pos: 3400 bytes read:1964197 seeks:2 frames:2
+Nov 28, 2023 01:26:42.141 [548596691000] DEBUG - [MI] Opening "/media/tv/Soundtrack (2022)/Season 1/Soundtrack.1.S01E03.KOREAN.1080p.WEBRip.x265-RARBG.mp4" for MP4 atom parsing
+Nov 28, 2023 01:26:42.142 [548596691000] DEBUG - Mp4AtomParser: Skipping ftyp atom of size 28 at offset 0
+Nov 28, 2023 01:26:42.142 [548596691000] DEBUG - Mp4AtomParser: Skipping free atom of size 8 at offset 28
+Nov 28, 2023 01:26:42.142 [548596691000] DEBUG - Mp4AtomParser: Skipping mdat atom of size 768615733 at offset 36
+Nov 28, 2023 01:26:42.142 [548596691000] DEBUG - Mp4AtomParser: Found moov atom of size 1898661 at offset 768615769
+Nov 28, 2023 01:26:42.145 [548596691000] DEBUG - Mp4AtomParser: Found trak atom of size 1042801 at offset 768615885
+Nov 28, 2023 01:26:42.145 [548596691000] DEBUG - Mp4AtomParser: Found trak atom of size 855498 at offset 769658686
+Nov 28, 2023 01:26:42.145 [548596691000] DEBUG - Mp4AtomParser: Found mdia atom of size 1042665 at offset 768616021
+Nov 28, 2023 01:26:42.145 [548596691000] DEBUG - Mp4AtomParser: Found minf atom of size 1042580 at offset 768616106
+Nov 28, 2023 01:26:42.145 [548596691000] DEBUG - Mp4AtomParser: Found stbl atom of size 1042516 at offset 768616170
+Nov 28, 2023 01:26:42.145 [548596691000] DEBUG - Mp4AtomParser: Found mdia atom of size 855362 at offset 769658822
+Nov 28, 2023 01:26:42.145 [548596691000] DEBUG - Mp4AtomParser: Found minf atom of size 855277 at offset 769658907
+Nov 28, 2023 01:26:42.145 [548596691000] DEBUG - Mp4AtomParser: Found stbl atom of size 855217 at offset 769658967
+Nov 28, 2023 01:26:42.146 [548596691000] DEBUG - [MI]  * 55132ee98240433ac39733df43ababfb7527af98 [mp4 hevc/aac] Duration: 2764555ms, 1920x960 (2.000000) 23.976fps, bitrate=2229kbps, audio channels=6, optimizedForStreaming=0 ("/media/tv/Soundtrack (2022)/Season 1/Soundtrack.1.S01E03.KOREAN.1080p.WEBRip.x265-RARBG.mp4")
+Nov 28, 2023 01:26:42.146 [548596691000] DEBUG - [MI] Chapters had generic titles, clearing.
+Nov 28, 2023 01:26:42.147 [548596691000] DEBUG - [MI] Closing input file: "/media/tv/Soundtrack (2022)/Season 1/Soundtrack.1.S01E03.KOREAN.1080p.WEBRip.x265-RARBG.mp4"
+Nov 28, 2023 01:26:42.148 [548596691000] DEBUG - Committing media stream changes for part 10
+Nov 28, 2023 01:26:42.150 [548596691000] DEBUG - Updating media item 10, size=770514430, metadata_item_id=8
+Nov 28, 2023 01:26:42.150 [548596691000] DEBUG - Updating part with ID=10 [/media/tv/Soundtrack (2022)/Season 1/Soundtrack.1.S01E03.KOREAN.1080p.WEBRip.x265-RARBG.mp4]
+Nov 28, 2023 01:26:42.151 [548518932536] DEBUG - [HCl#f] HTTP requesting GET http://127.0.0.1:32400/:/metadata/notify/changeItemState?librarySectionID=2&metadataItemID=8&metadataType=4&state=-1&parentID=-1&rootID=-1&mediaState=analyzing
+Nov 28, 2023 01:26:42.152 [548519755832] DEBUG - [HttpClient/HCl#f] HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/:/metadata/notify/changeItemState?librarySectionID=2&metadataItemID=8&metadataType=4&state=-1&parentID=-1&rootID=-1&mediaState=analyzing (reused)
+Nov 28, 2023 01:26:42.152 [548518932536] DEBUG - [HCl#10] HTTP requesting GET http://127.0.0.1:32400/:/metadata/notify/changeItemState?librarySectionID=2&metadataItemID=8&metadataType=4&state=-1&parentID=-1&rootID=-1&mediaState=idle
+Nov 28, 2023 01:26:42.154 [548519755832] DEBUG - [HttpClient/HCl#10] HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/:/metadata/notify/changeItemState?librarySectionID=2&metadataItemID=8&metadataType=4&state=-1&parentID=-1&rootID=-1&mediaState=idle (reused)
+Nov 28, 2023 01:26:42.159 [548596691000] DEBUG - Downloading document http://127.0.0.1:32400/library/changestamp
+Nov 28, 2023 01:26:42.159 [548596691000] DEBUG - [HCl#11] HTTP requesting GET http://127.0.0.1:32400/library/changestamp
+Nov 28, 2023 01:26:42.161 [548519755832] DEBUG - [HttpClient/HCl#11] HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/library/changestamp (reused)
+Nov 28, 2023 01:26:42.161 [548596691000] DEBUG - Updating metadata item (save) (I Love You) with ID 8
+Nov 28, 2023 01:26:42.164 [548518932536] DEBUG - [HCl#12] HTTP requesting GET http://127.0.0.1:32400/:/metadata/flushMetadataCounterCache?metadataItemID=4
+Nov 28, 2023 01:26:42.166 [548519755832] DEBUG - [HttpClient/HCl#12] HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/:/metadata/flushMetadataCounterCache?metadataItemID=4 (reused)
+Nov 28, 2023 01:26:42.170 [548596691000] DEBUG - Analyzing media parts for item 9 (My Heart Aches to Think of You): 11
+Nov 28, 2023 01:26:42.171 [548596691000] DEBUG - Downloading document http://127.0.0.1:32400/library/changestamp
+Nov 28, 2023 01:26:42.171 [548596691000] DEBUG - [HCl#13] HTTP requesting GET http://127.0.0.1:32400/library/changestamp
+Nov 28, 2023 01:26:42.173 [548519755832] DEBUG - [HttpClient/HCl#13] HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/library/changestamp (reused)
+Nov 28, 2023 01:26:42.173 [548596691000] DEBUG - Updating metadata item (save) (My Heart Aches to Think of You) with ID 9
+Nov 28, 2023 01:26:42.176 [548518932536] DEBUG - [HCl#14] HTTP requesting GET http://127.0.0.1:32400/:/metadata/flushMetadataCounterCache?metadataItemID=4
+Nov 28, 2023 01:26:42.177 [548519755832] DEBUG - [HttpClient/HCl#14] HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/:/metadata/flushMetadataCounterCache?metadataItemID=4 (reused)
+Nov 28, 2023 01:26:42.177 [548596691000] DEBUG - [ID 11] Media part analysis: /media/tv/Soundtrack (2022)/Season 1/Soundtrack.1.S01E04.KOREAN.1080p.WEBRip.x265-RARBG.mp4
+Nov 28, 2023 01:26:42.177 [548596691000] DEBUG - [MI] Opening input file: "/media/tv/Soundtrack (2022)/Season 1/Soundtrack.1.S01E04.KOREAN.1080p.WEBRip.x265-RARBG.mp4"
+Nov 28, 2023 01:26:42.178 [548596691000] DEBUG - [FFMPEG] - Opening '/media/tv/Soundtrack (2022)/Season 1/Soundtrack.1.S01E04.KOREAN.1080p.WEBRip.x265-RARBG.mp4' for reading
+Nov 28, 2023 01:26:42.178 [548596691000] DEBUG - [FFMPEG] - Setting default whitelist 'file,crypto,data'
+Nov 28, 2023 01:26:42.178 [548596691000] DEBUG - [FFMPEG] - Format mov,mp4,m4a,3gp,3g2,mj2 probed with size=2048 and score=100
+Nov 28, 2023 01:26:42.178 [548596691000] DEBUG - [FFMPEG] - ISO: File Type Major Brand: isom
+Nov 28, 2023 01:26:42.180 [548596691000] DEBUG - [FFMPEG] - Unknown dref type 0x206c7275 size 12
+Nov 28, 2023 01:26:42.226 [548596691000] DEBUG - [FFMPEG] - Processing st: 0, edit list 0 - media time: 2002, duration: 77018952
+Nov 28, 2023 01:26:42.237 [548596691000] DEBUG - [FFMPEG] - Offset DTS by 2002 to make first pts zero.
+Nov 28, 2023 01:26:42.239 [548596691000] DEBUG - [FFMPEG] - Unknown dref type 0x206c7275 size 12
+Nov 28, 2023 01:26:42.274 [548596691000] DEBUG - [FFMPEG] - Processing st: 1, edit list 0 - media time: 2048, duration: 154039296
+Nov 28, 2023 01:26:42.274 [548596691000] DEBUG - [FFMPEG] - drop a frame at curr_cts: 0 @ 0
+Nov 28, 2023 01:26:42.274 [548596691000] DEBUG - [FFMPEG] - drop a frame at curr_cts: 1024 @ 1
+Nov 28, 2023 01:26:42.284 [548596691000] DEBUG - [FFMPEG] - Before avformat_find_stream_info() pos: 894914687 bytes read:2236061 seeks:1 nb_streams:2
+Nov 28, 2023 01:26:42.286 [548596691000] DEBUG - [FFMPEG] - nal_unit_type: 32(VPS), nuh_layer_id: 0, temporal_id: 0
+Nov 28, 2023 01:26:42.286 [548596691000] DEBUG - [FFMPEG] - Decoding VPS
+Nov 28, 2023 01:26:42.286 [548596691000] DEBUG - [FFMPEG] - Main 10 profile bitstream
+Nov 28, 2023 01:26:42.286 [548596691000] DEBUG - [FFMPEG] - nal_unit_type: 33(SPS), nuh_layer_id: 0, temporal_id: 0
+Nov 28, 2023 01:26:42.286 [548596691000] DEBUG - [FFMPEG] - Decoding SPS
+Nov 28, 2023 01:26:42.286 [548596691000] DEBUG - [FFMPEG] - Main 10 profile bitstream
+Nov 28, 2023 01:26:42.286 [548596691000] DEBUG - [FFMPEG] - Decoding VUI
+Nov 28, 2023 01:26:42.286 [548596691000] DEBUG - [FFMPEG] - nal_unit_type: 34(PPS), nuh_layer_id: 0, temporal_id: 0
+Nov 28, 2023 01:26:42.286 [548596691000] DEBUG - [FFMPEG] - Decoding PPS
+Nov 28, 2023 01:26:42.287 [548596691000] DEBUG - [FFMPEG] - demuxer injecting skip 2048 / discard 0
+Nov 28, 2023 01:26:42.287 [548596691000] DEBUG - [FFMPEG] - All info found
+Nov 28, 2023 01:26:42.287 [548596691000] DEBUG - [FFMPEG] - After avformat_find_stream_info() pos: 3398 bytes read:2268829 seeks:2 frames:2
+Nov 28, 2023 01:26:42.287 [548596691000] DEBUG - [MI] Opening "/media/tv/Soundtrack (2022)/Season 1/Soundtrack.1.S01E04.KOREAN.1080p.WEBRip.x265-RARBG.mp4" for MP4 atom parsing
+Nov 28, 2023 01:26:42.287 [548596691000] DEBUG - Mp4AtomParser: Skipping ftyp atom of size 28 at offset 0
+Nov 28, 2023 01:26:42.287 [548596691000] DEBUG - Mp4AtomParser: Skipping free atom of size 8 at offset 28
+Nov 28, 2023 01:26:42.288 [548596691000] DEBUG - Mp4AtomParser: Skipping mdat atom of size 892711358 at offset 36
+Nov 28, 2023 01:26:42.288 [548596691000] DEBUG - Mp4AtomParser: Found moov atom of size 2203293 at offset 892711394
+Nov 28, 2023 01:26:42.291 [548596691000] DEBUG - Mp4AtomParser: Found trak atom of size 1209929 at offset 892711510
+Nov 28, 2023 01:26:42.292 [548596691000] DEBUG - Mp4AtomParser: Found trak atom of size 993002 at offset 893921439
+Nov 28, 2023 01:26:42.292 [548596691000] DEBUG - Mp4AtomParser: Found mdia atom of size 1209793 at offset 892711646
+Nov 28, 2023 01:26:42.292 [548596691000] DEBUG - Mp4AtomParser: Found minf atom of size 1209708 at offset 892711731
+Nov 28, 2023 01:26:42.292 [548596691000] DEBUG - Mp4AtomParser: Found stbl atom of size 1209644 at offset 892711795
+Nov 28, 2023 01:26:42.292 [548596691000] DEBUG - Mp4AtomParser: Found mdia atom of size 992866 at offset 893921575
+Nov 28, 2023 01:26:42.292 [548596691000] DEBUG - Mp4AtomParser: Found minf atom of size 992781 at offset 893921660
+Nov 28, 2023 01:26:42.292 [548596691000] DEBUG - Mp4AtomParser: Found stbl atom of size 992721 at offset 893921720
+Nov 28, 2023 01:26:42.293 [548596691000] DEBUG - [MI]  * 77ba406a2ca9b69400da3311c62a7d65ae59b682 [mp4 hevc/aac] Duration: 3209195ms, 1920x960 (2.000000) 23.976fps, bitrate=2230kbps, audio channels=6, optimizedForStreaming=0 ("/media/tv/Soundtrack (2022)/Season 1/Soundtrack.1.S01E04.KOREAN.1080p.WEBRip.x265-RARBG.mp4")
+Nov 28, 2023 01:26:42.293 [548596691000] DEBUG - [MI] Chapters had generic titles, clearing.
+Nov 28, 2023 01:26:42.294 [548596691000] DEBUG - [MI] Closing input file: "/media/tv/Soundtrack (2022)/Season 1/Soundtrack.1.S01E04.KOREAN.1080p.WEBRip.x265-RARBG.mp4"
+Nov 28, 2023 01:26:42.296 [548596691000] DEBUG - Committing media stream changes for part 11
+Nov 28, 2023 01:26:42.297 [548596691000] DEBUG - Updating media item 11, size=894914687, metadata_item_id=9
+Nov 28, 2023 01:26:42.298 [548596691000] DEBUG - Updating part with ID=11 [/media/tv/Soundtrack (2022)/Season 1/Soundtrack.1.S01E04.KOREAN.1080p.WEBRip.x265-RARBG.mp4]
+Nov 28, 2023 01:26:42.298 [548518932536] DEBUG - [HCl#15] HTTP requesting GET http://127.0.0.1:32400/:/metadata/notify/changeItemState?librarySectionID=2&metadataItemID=9&metadataType=4&state=-1&parentID=-1&rootID=-1&mediaState=analyzing
+Nov 28, 2023 01:26:42.299 [548519755832] DEBUG - [HttpClient/HCl#15] HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/:/metadata/notify/changeItemState?librarySectionID=2&metadataItemID=9&metadataType=4&state=-1&parentID=-1&rootID=-1&mediaState=analyzing (reused)
+Nov 28, 2023 01:26:42.299 [548518932536] DEBUG - [HCl#16] HTTP requesting GET http://127.0.0.1:32400/:/metadata/notify/changeItemState?librarySectionID=2&metadataItemID=9&metadataType=4&state=-1&parentID=-1&rootID=-1&mediaState=idle
+Nov 28, 2023 01:26:42.301 [548519755832] DEBUG - [HttpClient/HCl#16] HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/:/metadata/notify/changeItemState?librarySectionID=2&metadataItemID=9&metadataType=4&state=-1&parentID=-1&rootID=-1&mediaState=idle (reused)
+Nov 28, 2023 01:26:42.306 [548596691000] DEBUG - Downloading document http://127.0.0.1:32400/library/changestamp
+Nov 28, 2023 01:26:42.306 [548596691000] DEBUG - [HCl#17] HTTP requesting GET http://127.0.0.1:32400/library/changestamp
+Nov 28, 2023 01:26:42.308 [548519755832] DEBUG - [HttpClient/HCl#17] HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/library/changestamp (reused)
+Nov 28, 2023 01:26:42.308 [548596691000] DEBUG - Updating metadata item (save) (My Heart Aches to Think of You) with ID 9
+Nov 28, 2023 01:26:42.311 [548518932536] DEBUG - [HCl#18] HTTP requesting GET http://127.0.0.1:32400/:/metadata/flushMetadataCounterCache?metadataItemID=4
+Nov 28, 2023 01:26:42.312 [548519755832] DEBUG - [HttpClient/HCl#18] HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/:/metadata/flushMetadataCounterCache?metadataItemID=4 (reused)

@@ -1,0 +1,13 @@
+Nov 28, 2023 01:26:47.673 [547537473592] INFO - Plex Media Scanner v1.32.7.7621-871adbd44 - Docker Docker Container (LinuxServer.io) aarch64 - build: linux-aarch64 - GMT 00:00
+Nov 28, 2023 01:26:47.673 [547537473592] INFO - Linux version: 6.1.0-rpi6-rpi-v8, language: en-US
+Nov 28, 2023 01:26:47.674 [547537473592] INFO - Processor: 4-core AArch64
+Nov 28, 2023 01:26:47.674 [547537473592] INFO - /usr/lib/plexmediaserver/Plex Media Scanner --match --type 2 --log-file-suffix  Matcher --item 32
+Nov 28, 2023 01:26:47.675 [547604574264] DEBUG - Opening 20 database sessions to library (com.plexapp.plugins.library), SQLite 3.39.4, threadsafe=1
+Nov 28, 2023 01:26:48.030 [547604574264] DEBUG - Matcher: found 0 auxiliary files for Season 2
+Nov 28, 2023 01:26:48.035 [547604574264] DEBUG - Matcher: no sidecar subtitle files found for /media/tv/The Eminence in Shadow/Season 2/[SubsPlease] Kage no Jitsuryokusha ni Naritakute! S2 - 02 (1080p) [B11EAA51].mkv
+Nov 28, 2023 01:26:48.035 [547604574264] DEBUG - Matcher: no sidecar subtitle files found for /media/tv/The Eminence in Shadow/Season 2/[SubsPlease] Kage no Jitsuryokusha ni Naritakute! S2 - 03 (1080p) [35E9387D].mkv
+Nov 28, 2023 01:26:48.035 [547604574264] DEBUG - Matcher: no sidecar subtitle files found for /media/tv/The Eminence in Shadow/Season 2/[SubsPlease] Kage no Jitsuryokusha ni Naritakute! S2 - 04 (1080p) [DE5C1FAB].mkv
+Nov 28, 2023 01:26:48.035 [547604574264] DEBUG - Matcher: no sidecar subtitle files found for /media/tv/The Eminence in Shadow/Season 2/[SubsPlease] Kage no Jitsuryokusha ni Naritakute! S2 - 05 (1080p) [A29B06F0].mkv
+Nov 28, 2023 01:26:48.035 [547604574264] DEBUG - Matcher: no sidecar subtitle files found for /media/tv/The Eminence in Shadow/Season 2/[SubsPlease] Kage no Jitsuryokusha ni Naritakute! S2 - 06 (1080p) [986249AA].mkv
+Nov 28, 2023 01:26:48.036 [547604574264] DEBUG - Matcher: no sidecar subtitle files found for /media/tv/The Eminence in Shadow/Season 2/[SubsPlease] Kage no Jitsuryokusha ni Naritakute! S2 - 07 (1080p) [649381F7].mkv
+Nov 28, 2023 01:26:48.036 [547604574264] DEBUG - Matcher: no sidecar subtitle files found for /media/tv/The Eminence in Shadow/Season 2/[SubsPlease] Kage no Jitsuryokusha ni Naritakute! S2 - 08 (1080p) [9B7E7DA7].mkv
