@@ -42,5 +42,5 @@ services:
       - TZ=America/Chicago
     volumes:
       - ./config/transmission:/config
-      - ${MEDIA_SOURCE}:/media_source
+      - ${MEDIA_SOURCE}:/downloads
     restart: unless-stopped
