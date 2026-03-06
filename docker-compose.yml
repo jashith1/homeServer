@@ -10,7 +10,6 @@ services:
       - type: bind
         source: ${MEDIA_SOURCE}
         target: /media
-        read_only: true
     restart: 'unless-stopped'
 
   transmission:
